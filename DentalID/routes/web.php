@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DentalidController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.partials.main');
 });
+route::get('/Fiche_patient', [DentalidController::class, 'index'])->name('fiche_patient');
