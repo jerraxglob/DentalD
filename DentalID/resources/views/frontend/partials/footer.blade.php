@@ -2,7 +2,7 @@
     <footer class="bg-body-tertiary text-center text-lg-start">
         <!-- Copyright -->
 
-        <div class="text-center p-3" style="background-color:#dee1e4">
+        <div class="text-center f_r p-3">
             2023 © DentalD.-Tous droits réservés
 
         </div>

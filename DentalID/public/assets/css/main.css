@@ -1,0 +1,82 @@
+body,
+bg-color,
+.f_r {
+    background-color: #e9ebed;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+i {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.n_b {
+    border-top: 2px solid #ccc;
+    z-index: -1;
+}
+
+.avatar-container {
+    width: 35px;
+    /* Adjust the size of the avatar as needed */
+    height: 35px;
+    border-radius: 50%;
+    background-color: #bbe4e9;
+    /* Adjust the background color as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c_d {
+    color: #53a8b6;
+}
+.p_f {
+    background: linear-gradient(to bottom, #352f44 50%, #2a2438 50%);
+}
+.c_p {
+    color: #005792;
+}
+.card-text {
+    font-size: small;
+}
+.card-title {
+    font-size: small;
+}
+
+.avatar-container i {
+    font-size: 12px;
+    /* Adjust the icon size as needed */
+}
+
+.thin-arrow {
+    font-size: 12px; /* Adjust the size as needed */
+    line-height: 1;
+}
+/* form css */
+
+.dark-mode-form {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark-input {
+    background-color: #222; /* Dark input background color */
+    color: #fff; /* Light text color for input */
+    border: 1px solid #fff; /* Border color for input */
+}
+.dark-input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.col-with-line {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px; /* Optional: Add some space between the column and the line */
+    margin-bottom: 2px; /* Optional: Add some space below the line */
+}
+.date-range {
+    background-color: #e9ebed;
+}
+.tout_voir {
+    margin-left: 150px;
+}

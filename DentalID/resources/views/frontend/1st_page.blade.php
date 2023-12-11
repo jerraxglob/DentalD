@@ -5,31 +5,34 @@
         <div class="row">
             <div class="card">
                 <h6 class="px-3 mb-3 py-3">Fiche patient.</h6>
+
                 <!-- Tabs navs -->
-                <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
-                    <span><button class="btn btn-sm btn-white mx-2 border border-secondary"><i
-                                class="fas fa-chevron-left"></i></button></span>
-                    <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
-                            href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
-                            aria-selected="true">
-                            Photographies
-                        </a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
-                            role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false">
-                            Rappels et suivis
-                        </a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-3" href="#ex-with-icons-tabs-3"
-                            role="tab" aria-controls="ex-with-icons-tabs-3" aria-selected="false">
-                            Communication
-                        </a>
-                    </li> <span><button class="btn btn-sm btn-white mx-2 border border-secondary"><i
-                                class="fas fa-chevron-right"></i></button></span>
-                </ul>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-sm btn-white border border-secondary"><i class="fas fa-chevron-left"></i></button>
+                    <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
+                                href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
+                                aria-selected="true">
+                                Photographies
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
+                                role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false">
+                                Rappels et suivis
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-3" href="#ex-with-icons-tabs-3"
+                                role="tab" aria-controls="ex-with-icons-tabs-3" aria-selected="false">
+                                Communication
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-sm btn-white border border-secondary"><i
+                            class="fas fa-chevron-right"></i></button>
+                </div>
                 <!-- Tabs navs -->
 
                 <!-- Tabs content -->
@@ -178,8 +181,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- Tabs content -->
             </div>
         </div>
-        <!-- Tabs content -->
     </div>
 @endsection
