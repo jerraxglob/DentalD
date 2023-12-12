@@ -3,7 +3,10 @@ bg-color,
 .f_r {
     background-color: #e9ebed;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 i {
     color: black;
 }
@@ -11,6 +14,7 @@ i {
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
 .n_b {
     border-top: 2px solid #ccc;
     z-index: -1;
@@ -18,52 +22,54 @@ i {
 
 .avatar-container {
     width: 35px;
-    /* Adjust the size of the avatar as needed */
     height: 35px;
     border-radius: 50%;
     background-color: #bbe4e9;
-    /* Adjust the background color as needed */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .c_d {
     color: #53a8b6;
 }
+
 .p_f {
     background: linear-gradient(to bottom, #352f44 50%, #2a2438 50%);
 }
+
 .c_p {
     color: #005792;
 }
+
 .card-text {
     font-size: small;
 }
+
 .card-title {
     font-size: small;
 }
 
 .avatar-container i {
     font-size: 12px;
-    /* Adjust the icon size as needed */
 }
 
 .thin-arrow {
-    font-size: 12px; /* Adjust the size as needed */
+    font-size: 12px;
     line-height: 1;
 }
-/* form css */
 
 .dark-mode-form {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Light text color */
+    background-color: #333;
+    color: #fff;
 }
 
 .dark-input {
-    background-color: #222; /* Dark input background color */
-    color: #fff; /* Light text color for input */
-    border: 1px solid #fff; /* Border color for input */
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #fff;
 }
+
 .dark-input::placeholder {
     color: #fff;
     text-align: center;
@@ -71,12 +77,49 @@ i {
 
 .col-with-line {
     border-bottom: 1px solid #ffffff;
-    padding-bottom: 5px; /* Optional: Add some space between the column and the line */
-    margin-bottom: 2px; /* Optional: Add some space below the line */
+    padding-bottom: 5px;
+    margin-bottom: 2px;
 }
+
 .date-range {
     background-color: #e9ebed;
 }
+
 .tout_voir {
     margin-left: 150px;
+}
+
+.box-input {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-left: -9px;
+}
+
+.qty {
+    margin-left: -9px;
+}
+
+.row .task_m {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.action_btn {
+    margin-left: 20rem;
+}
+
+.list-group-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.extra-small-text {
+    font-size: 0.8em;
+    /* Adjust the size as needed */
+    color: #888;
+    /* Additional styling if desired */
 }

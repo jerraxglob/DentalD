@@ -16,23 +16,31 @@ class DentalidController extends Controller
     {
 
 
-        return view('frontend.2nd_page');
+        return view('frontend.3rd_page');
     }
     public function Financial_report()
     {
-        return view('frontend.3rd_page');
+        return view('frontend.4th_page');
     }
     public function Stock_management()
     {
 
-        return view('frontend.4th_page');
+        return view('frontend.5th_page');
     }
     public function orders()
     {
-        return view('frontend.5th_page');
+        return view('frontend.6th_page');
     }
     public function Patient_list()
     {
-        return view('frontend.6th_page');
+        return view('frontend.7th_page');
+    }
+    public function calander()
+    {
+        return view('frontend.8th_page');
+    }
+    public function assigned_tasks()
+    {
+        return view('frontend.9th_page');
     }
 }
