@@ -1,17 +1,16 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container-fluid py-3 justify-content-center">
-
-        <div class="row d-flex py-4 align-items-center bg-color">
-            <div class="col-12 col-md-1 rounded-3 pr-2 bg-white mt-3 mt-md-0"></div>
-            <div class="col-12 col-md-8 col-lg-8 rounded-3 bg-white">
+    <div class="container py-4">
+        <div class="row gx-5 ">
+            <div class="col-12 col-md-9 col-lg-9 bg-white">
                 <div class="d-flex justify-content-between">
                     <h5 class="py-4 mb-4  ">Assigned tasks.</h5>
-                    <a class=" mx-2 py-4 mb-4 text-info text-decoration-none text-nowrap  px-4 py-2"><i
+                    <a class=" mx-2 py-4 mb-4 float-right text-info text-decoration-none text-nowrap  px-4 py-2"><i
                             class="fas fa-plus px-1 text-white"></i>Create new ticket
                     </a>
                 </div>
-                <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+
+                <ul class="nav nav-tabs mb-3 justify-content-between" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
                             href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
@@ -49,7 +48,7 @@
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">
                         <div class="table-responsive">
-                            <table class="table table-borderless">
+                            <table class="table">
                                 <thead>
                                     <tr>
                                         <th>
@@ -98,8 +97,10 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
                                                 </ul>
                                             </div>
                                         </td>
@@ -135,8 +136,10 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -173,8 +176,10 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -211,8 +216,10 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -249,8 +256,10 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -258,9 +267,9 @@
                                     </tr>
 
                                 </tbody>
-
                             </table>
                         </div>
+
                         <div class="row justify-content-end px-4">
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination text-center">
@@ -292,39 +301,41 @@
 
                 </div>
             </div>
-            <div class="col-12 col-md-1 rounded-3 pr-2 bg-white mt-3 mt-md-0"></div>
+            <div class="col-12 col-md-3 col-lg-3">
+                <div class="p-3 border bg-white">
+                    <h5 class="text-center p-3"> Recent activity</h5>
+                    <ul class="list-group  pb-4">
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text ">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
+                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                            <br><small class=" extra-small-text">10 min ago</small>
+                        </li>
 
-            <div class="col-12 col-md-2 rounded-3 pr-2 bg-white mt-3 mt-md-0">
-                <h5 class="text-center p-3"> Recent activity</h5>
-                <ul class="list-group  pb-4">
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text ">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-                    <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
-                        <br><small class=" extra-small-text">10 min ago</small>
-                    </li>
-
-                </ul>
+                    </ul>
+                </div>
             </div>
-
         </div>
-        <div class="row d-flex align-items-center py-4 bg-color">
-            <div class=" col-12 col-md-8 col-lg-8 mt-3 mx-auto rounded-3 bg-white text-center">
+        <div class="row py-4">
+            <div class="col-12 col-md-12 col-lg-12 bg-white">
                 <div class="d-flex justify-content-between">
                     <h5 class="py-4 mb-4">Specialists tickets.</h5>
                 </div>
@@ -490,10 +501,7 @@
                 </div>
             </div>
 
-            <div class="col-md-2">
-
-            </div>
         </div>
-    </div>
+
     </div>
 @endsection

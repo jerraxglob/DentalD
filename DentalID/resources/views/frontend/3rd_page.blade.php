@@ -6,10 +6,10 @@
             <div class="col-md-8 bg-color">
                 <div class="container  rounded-3 mt-5">
                     <div class="row  align-items-center rounded-3 bg-color p-3">
-                        <div class="col-sm-12  bg-dark col-md-4 col-lg-4">
+                        <div class="col-12 col-md-4 col-lg-4">
                             <div class="card p_f  rounded-3 d-flex align-items-center justify-content-center">
                                 <div class="card-body">
-                                    <div class="card-title pb-5">
+                                    <div class="card-title pb-5 text-center">
                                         <img src="..." class="rounded  p-3  img-fluid img-thumbnail" alt="...">
                                     </div>
                                     <h6 class="text-white text-nowrap">Clinique Dentaire CHD Meyrin</h6>
@@ -157,7 +157,7 @@
                                         <i class='fas fa-angle-down thin-arrow p-3'></i>
                                     </h6>
                                     <button type="button" class="btn btn-sm btn-white border border-dark w-10 h-60">
-                                        Add filter <i class="fa-solid fa-bars mr-3"></i>
+                                        Add filter <i class="fas fa-bars mr-3"></i>
                                     </button>
                                 </div>
                             </div>
@@ -556,286 +556,287 @@
                 </form>
             </div>
             <br>
-
         </div>
-
-        <div class="col-md-8 col-lg-8 bg-color">
-            <div class="container rounded-3 mt-5">
-                <div class="row align-items-center rounded-3 justify-content-center bg-white p-3">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between">
-                                <h5 class="py-2">Consultations</h5>
-                                <div class="align-items-center pl-3 d-flex align-items-center">
-                                    <div class="dropdown align-items-center">
-                                        <b class="px-2 py-2 px-3">period</b>
-                                        <a class="btn btn-white btn-sm py-2 float-end border border-dark dropdown-toggle"
-                                            href="#" role="button" id="dropdownMenuLink"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            <i class="fas fa-calendar-alt"></i> Month to date
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else
-                                                    here</a></li>
-                                        </ul>
+        <div class="row">
+            <div class="col-md-8 col-lg-8 bg-color">
+                <div class="container rounded-3 mt-5">
+                    <div class="row align-items-center rounded-3 justify-content-center bg-white p-3">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between">
+                                    <h5 class="py-2">Consultations</h5>
+                                    <div class="align-items-center pl-3 d-flex align-items-center">
+                                        <div class="dropdown align-items-center">
+                                            <b class="px-2 py-2 px-3">period</b>
+                                            <a class="btn btn-white btn-sm py-2 float-end border border-dark dropdown-toggle"
+                                                href="#" role="button" id="dropdownMenuLink"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fas fa-calendar-alt"></i> Month to date
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a>
+                                                </li>
+                                                <li><a class="dropdown-item" href="#">Something else
+                                                        here</a></li>
+                                            </ul>
+                                        </div>
+                                        <a href="#" class="text-decoration-none text-info px-4 py-2">See
+                                            all</a>
                                     </div>
+                                </div>
+                                <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
+                                    <div class=" w-48">
+                                        <div class="input-icons position-relative align-items-center">
+                                            <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
+                                                style="padding-left: 21px"></i>
+                                            <input class="form-control mx-2 px-5" id="searchInput" type="text"
+                                                placeholder="Rechercher un patient" />
+                                        </div>
+                                    </div>
+                                    <div class="align-items-center pl-3 d-flex align-items-center">
+                                        <div class="ml-auto">
+                                            <span class="date-range mr-3 text-dark">Date range</span>
+                                            <button type="button" class="btn btn-white border border-dark w-10 h-60">
+                                                Add filter <i class="fas fa-bars mr-3"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
+                                    <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
+                                                href="#ex-with-icons-tabs-1" role="tab"
+                                                aria-controls="ex-with-icons-tabs-1" aria-selected="true">
+                                                Consultations
+                                            </a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2"
+                                                href="#ex-with-icons-tabs-2" role="tab"
+                                                aria-controls="ex-with-icons-tabs-2" aria-selected="false">
+                                                Draft
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Tabs content -->
+                                <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
+                                    <div class="tab-content" id="ex-with-icons-content">
+                                        <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
+                                            aria-labelledby="ex-with-icons-tab-1">
+                                            <div class="table-responsive">
+                                                <table class="table table-borderless ">
+                                                    <thead>
+                                                        <tr class="">
+                                                            <th>Date</th>
+                                                            <th>Patient </th>
+                                                            <th>Patient number</th>
+                                                            <th>Specialist</th>
+                                                            <th>Reason for visit</th>
+                                                            <th>Treatment</th>
+                                                            <th>Invoicing</th>
+                                                            <th>Recipient</th>
+                                                            <th>Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <!-- Sample data, replace with your dynamic data -->
+                                                        <tr>
+                                                            <td>12/07/23</td>
+                                                            <td>Bonnet Pierre</td>
+                                                            <td>Daniel</td>
+                                                            <td>273633</td>
+                                                            <td>Dr. Daniel Soufi</td>
+                                                            <td>Reason for visit</td>
+                                                            <td>Treatment</td>
+                                                            <td>CHF XXXX-.</td>
+                                                            <td><button type="button"
+                                                                    class="btn btn-info rounded-pill btn-sm">View</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>12/07/23</td>
+                                                            <td>Bonnet Pierre</td>
+                                                            <td>Daniel</td>
+                                                            <td>273633</td>
+                                                            <td>Dr. Daniel Soufi</td>
+                                                            <td>Reason for visit</td>
+                                                            <td>Treatment</td>
+                                                            <td>CHF XXXX-.</td>
+                                                            <td><button type="button"
+                                                                    class="btn btn-info rounded-pill btn-sm">View</button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>12/07/23</td>
+                                                            <td>Bonnet Pierre</td>
+                                                            <td>Daniel</td>
+                                                            <td>273633</td>
+                                                            <td>Dr. Daniel Soufi</td>
+                                                            <td>Reason for visit</td>
+                                                            <td>Treatment</td>
+                                                            <td>CHF XXXX-.</td>
+                                                            <td><button type="button"
+                                                                    class="btn btn-info rounded-pill btn-sm">View</button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
+                                            aria-labelledby="ex-with-icons-tab-2">
+                                            Tab 2 content
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row align-items-center rounded-3 justify-content-center bg-white p-3">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
+                                    <h5 class="py-2 ">Files to be invoiced.</h5>
                                     <a href="#" class="text-decoration-none text-info px-4 py-2">See
                                         all</a>
                                 </div>
                             </div>
-                            <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                                <div class=" w-48">
-                                    <div class="input-icons position-relative align-items-center">
-                                        <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
-                                            style="padding-left: 21px"></i>
-                                        <input class="form-control mx-2 px-5" id="searchInput" type="text"
-                                            placeholder="Rechercher un patient" />
-                                    </div>
-                                </div>
-                                <div class="align-items-center pl-3 d-flex align-items-center">
-                                    <div class="ml-auto">
-                                        <span class="date-range mr-3 text-dark">Date range</span>
-                                        <button type="button" class="btn btn-white border border-dark w-10 h-60">
-                                            Add filter <i class="fas fa-bars mr-3"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                                <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
-                                    <li class="nav-item" role="presentation">
-                                        <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
-                                            href="#ex-with-icons-tabs-1" role="tab"
-                                            aria-controls="ex-with-icons-tabs-1" aria-selected="true">
-                                            Consultations
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2"
-                                            href="#ex-with-icons-tabs-2" role="tab"
-                                            aria-controls="ex-with-icons-tabs-2" aria-selected="false">
-                                            Draft
-                                        </a>
-                                    </li>
-                                </ul>
+                                <table class="table table-borderless table-responsive">
+                                    <thead>
+                                        <tr class="">
+                                            <th>Patient</th>
+                                            <th>Specialist </th>
+                                            <th>Date</th>
+                                            <th>Treatment </th>
+                                            <th>Treatment plan</th>
+                                            <th>Amount</th>
+                                            <th></th>
+                                            <th>Next appointment</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Glenn Stanley</td>
+                                            <td>Dr. Daniel Soufi</td>
+                                            <td>12 July 2023</td>
+                                            <td>
+                                                Ongoing treatment
+                                            </td>
+                                            <td>
+                                                12 months
+                                            </td>
+                                            <td>
+                                                CHF XXXX-.
+                                            </td>
+                                            <td>
+                                                Unbilled
+                                            </td>
+                                            <td>
+                                                12 July 2023
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Glenn Stanley</td>
+                                            <td>Dr. Daniel Soufi</td>
+                                            <td>12 July 2023</td>
+                                            <td>
+                                                Ongoing treatment
+                                            </td>
+                                            <td>
+                                                12 months
+                                            </td>
+                                            <td>
+                                                CHF XXXX-.
+                                            </td>
+                                            <td>
+                                                Unbilled
+                                            </td>
+                                            <td>
+                                                12 July 2023
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Glenn Stanley</td>
+                                            <td>Dr. Daniel Soufi</td>
+                                            <td>12 July 2023</td>
+                                            <td>
+                                                Ongoing treatment
+                                            </td>
+                                            <td>
+                                                12 months
+                                            </td>
+                                            <td>
+                                                CHF XXXX-.
+                                            </td>
+                                            <td>
+                                                Unbilled
+                                            </td>
+                                            <td>
+                                                12 July 2023
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Glenn Stanley</td>
+                                            <td>Dr. Daniel Soufi</td>
+                                            <td>12 July 2023</td>
+                                            <td>
+                                                Ongoing treatment
+                                            </td>
+                                            <td>
+                                                12 months
+                                            </td>
+                                            <td>
+                                                CHF XXXX-.
+                                            </td>
+                                            <td>
+                                                Unbilled
+                                            </td>
+                                            <td>
+                                                12 July 2023
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Glenn Stanley</td>
+                                            <td>Dr. Daniel Soufi</td>
+                                            <td>12 July 2023</td>
+                                            <td>
+                                                Ongoing treatment
+                                            </td>
+                                            <td>
+                                                12 months
+                                            </td>
+                                            <td>
+                                                CHF XXXX-.
+                                            </td>
+                                            <td>
+                                                Unbilled
+                                            </td>
+                                            <td>
+                                                12 July 2023
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+
+                                </table>
                             </div>
                             <!-- Tabs content -->
-                            <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                                <div class="tab-content" id="ex-with-icons-content">
-                                    <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
-                                        aria-labelledby="ex-with-icons-tab-1">
-                                        <table class="table table-borderless table-responsive">
-                                            <thead>
-                                                <tr class="">
-                                                    <th>Date</th>
-                                                    <th>Patient </th>
-                                                    <th>Patient number</th>
-                                                    <th>Specialist</th>
-                                                    <th>Reason for visit</th>
-                                                    <th>Treatment</th>
-                                                    <th>Invoicing</th>
-                                                    <th>Recipient</th>
-                                                    <th>Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <!-- Sample data, replace with your dynamic data -->
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Bonnet Pierre</td>
-                                                    <td>Daniel</td>
-                                                    <td>273633</td>
-                                                    <td>Dr. Daniel Soufi</td>
-                                                    <td>Reason for visit</td>
-                                                    <td>Treatment</td>
-                                                    <td>CHF XXXX-.</td>
-                                                    <td><button type="button"
-                                                            class="btn btn-info rounded-pill btn-sm">View</button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Bonnet Pierre</td>
-                                                    <td>Daniel</td>
-                                                    <td>273633</td>
-                                                    <td>Dr. Daniel Soufi</td>
-                                                    <td>Reason for visit</td>
-                                                    <td>Treatment</td>
-                                                    <td>CHF XXXX-.</td>
-                                                    <td><button type="button"
-                                                            class="btn btn-info rounded-pill btn-sm">View</button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Bonnet Pierre</td>
-                                                    <td>Daniel</td>
-                                                    <td>273633</td>
-                                                    <td>Dr. Daniel Soufi</td>
-                                                    <td>Reason for visit</td>
-                                                    <td>Treatment</td>
-                                                    <td>CHF XXXX-.</td>
-                                                    <td><button type="button"
-                                                            class="btn btn-info rounded-pill btn-sm">View</button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
-                                        aria-labelledby="ex-with-icons-tab-2">
-                                        Tab 2 content
-                                    </div>
-                                </div>
 
-                            </div>
                         </div>
 
                     </div>
 
                 </div>
-                <br>
-                <div class="row align-items-center rounded-3 justify-content-center bg-white p-3">
-                    <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="row">
-                            <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                                <h5 class="py-2 ">Files to be invoiced.</h5>
-                                <a href="#" class="text-decoration-none text-info px-4 py-2">See
-                                    all</a>
-                            </div>
-                        </div>
-                        <div class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                            <table class="table table-borderless table-responsive">
-                                <thead>
-                                    <tr class="">
-                                        <th>Patient</th>
-                                        <th>Specialist </th>
-                                        <th>Date</th>
-                                        <th>Treatment </th>
-                                        <th>Treatment plan</th>
-                                        <th>Amount</th>
-                                        <th></th>
-                                        <th>Next appointment</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-
-                                </tbody>
-
-                            </table>
-                        </div>
-                        <!-- Tabs content -->
-
-                    </div>
-
-                </div>
-
             </div>
         </div>
 
-    </div>
     </div>
 @endsection

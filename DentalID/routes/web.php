@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('frontend.partials.main');
 });
 route::get('/1st_page', [DentalidController::class, 'patient_profile'])->name('1st_page');
-route::get('/2nd_page', [DentalidController::class, 'doctor_profile'])->name('2nd_page');
-route::get('/3rd_page', [DentalidController::class, 'Financial_report'])->name('3rd_page');
+route::get('/3rd_page', [DentalidController::class, 'doctor_profile'])->name('3rd_page');
+route::get('/4th_page', [DentalidController::class, 'Financial_report'])->name('3th_page');
 route::get('/5th_page', [DentalidController::class, 'Stock_management'])->name('5th_page');
 route::get('/6th_page', [DentalidController::class, 'orders'])->name('6th_page');
 route::get('/7th_page', [DentalidController::class, 'Patient_list'])->name('7th_page');

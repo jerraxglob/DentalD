@@ -1,10 +1,12 @@
-body,
-bg-color,
-.f_r {
+.bg-color,
+body {
     background-color: #e9ebed;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.f_r {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 i {
@@ -108,10 +110,6 @@ i {
     flex-wrap: wrap;
 }
 
-.action_btn {
-    margin-left: 20rem;
-}
-
 .list-group-item {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -119,7 +117,30 @@ i {
 
 .extra-small-text {
     font-size: 0.8em;
-    /* Adjust the size as needed */
     color: #888;
-    /* Additional styling if desired */
 }
+
+.table {
+    font-size: small;
+}
+
+
+/* calander css */
+
+.fc .fc-col-header-cell-cushion {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.fc .fc-button-primary {
+    background-color: unset;
+    border-color: transparent;
+    color: unset;
+}
+
+button.fc-custombutton-button.fc-button.fc-button-primary {
+    background-color: #0b5ed7;
+}
+
+button.fc-custombutton-button.fc-button.fc-button-primary,
+--fc-button-text-color: #fff;
