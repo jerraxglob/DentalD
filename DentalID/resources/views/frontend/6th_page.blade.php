@@ -1,22 +1,17 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container py-5 pl-5">
+    <div class="container py-5">
         <div class="row  d-flex align-items-center">
-            <div class="col-sm-12 col-md-1 col-lg-1"></div>
-            <div class="col-md-10 col-lg-10  py-4 rounded-3  d-flex justify-content-lg-between bg-white align-items-center ">
-                <h5 class="py-2 ">Order</h5>
-                <div class=" align-items-center  pl-3 d-flex align-items-center">
-                    <a class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
-                            class="fas fa-plus px-1 text-white"></i>Add new order
-                    </a>
-                </div>
-
+            <div
+                class=" col-12 col-md-12 col-lg-12 d-flex justify-content-between  align-items-center py-3 rounded-3  bg-white ">
+                <h5>Orders</h5>
+                <a class="btn btn-sm btn-info text-white text-decoration-none"><i
+                        class="fas fa-plus px-1  text-center text-white"></i>Add new order
+                </a>
             </div>
-            <div class="col-sm-12 col-md-1 col-lg-1"></div>
         </div>
         <div class="row d-flex align-items-center">
-            <div class="col-sm-12 col-md-1 col-lg-1"></div>
-            <div class="col-md-10 col-lg-10  gx-5    py-3 rounded-3  bg-white ">
+            <div class=" col-12 col-md-12 col-lg-12 py-3 bg-white ">
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
@@ -33,12 +28,10 @@
                     </li>
 
                 </ul>
-                <!-- Tabs navs -->
-                <!-- Tabs content -->
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">
-                        <table class="table table-borderless table-responsive">
+                        <table class="table table-borderless  table-responsive">
                             <thead>
                                 <tr>
                                     <th>Order no. </th>
@@ -52,12 +45,11 @@
                             </thead>
                             <tbody>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
-                                    <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                    <td> <button type="button"
+                                            class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -68,12 +60,12 @@
                                         </a></td>
                                 </tr>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
                                     <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                        <button type="button"
+                                            class=" btn btn-outline-dark bg-white btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -84,12 +76,12 @@
                                         </a></td>
                                 </tr>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
                                     <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                        <button type="button"
+                                            class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -100,12 +92,12 @@
                                         </a></td>
                                 </tr>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
                                     <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                        <button type="button"
+                                            class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -116,12 +108,12 @@
                                         </a></td>
                                 </tr>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
                                     <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                        <button type="button"
+                                            class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -132,12 +124,12 @@
                                         </a></td>
                                 </tr>
                                 <tr>
-
                                     <td>183736e</td>
                                     <td>23/08/2023</td>
                                     <td>130</td>
                                     <td>
-                                        <button type="button" class=" btn btn-outline-dark btn-sm">Ongoing</button>
+                                        <button type="button"
+                                            class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
                                     </td>
                                     <td>
                                         Supplier 1
@@ -147,11 +139,9 @@
                                                 class="fas fa-plus px-1 text-white"></i>Update order
                                         </a></td>
                                 </tr>
-
                             </tbody>
-
                         </table>
-                        <div class=" row bg-white d-flex justify-content-center py-1">
+                        <div class=" row bg-white d-flex justify-content-end pr-4">
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination">
                                     <li class="page-item disabled">
@@ -178,10 +168,6 @@
 
                 </div>
             </div>
-            <div class="col-sm-12 col-md-1 col-lg-1"></div>
         </div>
-
-    </div>
-
     </div>
 @endsection

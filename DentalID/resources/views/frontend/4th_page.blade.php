@@ -1,19 +1,17 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container bg-color mt-3 justify-content-between align-items-center py-3">
-        <div class="row bg-white d-flex justify-content-between rounded-3 align-items-center">
-            <div class="col-md-4">
-                <h5 class="text-nowrap px-2 py-2">Statistics & Financial report</h5>
-                <small class="text-muted text-nowrap px-2  pb-2">Data for CHD clinic</small>
+    <div class="container mt-3">
+        <div class="row align-items-center bg-white">
+            <div class="col-md-3 col-lg-3">
+                <h5 class="text-nowrap px-2 py-2 ">Statistics & Financial report</h5>
+                <small class="px-2">Data for CHD clinic</small>
             </div>
-
-            <div class="col-md-4 text-center">
+            <div class="col-md-3 col-lg-3">
                 <button class="btn btn-sm btn-primary mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
                 <button class="btn btn-sm btn-primary me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
                     report</button>
             </div>
-
-            <div class="col-md-4 text-end">
+            <div class="col-md-2 col-lg-2">
                 <div class="btn-group">
                     <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -25,9 +23,9 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </div>
-
+            </div>
+            <div class="col-md-4 col-lg-4">
                 <span>Period</span>
-
                 <div class="btn-group">
                     <button class="btn btn-white border px-2 border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -39,9 +37,7 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </div>
-
                 <span> Vs </span>
-
                 <div class="btn-group">
                     <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -55,9 +51,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="row py-3 justify-content-center   align-items-center">
-            <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="row align-items-center mt-3 bg-color">
+            <div class="col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Income.</b></h5>
@@ -70,9 +65,8 @@
                         </svg>
                     </div>
                 </div>
-
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Spending.</b></h5>
@@ -85,26 +79,25 @@
                         </svg>
                     </div>
                 </div>
-
             </div>
-            <div class="col-sm-12 col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Number of patient.</b></h5>
+                        <h5 class="card-title"><b>Spending.</b></h5>
                         <strong class="card-text fs-2">CHF 20 000.-</strong><br>
                         <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
-                            fill="currentColor" class="bi bi-arrow-up-right text-success py-1" viewBox="0 0 16 16">
+                            fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
                     </div>
                 </div>
-
             </div>
+
         </div>
-        <div class="row py-3 justify-content-center   align-items-center">
-            <div class="col-sm-12 col-md-3 col-lg-3">
+        <div class="row align-items-center mt-3 bg-color">
+            <div class="col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Number of
@@ -119,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Average
@@ -136,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Number of
@@ -152,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Occupancy
@@ -168,9 +161,19 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
     </div>
 
+    </div>
+
+    {{--
+    <div class="container bg-color mt-3">
+
+
+
+    </div>
     <div class="container py-4 bg-color">
         <div class="row justify-content-center   align-items-center bg-white">
             <div class="col-sm-12 col-md-2 col-lg-2 "></div>
@@ -183,7 +186,7 @@
             <div class="col-sm-12 col-md-2 col-lg-2"></div>
 
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <canvas class="pb-4" id="myLineChart"></canvas>
+                <canvas class="pb-4" id="sales_Chart"></canvas>
             </div>
             <div class="col-sm-12 col-md-2 col-lg-2"></div>
         </div>
@@ -199,7 +202,7 @@
             <div class="col-sm-12 col-md-2 col-lg-2"></div>
 
             <div class="col-sm-12 col-md-8 col-lg-8 ">
-                <canvas class="pb-4" id="barchart"></canvas>
+                <canvas class="pb-4" id="sales_by_treatment"></canvas>
             </div>
             <div class="col-sm-12 col-md-1 col-lg-1"></div>
         </div>
@@ -342,12 +345,12 @@
         <div class="row bg-color py-4 justify-content-center   align-items-center">
             <div class="col-sm-12 p-3 col-md-6 bg-white col-lg-6 ">
                 <strong class="py-2">Rapport de stock.</strong>
-                <canvas class="pb-4" id="linechart"></canvas>
+                <canvas class="pb-4" id="re_de_stock"></canvas>
             </div>
             <div class="col-sm-12 col-md-1 col-lg-1"></div>
             <div class="col-sm-12 col-md-5 p-3 col-lg-5 bg-white">
                 <strong class="py-2">Distribution by category.</strong>
-                <canvas class="py-2 pb-4" id="barchart2"></canvas>
+                <canvas class="py-2 pb-4" id="d_by_cate"></canvas>
             </div>
         </div>
         <div class="row justify-content-center   align-items-center">
@@ -448,26 +451,26 @@
         <div class="row bg-color py-4 justify-content-center   align-items-center">
             <div class="col-sm-12 p-3 col-md-6 bg-white col-lg-6 ">
                 <strong class="py-2">The most common treatments.</strong>
-                <canvas id="line_chart" class="pb-4"></canvas>
+                <canvas id="comm_treat" class="pb-4"></canvas>
             </div>
             <div class="col-sm-12 col-md-1 col-lg-1"></div>
             <div class="col-sm-12 col-md-5 p-3 col-lg-5 bg-white">
                 <strong class="py-2">Demographic distribution.</strong>
-                <canvas class="py-2" id="barchart_3" class="pb-4"></canvas>
+                <canvas class="py-2" id="demo_dis" class="pb-4"></canvas>
             </div>
         </div>
 
         <div class="row py-3 justify-content-center   align-items-center">
             <div class="col-12 col-md-6 bg-white">
                 <strong class="py-2">Invoice</strong>
-                <canvas id="line_chart1" class="pb-4"></canvas>
+                <canvas id="invoive" class="pb-4"></canvas>
             </div>
             <div class="col-12 col-md-1"></div>
             <div class="col-12 col-md-5 bg-white">
                 <strong class="py-2">Payment deadlines.</strong>
-                <canvas id="line_chart2" class="pb-4"></canvas>
+                <canvas id="" class="pb-4"></canvas>
             </div>
         </div>
 
-    </div>
+    </div> --}}
 @endsection

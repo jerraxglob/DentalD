@@ -38,7 +38,13 @@
                             </button>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </div>
@@ -97,7 +103,13 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
                                                     <li><a class="dropdown-item" href="#">Another action</a>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
                                                     </li>
                                                     <li><a class="dropdown-item" href="#">Something else
                                                             here</a></li>
@@ -136,7 +148,62 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
                                                     <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+
+                                                </label>
+                                        </td>
+                                        <td>Lorem ipsum dolor sit amet…</td>
+                                        <td>Soufi Daniel</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                        <td>
+                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm "
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Emergency
+                                            </button>
+
+                                        </td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white btn-sm text-success dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
                                                     </li>
                                                     <li><a class="dropdown-item" href="#">Something else
                                                             here</a>
@@ -176,7 +243,13 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
                                                     <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
                                                     </li>
                                                     <li><a class="dropdown-item" href="#">Something else
                                                             here</a>
@@ -216,47 +289,13 @@
                                                 </button>
                                                 <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
                                                     <li><a class="dropdown-item" href="#">Another action</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="#">Something else
-                                                            here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-
-                                                </label>
-                                        </td>
-                                        <td>Lorem ipsum dolor sit amet…</td>
-                                        <td>Soufi Daniel</td>
-                                        <td>23/12/1980</td>
-                                        <td>
-                                        <td>23/12/1980</td>
-                                        <td>
-                                        <td>
-                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm "
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Emergency
-                                            </button>
-
-                                        </td>
-                                        <td>
-                                            <div class="btn-group">
-                                                <button
-                                                    class="btn btn-outline-dark bg-white btn-sm text-success dropdown-toggle"
-                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Ongoing
-                                                </button>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
                                                     </li>
                                                     <li><a class="dropdown-item" href="#">Something else
                                                             here</a>
@@ -371,7 +410,13 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>
@@ -396,7 +441,13 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>
@@ -421,7 +472,13 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>
@@ -446,7 +503,13 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>
@@ -471,7 +534,13 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
                                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                     </div>

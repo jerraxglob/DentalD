@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-lg-8">
                 <div class="container rounded-3 mt-5">
                     <div class="row align-items-center rounded-3 bg-white p-3">
                         <div class="col-sm-12 col-md-6 col-lg-6">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mt-5 px-3">
+            <div class="col-md-4 col-lg-4 mt-5 px-3">
                 <div class="container bg-white">
                     <div class="row p-3">
                         <div class="col-sm-12 col-md-6 col-lg-6 py-3">
@@ -236,7 +236,7 @@
                         <div class="col-sm-12 col-md-2 col-lg-2"></div>
                         <div class="col-md-9 col-lg-9 bg-white  px-3 py-3">
                             <strong class="py-2">Report.</strong> <span class="float-right">This year</span>
-                            <canvas class="py-2 pb-4" id="repot"></canvas>
+                            <canvas class="py-2 pb-4" id="report"></canvas>
                         </div>
                         <div class="col-sm-12 col-md-1 col-lg-1"></div>
                     </div>
@@ -244,9 +244,8 @@
             </div>
             <div class="col-md-4 bg-white mt-5 px-3 py-3">
                 <strong class="py-2">Distribution by category.</strong> <span class="float-right">Last 6 month</span>
-                <canvas class="py-2 pb-4" id="barchart2"></canvas>
+                <canvas class="py-2 pb-4" id="dis_category"></canvas>
             </div>
         </div>
-
     </div>
 @endsection

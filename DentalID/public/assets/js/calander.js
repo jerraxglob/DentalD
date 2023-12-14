@@ -5,18 +5,23 @@ document.addEventListener("DOMContentLoaded", function () {
         headerToolbar: {
             left: "prev,next",
             center: "title",
-            right: "custombutton",
+            right: "customButton",
         },
         customButtons: {
-            custombutton: {
+            customButton: {
                 text: "Add New Event",
-                icon: "fas fa-plus",
                 click: function () {
                     alert("Add new event");
                 },
-                // className: "my-custom-button",
             },
         },
+        buttonText: {
+            today: "Today",
+            month: "Month",
+            week: "Week",
+            day: "Day",
+        },
     });
+
     calendar.render();
 });

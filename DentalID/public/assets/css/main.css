@@ -1,8 +1,6 @@
 .bg-color,
 body {
     background-color: #e9ebed;
-    margin: 0;
-    padding: 0;
 }
 
 .f_r {
@@ -124,7 +122,6 @@ i {
     font-size: small;
 }
 
-
 /* calander css */
 
 .fc .fc-col-header-cell-cushion {
@@ -133,14 +130,17 @@ i {
 }
 
 .fc .fc-button-primary {
-    background-color: unset;
+    background-color: transparent;
     border-color: transparent;
-    color: unset;
+    color: black;
 }
 
-button.fc-custombutton-button.fc-button.fc-button-primary {
-    background-color: #0b5ed7;
+button.fc-customButton-button.fc-button.fc-button-primary {
+    background: blue;
+    color: white;
 }
 
-button.fc-custombutton-button.fc-button.fc-button-primary,
---fc-button-text-color: #fff;
+button.fc-customButton-button.fc-button.fc-button-primary:hover {
+    background: blue;
+    color: white;
+}

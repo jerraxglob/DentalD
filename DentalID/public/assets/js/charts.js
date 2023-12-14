@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("myLineChart").getContext("2d");
+    var ctx = document.getElementById("sales_Chart").getContext("2d");
 
     const monthNames = [
         "Jan",
@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("linechart").getContext("2d");
+    var ctx = document.getElementById("re_de_stock").getContext("2d");
 
     const monthNames = [
         "Jan",
@@ -174,7 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("barchart").getContext("2d"); // Change the ID to match your HTML canvas element
+    var ctx = document.getElementById("sales_by_treatment").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
         "Jan",
@@ -254,7 +254,87 @@ document.addEventListener("DOMContentLoaded", function () {
     var myBarChart = new Chart(ctx, config);
 });
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("barchart2").getContext("2d"); // Change the ID to match your HTML canvas element
+    var ctx = document.getElementById("d_by_cate").getContext("2d"); // Change the ID to match your HTML canvas element
+
+    const monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ];
+
+    const labels = monthNames.slice(0, 12);
+    const data = {
+        labels: labels,
+        datasets: [
+            {
+                label: "Treatment category 1",
+                data: [260, 370, 342],
+                backgroundColor: "blue",
+                borderColor: "blue",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "Treatment category 2",
+                data: [234, 245, 106, 108],
+                backgroundColor: "grey",
+                borderColor: "grey",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "Treatment category 3",
+                data: [1000, 2000, 3000, 4000, 5000],
+                backgroundColor: "yellow",
+                borderColor: "yellow",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "Treatment category 4",
+                data: [4000, 1000, 6000, 2000, 4000],
+                backgroundColor: "skyblue",
+                borderColor: "skyblue",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+        ],
+    };
+
+    const config = {
+        type: "bar",
+        data: data,
+        options: {
+            scales: {
+                x: {
+                    stacked: true,
+                },
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1000,
+                        callback: function (value, index, values) {
+                            return value === 0 ? value : value / 1000 + "k";
+                        },
+                    },
+                },
+            },
+        },
+    };
+
+    var myBarChart = new Chart(ctx, config);
+});
+document.addEventListener("DOMContentLoaded", function () {
+    var ctx = document.getElementById("dis_category").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
         "Jan",
@@ -335,7 +415,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("line_chart").getContext("2d");
+    var ctx = document.getElementById("comm_treat").getContext("2d");
 
     const monthNames = [
         "Jan",
@@ -415,8 +495,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("barchart_3").getContext("2d"); // Change the ID to match your HTML canvas element
-
+    var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
     const monthNames = [
         "Jan",
         "Feb",
@@ -489,7 +568,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("line_chart1").getContext("2d");
+    var ctx = document.getElementById("invoive").getContext("2d");
 
     const monthNames = [
         "Jan",
@@ -568,7 +647,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("line_chart2").getContext("2d");
+    var ctx = document.getElementById("pay_deadline").getContext("2d");
 
     const monthNames = [
         "Jan",
@@ -639,7 +718,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("repot").getContext("2d");
+    var ctx = document.getElementById("report").getContext("2d");
 
     const monthNames = [
         "Jan",
