@@ -43,4 +43,8 @@ class DentalidController extends Controller
     {
         return view('frontend.9th_page');
     }
+    public function Invoicing()
+    {
+        return view('frontend.10th_page');
+    }
 }

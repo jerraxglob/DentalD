@@ -1,9 +1,8 @@
 @extends('frontend.partials.main')
-
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 bg-color">
+            <div class=" col-12 col-md-8 bg-color">
                 <div class="container  rounded-3 mt-5">
                     <div class="row  align-items-center rounded-3 bg-color p-3">
                         <div class="col-12 col-md-4 col-lg-4">

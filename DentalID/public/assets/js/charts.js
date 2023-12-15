@@ -796,3 +796,133 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myLineChart = new Chart(ctx, config);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var ctx = document.getElementById("finance_report").getContext("2d");
+
+    const practitionerLabels = [
+        "Praticien 1",
+        "Praticien 2",
+        "Praticien 3",
+        "Praticien 4",
+        "Praticien 5",
+        "Praticien 6",
+        "Praticien 7",
+    ];
+
+    const data = {
+        labels: practitionerLabels,
+        datasets: [
+            {
+                label: "Income",
+                data: [1000, 2000, 3000, 4000, 5000],
+                backgroundColor: "skyblue",
+                borderColor: "skyblue",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "Expenses",
+                data: [5000, 4000, 3000, 1000],
+                backgroundColor: "orange",
+                borderColor: "orange",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+        ],
+    };
+
+    const config = {
+        type: "bar",
+        data: data,
+        options: {
+            indexAxis: "y",
+            elements: {
+                bar: {
+                    borderWidth: 2,
+                },
+            },
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: "right",
+                },
+            },
+        },
+    };
+
+    var myBarChart = new Chart(ctx, config);
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    var ctx = document.getElementById("services").getContext("2d"); // Change the ID to match your HTML canvas element
+
+    const monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ];
+
+    const labels = monthNames.slice(0, 12);
+    const data = {
+        labels: labels,
+        datasets: [
+            {
+                label: "Private services",
+                data: [260, 370, 342],
+                backgroundColor: "skyblue",
+                borderColor: "skyblue",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "insurances",
+                data: [234, 245, 106, 108],
+                backgroundColor: "blue",
+                borderColor: "blue",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+            {
+                label: "Social",
+                data: [1000, 2000, 3000, 4000, 5000],
+                backgroundColor: "#FFD47F",
+                borderColor: "#FFD47F",
+                borderWidth: 1,
+                tension: 0.1,
+            },
+        ],
+    };
+
+    const config = {
+        type: "bar",
+        data: data,
+        options: {
+            scales: {
+                x: {
+                    stacked: true,
+                },
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1000,
+                        callback: function (value, index, values) {
+                            return value === 0 ? value : value / 1000 + "k";
+                        },
+                    },
+                },
+            },
+        },
+    };
+
+    var myBarChart = new Chart(ctx, config);
+});

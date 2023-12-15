@@ -33,112 +33,112 @@
 
                         </div>
                     </div>
-                    <div class="row align-items-center rounded-3  bg-white p-3">
+                    <div class="row align-items-center rounded-3 bg-white p-3">
                         <div class="col-sm-12 col-md-1 col-lg-1"></div>
-                        <div class="col-sm-12 col-md-11 col-lg-11 d-flex justify-content-center">
+                        <div class="col-sm-12 col-md-10 col-lg-10">
                             <table class="table table-borderless table-responsive">
-                                <thead>
-                                    <tr>
-                                        <th>Reference</th>
-                                        <th>Product name</th>
-                                        <th>Category</th>
-                                        <th>In stock</th>
-                                        <th>Limit</th>
-                                        <th>Expiration date</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>#1ied8n2</td>
-                                        <td>Lorem ipsum </td>
-                                        <td>Lorem ipsum</td>
-                                        <td>320</td>
-                                        <td>390</td>
-                                        <td>---</td>
-                                        <td>
-                                            <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
-                                        </td>
-                                    </tr>
-                                </tbody>
+                                <table class="table table-borderless table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>Reference</th>
+                                            <th>Product name</th>
+                                            <th>Category</th>
+                                            <th>In stock</th>
+                                            <th>Limit</th>
+                                            <th>Expiration date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>Lorem ipsum</td>
+                                            <td>320</td>
+                                            <td>390</td>
+                                            <td>---</td>
+                                            <td>
+                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </table>
                         </div>
-
-                        <div class="col-sm-12 col-md-1 col-lg-1"></div>
-                    </div>
-                    <div class=" row bg-white d-flex justify-content-center py-1">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination flex-md-row-reverse">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
             </div>

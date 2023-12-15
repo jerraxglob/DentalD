@@ -25,3 +25,4 @@ route::get('/6th_page', [DentalidController::class, 'orders'])->name('6th_page')
 route::get('/7th_page', [DentalidController::class, 'Patient_list'])->name('7th_page');
 route::get('/8th_page', [DentalidController::class, 'calander'])->name('8th_page');
 route::get('/9th_page', [DentalidController::class, 'assigned_tasks'])->name('9th_page');
+route::get('/10th_page', [DentalidController::class, 'Invoicing'])->name('10th_page');
