@@ -372,8 +372,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-12 col-md-10 col-lg-10 py-3 d-flex justify-content-between">
-                                <table class="table table-borderless table-responsive">
+                            <div class="col-12 col-md-10 col-lg-10 py-3 ">
+                                <table class="table table-borderless table-responsive  col-lg-12">
                                     <thead>
                                         <tr>
                                             <th class="text-nowrap">Patient</th>
@@ -441,7 +441,6 @@
                                 </table>
 
                             </div>
-
                         </div>
                         <div class=" row bg-white d-flex justify-content-end py-1">
                             <nav aria-label="Page navigation example">
