@@ -16,7 +16,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-1"></div> -->
                         <div class=" col-sm-12 col-md-8  px-5 col-lg-8 rounded-3  bg-white">
                             <div class="row py-4  px-4 d-flex justify-center align-items-center">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
