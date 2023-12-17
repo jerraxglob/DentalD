@@ -195,21 +195,21 @@
             <div class="col-md-12 col-lg-12 gx-3 gx-md-5 py-3 rounded-3 bg-white">
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
-                            href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
-                            aria-selected="true">
+                        <a data-bs-toggle="tab" class="nav-link " id="ex-with-icons-tab-1" href="#ex-with-icons-tabs-1"
+                            role="tab" aria-controls="ex-with-icons-tabs-1" aria-selected="true">
                             Photographies
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
+                        <a data-bs-toggle="tab" class="nav-link " id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
                             role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false">
                             Rappels et suivis
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-3" href="#ex-with-icons-tabs-3"
-                            role="tab" aria-controls="ex-with-icons-tabs-3" aria-selected="false">
+                        <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-3"
+                            href="#ex-with-icons-tabs-3" role="tab" aria-controls="ex-with-icons-tabs-3"
+                            aria-selected="false">
                             Communication
                         </a>
                     </li>
@@ -226,7 +226,7 @@
                         aria-labelledby="ex-with-icons-tab-2">
                         Tab 2 content
                     </div>
-                    <div class="tab-pane fade" id="ex-with-icons-tabs-3" role="tabpanel"
+                    <div class="tab-pane fade show active" id="ex-with-icons-tabs-3" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-3">
                         <div class="card-header">
                             <div class="container">

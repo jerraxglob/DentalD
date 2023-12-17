@@ -1,12 +1,12 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container-fluid">
-        <div class="row">
+    <div class="">
+        <div class="row ">
             <div class=" col-12 col-md-8 bg-color">
                 <div class="container  rounded-3 mt-5">
                     <div class="row  align-items-center rounded-3 bg-color p-3">
                         <div class="col-12 col-md-4 col-lg-4">
-                            <div class="card p_f  rounded-3 d-flex align-items-center justify-content-center">
+                            <div class="card p_f   rounded-3 d-flex align-items-center justify-content-center">
                                 <div class="card-body">
                                     <div class="card-title pb-5 text-center">
                                         <img src="..." class="rounded  p-3  img-fluid img-thumbnail" alt="...">
@@ -16,8 +16,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-1"></div>
-                        <div class=" col-sm-12 col-md-7  px-3 col-lg-7    rounded-3  bg-white">
+                        <!-- <div class="col-md-1"></div> -->
+                        <div class=" col-sm-12 col-md-8  px-5 col-lg-8 rounded-3  bg-white">
                             <div class="row py-4  px-4 d-flex justify-center align-items-center">
                                 <div class="col-sm-12 col-md-4 col-lg-4">
                                     <strong class="text-dark p-3">Statistics</strong>
@@ -140,7 +140,7 @@
 
                     </div>
                     <br>
-                    <div class="row task_m align-items-center rounded-3 bg-white p-3">
+                    <div class="container row task_m align-items-center rounded-3 bg-white p-3 ml-3">
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <div class="row">
                                 <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
@@ -163,7 +163,7 @@
                             <div class="row">
                                 <div
                                     class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-end align-items-center">
-                                    <table class="table table-borderless">
+                                    <table class="table ">
                                         <thead>
                                             <tr>
                                                 <th>Tasks <i class='fas fa-angle-down p-3 thin-arrow'></i>
@@ -334,7 +334,7 @@
                                             <tr>
                                                 <td></td>
                                                 <td>
-                                                    <div class="d-grid  mx-auto  py-4 mb-2">
+                                                    <div class="d-grid align-items-center  py-4 mb-2">
                                                         <button class="btn btn-primary" type="button">
                                                             View all tasks</button>
                                                     </div>
@@ -344,13 +344,15 @@
                                         </tbody>
                                     </table>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mt-5 ">
-                <form class="dark-mode-form container mt-4">
+            <div class="col-md-4 dark-mode-form">
+
+                <form class="dark-mode-form">
                     <!-- Stock Report Header -->
                     <div class="row py-3 align-items-center">
                         <div class="col-md-7">
@@ -362,118 +364,118 @@
                                 Management</button>
                         </div>
                     </div>
+                    <div class="stock">
+                        <div class="row col-with-line">
+                            <!-- Specialist -->
+                            <div class="col-md-4 mb-3 w-25">
+                                <label for="name" class="form-label">Specialist</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                    id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Material -->
+                            <div class="col-md-6 mb-3">
+                                <label for="material" class="form-label">Material</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                    id="material" placeholder="" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Qty -->
+                            <div class="col-md-2 mb-3">
+                                <label for="qty" class="form-label qty ">Qty</label>
+                                <input type="text" name="qty"
+                                    class="form-control qty form-control-sm dark-input box-input" value=""
+                                    id="qty">
+                            </div>
 
-                    <div class="row col-with-line">
-                        <!-- Specialist -->
-                        <div class="col-md-4 mb-3">
-                            <label for="name" class="form-label">Specialist</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
                         </div>
-                        <!-- Material -->
-                        <div class="col-md-7 mb-3">
-                            <label for="material" class="form-label">Material</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                id="material" placeholder="" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Qty -->
-                        <div class="col-md-1 mb-3">
-                            <label for="qty" class="form-label qty ">Qty</label>
-                            <input type="text" name="qty"
-                                class="form-control qty form-control-sm dark-input box-input" value=""
-                                id="qty">
-                        </div>
+                        <div class="row col-with-line">
+                            <!-- Specialist -->
+                            <div class="col-md-4 mb-3">
+                                <label for="name" class="form-label">Specialist</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                    id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Material -->
+                            <div class="col-md-6 mb-3">
+                                <label for="material" class="form-label">Material</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                    id="material" placeholder="" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Qty -->
+                            <div class="col-md-2 mb-3">
+                                <label for="qty" class="form-label qty ">Qty</label>
+                                <input type="text" name="qty"
+                                    class="form-control qty form-control-sm dark-input box-input" value=""
+                                    id="qty">
+                            </div>
 
+                        </div>
+                        <div class="row col-with-line">
+                            <!-- Specialist -->
+                            <div class="col-md-4 mb-3">
+                                <label for="name" class="form-label">Specialist</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                    id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Material -->
+                            <div class="col-md-6 mb-3">
+                                <label for="material" class="form-label">Material</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                    id="material" placeholder="" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Qty -->
+                            <div class="col-md-2 mb-3">
+                                <label for="qty" class="form-label qty ">Qty</label>
+                                <input type="text" name="qty"
+                                    class="form-control qty form-control-sm dark-input box-input" value=""
+                                    id="qty">
+                            </div>
+
+                        </div>
+                        <div class="row col-with-line">
+                            <!-- Specialist -->
+                            <div class="col-md-4 mb-3">
+                                <label for="name" class="form-label">Specialist</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                    id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Material -->
+                            <div class="col-md-6 mb-3">
+                                <label for="material" class="form-label">Material</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                    id="material" placeholder="" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Qty -->
+                            <div class="col-md-2 mb-3">
+                                <label for="qty" class="form-label qty ">Qty</label>
+                                <input type="text" name="qty"
+                                    class="form-control qty form-control-sm dark-input box-input" value=""
+                                    id="qty">
+                            </div>
+
+                        </div>
+                        <div class="row col-with-line">
+                            <!-- Specialist -->
+                            <div class="col-md-4 mb-3">
+                                <label for="name" class="form-label">Specialist</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                    id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Material -->
+                            <div class="col-md-6 mb-3">
+                                <label for="material" class="form-label">Material</label>
+                                <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                    id="material" placeholder="" aria-describedby="emailHelp">
+                            </div>
+                            <!-- Qty -->
+                            <div class="col-md-2 mb-3">
+                                <label for="qty" class="form-label qty ">Qty</label>
+                                <input type="text" name="qty"
+                                    class="form-control qty form-control-sm dark-input box-input" value=""
+                                    id="qty">
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="row col-with-line">
-                        <!-- Specialist -->
-                        <div class="col-md-4 mb-3">
-                            <label for="name" class="form-label">Specialist</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Material -->
-                        <div class="col-md-7 mb-3">
-                            <label for="material" class="form-label">Material</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                id="material" placeholder="" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Qty -->
-                        <div class="col-md-1 mb-3">
-                            <label for="qty" class="form-label qty ">Qty</label>
-                            <input type="text" name="qty"
-                                class="form-control qty form-control-sm dark-input box-input" value=""
-                                id="qty">
-                        </div>
-
-                    </div>
-                    <div class="row col-with-line">
-                        <!-- Specialist -->
-                        <div class="col-md-4 mb-3">
-                            <label for="name" class="form-label">Specialist</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Material -->
-                        <div class="col-md-7 mb-3">
-                            <label for="material" class="form-label">Material</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                id="material" placeholder="" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Qty -->
-                        <div class="col-md-1 mb-3">
-                            <label for="qty" class="form-label qty ">Qty</label>
-                            <input type="text" name="qty"
-                                class="form-control qty form-control-sm dark-input box-input" value=""
-                                id="qty">
-                        </div>
-
-                    </div>
-                    <div class="row col-with-line">
-                        <!-- Specialist -->
-                        <div class="col-md-4 mb-3">
-                            <label for="name" class="form-label">Specialist</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Material -->
-                        <div class="col-md-7 mb-3">
-                            <label for="material" class="form-label">Material</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                id="material" placeholder="" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Qty -->
-                        <div class="col-md-1 mb-3">
-                            <label for="qty" class="form-label qty ">Qty</label>
-                            <input type="text" name="qty"
-                                class="form-control qty form-control-sm dark-input box-input" value=""
-                                id="qty">
-                        </div>
-
-                    </div>
-                    <div class="row col-with-line">
-                        <!-- Specialist -->
-                        <div class="col-md-4 mb-3">
-                            <label for="name" class="form-label">Specialist</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Material -->
-                        <div class="col-md-7 mb-3">
-                            <label for="material" class="form-label">Material</label>
-                            <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                id="material" placeholder="" aria-describedby="emailHelp">
-                        </div>
-                        <!-- Qty -->
-                        <div class="col-md-1 mb-3">
-                            <label for="qty" class="form-label qty ">Qty</label>
-                            <input type="text" name="qty"
-                                class="form-control qty form-control-sm dark-input box-input" value=""
-                                id="qty">
-                        </div>
-
-                    </div>
-
                     <!-- Important Communication Section -->
                     <div class="row d-flex justify-content-center align-items-center">
                         <div class="col-md-10 py-3">
@@ -541,6 +543,34 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr class="col-with-line">
+                                        <td class="text-white">12/07/23</td>
+                                        <td class="text-white text-nowrap">Change of regulations …</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="mb-3">
+                                                <input type="text"
+                                                    class="form-control float-left form-control-sm dark-input"
+                                                    name="name" id="name" placeholder="Draft"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="col-with-line">
+                                        <td class="text-white">12/07/23</td>
+                                        <td class="text-white text-nowrap">Change of regulations …</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <div class="mb-3">
+                                                <input type="text"
+                                                    class="form-control float-left form-control-sm dark-input"
+                                                    name="name" id="name" placeholder="Draft"
+                                                    aria-describedby="emailHelp">
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -549,15 +579,17 @@
                     <!-- Add a new note button -->
                     <div class="text-center pb-4">
                         <div class="d-grid gap-2 col-6 col-md-4 mx-auto">
-                            <button type="submit" class="btn btn-sm btn-info">Add a new note</button>
+                            <button type="submit" class="btn btn-nowrap btn-sm btn-info text-nowrap">Add a new
+                                note</button>
                         </div>
                     </div>
                 </form>
+
             </div>
             <br>
         </div>
         <div class="row">
-            <div class="col-md-8 col-lg-8 bg-color">
+            <div class="col-md-12 col-lg-12 bg-color">
                 <div class="container rounded-3 mt-5">
                     <div class="row align-items-center rounded-3 justify-content-center bg-white p-3">
                         <div class="col-sm-12 col-md-12 col-lg-12">

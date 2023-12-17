@@ -122,6 +122,7 @@ i {
     font-size: small;
 }
 
+
 /* calander css */
 
 .fc .fc-col-header-cell-cushion {
@@ -143,4 +144,20 @@ button.fc-customButton-button.fc-button.fc-button-primary {
 button.fc-customButton-button.fc-button.fc-button-primary:hover {
     background: blue;
     color: white;
+}
+
+.table-with-range-bar {
+    position: relative;
+}
+
+.range-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    /* Adjust the width of the range bar as needed */
+    height: 100%;
+    /* Set the background color of the range bar */
+    cursor: ew-resize;
+    /* Add a resize cursor to indicate it's adjustable horizontally */
 }
