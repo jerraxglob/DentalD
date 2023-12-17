@@ -122,7 +122,6 @@ i {
     font-size: small;
 }
 
-
 /* calander css */
 
 .fc .fc-col-header-cell-cushion {
@@ -146,18 +145,74 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     color: white;
 }
 
-.table-with-range-bar {
-    position: relative;
+.card1{
+    width: 270px !important;
+    height: 262px;
 }
 
-.range-bar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    /* Adjust the width of the range bar as needed */
-    height: 100%;
-    /* Set the background color of the range bar */
-    cursor: ew-resize;
-    /* Add a resize cursor to indicate it's adjustable horizontally */
+.btn-nowrap{
+white-space: nowrap;
+}
+.nav-link span{
+    max-width: 65px !important;
+}
+
+.stock{
+    height: 350px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: lightskyblue;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: lightskyblue;
+  }
+
+  .card-sm {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:767px){
+    .responsive{
+        align-items: center;
+    }
+    .mb-small{
+        margin-bottom: 1.5rem !important;
+    }
+
+    .card-sm {
+        width: 315px;
+        max-width: 767px;
+    }
+    .task-sm{
+        width: 315px;
+        max-width: 767px;
+        overflow: auto;
+        margin-bottom: 1.5rem;
+    }
+    .stock-sm{
+        width: 315px;
+        max-width: 767px;
+        overflow: auto;
+    }
+    .cons-sm{
+        width: 315px;
+        max-width: 767px;
+        overflow: auto;
+    }
 }
