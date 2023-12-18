@@ -145,19 +145,20 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     color: white;
 }
 
-.card1{
+.card1 {
     width: 270px !important;
     height: 262px;
 }
 
-.btn-nowrap{
-white-space: nowrap;
+.btn-nowrap {
+    white-space: nowrap;
 }
-.nav-link span{
+
+.nav-link span {
     max-width: 65px !important;
 }
 
-.stock{
+.stock {
     height: 350px !important;
     overflow-y: auto !important;
     overflow-x: hidden !important;
@@ -165,52 +166,54 @@ white-space: nowrap;
 
 ::-webkit-scrollbar {
     width: 3px;
-  }
+}
 
-  /* Track */
-  ::-webkit-scrollbar-track {
+/* Track */
+
+::-webkit-scrollbar-track {
     background: #f1f1f1;
-  }
+}
 
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+/* Handle */
+
+::-webkit-scrollbar-thumb {
     background: lightskyblue;
-  }
+}
 
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
     background: lightskyblue;
-  }
+}
 
-  .card-sm {
+.card-sm {
     max-width: 100%;
     margin: 0 auto;
 }
 
-@media only screen and (max-width:767px){
-    .responsive{
+@media only screen and (max-width: 767px) {
+    .responsive {
         align-items: center;
     }
-    .mb-small{
+    .mb-small {
         margin-bottom: 1.5rem !important;
     }
-
     .card-sm {
         width: 315px;
         max-width: 767px;
     }
-    .task-sm{
+    .task-sm {
         width: 315px;
         max-width: 767px;
         overflow: auto;
         margin-bottom: 1.5rem;
     }
-    .stock-sm{
+    .stock-sm {
         width: 315px;
         max-width: 767px;
         overflow: auto;
     }
-    .cons-sm{
+    .cons-sm {
         width: 315px;
         max-width: 767px;
         overflow: auto;
