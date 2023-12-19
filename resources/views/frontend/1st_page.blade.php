@@ -94,10 +94,10 @@
                                     </div>
                                     <div class="col-md-12 col-lg-12 col-12">
                                         <div class="card">
-                                            <div class="card-body">
+                                            <div class="card-body pt-3">
                                                 <div class="row  justify-content-between align-item-center">
                                                     <div class=" col-12 col-sm-12 col-md-9">
-                                                        <h6 class="card-title"><b>Evelyn Thomas</b></h6>
+                                                        <strong class="card-title"><b>Evelyn Thomas</b></strong>
                                                     </div>
                                                     <div class="col-12 col-sm-12  col-md-3 text-muted ">
                                                         <span class="date text-end">Date</span>
@@ -108,7 +108,7 @@
                                                     the printing. Lorem Ipsum is simply dummy text of the printing …</p>
                                                 <div class="row justify-content-between align-item-center">
                                                     <div class=" col-12 col-sm-12 col-md-9 col-lg-9 ">
-                                                        <h6 class="card-title"><b>Dr Sarah Dib</b></h6>
+                                                        <strong class="card-title"><b>Dr Sarah Dib</b></strong>
                                                     </div>
                                                     <div class=" col-12 col-sm-12 col-md-3 col-lg-3 text-muted ">
                                                         <span class="date text-end text-muted">Date</span>
@@ -119,7 +119,7 @@
                                                     printing …</p>
                                                 <div class="row justify-content-between align-item-center">
                                                     <div class=" col-12 col-sm-12 col-md-9 col-lg-9">
-                                                        <h6 class="card-title"><b>Evelyn Thomas</b></h6>
+                                                        <strong class="card-title"><b>Evelyn Thomas</b></strong>
                                                     </div>
                                                     <div class=" col-12  col-sm-12 col-md-3 col-lg-3 text-muted ">
                                                         <span class="date text-end">Date</span>
@@ -130,7 +130,7 @@
                                                     printing …</p>
                                                 <div class="row justify-content-between align-item-center">
                                                     <div class=" col-12 col-sm-12 col-md-9">
-                                                        <h6 class="card-title"><b>Dr Sarah Dib</b></h6>
+                                                        <strong class="card-title"><b>Dr Sarah Dib</b></strong>
                                                     </div>
                                                     <div class=" col-12 col-sm-12 col-md-3 col-lg-3 text-muted ">
                                                         <span class="date text-end">Date</span>

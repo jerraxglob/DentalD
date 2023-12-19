@@ -47,7 +47,6 @@
                                         <a href="" class="text-decoration-none float-end p-3">See All</a>
                                     </div>
                                 </div>
-                                <!-- More content inside the Second Card (omitted for brevity) -->
                                 <div class="row d-flex justify-center align-items-center pr-4 pb-3 ">
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
@@ -106,20 +105,17 @@
                                                 <strong class="card-title px-3">45mintus</strong>
                                                 <p class="card-text px-3 text-nowrap">Average time</p>
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
                                                     <i class="fas fa-times text-muted"></i>
-
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3">
-                                                <strong class="card-title px-3 text-center">13</strong>
+                                                <strong class="card-title px-3">13</strong>
                                                 <p class="card-text px-3 text-nowrap ">Missed appointment</p>
                                             </div>
 
@@ -395,8 +391,8 @@
                                 <small class="text-nowrap">Wed 15th July 2023</small>
                             </div>
                             <div class="col-md-5 text-md-right mt-md-0 mt-2">
-                                <button class="btn btn-info btn-sm text-nowrap" type="button">Inventory
-                                    Management</button>
+                                <a href="#" class="btn btn-info btn-sm">Inventory
+                                    Management</a>
                             </div>
                         </div>
                         <div class="stock">
@@ -690,11 +686,13 @@
                                         </ul>
                                     </div>
                                     <!-- Tabs content -->
-                                    <div
-                                        class="col-md-12  col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                                        <div class="tab-content" id="ex-with-icons-content">
+
+                                    <div class="tab-content" id="ex-with-icons-content">
+                                        <div
+                                            class="col-md-12  col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
                                             <div class="tab-pane fade show active" id="ex-with-icons-tabs-1"
                                                 role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
+
                                                 <div class="table-responsive">
                                                     <table class="table table-borderless ">
                                                         <thead>
@@ -756,13 +754,13 @@
                                                 </div>
 
                                             </div>
-                                            <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
-                                                aria-labelledby="ex-with-icons-tab-2">
-                                                Tab 2 content
-                                            </div>
                                         </div>
-
+                                        <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
+                                            aria-labelledby="ex-with-icons-tab-2">
+                                            Tab 2 content
+                                        </div>
                                     </div>
+
                                 </div>
 
                             </div>

@@ -1,13 +1,9 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container-fluid py-5 pl-3 pl-md-5">
-        <div class="row d-flex align-items-center">
-            <div class="col-md-12 col-lg-12 py-4 rounded-3 d-flex justify-content-lg-between bg-white align-items-center">
-                <h5 class="py-2">Settings.</h5>
-            </div>
-        </div>
-        <div class="row d-flex align-items-center">
+    <div class="container-fluid py-5">
+        <div class="row d-flex align-items-center position-relative">
             <div class="col-md-8 col-lg-8 col-12 gx-3 gx-md-5 py-3 rounded-3 bg-white">
+                <h5 class="py-2">Settings.</h5>
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link active " id="ex-with-icons-tab-1"
@@ -41,15 +37,14 @@
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-6" href="#ex-with-icons-tabs-6"
-                            role="tab" aria-controls="ex-with-icons-tabs-6" aria-selected="false">
+                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-7" href="#ex-with-icons-tabs-7"
+                            role="tab" aria-controls="ex-with-icons-tabs-7" aria-selected="false">
                             Notifications et reminders
                         </a>
                     </li>
                 </ul>
                 <!-- Tabs navs -->
                 <!-- Tabs content -->
-
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">
@@ -63,8 +58,8 @@
                                                     alt="Avatar" class="img-fluid rounded-circle">
                                             </div>
                                             <div class="col-md-6 col-lg-6 text-center ">
-                                                <h5 class="text-dark fw-bold">Clinic
-                                                    CHD Meyrin</h5>
+                                                <h5 class="text-dark fw-bold">Clinic</h5>
+                                                <span class="text-dark">CHD Meyrin</span>
 
                                             </div>
                                         </div>
@@ -80,7 +75,7 @@
                         </div>
                         <div
                             class="card-body mt-4 "style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                border-bottom: 2px solid grey;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    border-bottom: 2px solid grey;">
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="d-flex justify-content-start mb-3 mt-2">
@@ -555,7 +550,6 @@
                                             </tr>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -563,9 +557,9 @@
                         aria-labelledby="ex-with-icons-tab-3">
                         tab3
                     </div>
-                    <div class="tab-pane fade " id="ex-with-icons-tabs-5" role="tabpanel"
+                    <div class="tab-pane fade  " id="ex-with-icons-tabs-5" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-5">
-                        <div class="card-header">
+                        <div class="card-header ">
                             <div class="container">
                                 <div class="row align-items-center d-flex justify-content-between">
                                     <div class="col-lg-3 col-md-6 col-sm-12">
@@ -726,24 +720,444 @@
                                             </tr>
 
                                     </table>
+                                    <div class="row d-flex justify-content-end pr-4">
+                                        <nav aria-label="Page navigation example  ">
+                                            <ul class="pagination">
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
                                 </div>
+                            </div>
+                        </div>
 
+                        <div class="card-header">
+                            <div class="container">
+                                <div class="row align-items-center d-flex justify-content-between">
+                                    <div class="col-lg-3 col-md-6 col-sm-12">
+                                        <div class="row  justify-content-center align-items-center">
+                                            <div class="col-md-6 col-lg-6 text-center">
+                                                <h4 class="text-dark text-nowrap">Categories.</h4>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-12 text-center">
+                                        <div class="d-grid ">
+                                            <a href="#" class="btn  btn-sm btn-primary">Add new category</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body mt-4">
+                            <div class="row mb-4 mt-2 d-flex align-items-center">
+                                <div class="col-12 col-md-12 col-lg-12">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Category</th>
+                                                <th scope="col">Product name</th>
+                                                <th scope="col">Description</th>
+                                                <th scope="col">Phone</th>
+                                                <th scope="col">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Category 1</td>
+                                                <td>2</td>
+                                                <td>
+                                                    Lorem ipsum dolor si amet net laid e</td>
+                                                <td> <a
+                                                        class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        X Delete
+                                                    </a>
+                                                    <a
+                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Category 1</td>
+                                                <td>2</td>
+                                                <td>
+                                                    Lorem ipsum dolor si amet net laid e</td>
+                                                <td> <a
+                                                        class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        X Delete
+                                                    </a>
+                                                    <a
+                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Category 1</td>
+                                                <td>2</td>
+                                                <td>
+                                                    Lorem ipsum dolor si amet net laid e</td>
+                                                <td> <a
+                                                        class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        X Delete
+                                                    </a>
+                                                    <a
+                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Category 1</td>
+                                                <td>2</td>
+                                                <td>
+                                                    Lorem ipsum dolor si amet net laid e</td>
+                                                <td> <a
+                                                        class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        X Delete
+                                                    </a>
+                                                    <a
+                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Category 1</td>
+                                                <td>2</td>
+                                                <td>
+                                                    Lorem ipsum dolor si amet net laid e</td>
+                                                <td> <a
+                                                        class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        X Delete
+                                                    </a>
+                                                    <a
+                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                    </table>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-6" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-6">
-                        tab6
+                        <div class="row ">
+                            <div class="col-12">
+                                <h4 class="text-start">Documents center.</h4>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12   mt-5">
+                                <h1 class="h4 text-center mb-3 mt-4">Drag and drop a document,</h1>
+                                <div class="card card-with-dash-border  ">
+                                    <form>
+                                        <fieldset class="upload_dropZone text-center mb-3 p-4">
+
+                                            or <a href="#" class="text-center mb-3 ">browse
+                                                your computer</a>
+                                            <br>
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                                fill="currentColor"
+                                                class="text-primary mt-3 bi bi-file-earmark-arrow-up-fill"
+                                                viewBox="0 0 16 16">
+                                                <path
+                                                    d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M6.354 9.854a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 8.707V12.5a.5.5 0 0 1-1 0V8.707z" />
+                                            </svg>
+
+                                            <p class="small my-2 mt-2">Supported files: word, pdf…
+                                            </p>
+                                            <input id="upload_image_background" data-post-name="image_background"
+                                                data-post-url="https://someplace.com/image/uploads/backgrounds/"
+                                                class="position-absolute invisible" type="file" multiple
+                                                accept="image/jpeg, image/png, image/svg+xml" />
+
+                                            <label class="btn btn-upload mb-3" for="upload_image_background">Choose
+                                                file(s)</label>
+
+                                            <div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0">
+                                            </div>
+
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-12">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Document name</th>
+                                            <th scope="col">File type</th>
+                                            <th scope="col">Category</th>
+                                            <th scope="col">State</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+                                            <td>12/07/23</td>
+                                            <td>Document name</td>
+                                            <td>
+                                                PDF</td>
+                                            <td>
+                                                Prescription
+                                            </td>
+                                            <td>
+                                                Online
+                                            </td>
+                                            <td>
+                                                <a
+                                                    class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                    <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>12/07/23</td>
+                                            <td>Document name</td>
+                                            <td>
+                                                PDF</td>
+                                            <td>
+                                                Prescription
+                                            </td>
+                                            <td>
+                                                Online
+                                            </td>
+                                            <td>
+                                                <a
+                                                    class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                    <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>12/07/23</td>
+                                            <td>Document name</td>
+                                            <td>
+                                                PDF</td>
+                                            <td>
+                                                Prescription
+                                            </td>
+                                            <td>
+                                                Online
+                                            </td>
+                                            <td>
+                                                <a
+                                                    class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                    <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>12/07/23</td>
+                                            <td>Document name</td>
+                                            <td>
+                                                PDF</td>
+                                            <td>
+                                                Prescription
+                                            </td>
+                                            <td>
+                                                Online
+                                            </td>
+                                            <td>
+                                                <a
+                                                    class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                    <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                </table>
+                                <div class="row d-flex justify-content-end pr-4">
+                                    <nav aria-label="Page navigation example  ">
+                                        <ul class="pagination">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Previous">
+                                                    <span aria-hidden="true">&laquo;</span>
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#" aria-label="Next">
+                                                    <span aria-hidden="true">&raquo;</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-end pr-4">
+                            <nav aria-label="Page navigation example  ">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-7" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-7">
-                        tab7
-                    </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="card-header bg-white d-flex justify-content-between">
+                                    <span>Appointment reminder</span> <span>Invoice</span>
+                                    <span>Administrative</span>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-4 mt-3">
+                                    <h6 class="px-2 text-nowrap mb-2">Notification support.</h6>
+                                    <div class="row">
+                                        <div class="col-12 d-flex align-item-center justify-content-between mt-2 ">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="mail"
+                                                    value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Mail
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="sms"
+                                                    value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    SMS
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="app-noti"
+                                                    value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    In-app notification
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
 
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-4 mt-3">
+                                    <h6 class="px-2 text-nowrap">Reminder frequency.</h6>
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 ">
+                                            <div class="mb-3">
+                                                <label for="afterDays" class="form-label">After</label>
+                                                <input type="number" name="afterDays" class="form-control"
+                                                    id="afterDays" placeholder="days">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4 ">
+                                            <div class="mb-3">
+                                                <label for="everyDays" class="form-label">Every</label>
+                                                <input type="number" name="everyDays" class="form-control"
+                                                    id="everyDays" placeholder=" days">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  align-middle">
+                                <div class="col-12 col-md-7 col-lg-7 mt-3">
+                                    <h6 class="px-2 text-nowrap mb-2">Email notification.</h6>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-6 align-item-center">
+                                            <div class="mb-3 mt-2">
+                                                <label for="object" class="form-label">Object</label>
+                                                <input type="text" class="form-control" id="object"
+                                                    placeholder="">
+                                            </div>
+                                            <div class="mb-3 ">
+                                                <label for="msg1" class="form-label">Message</label>
+                                                <textarea class="form-control text-justify" id="msg1" name="msg1" rows="6" cols="6">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Integer pulvinar
+                                                  </textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-6 mid-msg">
+                                            <div class="mb-3 mt-2  ">
+                                                <div class="row gx-2">
+                                                    <div class="col-12 col-md-6 col-lg-6 ">
+                                                        <strong>Shortcode</strong>
+                                                        <p>{name}
+                                                        </p>
+                                                        <p>{clinic_name}</p>
+                                                        <p>{appointment_date}</p>
+                                                        <p>{appointment_time}</p>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-lg-6">
+                                                        <strong>Description</strong>
+                                                        <p>Patient name
+                                                        </p>
+                                                        <p>Clinic name</p>
+                                                        <p>Appointment date</p>
+                                                        <p>Appointment time</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-5 col-lg-5 mt-3">
+                                    <h6 class="px-2 text-nowrap">SMS notification.</h6>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="mb-3 mt-2">
+                                                <label for="msg2" class="form-label">Message</label>
+                                                <textarea class="form-control text-justify " id="msg1" name="msg2" rows="6" cols="6">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                    Integer pulvinar, orci vitae molestie dapibus,
+                                                  </textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mx-auto">
+                                    <div class="d-grid gap-2 col-12 ">
+                                        <button class="btn btn-primary " type="button">Update</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 bg-white rounded-3">
-                <div class="card p-5  bg-white rounded">
+            <div class="col-12 col-md-3 col-lg-3 chat bg-white rounded-3">
+                <div class="card p-5  py-3 bg-white rounded">
                     <div class="card-header bg-white">
                         <h4 class="text-dark"> Help & Support</h4>
                     </div>

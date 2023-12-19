@@ -4,12 +4,17 @@
         <a href="#" class="navbar-brand ml-5">
     ClinicalD
     </a>
+    <form class="form-inline my-2 my-lg-0 px-3 search-form">
+        <div class="input-icons position-relative align-items-center">
+            <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
+                style="padding-left: 21px"></i>
+            <input class="form-control mx-2 px-5" id="searchInput" type="text" placeholder="Search.." />
+        </div>
+    </form>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    </form>
 
     <div class="collapse navbar-collapse ml-5" id="menu">
         <ul class="navbar-nav">
@@ -64,7 +69,7 @@
                     <i class="fa fa-list" aria-hidden="true"></i> <span class="d-inline-block">Tâches</span>
                 </a>
             </li>
-            <li class="nav-item ml-5">
+            <li class="nav-item ml-lg-5">
                 <a class="nav-link" href="#">
                     <i class="fas fa-eye"></i>
                 </a>
@@ -75,8 +80,9 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
-                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle d-flex align-items-center avatar" href="#"
+                    id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
                     <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
                         height="22" alt="Avatar" loading="lazy" />
                 </a>
