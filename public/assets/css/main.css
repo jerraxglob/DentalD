@@ -238,10 +238,48 @@ upload_dropZone {
 
 .chat {
     /* position: relative; */
-    padding: 127px;
-    padding: 5px;
+    /* padding: 127px;
+    padding: 5px; */
     margin-bottom: 300px;
-    margin-left: 56px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+ul.custom-square {
+    list-style-type: square !important;
+    color: black !important;
+}
+
+ul.custom-square li::marker {
+    color: #0576bd;
+    font-size: 29px;
+}
+
+.custom-square li div {
+    display: flex;
+    align-items: start;
+}
+
+.custom-square span {
+    flex: 1;
+    padding-right: 7px;
+}
+
+.custom-square li:last-child {
+    background-color: white;
+    color: black;
+}
+
+.custom-square input[type="time"] {
+    width: 115px;
+}
+
+.date-input {
+    width: 119px;
+}
+
+.m-g {
+    margin-left: 11px;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,22 +1,11 @@
-/* Bootstrap 5 JS included */
-
 console.clear();
 ("use strict");
-
-// Drag and drop - single or multiple image files
-// https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/
-// https://codepen.io/joezimjs/pen/yPWQbd?editors=1000
 (function () {
     "use strict";
-
-    // Four objects of interest: drop zones, input elements, gallery elements, and the files.
-    // dataRefs = {files: [image files], input: element ref, gallery: element ref}
-
     const preventDefaults = (event) => {
         event.preventDefault();
         event.stopPropagation();
     };
-
     const highlight = (event) => event.target.classList.add("highlight");
 
     const unhighlight = (event) => event.target.classList.remove("highlight");
@@ -144,3 +133,17 @@ console.clear();
         imageUpload(dataRefs);
     };
 })();
+// datepicker
+$(document).ready(function () {
+    $("#startDate").datepicker({
+        format: "yyyy/mm/dd",
+        todayHighlight: true,
+        autoclose: true,
+    });
+
+    $("#endDate").datepicker({
+        format: "yyyy/mm/dd",
+        todayHighlight: true,
+        autoclose: true,
+    });
+});

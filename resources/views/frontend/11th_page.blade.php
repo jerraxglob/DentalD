@@ -2,7 +2,7 @@
 @section('content')
     <div class="container-fluid py-5">
         <div class="row d-flex align-items-center position-relative">
-            <div class="col-md-8 col-lg-8 col-12 gx-3 gx-md-5 py-3 rounded-3 bg-white">
+            <div class="col-md-8 col-lg-8 col-12 gx-3 gx-md-5 py-3 mx-auto rounded-3 bg-white">
                 <h5 class="py-2">Settings.</h5>
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -66,7 +66,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-12 text-center">
                                         <div class="d-grid gap-2">
-                                            <button class="btn btn-primary" type="button">Import a new photo</button>
+                                            <button class="btn btn-info" type="button">Import a new photo</button>
 
                                         </div>
                                     </div>
@@ -75,7 +75,7 @@
                         </div>
                         <div
                             class="card-body mt-4 "style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    border-bottom: 2px solid grey;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                border-bottom: 2px solid grey;">
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="d-flex justify-content-start mb-3 mt-2">
@@ -368,7 +368,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-12 text-center">
                                         <div class="d-grid ">
-                                            <button class="btn  btn-sm btn-primary" type="button">Add new user</button>
+                                            <button class="btn  btn-sm btn-info" type="button">Add new user</button>
                                         </div>
                                     </div>
                                 </div>
@@ -555,7 +555,433 @@
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-3" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-3">
-                        tab3
+                        <div class="container-fluid">
+                            <form action="" method="">
+                                <div class="row align-middle">
+                                    <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
+                                        <strong>Clinic opening hours.</strong>
+                                        <p class="mt-2">Set the clinic’s opening hours. By default, these hours apply to
+                                            all
+                                            practitioners. You can define the opening hours for each practitioner
+                                            in the “Practitioner schedule” section below.</p>
+                                        <ul class="custom-square">
+                                            <li>
+                                                <div>
+                                                    <span>Monday:</span>
+                                                    <input type="time" id="mon-start" class="form-control text-nowrap"
+                                                        name="mon-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="mon-end" class="form-control text-nowrap"
+                                                        name="mon-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Tuesday:</span>
+                                                    <input type="time" id="tues-start"
+                                                        class="form-control text-nowrap" name="tues-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="tues-end" class="form-control text-nowrap"
+                                                        name="tues-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div>
+                                                    <span>Thursday:</span>
+                                                    <input type="time" id="thurs-start"
+                                                        class="form-control text-nowrap" name="thurs-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="thurs-end" class="form-control text-nowrap"
+                                                        name="thurs-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Friday:</span>
+                                                    <input type="time" id="fri-start" class="form-control text-nowrap"
+                                                        name="fri-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="fri-end" class="form-control text-nowrap"
+                                                        name="fri-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Saturday:</span>
+                                                    <input type="time" id="sat1-start"
+                                                        class="form-control text-nowrap" name="sat1-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="sat1-end" class="form-control text-nowrap"
+                                                        name="sat1-end">
+                                                    <input type="time" id="sat2-start"
+                                                        class="m-g form-control text-nowrap" name="sat2-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="sat2-end" class="form-control text-nowrap"
+                                                        name="sat2-end">
+                                                    <span class="text-danger px-2"> X</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Sunday:</span>
+
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
+                                        <strong>Closing.</strong>
+                                        <div class="row mt-2">
+                                            <div class="mb-3 px-3">
+                                                <label for="startDate">Start Date:</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-calendar-alt"></i></span>
+                                                    </div>
+                                                    <input type="text" class="form-control date-input"
+                                                        name="startDate" id="startDate" placeholder="07/09/2023">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-4">
+                                                <div class="mb-3">
+                                                    <label for="endDate">End Date:</label>
+                                                    <div class="input-group bg-white">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text"><i
+                                                                    class="fas fa-calendar-alt bg-white"></i></span>
+                                                        </div>
+                                                        <input type="text" class="form-control date-input"
+                                                            name="endDate" id="endDate" placeholder="07/09/2023">
+                                                        <span class="text-danger px-2"> x </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        name="emer_open" id="emer_open">
+                                                    <label class="form-check-label" for="emer_open">
+                                                        Emergency slots remain open
+                                                    </label>
+                                                </div>
+                                                <div class="col-12 mt-2">
+                                                    <button type="button" class="btn btn-info px-2 btn-sm">Add
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2 align-middle">
+                                    <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
+                                        <strong>Emergency slots.</strong>
+                                        <ul class="custom-square">
+                                            <li>
+                                                <div>
+                                                    <span>Monday:</span>
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Tuesday:</span>
+                                                    <input type="time" id="emer-tues-start"
+                                                        class="form-control text-nowrap" name="tues-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="emer-tues-end"
+                                                        class="form-control text-nowrap" name="tues-end">
+                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Wednesday:</span>
+                                                    <input type="time" id="emer-tues-start"
+                                                        class="form-control text-nowrap" name="emer-wed-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="emer-wed-end"
+                                                        class="form-control text-nowrap" name="emer-wed-end">
+                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div>
+                                                    <span>Thursday:</span>
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Friday:</span>
+                                                    <input type="time" id="emer-fri-start"
+                                                        class="form-control text-nowrap" name="fri-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="emer-fri-end"
+                                                        class="form-control text-nowrap" name="emer-fri-end">
+                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Saturday:</span>
+
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Sunday:</span>
+
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
+                                        <strong>Time slot.</strong><br>
+                                        <small>Define the duration of each reservation slot.</small>
+                                        <div class="row mt-2">
+                                            <div class="col-12 col-md-4 col-lg-4">
+                                                <div class="mb-3 px-3">
+                                                    <label for="startDate">Dentist</label>
+                                                    <input type="number" class="form-control date-input"
+                                                        name="duration-start" id="duration-start" placeholder="Min"
+                                                        min="0">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 col-md-4 col-lg-4">
+                                                <div class="mb-3">
+                                                    <label for="endDate">Hygienist</label>
+                                                    <input type="number" class="form-control date-input"
+                                                        name="duration-end" id="duration-end" placeholder="Min"
+                                                        min="0">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row align-middle">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
+                                        <button class="btn btn-info  btn-sm" type="button">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <br> <br>
+                        <div class="container">
+                            <form action="" method="">
+                                <div class="row align-middle">
+                                    <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
+                                        <strong>Specialist schedules.</strong><br>
+                                        <span class="mt-2">Specialist</span><br>
+                                        <div class="btn-group mt-2">
+                                            <button
+                                                class="btn btn-outline-secondary bg-white text-dark btn-sm dropdown-toggle"
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Specialist n°1
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li
+                                                    </ul>
+                                        </div>
+                                        <div class="row mt-2 align-middle">
+                                            <div class="col col-md-12 col-lg-12 d-flex align-items-center align-middle">
+                                                <span>Planning:</span> <span class="text-danger">x</span>
+                                                <span>Hygienist</span>
+                                                <a href="#" class="btn btn-sm btn-info ml-4 text-end">Add</a>
+                                            </div>
+                                        </div>
+                                        <ul class="custom-square">
+                                            <li>
+                                                <div>
+                                                    <span>Monday:</span>
+                                                    <input type="time" id="Specialist1-mon-start"
+                                                        class="form-control text-nowrap" name="mon-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist1-mon-end"
+                                                        class="form-control text-nowrap" name="mon-end">
+                                                    <a href="#" class="btn btn-sm ml-4 btn-info px-1">Add</a>
+                                                </div>
+
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Tuesday:</span>
+                                                    <input type="time" id="Specialist2-tues-start"
+                                                        class="form-control text-nowrap" name="Specialist2-tues-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist2-tues-end"
+                                                        class="form-control text-nowrap" name="Specialist2-tues-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Wednesday:</span>
+                                                    <input type="time" id="Specialist3-wed-start"
+                                                        class="form-control text-nowrap" name="Specialist3-wed-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist3-wed-end"
+                                                        class="form-control text-nowrap" name="Specialist3-wed-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div>
+                                                    <span>Thursday:</span>
+                                                    <input type="time" id="Specialist4-thurs-start"
+                                                        class="form-control text-nowrap" name="Specialist4-thurs-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist4-thurs-end"
+                                                        class="form-control text-nowrap" name="Specialist4-thurs-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Friday:</span>
+                                                    <input type="time" id="Specialist5-fri-start"
+                                                        class="form-control text-nowrap" name="Specialist5-fri-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist5-fri-end"
+                                                        class="form-control text-nowrap" name="Specialist5-fri-end">
+                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Saturday:</span>
+                                                    <input type="time" id="Specialist6-sat1-start"
+                                                        class="form-control text-nowrap" name="Specialist6-sat1-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist6-sat1-end"
+                                                        class="form-control text-nowrap" name="sat1-end">
+                                                    <input type="time" id="Specialist6-sat2-start"
+                                                        class="m-g form-control text-nowrap"
+                                                        name="Specialist6-sat2-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="Specialist6-sat2-end"
+                                                        class="form-control text-nowrap" name="Specialist6-sat2-end">
+                                                    <span class="text-danger px-2"> X </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <span>Sunday:</span>
+
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
+                                        <strong>Vacation.</strong>
+                                        <div class="row mt-2 align-middle">
+                                            <div class="col-12 col-md-4 col-lg-4 align-middle">
+                                                <div class="mb-3 px-3">
+                                                    <label for="startDate">Start Date:</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text"><i
+                                                                    class="fas fa-calendar-alt"></i></span>
+                                                        </div>
+                                                        <input type="text" class="form-control date-input"
+                                                            name="startDate" id="startDate" placeholder="07/09/2023">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-4 align-middle">
+                                                <div class="mb-3">
+                                                    <label for="endDate">End Date:</label>
+                                                    <div class="input-group bg-white">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text"><i
+                                                                    class="fas fa-calendar-alt bg-white"></i></span>
+                                                        </div>
+                                                        <input type="text" class="form-control date-input"
+                                                            name="endDate" id="endDate" placeholder="07/09/2023">
+                                                        <span class="text-danger px-2"> x </span>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 col-lg-4 align-items-center align-middle">
+                                                <div class="mb-3">
+                                                    <label for="vaction">Type of vacation</label>
+                                                    <div class="input-group bg-white">
+                                                        <input type="text" class="form-control date-input"
+                                                            name="vaction" id="vaction" placeholder="">
+                                                        <span class="text-danger px-2"> x </span>
+                                                    </div>
+
+                                                </div>
+                                                <a href="#" class="btn btn-info btn-sm"> Add</a>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3 align-middle">
+                                            <div class="col-12 col-md-12 col-lg-12 align-middle">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr> <b>Vacation history.</b> <span>(Last 12 months)</span></tr>
+                                                        <tr>
+                                                            <th scope="col">Starting date</th>
+                                                            <th scope="col">End date</th>
+                                                            <th scope="col">Duration</th>
+                                                            <th scope="col">Type of vacation</th>
+                                                            <th scope="col">Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>07/09/2023</td>
+                                                            <td>07/09/2023</td>
+                                                            <td>12 days</td>
+                                                            <td>Paid</td>
+                                                            <td>Completed</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>07/09/2023</td>
+                                                            <td>07/09/2023</td>
+                                                            <td>12 days</td>
+                                                            <td>Paid</td>
+                                                            <td>Completed</td>
+                                                        </tr>
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
+                                        <button class="btn btn-info  btn-sm" type="button">Save</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
                     </div>
                     <div class="tab-pane fade  " id="ex-with-icons-tabs-5" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-5">
@@ -572,7 +998,8 @@
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-12 text-center">
                                         <div class="d-grid ">
-                                            <button class="btn  btn-sm btn-primary" type="button">Add supplier</button>
+                                            <button class="btn  btn-sm btn-info ml-4" type="button">Add
+                                                supplier</button>
                                         </div>
                                     </div>
                                 </div>
@@ -756,7 +1183,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-12 text-center">
                                         <div class="d-grid ">
-                                            <a href="#" class="btn  btn-sm btn-primary">Add new category</a>
+                                            <a href="#" class="btn  btn-sm btn-info">Add new category</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1008,25 +1435,7 @@
 
                             </div>
                         </div>
-                        <div class="row d-flex justify-content-end pr-4">
-                            <nav aria-label="Page navigation example  ">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-7" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-7">
@@ -1148,7 +1557,7 @@
                                 </div>
                                 <div class="row mx-auto">
                                     <div class="d-grid gap-2 col-12 ">
-                                        <button class="btn btn-primary " type="button">Update</button>
+                                        <button class="btn btn-info " type="button">Update</button>
                                     </div>
                                 </div>
                             </div>

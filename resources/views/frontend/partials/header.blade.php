@@ -1,7 +1,5 @@
 <!-- Navbar -->
-
-<div class="navbar navbar-expand-lg navbar-light bg-light border border-2
-        <a href="#" class="navbar-brand ml-5">
+<div class="navbar navbar-expand-lg navbar-light bg-light border border-2" <a href="#" class="navbar-brand ml-5">
     ClinicalD
     </a>
     <form class="form-inline my-2 my-lg-0 px-3 search-form">
