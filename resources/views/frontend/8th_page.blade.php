@@ -1,17 +1,5 @@
 @extends('frontend.partials.main')
 @section('content')
-    {{-- <div class="container  mt-4">
-        <div class="row gap-x-2 d-flex justify-content-center">
-            <div class="col-12 col-md-8 col-lg-8 bg-white p-4">
-
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3 p-4 bg-white">
-                <h5 class="d-flex justify-content-start">Next events.</h5>
-
-            </div>
-        </div>
-    </div> --}}
     <div class="container mt-4 px-4">
         <div class="row gx-5">
             <div class="col-12 col-md-8 col-lg-8">

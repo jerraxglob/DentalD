@@ -75,7 +75,7 @@
                         </div>
                         <div
                             class="card-body mt-4 "style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                border-bottom: 2px solid grey;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    border-bottom: 2px solid grey;">
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="d-flex justify-content-start mb-3 mt-2">
@@ -1325,7 +1325,28 @@
                                     </form>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-12 col-lg-12">
+                            <div
+                                class="col-12 col-md-12 col-lg-12 p-4 align-items-center form-control mb-3 d-flex justify-content-between">
+                                <span>document-name.extension</span>
+                                <span>word</span>
+                                <div class="btn-group">
+                                    <button class="btn btn-white bg-white text-dark btn-sm dropdown-toggle" type="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Category
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li>category1</li>
+                                        <li>category2</li>
+                                    </ul>
+                                </div>
+                                <span>
+                                    <a href="#" class="btn btn-sm btn-info">
+                                        Add
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="col-12 col-md-12 col-lg-12 mt-3">
                                 <table class="table">
                                     <thead>
                                         <tr>

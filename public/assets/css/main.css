@@ -122,6 +122,7 @@ i {
     font-size: small;
 }
 
+
 /* calander css */
 
 .fc .fc-col-header-cell-cushion {
@@ -168,17 +169,20 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     width: 3px;
 }
 
+
 /* Track */
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
+
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
     background: lightskyblue;
 }
+
 
 /* Handle on hover */
 
@@ -196,8 +200,7 @@ upload_dropZone {
     background-color: var(--colorPrimaryPale, #c8dadf);
     outline: 2px dashed var(--colorPrimaryHalf, #c1ddef);
     outline-offset: -12px;
-    transition: outline-offset 0.2s ease-out, outline-color 0.3s ease-in-out,
-        background-color 0.2s ease-out;
+    transition: outline-offset 0.2s ease-out, outline-color 0.3s ease-in-out, background-color 0.2s ease-out;
 }
 
 .upload_dropZone.highlight {
@@ -234,13 +237,14 @@ upload_dropZone {
     margin-top: 18px;
 }
 
+
 /* help support box */
 
 .chat {
-    /* position: relative; */
+    position: relative;
     /* padding: 127px;
     padding: 5px; */
-    margin-bottom: 300px;
+    margin-top: 300px;
     margin-left: 30px;
     margin-right: 30px;
 }
