@@ -1,8 +1,8 @@
 @extends('frontend.partials.main')
 @section('content')
     <div class="container-fluid py-5">
-        <div class="row d-flex align-items-center position-relative">
-            <div class="col-md-8 col-lg-8 col-12 gx-3 gx-md-5 py-3 mx-auto rounded-3 bg-white">
+        <div class="row d-flex  align-items-center justify-content-center position-relative">
+            <div class="col-md-8  col-lg-8 col-12 mt-3 bg-white">
                 <h5 class="py-2">Settings.</h5>
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -36,15 +36,13 @@
                             Documents
                         </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-7" href="#ex-with-icons-tabs-7"
-                            role="tab" aria-controls="ex-with-icons-tabs-7" aria-selected="false">
+                    <li class="nav-item" role="presentation"> <a data-bs-toggle="tab" class="nav-link"
+                            id="ex-with-icons-tab-7" href="#ex-with-icons-tabs-7" role="tab"
+                            aria-controls="ex-with-icons-tabs-7" aria-selected="false">
                             Notifications et reminders
                         </a>
                     </li>
                 </ul>
-                <!-- Tabs navs -->
-                <!-- Tabs content -->
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">
@@ -73,284 +71,227 @@
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="card-body mt-4 "style="
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    border-bottom: 2px solid grey;">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class="d-flex justify-content-start mb-3 mt-2">
-                                        <form action="" method="">
-                                            <h5>General information.</h5>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="clinic_name" for="form3Example1">Clinic name</label>
-                                                        <input type="text" id="clinic_name" name="clinic_name"
-                                                            placeholder="Name" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="phone" for="form3Example2">Phone</label>
-                                                        <input type="text" id="phone" name="phone"
-                                                            placeholder="phone" class="form-control" />
-
-                                                    </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="d-flex justify-content-center mb-3 mt-2">
+                                    <form action="" method="">
+                                        <h5 class="px-2">General information.</h5>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="form3Example1">Clinic name</label>
+                                                <input type="text" id="clinic_name" name="clinic_name" placeholder="Name"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="phone" for="form3Example2">Phone</label>
+                                                <input type="text" id="phone" name="phone" placeholder="phone"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="Email">Email</label>
+                                                <input type="email" id="Email" name="Email" placeholder="email"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col lang_mar">
+                                                <label class="lang" for="lang">Language</label>
+                                                <select class="js-example-basic-multiple form-select p-5 px-6"
+                                                    name="lang[]" multiple="multiple">
+                                                    <option selected value="urdu">Urdu</option>
+                                                    <option value="eng">English</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="address">Address</label>
+                                                <input type="text" id="address" name="address"
+                                                    placeholder="Address" class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="State" for="State">State</label>
+                                                <input type="text" id="State" name="State" placeholder="State"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="npa" for="npa">NPA</label>
+                                                <input type="text" id="npa" name="npa" placeholder="NPA"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="city" for="city">City</label>
+                                                <input type="text" id="city" name="city" placeholder="City"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-5 text-center">
+                                            <div class="col">
+                                                <div class="d-grid ">
+                                                    <button class="btn btn-info" type="button">Update
+                                                        information</button>
                                                 </div>
                                             </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="clinic_name" for="form3Example1">Email</label>
-                                                        <input type="email" id="Email" name="Email"
-                                                            placeholder="email" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col lang_mar">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="lang" for="lang">Language</label>
-                                                        <select class="js-example-basic-multiple form-select p-5 px-6"
-                                                            name="lang[]" multiple="multiple">
-                                                            <option selected value="urdu">Urdu</option>
-                                                            <option value="eng">English</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="clinic_name" for="address">Address</label>
-                                                        <input type="text" id="address" name="address"
-                                                            placeholder="Address" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="State" for="State">State</label>
-                                                        <input type="text" id="State" name="State"
-                                                            placeholder="State" class="form-control" />
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="npa" for="npa">NPA</label>
-                                                        <input type="text" id="npa" name="npa"
-                                                            placeholder="NPA" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="city" for="city">City</label>
-                                                        <input type="text" id="city" name="city"
-                                                            placeholder="City" class="form-control" />
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-5 text-center">
-                                                <div class="col">
-                                                    <div class="d-grid ">
-                                                        <button class="btn btn-info" type="button">Update
-                                                            information</button>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                    </div>
+                                        </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class="form-outline">
-                                        <label class="form-label" for="textAreaExample">Description</label>
-                                        <textarea class="form-control" id="textAreaExample1" rows="8">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="form-outline">
+                                    <label class="form-label" for="textAreaExample">Description</label>
+                                    <textarea class="form-control" id="textAreaExample1" rows="8">
                                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi distinctio consectetur delectus a, itaque sapiente sint eaque aliquam similique in laboriosam fugit alias! Incidunt blanditiis cupiditate delectus eligendi cumque!
                                             </textarea>
-                                        <div class="row mt-4">
-                                            <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Website</label>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="URL">
+                                    <div class="row mt-4">
+                                        <div class="col-12 col-md-6 col-lg-6 mb-2">
+                                            <label for="url" class="form-label">Website</label>
+                                            <input type="text" class="form-control" id="url" name="url"
+                                                placeholder="URL">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 mb-2">
+                                        Social
+                                    </div>
+
+                                    <div class="col-12">
+                                        <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!" role="button">
+                                            <i class="fab fa-facebook text-white"></i>
+                                        </a> <span class="px-1"> Your Facebook profile url</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!" role="button">
+                                            <i class="fab fa-instagram text-white"></i>
+                                        </a>
+                                        <span class="px-1">Your Instagram profile url</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!" role="button">
+                                            <i class="fab fa-linkedin text-white"></i>
+                                        </a> <span class="px-1">Your LinkedIn profile url</span>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-12 col-md-12 col-12">
+                                    <h4 class="text-nowrap  text-start px-2 text-dark mt-2"> Billing and payment methods.
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-12 col-lg-12">
+                                    <form action="" method="">
+                                        <div class="row mb-4 mt-2 d-flex justify-content-center align-items-center">
+                                            <div class="col-12 col-md-2 col-lg-2">
+                                                <label class="clinic_points" for="clinic_points">Clinic
+                                                    points</label>
+                                                <input type="text" id="clinic_points" name="clinic_points"
+                                                    placeholder="points" class="form-control" />
+                                            </div>
+                                            <div class="col-12 col-md-2 col-lg-2">
+                                                <label class="p_points text-nowrap" for="p_points">Private
+                                                    patient points
+                                                </label>
+                                                <input type="text" id="p_points" name="p_points"
+                                                    placeholder="points" class="form-control" />
+                                            </div>
+                                            <div class="col-12 col-md-2 col-lg-2">
+                                                <label class="ins_points" for="ins_points text-nowrap">Insurance
+                                                    points
+                                                </label>
+                                                <input type="text" id="ins_points" name="ins_points"
+                                                    placeholder="points" class="form-control" />
+                                            </div>
+                                            <!-- Fourth Input -->
+                                            <div class="col-12 col-md-2 col-lg-2">
+                                                <label class="Soci_points" for="Soci_points">Social points
+                                                </label>
+                                                <input type="text" id="Soci_points" name="Soci_points"
+                                                    placeholder="points" class="form-control" />
+                                            </div>
+                                            <div class="col-12 col-md-2 col-lg-2">
+                                                <label class="tva_applic" for="tva_applic">TVA applicable
+                                                </label>
+                                                <input type="text" id="tva_applic" name="tva_applic" placeholder="%"
+                                                    class="form-control" />
                                             </div>
                                         </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-12 mb-2">
-                                            Social
-                                        </div>
-
-                                        <div class="col-12">
-                                            <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!"
-                                                role="button">
-                                                <i class="fab fa-facebook text-white"></i>
-                                            </a> <span class="px-1"> Your Facebook profile url</span>
-                                        </div>
-                                        <div class="col-12">
-                                            <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!"
-                                                role="button">
-                                                <i class="fab fa-instagram text-white"></i>
-                                            </a>
-                                            <span class="px-1">Your Instagram profile url</span>
-                                        </div>
-                                        <div class="col-12">
-                                            <a class="btn btn-info btn-sm rounded-circle mb-3" href="#!"
-                                                role="button">
-                                                <i class="fab fa-linkedin text-white"></i>
-                                            </a> <span class="px-1">Your LinkedIn profile url</span>
-                                        </div>
-                                    </div>
-
                                     </form>
                                 </div>
                             </div>
-
-                        </div>
-                        <div class="card-header mt-4">
-                            <div class="container">
-                                <div class="row align-items-center d-flex justify-content-between">
-                                    <div class="col-12 col-md-1 col-lg-1">
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-12">
-                                        <h4 class="text-nowrap text-dark"> Billing and payment methods.</h4>
-                                    </div>
-                                    <div class="col-12 col-md-1 col-lg-1">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-body mt-4">
-                            <div class="row">
+                            <div class="row mb-4 mt-2 ">
                                 <div class="col-12 col-md-12 col-lg-12">
-                                    <div class="d-flex  mb-3 mt-2">
-                                        <form action="" method="">
-                                            <div class="row mb-4 mt-2 d-flex justify-content-between align-items-center">
-                                                <div class="col-12 col-md-1 col-lg-1"></div>
-                                                <div class="col-12 col-md-2 col-lg-2">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="clinic_points" for="clinic_points">Clinic
-                                                            points</label>
-                                                        <input type="text" id="clinic_points" name="clinic_points"
-                                                            placeholder="points" class="form-control" />
-                                                    </div>
-                                                </div>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Date</th>
+                                                    <th scope="col">Payment method</th>
+                                                    <th scope="col">State</th>
+                                                    <th scope="col">Comments</th>
+                                                    <th scope="col">Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td> <a
+                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td> <a
+                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a></td>
+                                                </tr>
 
-                                                <div class="col-12 col-md-2 col-lg-2">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="p_points text-nowrap" for="p_points">Private
-                                                            patient points
-                                                        </label>
-                                                        <input type="text" id="p_points" name="p_points"
-                                                            placeholder="points" class="form-control" />
-                                                    </div>
-                                                </div>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td> <a
+                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a></td>
+                                                </tr>
 
-                                                <div class="col-12 col-md-2 col-lg-2">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="ins_points" for="ins_points text-nowrap">Insurance
-                                                            points
-                                                        </label>
-                                                        <input type="text" id="ins_points" name="ins_points"
-                                                            placeholder="points" class="form-control" />
-                                                    </div>
-                                                </div>
-
-                                                <!-- Fourth Input -->
-                                                <div class="col-12 col-md-2 col-lg-2">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="Soci_points" for="Soci_points">Social points
-                                                        </label>
-                                                        <input type="text" id="Soci_points" name="Soci_points"
-                                                            placeholder="points" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-2 col-lg-2">
-                                                    <div data-mdb-input-init class="form-outline">
-                                                        <label class="tva_applic" for="tva_applic">TVA applicable
-                                                        </label>
-                                                        <input type="text" id="tva_applic" name="tva_applic"
-                                                            placeholder="%" class="form-control" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-1 col-lg-1"></div>
-                                            </div>
-                                            <div class="row mb-4 mt-2 d-flex justify-content-between align-items-center">
-                                                <div class="col-12 col-md-1 col-lg-1"></div>
-
-                                                <div class="col-12 col-md-10 col-lg-10">
-                                                    <table class="table">
-                                                        <thead>
-                                                            <tr>
-                                                                <th scope="col">Date</th>
-                                                                <th scope="col">Payment method</th>
-                                                                <th scope="col">State</th>
-                                                                <th scope="col">Comments</th>
-                                                                <th scope="col">Action</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>12/07/23</td>
-                                                                <td>On site</td>
-                                                                <td>Live</td>
-                                                                <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                                <td> <a
-                                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                            class="fas fa-pencil-alt pr-1"></i>Edit
-                                                                    </a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>12/07/23</td>
-                                                                <td>On site</td>
-                                                                <td>Live</td>
-                                                                <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                                <td> <a
-                                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                            class="fas fa-pencil-alt pr-1"></i>Edit
-                                                                    </a></td>
-                                                            </tr>
-
-                                                            <tr>
-                                                                <td>12/07/23</td>
-                                                                <td>On site</td>
-                                                                <td>Live</td>
-                                                                <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                                <td> <a
-                                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                            class="fas fa-pencil-alt pr-1"></i>Edit
-                                                                    </a></td>
-                                                            </tr>
-
-                                                            <tr>
-                                                                <td>12/07/23</td>
-                                                                <td>On site</td>
-                                                                <td>Live</td>
-                                                                <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                                <td> <a
-                                                                        class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                            class="fas fa-pencil-alt pr-1"></i>Edit
-                                                                    </a></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="mt-2">
-                                                                    <button type="button"
-                                                                        class="btn btn-info">Add</button>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <div class="col-12 col-md-1 col-lg-1"></div>
-                                            </div>
-                                        </form>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td> <a
+                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="mt-2">
+                                                        <button type="button" class="btn btn-info">Add</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
+
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
@@ -1586,123 +1527,122 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 chat bg-white rounded-3">
-                <div class="card p-5  py-3 bg-white rounded">
-                    <div class="card-header bg-white">
-                        <h4 class="text-dark"> Help & Support</h4>
-                    </div>
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <strong class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Getting started
-                                </button>
-                            </strong>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item text-muted">Modify my profile</li>
-                                        <li class="list-group-item text-muted">Add a patient</li>
-                                        <li class="list-group-item text-muted">Calendar</li>
-                                        <li class="list-group-item text-muted">Tools and services</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <strong class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Features
-                                </button>
-                            </strong>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item text-muted">Modify my profile</li>
-                                        <li class="list-group-item text-muted">Add a patient</li>
-                                        <li class="list-group-item text-muted">Calendar</li>
-                                        <li class="list-group-item text-muted">Tools and services</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <strong class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Treatment plans
-                                </button>
-                            </strong>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item text-muted">Modify my profile</li>
-                                        <li class="list-group-item text-muted">Add a patient</li>
-                                        <li class="list-group-item text-muted">Calendar</li>
-                                        <li class="list-group-item text-muted">Tools and services</li>
-                                    </ul>
+            <div class="col-12 col-md-3 col-lg-3 chat  bg-white rounded-3">
+                <div class="card-header bg-white">
+                    <h4 class="text-dark"> Help & Support</h4>
+                </div>
 
-                                </div>
+                <div class="accordion accordion-flush p-2" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <strong class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Getting started
+                            </button>
+                        </strong>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted">Modify my profile</li>
+                                    <li class="list-group-item text-muted">Add a patient</li>
+                                    <li class="list-group-item text-muted">Calendar</li>
+                                    <li class="list-group-item text-muted">Tools and services</li>
+                                </ul>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <strong class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    Recommandations
-                                </button>
-                            </strong>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item text-muted">Modify my profile</li>
-                                        <li class="list-group-item text-muted">Add a patient</li>
-                                        <li class="list-group-item text-muted">Calendar</li>
-                                        <li class="list-group-item text-muted">Tools and services</li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <strong class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                    aria-controls="flush-collapseFive">
-                                    Mobile application
-                                </button>
-                            </strong>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item text-muted">Modify my profile</li>
-                                        <li class="list-group-item text-muted">Add a patient</li>
-                                        <li class="list-group-item text-muted">Calendar</li>
-                                        <li class="list-group-item text-muted">Tools and services</li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="d-grid  text-center">
-                            <button class="btn btn-info" type="button">Contact support</button>
-
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <strong class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Features
+                            </button>
+                        </strong>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted">Modify my profile</li>
+                                    <li class="list-group-item text-muted">Add a patient</li>
+                                    <li class="list-group-item text-muted">Calendar</li>
+                                    <li class="list-group-item text-muted">Tools and services</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <strong class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Treatment plans
+                            </button>
+                        </strong>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted">Modify my profile</li>
+                                    <li class="list-group-item text-muted">Add a patient</li>
+                                    <li class="list-group-item text-muted">Calendar</li>
+                                    <li class="list-group-item text-muted">Tools and services</li>
+                                </ul>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <strong class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Recommandations
+                            </button>
+                        </strong>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted">Modify my profile</li>
+                                    <li class="list-group-item text-muted">Add a patient</li>
+                                    <li class="list-group-item text-muted">Calendar</li>
+                                    <li class="list-group-item text-muted">Tools and services</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <strong class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Mobile application
+                            </button>
+                        </strong>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item text-muted">Modify my profile</li>
+                                    <li class="list-group-item text-muted">Add a patient</li>
+                                    <li class="list-group-item text-muted">Calendar</li>
+                                    <li class="list-group-item text-muted">Tools and services</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="d-grid  text-center pb-4">
+                        <button class="btn btn-info" type="button">Contact support</button>
+
+                    </div>
                 </div>
             </div>
         </div>
-    @endsection
+    </div>
+@endsection
