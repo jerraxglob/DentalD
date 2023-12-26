@@ -127,7 +127,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -138,7 +142,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -149,7 +157,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -160,7 +172,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -171,7 +187,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                     </tbody>
