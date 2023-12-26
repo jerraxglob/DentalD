@@ -92,16 +92,17 @@
         <div class="row d-flex align-items-center">
             <div class="col-md-12 col-lg-12 gx-3 gx-md-5 py-3 rounded-3 bg-white">
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+                    <button class="bg-white custom-btn text-dark" onclick="prevTab()"></button>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link " id="ex-with-icons-tab-1" href="#ex-with-icons-tabs-1"
+                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-1" href="#ex-with-icons-tabs-1"
                             role="tab" aria-controls="ex-with-icons-tabs-1" aria-selected="true">
                             Photographies
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link " id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
+                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2" href="#ex-with-icons-tabs-2"
                             role="tab" aria-controls="ex-with-icons-tabs-2" aria-selected="false">
-                            Invoincing
+                            Invoicing
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
@@ -112,12 +113,14 @@
                         </a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a data-bs-toggle="tab" class="nav-link " id="ex-with-icons-tab-4" href="#ex-with-icons-tabs-4"
+                        <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-4" href="#ex-with-icons-tabs-4"
                             role="tab" aria-controls="ex-with-icons-tabs-4" aria-selected="false">
                             Consultation
                         </a>
                     </li>
+                    <button class="bg-white custom-btn text-dark" onclick="nextTab()"></button>
                 </ul>
+
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">
@@ -500,4 +503,22 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function nextTab() {
+            const activeTab = $('.nav-tabs .nav-link.active');
+            const nextTab = activeTab.parent().next().find('a');
+            if (nextTab.length > 0) {
+                nextTab.tab('show');
+            }
+        }
+
+        function prevTab() {
+            const activeTab = $('.nav-tabs .nav-link.active');
+            const prevTab = activeTab.parent().prev().find('a');
+            if (prevTab.length > 0) {
+                prevTab.tab('show');
+            }
+        }
+    </script>
 @endsection

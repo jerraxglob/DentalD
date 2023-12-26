@@ -55,6 +55,33 @@ i {
     font-size: 12px;
 }
 
+/* tabe next and previous button */
+
+.custom-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    position: relative;
+}
+
+.custom-btn::before {
+    content: "<";
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 5px;
+    display: inline-block;
+    padding: 3px 11px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .thin-arrow {
     font-size: 12px;
     line-height: 1;

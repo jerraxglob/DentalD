@@ -23,23 +23,23 @@ class DentalController extends Controller
     }
     public function orders()
     {
-        return view('frontend.6th_page');
+        return view('frontend.order');
     }
     public function Patient_list()
     {
-        return view('frontend.7th_page');
+        return view('frontend.patients');
     }
     public function calander()
     {
-        return view('frontend.8th_page');
+        return view('frontend.calander');
     }
     public function assigned_tasks()
     {
-        return view('frontend.9th_page');
+        return view('frontend.tasks');
     }
-    public function Invoicing()
+    public function invoicing()
     {
-        return view('frontend.10th_page');
+        return view('frontend.invoicing');
     }
     public function setting()
     {

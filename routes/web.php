@@ -22,9 +22,9 @@ Route::get('/', function () {
 route::get('/dashboard', [DentalController::class, 'dashboard'])->name('dashboard');
 route::get('/statistics', [DentalController::class, 'statistics'])->name('statistics');
 route::get('/inventory', [DentalController::class, 'inventory'])->name('inventory');
-route::get('/6th_page', [DentalController::class, 'orders'])->name('6th_page');
-route::get('/7th_page', [DentalController::class, 'Patient_list'])->name('7th_page');
-route::get('/8th_page', [DentalController::class, 'calander'])->name('8th_page');
-route::get('/9th_page', [DentalController::class, 'assigned_tasks'])->name('9th_page');
-route::get('/10th_page', [DentalController::class, 'Invoicing'])->name('10th_page');
+route::get('/order', [DentalController::class, 'orders'])->name('order');
+route::get('/Patients', [DentalController::class, 'Patient_list'])->name('Patients');
+route::get('/calendar', [DentalController::class, 'calander'])->name('calander');
+route::get('/tasks', [DentalController::class, 'assigned_tasks'])->name('tasks');
+route::get('/invoicing', [DentalController::class, 'invoicing'])->name('invoicing');
 route::get('/11th_page', [DentalController::class, 'setting'])->name('11th_page');
