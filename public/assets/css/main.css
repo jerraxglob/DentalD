@@ -206,6 +206,9 @@ upload_dropZone {
     outline-color: var(--colorPrimaryNormal, #0576bd);
     background-color: var(--colorPrimaryEighth, #c8dadf);
 }
+.w-full{
+    width: 100% !important;
+}
 
 .upload_svg {
     fill: var(--colorPrimaryNormal, #0576bd);
