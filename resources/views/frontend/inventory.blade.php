@@ -1,6 +1,59 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container-fluid">
+<div class="modal fade" id="Stock_modification" tabindex="-1" aria-labelledby="Stock_modification" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header  d-flex justify-content-center align-items-center">
+                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Stock modification</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form role="form" method="POST" action="">
+                        <div class="row mb-3">
+                            <p>You have changed the product stock.
+Check the quantity entered, select a reason and specify the reason for the change</p>
+                            <div class="col-md-4">
+                                <label for="date" class="form-label">Actual stock</label>
+                                <input type="number" class="form-control form-control-sm" id="Actual_stock" name="Actual_stock">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="Modification " class="form-label">Modification </label>
+                                <input type="text" class="form-control form-control-sm" id="Modification " name="Modification "
+                                    placeholder="Nom du Modification ">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="Limit" class="form-label">Limit</label>
+                                <input type="number" class="form-control form-control-sm" id="Limit"
+                                    name="Limit" placeholder="8277t3d">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="Reason" class="form-label">Reason</label>
+                                <input type="text" class="form-control form-control-sm" id="Reason" name="Reason"
+                                    placeholder="Type d’assurance">
+                            </div>
+                            <div class="col-md-8">
+                                <label for="Comment" class="form-label">Comment</label>
+                                <input type="text" class="form-control form-control-sm" id="Comment"
+                                    name="Comment">
+                            </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <div class="d-grid  col-md-6 d-flex justify-content-center w-full">
+                                <button type="submit" class="btn btn-info btn-sm text-white">Confirm modification</button>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-lg-8">
                 <div class="container rounded-3 mt-5">
@@ -59,7 +112,11 @@
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 rounded-pill">Edit</button>
+                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#Stock_modification">
+                                        Edit
+                                    </button>
+
                                             </td>
                                         </tr>
                                         <tr>
