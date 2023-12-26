@@ -16,12 +16,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.1st_page');
+    return view('frontend.fiche_patient');
 });
 
-route::get('/3rd_page', [DentalController::class, 'doctor_profile'])->name('3rd_page');
-route::get('/4th_page', [DentalController::class, 'Financial_report'])->name('4th_page');
-route::get('/5th_page', [DentalController::class, 'Stock_management'])->name('5th_page');
+route::get('/dashboard', [DentalController::class, 'dashboard'])->name('dashboard');
+route::get('/statistics', [DentalController::class, 'statistics'])->name('statistics');
+route::get('/inventory', [DentalController::class, 'inventory'])->name('inventory');
 route::get('/6th_page', [DentalController::class, 'orders'])->name('6th_page');
 route::get('/7th_page', [DentalController::class, 'Patient_list'])->name('7th_page');
 route::get('/8th_page', [DentalController::class, 'calander'])->name('8th_page');

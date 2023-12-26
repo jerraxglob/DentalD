@@ -6,25 +6,20 @@ use Illuminate\Http\Request;
 
 class DentalController extends Controller
 {
-    public function patient_profile()
+
+    public function dashboard()
     {
 
-        return view('frontend.1st_page');
+        return view('frontend.dashboard');
     }
-    public function doctor_profile()
+    public function statistics()
     {
-
-
-        return view('frontend.3rd_page');
+        return view('frontend.statistics');
     }
-    public function Financial_report()
-    {
-        return view('frontend.4th_page');
-    }
-    public function Stock_management()
+    public function Inventory()
     {
 
-        return view('frontend.5th_page');
+        return view('frontend.inventory');
     }
     public function orders()
     {

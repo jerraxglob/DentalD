@@ -141,32 +141,26 @@
                                 </div>
                             </div>
 
-                            <div class="container mx-auto task-sm">
-                                <div
-                                    class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center rounded-3 bg-white mt-4">
-                                    <div class="row">
-                                        <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                                            <h5 class="py-2">Task management</h5>
-                                            <a href="#" class="text-decoration-none text-info text-end py-2">+ New
-                                                ticket</a>
-                                        </div>
+                            <div class="container  task-sm">
+                                <div class="row d-flex align-items-center ">
+                                    <div
+                                        class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-3 d-flex justify-content-between rounded-3 bg-white mt-4">
+                                        <h5 class="py-2">Task management</h5>
+                                        <a href="#" class="text-decoration-none text-info py-2">+ New
+                                            ticket</a>
+                                        <h6>
+                                            <i class="fas fa-user px-2"></i> Everybody
+                                            <i class='fas fa-angle-down thin-arrow p-3'></i>
+                                        </h6>
+                                        <a href="#" class="btn btn-sm btn-white border border-dark w-10 h-60">
+                                            Add filter <i class="fas fa-bars mr-3"></i>
+                                        </a>
                                     </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-end align-items-center">
-                                            <h6>
-                                                <i class="fas fa-user px-2"></i> Everybody
-                                                <i class='fas fa-angle-down thin-arrow p-3'></i>
-                                            </h6>
-                                            <button type="button"
-                                                class="btn btn-sm btn-white border border-dark w-10 h-60">
-                                                Add filter <i class="fas fa-bars mr-3"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-end align-items-center">
+                                </div>
+                                <div class="row">
+                                    <div
+                                        class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-center align-items-center">
+                                        <div class="table-responsive">
                                             <table class="table table-hover">
                                                 <thead>
                                                     <tr>
@@ -362,16 +356,17 @@
                                                     <tr>
                                                         <td></td>
                                                         <td>
-                                                            <div class="d-grid align-items-center  py-4 mb-2">
-                                                                <button class="btn btn-primary" type="button">
-                                                                    View all tasks</button>
-                                                            </div>
+                                                            <a href="#" class="btn btn-info btn-sm">
+                                                                View all tasks</a>
                                                         </td>
+                                                        <td></td>
+                                                        <td></td>
                                                         <td></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -507,8 +502,7 @@
 
                             </div>
                         </div>
-                        <!-- Important Communication Section -->
-                        <div class="row d-flex stock-sm justify-content-center align-items-center">
+                        <div class="row mt-5 d-flex stock-sm justify-content-center align-items-center">
                             <div class="col-md-10 py-3">
                                 <h4 class="text-nowrap">Important communication.</h4>
                             </div>
@@ -520,90 +514,93 @@
                         <!-- Table Section -->
                         <div class="row d-flex stock-sm justify-content-center align-items-center">
                             <div class="col-md-12">
-                                <table class="table stock-sm table-borderless">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" class="text-white">Date</th>
-                                            <th scope="col" class="text-white">Object</th>
-                                            <th></th>
-                                            <th></th>
-                                            <th scope="col" class="text-white">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                                <div class="table-responsive">
+                                    <table class="table stock-sm table-borderless">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="text-white">Date</th>
+                                                <th scope="col" class="text-white">Object</th>
+                                                <th></th>
+                                                <th></th>
+                                                <th scope="col" class="text-white">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
 
-                                        <tr class="col-with-line">
-                                            <td class="text-white">12/07/23</td>
-                                            <td class="text-white text-nowrap">Change of regulations …</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-3">
-                                                    <input type="text"
-                                                        class="form-control float-left form-control-sm dark-input"
-                                                        name="name" id="name" placeholder="Draft"
-                                                        aria-describedby="emailHelp">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="col-with-line">
-                                            <td class="text-white">12/07/23</td>
-                                            <td class="text-white text-nowrap">Change of regulations …</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-3">
-                                                    <input type="text"
-                                                        class="form-control float-left form-control-sm dark-input"
-                                                        name="name" id="name" placeholder="Draft"
-                                                        aria-describedby="emailHelp">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="col-with-line">
-                                            <td class="text-white">12/07/23</td>
-                                            <td class="text-white text-nowrap">Change of regulations …</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-3">
-                                                    <input type="text"
-                                                        class="form-control float-left form-control-sm dark-input"
-                                                        name="name" id="name" placeholder="Draft"
-                                                        aria-describedby="emailHelp">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="col-with-line">
-                                            <td class="text-white">12/07/23</td>
-                                            <td class="text-white text-nowrap">Change of regulations …</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-3">
-                                                    <input type="text"
-                                                        class="form-control float-left form-control-sm dark-input"
-                                                        name="name" id="name" placeholder="Draft"
-                                                        aria-describedby="emailHelp">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr class="col-with-line">
-                                            <td class="text-white">12/07/23</td>
-                                            <td class="text-white text-nowrap">Change of regulations …</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>
-                                                <div class="mb-3">
-                                                    <input type="text"
-                                                        class="form-control float-left form-control-sm dark-input"
-                                                        name="name" id="name" placeholder="Draft"
-                                                        aria-describedby="emailHelp">
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            <tr class="col-with-line">
+                                                <td class="text-white">12/07/23</td>
+                                                <td class="text-white text-nowrap">Change of regulations …</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="mb-3">
+                                                        <input type="text"
+                                                            class="form-control float-left form-control-sm dark-input"
+                                                            name="name" id="name" placeholder="Draft"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="col-with-line">
+                                                <td class="text-white">12/07/23</td>
+                                                <td class="text-white text-nowrap">Change of regulations …</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="mb-3">
+                                                        <input type="text"
+                                                            class="form-control float-left form-control-sm dark-input"
+                                                            name="name" id="name" placeholder="Draft"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="col-with-line">
+                                                <td class="text-white">12/07/23</td>
+                                                <td class="text-white text-nowrap">Change of regulations …</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="mb-3">
+                                                        <input type="text"
+                                                            class="form-control float-left form-control-sm dark-input"
+                                                            name="name" id="name" placeholder="Draft"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="col-with-line">
+                                                <td class="text-white">12/07/23</td>
+                                                <td class="text-white text-nowrap">Change of regulations …</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="mb-3">
+                                                        <input type="text"
+                                                            class="form-control float-left form-control-sm dark-input"
+                                                            name="name" id="name" placeholder="Draft"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="col-with-line">
+                                                <td class="text-white">12/07/23</td>
+                                                <td class="text-white text-nowrap">Change of regulations …</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="mb-3">
+                                                        <input type="text"
+                                                            class="form-control float-left form-control-sm dark-input"
+                                                            name="name" id="name" placeholder="Draft"
+                                                            aria-describedby="emailHelp">
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
                             </div>
                         </div>
 
@@ -617,7 +614,6 @@
                 </div>
             </div>
         </div>
-
         <div class="">
             <div class="row">
                 <div class="col-md-12 col-lg-12 bg-color ">
@@ -686,13 +682,11 @@
                                         </ul>
                                     </div>
                                     <!-- Tabs content -->
-
                                     <div class="tab-content" id="ex-with-icons-content">
                                         <div
                                             class="col-md-12  col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
                                             <div class="tab-pane fade show active" id="ex-with-icons-tabs-1"
                                                 role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
-
                                                 <div class="table-responsive">
                                                     <table class="table table-borderless ">
                                                         <thead>
@@ -719,8 +713,8 @@
                                                                 <td>Reason for visit</td>
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
-                                                                <td><button type="button"
-                                                                        class="btn btn-info rounded-pill btn-sm">View</button>
+                                                                <td><a href="#"
+                                                                        class="btn btn-info  rounded-pill btn-sm">View</a>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -765,8 +759,9 @@
 
                             </div>
                         </div>
-                        <br>
-                        <div class="row cons-sm mx-auto align-items-center rounded-3 justify-content-center bg-white p-3">
+
+                        <div
+                            class="row cons-sm mx-auto mt-4 align-items-center rounded-3 justify-content-center bg-white p-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="row">
                                     <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">

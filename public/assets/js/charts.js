@@ -248,6 +248,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     },
                 },
             },
+            plugins: {
+                legend: {
+                    position: 'bottom', // Set legend position to bottom
+                },
+            },
         },
     };
 
@@ -276,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
         labels: labels,
         datasets: [
             {
-                label: "Treatment category 1",
+                label: "Category 1",
                 data: [260, 370, 342],
                 backgroundColor: "blue",
                 borderColor: "blue",
@@ -284,7 +289,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tension: 0.1,
             },
             {
-                label: "Treatment category 2",
+                label: "Category 2",
                 data: [234, 245, 106, 108],
                 backgroundColor: "grey",
                 borderColor: "grey",
@@ -292,7 +297,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tension: 0.1,
             },
             {
-                label: "Treatment category 3",
+                label: "Category 3",
                 data: [1000, 2000, 3000, 4000, 5000],
                 backgroundColor: "yellow",
                 borderColor: "yellow",
@@ -300,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 tension: 0.1,
             },
             {
-                label: "Treatment category 4",
+                label: "Category 4",
                 data: [4000, 1000, 6000, 2000, 4000],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
@@ -326,6 +331,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
+                },
+            },
+            plugins: {
+                legend: {
+                    position: 'bottom', // Set legend position to bottom
                 },
             },
         },
@@ -406,6 +416,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
+                },
+            },
+            plugins: {
+                legend: {
+                    position: 'bottom', // Set legend position to bottom
                 },
             },
         },
@@ -552,6 +567,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
+                    position: 'bottom',
                 },
                 datalabels: {
                     anchor: "end",

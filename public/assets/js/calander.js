@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             customButton: {
                 text: "Add New Event",
                 click: function () {
-                    alert("Add new event");
+                    $("#exampleModal").modal("show");
                 },
             },
         },

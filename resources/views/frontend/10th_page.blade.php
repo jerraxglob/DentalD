@@ -57,11 +57,11 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-3 bg-color">
+        <div class="row align-items-center mt-3 bg-white">
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Sales.</h5>
+                        <h5 class="card-title py-2">Sales.</h5>
                         <strong class="card-text fs-2">CHF XXXX.-</strong><br>
                         <span class="text-success text-nowrap">3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -75,7 +75,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Laboratry.</h5>
+                        <h5 class="card-title py-2">Laboratry.</h5>
                         <strong class="card-text fs-2">CHF XXXX.-</strong><br>
                         <span class="text-success">+ 3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -91,8 +91,8 @@
                     <div class="card-body">
                         <div class="row  align-item-center">
                             <div class="col d-flex justify-content-between align-item-center">
-                                <h5 class="card-title">Salary.</h5>
-                                <a href="#" class="text-decoration-none "><i
+                                <h5 class="card-title py-2">Salary.</h5>
+                                <a href="#" class="text-decoration-none py-2 "><i
                                         class='fas fa-pencil-alt text-primary'></i>percentage</a>
                             </div>
                         </div>
@@ -110,7 +110,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Number of patients.</h5>
+                        <h5 class="card-title py-2">Number of patients.</h5>
                         <strong class="card-text fs-2">XXXX</strong><br>
                         <span class="text-success">3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="row gx-5 align-item-center mt-3 bg-color">
+        <div class="row gx-5 align-item-center mt-3 bg-white">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -147,7 +147,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -316,16 +316,11 @@
                                                     reminder</button>
                                             </td>
                                         </tr>
-
                                     </tbody>
                                 </table>
-
                             </div>
-
-                        </div>
-                        <div class=" row bg-white d-flex justify-content-end py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
@@ -344,10 +339,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -439,12 +433,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
-
                             </div>
-                        </div>
-                        <div class=" row bg-white d-flex justify-content-end py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                            <nav aria-label="Page navigation ">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
@@ -463,10 +454,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -645,11 +635,8 @@
                                     </tbody>
                                 </table>
                             </div>
-
-                        </div>
-                        <div class=" row bg-white d-flex justify-content-end py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
@@ -671,7 +658,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -780,11 +767,8 @@
                                     </tbody>
                                 </table>
                             </div>
-
-                        </div>
-                        <div class=" row bg-white d-flex justify-content-end py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
@@ -806,7 +790,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -1096,10 +1080,8 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
-                        <div class=" row bg-white d-flex justify-content-end py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>

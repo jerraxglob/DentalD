@@ -1,20 +1,19 @@
 @extends('frontend.partials.main')
 @section('content')
     <div class="container mt-3">
-        <div class="row p-1 align-items-center rounded mt-3 bg-white">
-            <div class="col-md-3 col-lg-3 ">
+        <div class="row p-1 d-flex align-items-center justify-content-center rounded mt-3 bg-white">
+            <div class="col-md-3 col-lg-3">
                 <h5 class="text-nowrap px-2 py-2 ">Statistics & Financial report</h5>
                 <small class="px-2">Data for CHD clinic</small>
             </div>
-            <div class=" col-12 col-md-3 col-lg-3">
+            <div class=" col-12 col-md-3 col-lg-3 text-center mt-2">
                 <button class="btn btn-sm btn-primary mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
                 <button class="btn btn-sm btn-primary me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
                     report</button>
             </div>
-            <div class=" col-12 col-md-2 col-lg-2">
+            <div class=" col-12 col-md-2 col-lg-2 text-center">
                 <div class="btn-group">
-                    <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                    <button class="btn btn-white btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas fa-user"></i> Every specialist
                     </button>
                     <ul class="dropdown-menu">
@@ -26,7 +25,7 @@
                     </ul>
                 </div>
             </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2">
+            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center">
                 <span class="px-1">Period</span>
                 <div class=" px-1 btn-group">
                     <button class="btn btn-white border px-2 border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
@@ -42,8 +41,8 @@
                     </ul>
                 </div>
             </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2">
-                <span class="px-1"> Vs </span>
+            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center">
+                <span class="px-2"> Vs </span>
                 <div class="btn-group px-1">
                     <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -57,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-3 bg-color">
+        <div class="row align-items-center mt-3 bg-white">
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
@@ -89,7 +88,7 @@
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Spending.</b></h5>
+                        <h5 class="card-title"><b>Number of patient.</b></h5>
                         <strong class="card-text fs-2">CHF 20 000.-</strong><br>
                         <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -102,7 +101,7 @@
             </div>
 
         </div>
-        <div class="row align-items-center mt-3 bg-color">
+        <div class="row align-items-center mt-3 bg-white">
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
@@ -137,8 +136,8 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-nowrap"><b>Number of
-                                appointments cancelled.</b></h5>
+                        <h6 class="card-title text-nowrap"><b>Number of appointments cancelled.</b>
+                        </h6>
                         <strong class="card-text fs-2">30 <i class="fas px-3 fa-times text-muted"></i>
                         </strong><br>
                         <span class="text-success text-nowrap py-1">-10compared to the period</span> <br>
@@ -168,7 +167,7 @@
             </div>
 
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white">
@@ -181,7 +180,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3  bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white">
@@ -194,7 +193,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -204,7 +203,7 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <table class="table table-borderless table">
+                        <table class="table table-responsive table-borderless table">
                             <thead>
                                 <tr class="">
                                     <th scope="col">ID</th>
@@ -218,7 +217,7 @@
                             <tbody>
                                 <tr>
                                     <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
+                                    bg-whiteem ip bg-white si amet</td>
                                     <td>320</td>
                                     <td>
                                         320
@@ -321,7 +320,7 @@
 
             </div>
         </div>
-        <div class="row gx-5 align-item-center mt-3 bg-color">
+        <div class="row gx-5 align-item-center mt-3 bg-white">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
@@ -345,7 +344,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-color">
+        <div class="row align-item-center mt-3 bg-white">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -441,7 +440,7 @@
 
             </div>
         </div>
-        <div class="row gx-5 align-item-center mt-3 bg-color">
+        <div class="row gx-5 align-item-center mt-3 bg-white">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
@@ -465,14 +464,13 @@
 
             </div>
         </div>
-        <div class="row align-items-center mt-3 bg-color">
+        <div class="row align-items-center mt-3 bg-white">
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Patients undergoing treatment.</b></h5>
                         <strong class="card-text fs-2">1 000</strong><br>
-                        <span class="text-success py-1">+ 3.49% over the period</span> <br>
-                        <br>
+                        <span class="text-success">+ 3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -511,7 +509,7 @@
             </div>
 
         </div>
-        <div class="row gx-5 align-item-center mt-3 bg-color">
+        <div class="row gx-5 align-item-center mt-3 bg-white">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">

@@ -1,6 +1,6 @@
 @extends('frontend.partials.main')
 @section('content')
-    <div class="container py-5">
+    <div class="container py-5 px-4">
         <div class="row  d-flex align-items-center">
             <div class="col-md-12 col-lg-12 py-2  d-flex justify-content-between bg-white align-items-center ">
                 <h5 class="py-2 ">Patient list</h5>
@@ -39,436 +39,463 @@
                                     <input class="form-control form-control-sm w-50 mx-2 px-5" id="searchInput">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-8 col-lg-8">
+                            <div class="col-sm-12 col-md-7 col-lg-7 d-flex">
                                 <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
                                     plane X</small>
                                 <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
                                     years) </small>
-                                <span> <button type="button" class="btn btn-sm btn-white border border-dark w-10 h-60">
+                                <span class="px-2"> <button type="button"
+                                        class="btn btn-sm btn-white border border-dark w-10 h-60">
                                         Add filter <i class="fas fa-bars mr-3"></i>
                                     </button> </span>
-                                <span class="pl-3"> <button type="button"
-                                        class="btn btn-sm btn-white  border border-dark w-10 h-60">
-                                        Action </i>
-                                    </button></span>
+                                <span class="pl-3 px-2">
+                                    <div class="dropdown">
+                                        <button class="btn btn-sm btn-white  border border-dark w-10 h-60 dropdown-toggle"
+                                            type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Action
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <li><a class="dropdown-item" href="#">Action 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Action 2</a></li>
+
+                                        </ul>
+                                    </div>
+                                </span>
+
                             </div>
                         </div>
-                        <table class="table table-borderless table-responsive">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                        <div class="table-responsive">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                            </label>
-                                        </div>
-                                    </th>
-                                    <th>First name </th>
-                                    <th>Last name </th>
-                                    <th>Birth</th>
-                                    <th>File status </th>
-                                    <th>Last consultation</th>
-                                    <th>Mobile application</th>
-                                    <th>Action</th>
+                                                </label>
+                                            </div>
+                                        </th>
+                                        <th>First name </th>
+                                        <th>Last name </th>
+                                        <th>Birth</th>
+                                        <th>File status </th>
+                                        <th>Last consultation</th>
+                                        <th>Mobile application</th>
+                                        <th>Action</th>
 
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    </td>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        </td>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    </td>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        </td>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
 
-                                    </td>
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
+                                        </td>
 
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    </td>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        </td>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    </td>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        </td>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    </td>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        </td>
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
 
-                                    </td>
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
 
-                                            </label>
-                                    </td>
-                                    <td>Stanley</td>
-                                    <td>Glenn</td>
-                                    <td>23/12/1980</td>
+                                        </td>
 
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Ongoing treatment
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
-
-                                    </td>
-
-                                    <td>
-                                        1 week
-                                    </td>
-                                    <td>
-                                        <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                        </a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class=" row bg-white d-flex justify-content-center py-1">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
+                                                    class="fas fa-pencil-alt pr-1"></i>Edit
+                                            </a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <nav aria-label="Page navigation ">
+                                <ul class="pagination d-flex justify-content-end">
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true">&laquo;</span>
@@ -495,6 +522,5 @@
             </div>
 
         </div>
-
     </div>
 @endsection

@@ -1,10 +1,303 @@
 @extends('frontend.partials.main')
+{{-- modal add new supplier --}}
+<div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header  d-flex justify-content-center align-items-center">
+                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control form-control-sm" id="name" name="name"
+                                value="" placeholder=" Supplier name">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="supp-id" class="form-label">ID</label>
+                            <input type="text" class="form-control form-control-sm" id="supp-id" name="supp-id"
+                                value="" placeholder="supplier ID">
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control form-control-sm" id="address" name="address">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="npa" class="form-label">NPA</label>
+                            <input type="text" class="form-control form-control-sm" id="npa" name="npa">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="country" class="form-label">Country</label>
+                            <input type="text" class="form-control form-control-sm" id="country" name="country">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="phone" class="form-control form-control-sm" id="phone" name="phone">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-sm" id="email" name="email">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="site-web" class="form-label">Site Web</label>
+                            <input type="text" class="form-control form-control-sm" id="site-web" name="site-web">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="deliv-time" class="form-label">Delivery time (average)</label>
+                            <input type="text" class="form-control form-control-sm" id="deliv-time"
+                                name="deliv-time">
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+                        <div class="col-md-4">
+
+                        </div>
+
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="comments" class="form-label">Comments</label>
+                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2"></div>
+                        <div class="d-grid  col-md-6 ">
+                            <button type="submit" class="btn btn-info btn-sm text-white">Add new supplier</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+{{-- payment modal --}}
+<div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header  d-flex justify-content-center align-items-center">
+                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment method
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="pay-method" class="form-label">Payment method</label>
+                            <select class="form-select form-select-sm" name="pay-method"
+                                aria-label=".form-select-sm example">
+                                <option selected>Bank Trasnfer</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="pay-term" class="form-label">Payment terms</label>
+                            <input type="text" class="form-control form-control-sm" id="pay-term"
+                                name="pay-term">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="avai-for" class="form-label">Available for</label>
+                            <input type="text" class="form-control form-control-sm" id="avai-for"
+                                name="avai-for" placeholder="Type of insurance">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-5">
+                            <label for="comments" class="form-label">Comments</label>
+                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="form-check">
+                                <input class="form-check-input" name="post-pay" type="checkbox" value=""
+                                    id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Do not post for delinquent patients.
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" name="act-pay" type="checkbox" value=""
+                                    id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Activate payment method
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2"></div>
+                        <div class="d-grid  col-md-6 ">
+                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+{{-- edit doc modal --}}
+<div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header  d-flex justify-content-center align-items-center">
+                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="pay-term" class="form-label">Document</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text bg-info" id="basic-addon1"><i
+                                        class="fas fa-file text-white"></i></span>
+                                <input type="text" class="form-control form-control-sm" name="doc"
+                                    aria-label="doc" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="doc-name" class="form-label">Document name</label>
+                            <input type="text" class="form-control form-control-sm" id="doc-name"
+                                name="doc-name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select form-select-sm" name="category"
+                                aria-label=".form-select-sm example">
+                                <option selected>Category</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" name="online" type="checkbox" value=""
+                                    id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Online
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2"></div>
+                        <div class="d-grid  col-md-6 ">
+                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+{{-- add new user --}}
+<div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header  d-flex justify-content-center align-items-center">
+                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control form-control-sm" id="name"
+                                name="name">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-sm" id="email"
+                                name="email">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="role" class="form-label">Role</label>
+                            <select class="form-select form-select-sm" name="role"
+                                aria-label=".form-select-sm example">
+                                <option selected>Administrator</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="newsletter" value=""
+                                    id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Subscribe to the newsletter?
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="comments" class="form-label">Comments</label>
+                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="password" class="form-label">Access password</label>
+                            <input type="password" class="form-control form-control-sm" id="password"
+                                name="password">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2"></div>
+                        <div class="d-grid  col-md-6 ">
+                            <button type="submit" class="btn btn-info btn-sm text-white">Add and send
+                                email</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
 @section('content')
-    <div class="container-fluid py-5">
-        <div class="row d-flex align-items-center gx-2 justify-content-center position-relative">
-            <div class="col-md-8 col-lg-8 col-12 mt-3 bg-white">
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center gx-2 justify-content-center ">
+            <div class="col-md-8 col-lg-8 col-12 mb-5  tab-margin bg-white">
                 <h5 class="py-2">Settings.</h5>
-                <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
+                <ul class="nav nav-tabs mb-3  d-flex  justify-content-start align-items-center" id="ex-with-icons"
+                    role="tablist">
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link active " id="ex-with-icons-tab-1"
                             href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
@@ -63,8 +356,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
                                     <div class="d-grid gap-2">
-                                        <button class="btn btn-info" type="button">Import a new photo</button>
-
+                                        <button class="btn btn-info text-white" type="button">Import a new photo</button>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +419,7 @@
                                             <div class="row mb-4 mt-5 text-center">
                                                 <div class="col">
                                                     <div class="d-grid ">
-                                                        <button class="btn btn-info" type="button">Update
+                                                        <button class="btn btn-info text-white" type="button">Update
                                                             information</button>
                                                     </div>
                                                 </div>
@@ -147,7 +439,6 @@
                                                     placeholder="URL">
                                             </div>
                                         </div>
-
                                     </div>
                                     <div class="row">
                                         <div class="col-12 mb-2">
@@ -297,8 +588,13 @@
                                                         </a></td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="mt-2">
-                                                        <button type="button" class="btn btn-info">Add</button>
+                                                    <td>
+                                                        <div class="d-grid">
+                                                            <a href="#" class="btn btn-sm text-white btn-info ml-4"
+                                                                data-bs-toggle="modal" data-bs-target="#payment-method">
+                                                                Add
+                                                            </a>
+                                                        </div>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -323,7 +619,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
                                     <div class="d-grid ">
-                                        <button class="btn  btn-sm btn-info" type="button">Add new user</button>
+                                        <button class="btn  btn-sm btn-info text-white" data-bs-toggle="modal"
+                                            data-bs-target="#addnewuser" type="button">Add new user</button>
                                     </div>
                                 </div>
                             </div>
@@ -509,8 +806,9 @@
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-3" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-3">
-                        <div class="container-fluid">
-                            <form action="" method="">
+
+                        <form action="" method="">
+                            <div class="container-fluid">
                                 <div class="row align-middle">
                                     <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
                                         <strong>Clinic opening hours.</strong>
@@ -593,7 +891,7 @@
                                     <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
                                         <strong>Closing.</strong>
                                         <div class="row mt-2">
-                                            <div class="mb-3 px-3">
+                                            <div class="col-12 col-md-6 col-lg-6">
                                                 <label for="startDate">Start Date:</label>
                                                 <div class="input-group">
                                                     <div class="input-group-prepend">
@@ -604,22 +902,19 @@
                                                         name="startDate" id="startDate" placeholder="07/09/2023">
                                                 </div>
                                             </div>
-                                            <div class="col-12 col-md-4 col-lg-4">
-                                                <div class="mb-3">
-                                                    <label for="endDate">End Date:</label>
-                                                    <div class="input-group bg-white">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i
-                                                                    class="fas fa-calendar-alt bg-white"></i></span>
-                                                        </div>
-                                                        <input type="text" class="form-control date-input"
-                                                            name="endDate" id="endDate" placeholder="07/09/2023">
-                                                        <span class="text-danger px-2"> x </span>
+                                            <div class="col-12 col-md-6 col-lg-6">
+                                                <label for="endDate">End Date:</label>
+                                                <div class="input-group bg-white">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i
+                                                                class="fas fa-calendar-alt bg-white"></i></span>
                                                     </div>
+                                                    <input type="text" class="form-control date-input" name="endDate"
+                                                        id="endDate" placeholder="07/09/2023">
+                                                    <span class="text-danger px-2"> x </span>
 
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div class="row">
                                             <div class="col-12">
@@ -736,12 +1031,7 @@
                                         <button class="btn btn-info  btn-sm" type="button">Save</button>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                        <br> <br>
-                        <div class="container">
-                            <form action="" method="">
-                                <div class="row align-middle">
+                                <div class="row">
                                     <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
                                         <strong>Specialist schedules.</strong><br>
                                         <span class="mt-2">Specialist</span><br>
@@ -894,48 +1184,48 @@
                                         </div>
                                         <div class="row mt-3 align-middle">
                                             <div class="col-12 col-md-12 col-lg-12 align-middle">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr> <b>Vacation history.</b> <span>(Last 12 months)</span></tr>
-                                                        <tr>
-                                                            <th scope="col">Starting date</th>
-                                                            <th scope="col">End date</th>
-                                                            <th scope="col">Duration</th>
-                                                            <th scope="col">Type of vacation</th>
-                                                            <th scope="col">Status</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>07/09/2023</td>
-                                                            <td>07/09/2023</td>
-                                                            <td>12 days</td>
-                                                            <td>Paid</td>
-                                                            <td>Completed</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>07/09/2023</td>
-                                                            <td>07/09/2023</td>
-                                                            <td>12 days</td>
-                                                            <td>Paid</td>
-                                                            <td>Completed</td>
-                                                        </tr>
+                                                <div class="table-responsive">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr> <b>Vacation history.</b> <span>(Last 12 months)</span></tr>
+                                                            <tr>
+                                                                <th scope="col">Starting date</th>
+                                                                <th scope="col">End date</th>
+                                                                <th scope="col">Duration</th>
+                                                                <th scope="col">Type of vacation</th>
+                                                                <th scope="col">Status</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>07/09/2023</td>
+                                                                <td>07/09/2023</td>
+                                                                <td>12 days</td>
+                                                                <td>Paid</td>
+                                                                <td>Completed</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>07/09/2023</td>
+                                                                <td>07/09/2023</td>
+                                                                <td>12 days</td>
+                                                                <td>Paid</td>
+                                                                <td>Completed</td>
+                                                            </tr>
 
-                                                    </tbody>
-                                                </table>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
+                                                <button class="btn btn-info  btn-sm" type="button">Save</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="row">
-                                    <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
-                                        <button class="btn btn-info  btn-sm" type="button">Save</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
+                            </div>
+                        </form>
                     </div>
                     <div class="tab-pane fade  " id="ex-with-icons-tabs-5" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-5">
@@ -950,10 +1240,13 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
-                                    <div class="d-grid ">
-                                        <button class="btn  btn-sm btn-info ml-4" type="button">Add
-                                            supplier</button>
+                                    <div class="d-grid">
+                                        <a href="#" class="btn btn-sm btn-info ml-4" data-bs-toggle="modal"
+                                            data-bs-target="#addnewsupplier">
+                                            Add supplier
+                                        </a>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="row mb-4 mt-2">
@@ -1307,23 +1600,23 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>Document name</td>
+                                                    <td>
+                                                        PDF</td>
+                                                    <td>
+                                                        Prescription
+                                                    </td>
+                                                    <td>
+                                                        Online
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document">
+                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a>
 
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Document name</td>
-                                                    <td>
-                                                        PDF</td>
-                                                    <td>
-                                                        Prescription
-                                                    </td>
-                                                    <td>
-                                                        Online
-                                                    </td>
-                                                    <td>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -1338,49 +1631,51 @@
                                                         Online
                                                     </td>
                                                     <td>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document">
                                                             <i class="fas fa-pencil-alt pr-1"></i>Edit
                                                         </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Document name</td>
-                                                    <td>
-                                                        PDF</td>
-                                                    <td>
-                                                        Prescription
-                                                    </td>
-                                                    <td>
-                                                        Online
-                                                    </td>
-                                                    <td>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>Document name</td>
-                                                    <td>
-                                                        PDF</td>
-                                                    <td>
-                                                        Prescription
-                                                    </td>
-                                                    <td>
-                                                        Online
-                                                    </td>
-                                                    <td>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a>
-                                                    </td>
-                                                </tr>
 
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>Document name</td>
+                                                    <td>
+                                                        PDF</td>
+                                                    <td>
+                                                        Prescription
+                                                    </td>
+                                                    <td>
+                                                        Online
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document">
+                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>Document name</td>
+                                                    <td>
+                                                        PDF</td>
+                                                    <td>
+                                                        Prescription
+                                                    </td>
+                                                    <td>
+                                                        Online
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document">
+                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        </a>
+
+                                                    </td>
+                                                </tr>
                                         </table>
                                     </div>
                                 </div>
@@ -1435,12 +1730,14 @@
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="sms" value="" id="flexCheckSMS">
-                                                            <label class="form-check-label" for="flexCheckSMS">SMS</label>
+                                                            <label class="form-check-label"
+                                                                for="flexCheckSMS">SMS</label>
                                                         </div>
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="app-noti" value="" id="flexCheckAppNoti">
-                                                            <label class="form-check-label" for="flexCheckAppNoti">In-app
+                                                            <label class="form-check-label"
+                                                                for="flexCheckAppNoti">In-app
                                                                 notification</label>
                                                         </div>
                                                     </div>
@@ -1452,15 +1749,17 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="afterDays" class="form-label">After</label>
-                                                            <input type="number" name="afterDays" class="form-control"
-                                                                id="afterDays" placeholder="days">
+                                                            <input type="number" name="afterDays"
+                                                                class="form-control" id="afterDays"
+                                                                placeholder="days">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="everyDays" class="form-label">Every</label>
-                                                            <input type="number" name="everyDays" class="form-control"
-                                                                id="everyDays" placeholder=" days">
+                                                            <input type="number" name="everyDays"
+                                                                class="form-control" id="everyDays"
+                                                                placeholder=" days">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1533,7 +1832,7 @@
                 <div class="card-header bg-white">
                     <h4 class="text-dark"> Help & Support</h4>
                 </div>
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion accordion-flush help-support" id="accordionFlushExample">
                     <div class="accordion-item">
                         <strong class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -1602,7 +1901,7 @@
                                 Recommandations
                             </button>
                         </strong>
-                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        <div id="flush-collapseFour " class="accordion-collapse collapse "
                             aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">
                                 <ul class="list-group list-group-flush">
@@ -1633,10 +1932,9 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <br>
-                    <div class="d-grid  text-center">
-                        <button class="btn btn-info" type="button">Contact support</button>
+                        <div class="d-grid  text-center pb-5">
+                            <button class="btn btn-info text-white" type="button">Contact support</button>
+                        </div>
                     </div>
                 </div>
             </div>

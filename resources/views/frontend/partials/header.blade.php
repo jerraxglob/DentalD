@@ -13,59 +13,61 @@
             </div>
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-end">
                 <li class="nav-item mr-2">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-tachometer-alt"></i><span class="d-inline-block"> Dashboard </span>
+                        <i class="fas fa-tachometer-alt px-1"></i><span class="d-inline-block"> Dashboard </span>
                     </a>
                 </li>
                 <li class="nav-item mr-2">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-chart-bar"></i> <span class="d-inline-block">Statistiques</span>
+                        <i class="fas fa-chart-bar px-1"></i><span class="d-inline-block">Statistiques </span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-2">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-users"></i> <span class="d-inline-block">Patients</span>
+                        <i class="fas fa-users px-1"></i><span class="d-inline-block">Patients</span>
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInventory" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-clipboard-list"></i> <span class="d-inline-block">Inventory</span>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-clipboard-list px-1"></i> Inventory
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownInventory">
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"> <i class="fas fa-clipboard-list"></i> Gestion de
                             stock</a>
                         <a class="dropdown-item" href="#"><i class="fas fa-truck"></i>
                             Commandes
                         </a>
 
-                    </div>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCalendar" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-calendar-alt"></i> <span class="d-inline-block">Calendar</span>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-calendar-alt"></i> Calendar
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCalendar">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-calendar-alt"></i> Calendar
+                        </a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-calendar-alt"></i>
+                            Eevent
+                        </a>
+
+                    </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-2">
                     <a class="nav-link" href="#">
-                        <i class="fas fa-file"></i><span class="d-inline-block"> Invoice</span>
+                        <i class="fas fa-file px-1"></i><span class="d-inline-block">Invoice</span>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-2">
                     <a class="nav-link" href="#">
-                        <i class="fa fa-list" aria-hidden="true"></i> <span class="d-inline-block">Tâches</span>
+                        <i class="fas fa-list px-1"></i><span class="d-inline-block">Tâches</span>
                     </a>
                 </li>
-                <li class="nav-item ml-lg-5">
+                <li class="nav-item ml-lg-auto">
                     <a class="nav-link" href="#">
                         <i class="fas fa-eye"></i>
                     </a>
@@ -75,7 +77,7 @@
                         <i class="fas fa-bell"></i>
                     </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-lg-2">
                     <a class="nav-link dropdown-toggle d-flex align-items-center avatar" href="#"
                         id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
