@@ -248,7 +248,7 @@
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button
-                                                                    class="medium-btn btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    class="wd100 medium-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
                                                                     Medium
@@ -335,7 +335,7 @@
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button
-                                                                    class="todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
                                                                     To do</i>
@@ -393,7 +393,7 @@
                                 <small class="text-nowrap">Wed 15th July 2023</small>
                             </div>
                             <div class="col-md-5 text-md-right mt-md-0 mt-2">
-                                <a href="#" class="btn btn-info btn-sm">Inventory
+                                <a href="#" class="btn btn-info btn-sm text-white font-12">Inventory
                                     Management</a>
                             </div>
                         </div>
@@ -415,7 +415,7 @@
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input box-input" value=""
+                                        class="form-control qty form-control-sm dark-input" value=""
                                         id="qty">
                                 </div>
 
@@ -437,7 +437,7 @@
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input box-input" value=""
+                                        class="form-control qty form-control-sm dark-input" value=""
                                         id="qty">
                                 </div>
 
@@ -459,7 +459,7 @@
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input box-input" value=""
+                                        class="form-control qty form-control-sm dark-input " value=""
                                         id="qty">
                                 </div>
 
@@ -481,7 +481,7 @@
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input box-input" value=""
+                                        class="form-control qty form-control-sm dark-input " value=""
                                         id="qty">
                                 </div>
 
@@ -503,7 +503,7 @@
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input box-input" value=""
+                                        class="form-control qty form-control-sm dark-input " value=""
                                         id="qty">
                                 </div>
 
@@ -521,14 +521,12 @@
                         <!-- Table Section -->
                         <div class="row d-flex stock-sm justify-content-center align-items-center">
                             <div class="col-md-12">
-                                <div class="table-responsive">
+                                <div class="">
                                     <table class="table stock-sm table-borderless">
                                         <thead>
                                             <tr>
                                                 <th scope="col" class="text-white">Date</th>
                                                 <th scope="col" class="text-white">Object</th>
-                                                <th></th>
-                                                <th></th>
                                                 <th scope="col" class="text-white">Status</th>
                                             </tr>
                                         </thead>
@@ -537,70 +535,51 @@
                                             <tr class="col-with-line">
                                                 <td class="text-white">12/07/23</td>
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
-                                                <td></td>
-                                                <td></td>
                                                 <td>
                                                     <div class="mb-3">
-                                                        <input type="text"
-                                                            class="form-control float-left form-control-sm dark-input"
-                                                            name="name" id="name" placeholder="Draft"
-                                                            aria-describedby="emailHelp">
+                                                        <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input processing-btn text-center"
+                                                            > Sent </span>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="col-with-line">
                                                 <td class="text-white">12/07/23</td>
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
-                                                <td></td>
-                                                <td></td>
                                                 <td>
                                                     <div class="mb-3">
-                                                        <input type="text"
-                                                            class="form-control float-left form-control-sm dark-input"
-                                                            name="name" id="name" placeholder="Draft"
-                                                            aria-describedby="emailHelp">
+                                                        <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="col-with-line">
                                                 <td class="text-white">12/07/23</td>
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
-                                                <td></td>
-                                                <td></td>
                                                 <td>
                                                     <div class="mb-3">
-                                                        <input type="text"
-                                                            class="form-control float-left form-control-sm dark-input"
-                                                            name="name" id="name" placeholder="Draft"
-                                                            aria-describedby="emailHelp">
+                                                    <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="col-with-line">
                                                 <td class="text-white">12/07/23</td>
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
-                                                <td></td>
-                                                <td></td>
                                                 <td>
                                                     <div class="mb-3">
-                                                        <input type="text"
-                                                            class="form-control float-left form-control-sm dark-input"
-                                                            name="name" id="name" placeholder="Draft"
-                                                            aria-describedby="emailHelp">
+                                                    <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
                                             <tr class="col-with-line">
                                                 <td class="text-white">12/07/23</td>
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
-                                                <td></td>
-                                                <td></td>
                                                 <td>
                                                     <div class="mb-3">
-                                                        <input type="text"
-                                                            class="form-control float-left form-control-sm dark-input"
-                                                            name="name" id="name" placeholder="Draft"
-                                                            aria-describedby="emailHelp">
+                                                    <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -614,7 +593,7 @@
                         <!-- Add a new note button -->
                         <div class="text-center pb-4">
                             <div class="d-grid gap-2 col-6 col-md-4 mx-auto">
-                                <button type="submit" class="btn btn-nowrap btn-sm btn-info">Add a new note</button>
+                                <button type="submit" class="btn btn-nowrap btn-sm btn-info text-white">Add a new note</button>
                             </div>
                         </div>
                     </form>
@@ -628,7 +607,7 @@
                         <div class="row cons-sm mx-auto align-items-center rounded-3 justify-content-center bg-white p-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between">
+                                    <div class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between mb-5">
                                         <h5 class="py-2">Consultations</h5>
                                         <div class="align-items-center pl-3 d-flex align-items-center">
                                             <div class="dropdown align-items-center">
@@ -651,7 +630,7 @@
                                         </div>
                                     </div>
                                     <div
-                                        class="col-md-12 col-lg-12 py-2 rounded-3 bg-white d-flex justify-content-between">
+                                        class="col-md-12 col-lg-12 py-2 rounded-3 bg-white d-flex justify-content-between mb-3">
                                         <div class=" w-48">
                                             <div class="input-icons position-relative align-items-center">
                                                 <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
@@ -661,8 +640,15 @@
                                             </div>
                                         </div>
                                         <div class="align-items-center pl-3 d-flex align-items-center">
-                                            <div class="ml-auto">
-                                                <span class="date-range mr-3 text-dark">Date range</span>
+                                            <div class="ml-auto d-flex gap-3 text-center align-items-center">
+                                                <div class="date-range mr-3 text-dark">
+                                                    <span>
+                                                    Date range
+                                                    </span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                                                </div>
                                                 <button type="button" class="btn btn-white border border-dark w-10 h-60">
                                                     Add filter <i class="fas fa-bars mr-3"></i>
                                                 </button>
@@ -691,8 +677,8 @@
                                     <!-- Tabs content -->
                                     <div class="tab-content" id="ex-with-icons-content">
                                         <div
-                                            class="col-md-12  col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                                            <div class="tab-pane fade show active" id="ex-with-icons-tabs-1"
+                                            class=" w-full col-md-12  col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
+                                            <div class=" w-full tab-pane fade show active" id="ex-with-icons-tabs-1"
                                                 role="tabpanel" aria-labelledby="ex-with-icons-tab-1">
                                                 <div class="table-responsive">
                                                     <table class="table table-borderless ">
@@ -787,7 +773,13 @@
                                                 <th>Treatment </th>
                                                 <th>Treatment plan</th>
                                                 <th>Amount</th>
-                                                <th></th>
+                                                <th>
+                                                    <div class="d-flex gap-1 align-items-center">
+                                                    <p class="mb-0">Status</p>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                                </div></th>
                                                 <th>Next appointment</th>
                                             </tr>
                                         </thead>
