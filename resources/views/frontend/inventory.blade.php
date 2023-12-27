@@ -16,25 +16,26 @@
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
-                        <div class="row mb-3">
+                        <div class="row mb-5">
                             <p>You have changed the product stock.
 Check the quantity entered, select a reason and specify the reason for the change</p>
-                            <div class="col-md-4">
+                            <div class="col-md-4 mt-4">
                                 <label for="date" class="form-label">Actual stock</label>
                                 <input type="number" class="form-control form-control-sm" id="Actual_stock" name="Actual_stock">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 mt-4">
                                 <label for="Modification " class="form-label">Modification </label>
                                 <input type="text" class="form-control form-control-sm" id="Modification " name="Modification "
                                     placeholder="Nom du Modification ">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 mt-4">
                                 <label for="Limit" class="form-label">Limit</label>
                                 <input type="number" class="form-control form-control-sm" id="Limit"
                                     name="Limit" placeholder="8277t3d">
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <hr>
+                        <div class="row mb-3 mt-5 mb-5">
                             <div class="col-md-4">
                                 <label for="Reason" class="form-label">Reason</label>
                                 <input type="text" class="form-control form-control-sm" id="Reason" name="Reason"
