@@ -21,7 +21,7 @@
                 </li>
                 <li class="nav-item mr-2">
                     <a class="nav-link" href="{{ URL::route('statistics') }}">
-                        <i class="fas fa-chart-bar px-1"></i><span class="d-inline-block">Statistiques </span>
+                        <i class="fas fa-chart-bar px-1"></i><span class="d-inline-block">Statistics </span>
                     </a>
                 </li>
                 <li class="nav-item mr-2">

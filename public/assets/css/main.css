@@ -113,7 +113,12 @@ i {
     color: #fff;
     text-align: center;
 }
-
+.css-primary-btn{
+    background-color: #3BCFFC !important;
+    border-radius: 5px !important;
+    color: white !important;
+    font-size: 10px !important;
+}
 .col-with-line {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;

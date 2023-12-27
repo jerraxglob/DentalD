@@ -4,11 +4,11 @@
         <div class="row p-1 d-flex align-items-center justify-content-center rounded mt-3 bg-white">
             <div class="col-md-3 col-lg-3">
                 <h5 class="text-nowrap px-2 py-2 ">Statistics & Financial report</h5>
-                <small class="px-2">Data for CHD clinic</small>
+                <small class="px-2 text-muted font-12">Data for CHD clinic</small>
             </div>
             <div class=" col-12 col-md-3 col-lg-3 text-center mt-2">
-                <button class="btn btn-sm btn-primary mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
-                <button class="btn btn-sm btn-primary me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
+                <button class="btn btn-sm css-primary-btn mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
+                <button class="btn btn-sm css-primary-btn me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
                     report</button>
             </div>
             <div class=" col-12 col-md-2 col-lg-2 text-center">
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
             </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center">
+            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center align-items-center">
                 <span class="px-1">Period</span>
                 <div class=" px-1 btn-group">
                     <button class="btn btn-white border px-2 border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class=" d-flex col-12 col-md-2 col-lg-2 text-center">
-                <span class="px-2"> Vs </span>
+                <span class="px-2 d-flex align-items-center"> Vs </span>
                 <div class="btn-group px-1">
                     <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -62,12 +62,13 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Income.</b></h5>
                         <strong class="card-text fs-2">CHF 100 000.-</strong><br>
-                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
+
                     </div>
                 </div>
             </div>
@@ -76,12 +77,12 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Spending.</b></h5>
                         <strong class="card-text fs-2">CHF 20 000.-</strong><br>
-                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -90,12 +91,12 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Number of patient.</b></h5>
                         <strong class="card-text fs-2">CHF 20 000.-</strong><br>
-                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -109,12 +110,12 @@
                                 appointment.</b></h5>
                         <strong class="card-text fs-2">109 <i
                                 class="fas px-3 fa-calendar-alt text-muted"></i></strong><br>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z" />
+                                </svg>
                         <span class="text-danger text-nowrap py-1">-30 compared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor"
-                            class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z" />
-                        </svg>
                     </div>
                 </div>
             </div>
@@ -124,12 +125,12 @@
                         <h5 class="card-title text-nowrap"><b>Average appointment time</b></h5>
                         <strong class="card-text fs-2">70 min<i class="fas px-3 fa-clock text-muted"></i>
                         </strong><br>
-                        <span class="text-success text-nowrap py-1">+ 8 mincompared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success text-nowrap py-1">+ 8 compared to the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -140,12 +141,12 @@
                         </h6>
                         <strong class="card-text fs-2">30 <i class="fas px-3 fa-times text-muted"></i>
                         </strong><br>
-                        <span class="text-success text-nowrap py-1">-10compared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
                                 d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z" />
                         </svg>
+                        <span class="text-danger text-nowrap py-1">-10 compared to the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -156,12 +157,12 @@
                                 rate.</b></h5>
                         <strong class="card-text fs-2">80% <i class="fas fa-chart-bar "></i>
                         </strong><br>
-                        <span class="text-success py-1 text-nowrap">+ 8mincompared to the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1 text-nowrap">+8 compared to the period</span> <br>
                     </div>
                 </div>
             </div>
