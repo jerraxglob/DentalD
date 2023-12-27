@@ -13,7 +13,7 @@
             </div>
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-end">
+            <ul class="navbar-nav  mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-between w-full">
                 <li class="nav-item mr-2">
                     <a class="nav-link" href="{{ URL::route('dashboard') }}">
                         <i class="fas fa-tachometer-alt px-1"></i><span class="d-inline-block"> Dashboard </span>
