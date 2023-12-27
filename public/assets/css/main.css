@@ -369,6 +369,32 @@ ul.custom-square li::marker {
 .btn-width-pay {
     width: 10rem;
 }
+.font-12{
+    font-size: 12px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.emergency-btn{
+    color: #f03e41 !important;
+}
+.medium-btn{
+    color: #ED9B32 !important;
+}
+.processing-btn{
+    border-color: #44B350 !important;
+    color: #44B350 !important;
+}
+.todo-btn{
+    border-color: #BFBFBF !important;
+    color: #BFBFBF !important;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
