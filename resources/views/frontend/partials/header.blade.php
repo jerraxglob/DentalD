@@ -13,7 +13,7 @@
             </div>
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-between w-full">
+            <ul class="navbar-nav  mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-between  w-full">
                 <li class="nav-item mr-2">
                     <a class="nav-link" href="{{ URL::route('dashboard') }}">
                         <i class="fas fa-tachometer-alt px-1"></i><span class="d-inline-block"> Dashboard </span>
@@ -83,13 +83,23 @@
                         <i class="fas fa-bell"></i>
                     </a>
                 </li>
-                <li class="nav-item ms-lg-2">
-                    <a class="nav-link dropdown-toggle d-flex align-items-center avatar" href="#"
-                        id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
+                <li class="nav-item dropdown px-5">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#"
+                        id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
                             height="22" alt="Avatar" loading="lazy" />
                     </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink px-3">
+                        <li>
+                            <a class="dropdown-item" href="#">My profile</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Settings</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
 
