@@ -92,7 +92,8 @@
         <div class="row d-flex align-items-center">
             <div class="col-md-12 col-lg-12 gx-3 gx-md-5 py-3 rounded-3 bg-white">
                 <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
-                    <button class="bg-white custom-btn text-dark" onclick="prevTab()"></button>
+                    <li class="px-3"><button class="bg-white custom-btn  text-dark prev" onclick="prevTab()"></button>
+                    </li>
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-1" href="#ex-with-icons-tabs-1"
                             role="tab" aria-controls="ex-with-icons-tabs-1" aria-selected="true">
@@ -118,9 +119,11 @@
                             Consultation
                         </a>
                     </li>
-                    <button class="bg-white custom-btn text-dark" onclick="nextTab()"></button>
-                </ul>
+                    <li class="px-3">
+                        <button class="bg-white custom-btn text-dark next mr-3" onclick="nextTab()"></button>
+                    </li>
 
+                </ul>
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1">

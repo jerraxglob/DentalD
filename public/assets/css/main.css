@@ -55,6 +55,7 @@ i {
     font-size: 12px;
 }
 
+
 /* tabe next and previous button */
 
 .custom-btn {
@@ -80,6 +81,14 @@ i {
     text-align: center;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.custom-btn.prev::before {
+    content: "‹";
+}
+
+.custom-btn.next::before {
+    content: "›";
 }
 
 .thin-arrow {
@@ -150,6 +159,7 @@ i {
     font-size: small;
 }
 
+
 /* calander css */
 
 .fc .fc-col-header-cell-cushion {
@@ -196,17 +206,20 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     width: 3px;
 }
 
+
 /* Track */
 
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
+
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
     background: lightskyblue;
 }
+
 
 /* Handle on hover */
 
@@ -224,8 +237,7 @@ upload_dropZone {
     background-color: var(--colorPrimaryPale, #c8dadf);
     outline: 2px dashed var(--colorPrimaryHalf, #c1ddef);
     outline-offset: -12px;
-    transition: outline-offset 0.2s ease-out, outline-color 0.3s ease-in-out,
-        background-color 0.2s ease-out;
+    transition: outline-offset 0.2s ease-out, outline-color 0.3s ease-in-out, background-color 0.2s ease-out;
 }
 
 .upload_dropZone.highlight {
@@ -233,7 +245,8 @@ upload_dropZone {
     outline-color: var(--colorPrimaryNormal, #0576bd);
     background-color: var(--colorPrimaryEighth, #c8dadf);
 }
-.w-full{
+
+.w-full {
     width: 100% !important;
 }
 
@@ -264,6 +277,7 @@ upload_dropZone {
 .mid-msg {
     margin-top: 18px;
 }
+
 
 /* help support box */
 
