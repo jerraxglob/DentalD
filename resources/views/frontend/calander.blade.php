@@ -84,13 +84,12 @@
     </div>
     <div class="container mt-4 px-4">
         <div class="row gx-5">
-            <div class="col-12 col-md-8 col-lg-8">
+            <div class="col-12 col-md-8 col-lg-8 mt-4 mb-3">
                 <div class="p-3 border bg-white">
                     <div id="calendar"></div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 col-lg-4">
-                <hr>
+            <div class="col-12 col-md-4 col-lg-4 mt-4">
                 <div class="p-3 border bg-white">
                     <strong>Next events.</strong>
                     <hr>

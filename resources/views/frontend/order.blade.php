@@ -170,13 +170,13 @@
                                         <td>183736e</td>
                                         <td>23/08/2023</td>
                                         <td>130</td>
-                                        <td> <button type="button"
-                                                class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
+                                        <td>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
                                         <td>
                                             Supplier 1
                                         </td>
-                                        <td> <a
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
@@ -186,13 +186,12 @@
                                         <td>23/08/2023</td>
                                         <td>130</td>
                                         <td>
-                                            <button type="button"
-                                                class=" btn btn-outline-dark bg-white btn-sm">Ongoing</button>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
                                         <td>
                                             Supplier 1
                                         </td>
-                                        <td> <a
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
@@ -202,13 +201,12 @@
                                         <td>23/08/2023</td>
                                         <td>130</td>
                                         <td>
-                                            <button type="button"
-                                                class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
                                         <td>
                                             Supplier 1
                                         </td>
-                                        <td> <a
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
@@ -218,13 +216,11 @@
                                         <td>23/08/2023</td>
                                         <td>130</td>
                                         <td>
-                                            <button type="button"
-                                                class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
-                                        <td>
-                                            Supplier 1
-                                        </td>
-                                        <td> <a
+                                        <td> Supplier 1</td>
+
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
@@ -234,13 +230,12 @@
                                         <td>23/08/2023</td>
                                         <td>130</td>
                                         <td>
-                                            <button type="button"
-                                                class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
                                         <td>
                                             Supplier 1
                                         </td>
-                                        <td> <a
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
@@ -250,13 +245,12 @@
                                         <td>23/08/2023</td>
                                         <td>130</td>
                                         <td>
-                                            <button type="button"
-                                                class=" btn btn-outline-dark bg-white text-dark btn-sm">Ongoing</button>
+                                            <a href="#" class=" btn btn-outline-dark bg-white btn-sm">Ongoing</a>
                                         </td>
                                         <td>
                                             Supplier 1
                                         </td>
-                                        <td> <a
+                                        <td> <a href="{{ URL::route('update_order') }}"
                                                 class="btn btn-sm btn-info mx-2 text-white text-decoration-none text-nowrap  px-4 py-2"><i
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>

@@ -118,6 +118,13 @@ i {
     margin-bottom: 2px;
 }
 
+
+/* update order */
+
+.table> :not(:last-child)> :last-child>* {
+    border-bottom-color: inherit;
+}
+
 .date-range {
     background-color: #e9ebed;
 }
@@ -126,12 +133,18 @@ i {
     margin-left: 150px;
 }
 
+.custom-margin {
+    margin-right: 17rem !important;
+    margin-left: 1rem !important;
+}
+
 .box-input {
     border: 1px solid #ced4da;
     border-radius: 5px;
-    padding: 12px;
+    padding: 6px;
     box-sizing: border-box;
     margin-left: -9px;
+    width: 30px;
 }
 
 .qty {
