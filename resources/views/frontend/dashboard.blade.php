@@ -29,7 +29,10 @@
                                     <div class="col-12 col-md-4">
                                         <strong class="text-dark p-3">Statistics</strong>
                                     </div>
-                                    <div class="col-12 col-md-4">
+                                    <div class="col-12 col-md-4 d-flex align-items-center gap-2">
+                                        <h2 class="font-14 fw-bold mb-0">
+                                        Periode 
+                                        </h2>
                                         <div class="dropdown">
                                             <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
                                                 href="#" role="button" id="dropdownMenuLink"
@@ -56,7 +59,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3  text-center">
-                                                <strong class="card-title px-3">17</strong>
+                                                <strong class="card-title px-3 fw-bold">17</strong>
                                                 <p class="card-text  px-3 text-nowrap">Employees</p>
                                             </div>
 
@@ -71,7 +74,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3">831</strong>
+                                                <strong class="card-title px-3 fw-bold">831</strong>
                                                 <p class="card-text  px-3 text-nowrap">Total patients</p>
                                             </div>
 
@@ -86,7 +89,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3">500</strong>
+                                                <strong class="card-title px-3 fw-bold">500</strong>
                                                 <p class="card-text px-3 text-nowrap">Appointment</p>
                                             </div>
 
@@ -101,8 +104,8 @@
                                                     <i class="fas fa-clock text-muted"></i>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3">45mintus</strong>
+                                            <div class="col-sm-12 col-md-3 col-lg-3 w-full">
+                                                <strong class="card-title px-3 fw-bold">45 min</strong>
                                                 <p class="card-text px-3 text-nowrap">Average time</p>
                                             </div>
                                         </div>
@@ -115,7 +118,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3">
-                                                <strong class="card-title px-3">13</strong>
+                                                <strong class="card-title px-3 fw-bold">13</strong>
                                                 <p class="card-text px-3 text-nowrap ">Missed appointment</p>
                                             </div>
 
@@ -130,7 +133,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3">20%</strong>
+                                                <strong class="card-title px-3 fw-bold">20%</strong>
                                                 <p class="card-text px-3 text-nowrap">Occupancy rate</p>
                                             </div>
 
@@ -141,22 +144,25 @@
                                 </div>
                             </div>
 
-                            <div class="container  task-sm">
+                            <div class="container  task-sm bg-white">
                                 <div class="row d-flex align-items-center ">
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-3 d-flex justify-content-between rounded-3 bg-white mt-4">
                                         <h5 class="py-2">Task management</h5>
                                         <a href="#" class="text-decoration-none text-info py-2">+ New
                                             ticket</a>
-                                        <h6>
+                                    </div>
+                                </div>
+                                <div class=" d-flex justify-content-end gap-3 align-items-center">
+                                <h6>
                                             <i class="fas fa-user px-2"></i> Everybody
                                             <i class='fas fa-angle-down thin-arrow p-3'></i>
                                         </h6>
                                         <a href="#" class="btn btn-sm btn-white border border-dark w-10 h-60">
                                             Add filter <i class="fas fa-bars mr-3"></i>
                                         </a>
-                                    </div>
-                                </div>
+
+</div>
                                 <div class="row">
                                     <div
                                         class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-center align-items-center">
@@ -183,7 +189,7 @@
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button
-                                                                    class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    class="emergency-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
                                                                     Emergency</i>
@@ -210,7 +216,67 @@
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button
-                                                                    class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    type="button" data-mdb-dropdown-init
+                                                                    data-mdb-ripple-init aria-expanded="false">
+                                                                    Processing</i>
+                                                                </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="#">Action</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Another
+                                                                            action</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Something
+                                                                            else
+                                                                            here</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <hr class="dropdown-divider" />
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Separated
+                                                                            link</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Lorem ipsum dolor sit amet, cons…</td>
+                                                        <td>Daniel</td>
+                                                        <td>12/07/23</td>
+                                                        <td>
+                                                            <div class="btn-group">
+                                                                <button
+                                                                    class="medium-btn btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    type="button" data-mdb-dropdown-init
+                                                                    data-mdb-ripple-init aria-expanded="false">
+                                                                    Medium
+</i>
+                                                                </button>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="#">Action</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Another
+                                                                            action</a>
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Something
+                                                                            else
+                                                                            here</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <hr class="dropdown-divider" />
+                                                                    </li>
+                                                                    <li><a class="dropdown-item" href="#">Separated
+                                                                            link</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="btn-group">
+                                                                <button
+                                                                    class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
                                                                     Processing</i>
@@ -269,69 +335,10 @@
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button
-                                                                    class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                    class="todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
-                                                                    Processing</i>
-                                                                </button>
-                                                                <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Action</a>
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Another
-                                                                            action</a>
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Something
-                                                                            else
-                                                                            here</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <hr class="dropdown-divider" />
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Separated
-                                                                            link</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Lorem ipsum dolor sit amet, cons…</td>
-                                                        <td>Daniel</td>
-                                                        <td>12/07/23</td>
-                                                        <td>
-                                                            <div class="btn-group">
-                                                                <button
-                                                                    class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                    type="button" data-mdb-dropdown-init
-                                                                    data-mdb-ripple-init aria-expanded="false">
-                                                                    Emergency</i>
-                                                                </button>
-                                                                <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Action</a>
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Another
-                                                                            action</a>
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Something
-                                                                            else
-                                                                            here</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <hr class="dropdown-divider" />
-                                                                    </li>
-                                                                    <li><a class="dropdown-item" href="#">Separated
-                                                                            link</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="btn-group">
-                                                                <button
-                                                                    class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                    type="button" data-mdb-dropdown-init
-                                                                    data-mdb-ripple-init aria-expanded="false">
-                                                                    Processing</i>
+                                                                    To do</i>
                                                                 </button>
                                                                 <ul class="dropdown-menu">
                                                                     <li><a class="dropdown-item" href="#">Action</a>
@@ -356,7 +363,7 @@
                                                     <tr>
                                                         <td></td>
                                                         <td>
-                                                            <a href="#" class="btn btn-info btn-sm">
+                                                            <a href="#" class="btn btn-info btn-sm text-white">
                                                                 View all tasks</a>
                                                         </td>
                                                         <td></td>

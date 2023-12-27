@@ -368,6 +368,20 @@ ul.custom-square li::marker {
 .font-16{
     font-size: 16px !important;
 }
+.emergency-btn{
+    color: #f03e41 !important;
+}
+.medium-btn{
+    color: #ED9B32 !important;
+}
+.processing-btn{
+    border-color: #44B350 !important;
+    color: #44B350 !important;
+}
+.todo-btn{
+    border-color: #BFBFBF !important;
+    color: #BFBFBF !important;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-collapse {
