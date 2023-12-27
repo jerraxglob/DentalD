@@ -26,7 +26,7 @@
                                     </div>
                                     <div class="col-12 col-md-4 d-flex align-items-center gap-2">
                                         <h2 class="font-14 fw-bold mb-0">
-                                        Periode 
+                                            Periode
                                         </h2>
                                         <div class="dropdown">
                                             <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
@@ -57,9 +57,7 @@
                                                 <strong class="card-title px-3 fw-bold">17</strong>
                                                 <p class="card-text  px-3 text-nowrap">Employees</p>
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
@@ -74,7 +72,6 @@
                                             </div>
 
                                         </div>
-
                                     </div>
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
@@ -87,7 +84,6 @@
                                                 <strong class="card-title px-3 fw-bold">500</strong>
                                                 <p class="card-text px-3 text-nowrap">Appointment</p>
                                             </div>
-
                                         </div>
 
                                     </div>
@@ -131,42 +127,28 @@
                                                 <strong class="card-title px-3 fw-bold">20%</strong>
                                                 <p class="card-text px-3 text-nowrap">Occupancy rate</p>
                                             </div>
-
                                         </div>
-
                                     </div>
-
                                 </div>
                             </div>
-<<<<<<< HEAD
-                            <div class="container  task-sm">
-=======
-
                             <div class="container  task-sm bg-white">
->>>>>>> e833f2e624bc126962893e3663271b2eedff500f
                                 <div class="row d-flex align-items-center ">
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-3 d-flex justify-content-between rounded-3 bg-white mt-4">
                                         <h5 class="py-2">Task management</h5>
                                         <a href="#" class="text-decoration-none text-info py-2">+ New
                                             ticket</a>
-<<<<<<< HEAD
-                                        <br>
-                                        <h6>
-=======
                                     </div>
                                 </div>
                                 <div class=" d-flex justify-content-end gap-3 align-items-center">
-                                <h6>
->>>>>>> e833f2e624bc126962893e3663271b2eedff500f
-                                            <i class="fas fa-user px-2"></i> Everybody
-                                            <i class='fas fa-angle-down thin-arrow p-3'></i>
-                                        </h6>
-                                        <a href="#" class="btn btn-sm btn-white border border-dark w-10 h-60">
-                                            Add filter <i class="fas fa-bars mr-3"></i>
-                                        </a>
-
-</div>
+                                    <h6>
+                                        <i class="fas fa-user px-2"></i> Everybody
+                                        <i class='fas fa-angle-down thin-arrow p-3'></i>
+                                    </h6>
+                                    <a href="#" class="btn btn-sm btn-white border border-dark w-10 h-60">
+                                        Add filter <i class="fas fa-bars mr-3"></i>
+                                    </a>
+                                </div>
                                 <div class="row">
                                     <div
                                         class="col-md-12 gx-5 py-3 rounded-3 bg-white d-flex justify-content-center align-items-center">
@@ -256,7 +238,7 @@
                                                                     type="button" data-mdb-dropdown-init
                                                                     data-mdb-ripple-init aria-expanded="false">
                                                                     Medium
-</i>
+                                                                    </i>
                                                                 </button>
                                                                 <ul class="dropdown-menu">
                                                                     <li><a class="dropdown-item" href="#">Action</a>
