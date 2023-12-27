@@ -980,7 +980,6 @@
 
             <div class="col-md-12 col-lg-12 bg-color ">
                     <div class="container rounded-3 mt-5">
-
             <div class="w-full row cons-sm mx-auto mt-4 align-items-center custom-margin rounded-3 justify-content-center bg-white p-3">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
@@ -1000,7 +999,14 @@
                                     <th>Treatment </th>
                                     <th>Treatment plan</th>
                                     <th>Amount</th>
-                                    <th></th>
+                                    <th>
+                                        <div class="flex gap-2">
+                                        <span>Status</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                        </div>
+                                    </th>
                                     <th>Next appointment</th>
                                 </tr>
                             </thead>
