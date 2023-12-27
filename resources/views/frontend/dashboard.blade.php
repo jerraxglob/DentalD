@@ -131,7 +131,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="container  task-sm bg-white">
+                            <div class="container  task-sm bg-white mt-4">
                                 <div class="row d-flex align-items-center ">
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-3 d-flex justify-content-between rounded-3 bg-white mt-4">
