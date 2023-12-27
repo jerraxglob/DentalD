@@ -471,12 +471,12 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Patients undergoing treatment.</b></h5>
                         <strong class="card-text fs-2">1 000</strong><br>
-                        <span class="text-success">+ 3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success">+ 3.49% over the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -485,12 +485,12 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Patients with appointment reminders.</b></h5>
                         <strong class="card-text fs-2">650</strong><br>
-                        <span class="text-success py-1">+ 3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1">+ 3.49% over the period</span> <br>
                     </div>
                 </div>
             </div>
@@ -499,12 +499,12 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Walk-in patients.</b></h5>
                         <strong class="card-text fs-2">350</strong><br>
-                        <span class="text-success py-1">+ 3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
+                        <span class="text-success py-1">+ 3.49% over the period</span> <br>
                     </div>
                 </div>
             </div>
