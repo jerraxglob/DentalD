@@ -356,6 +356,18 @@ ul.custom-square li::marker {
 .btn-width-pay {
     width: 10rem;
 }
+.font-12{
+    font-size: 12px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
+.font-16{
+    font-size: 16px !important;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-collapse {

@@ -352,17 +352,17 @@ Check the quantity entered, select a reason and specify the reason for the chang
                     <form role="form" method="POST" action="">
                         <div class="row mb-3">
                             <div class="col-md-4">
-                                <label for="refrence" class="form-label">Reference</label>
+                                <label for="refrence" class="form-label fw-bold">Reference</label>
                                 <input type="text" class="form-control form-control-sm" id="refrence"
                                     name="refrence" value="">
                             </div>
                             <div class="col-md-4">
-                                <label for="pro-name" class="form-label">Product name</label>
+                                <label for="pro-name" class="form-label fw-bold">Product name</label>
                                 <input type="text" class="form-control form-control-sm" id="pro-name"
                                     name="pro-name" value="">
                             </div>
                             <div class="col-md-4">
-                                <label for="category" class="form-label">Category</label>
+                                <label for="category" class="form-label fw-bold">Category</label>
                                 <select class="form-select form-select-sm" name="category"
                                     aria-label=".form-select-sm example">
                                     <option selected>Chose Category</option>
@@ -374,24 +374,24 @@ Check the quantity entered, select a reason and specify the reason for the chang
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-4">
-                                <label for="address" class="form-label">Quantity</label>
+                                <label for="address" class="form-label fw-bold">Quantity</label>
                                 <input type="number" class="form-control form-control-sm" id="quantity"
                                     name="quantity">
                             </div>
                             <div class="col-md-4">
-                                <label for="best-quant" class="form-label">Best quantity</label>
+                                <label for="best-quant" class="form-label fw-bold">Best quantity</label>
                                 <input type="number" class="form-control form-control-sm" id="best-quant"
                                     name="best-quant">
                             </div>
                             <div class="col-md-4">
-                                <label for="limit-alert" class="form-label">Limit for alert</label>
+                                <label for="limit-alert" class="form-label fw-bold">Limit for alert</label>
                                 <input type="text" class="form-control form-control-sm" id="limit-alert"
                                     name="limit-alert">
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-4">
-                                <label for="supplier" class="form-label">Supplier</label>
+                                <label for="supplier" class="form-label fw-bold">Supplier</label>
                                 <select class="form-select form-select-sm" name="supplier"
                                     aria-label=".form-select-sm example">
                                     <option selected>Chose Supplier</option>
@@ -401,7 +401,7 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                 </select>
                             </div>
                             <div class="col-md-4">
-                                <label for="buy-price" class="form-label">Buying price (1pcs)</label>
+                                <label for="buy-price" class="form-label fw-bold font-14">Buying price (1pcs)</label>
                                 <input type="text" class="form-control form-control-sm" id="buy-price"
                                     name="buy-price">
                             </div>
@@ -409,8 +409,9 @@ Check the quantity entered, select a reason and specify the reason for the chang
 
                             </div>
                         </div>
+                        <hr>
 
-                        <div class="row mb-3 d-flex align-items-center">
+                        <div class="row mb-3 d-flex align-items-center mt-4">
                             <div class="col-md-8">
                                 <div class="form-check">
                                     <input class="form-check-input" name="exp-date" type="checkbox" value=""
@@ -421,17 +422,16 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <label for="date" class="form-label">Date</label>
+                                <label for="date" class="form-label fw-bold">Date</label>
                                 <input type="date" class="form-control form-control-sm" id="date"
                                     name="date">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <div class="col-md-2"></div>
-                            <div class="d-grid  col-md-6 ">
+
+                            <div class="d-flex justify-content-center">
                                 <button type="submit" class="btn btn-info btn-sm text-white">Add new product</button>
                             </div>
-                            <div class="col-md-2"></div>
                         </div>
                     </form>
                 </div>
