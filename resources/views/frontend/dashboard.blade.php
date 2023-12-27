@@ -3,7 +3,7 @@
     <div class=" bg-color">
         <div class="container-fluid responsive">
             <div class="row">
-                <div class="col-12 col-md-9 mr-0">
+                <div class="col-12 col-md-8 col-lg-8 mr-0">
                     <div class="container">
                         <div class="row mt-5">
                             <div class="col-12 col-md-4 mb-small my-auto mx-auto">
@@ -603,7 +603,7 @@
                     </div>
                 </div>
                 <!-- Sidebar Column -->
-                <div class="col-md-3 mx-auto stock-sm">
+                <div class="col-md-4 col-lg-4  mx-auto stock-sm">
                     <!-- Sidebar Content -->
                     <form class="dark-mode-form container">
                         <!-- Stock Report Header -->
@@ -965,113 +965,10 @@
                                     </div>
 
                                 </div>
-                                <a href="#" class="text-decoration-none text-info px-4 py-2">See
-                                    all</a>
                             </div>
                         </div>
-                        <div class="col-md-12 col-lg-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                            <div class=" w-48">
-                                <div class="input-icons position-relative align-items-center">
-                                    <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
-                                        style="padding-left: 21px"></i>
-                                    <input class="form-control mx-2 px-5" id="searchInput" type="text"
-                                        placeholder="Rechercher un patient" />
-                                </div>
-                            </div>
-                            <div class="align-items-center pl-3 d-flex align-items-center">
-                                <div class="ml-auto">
-                                    <span class="date-range mr-3 text-dark">Date range</span>
-                                    <button type="button" class="btn btn-white border border-dark w-10 h-60">
-                                        Add filter <i class="fas fa-bars mr-3"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                            <ul class="nav nav-tabs mb-3" id="ex-with-icons" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                    <a data-bs-toggle="tab" class="nav-link active" id="ex-with-icons-tab-1"
-                                        href="#ex-with-icons-tabs-1" role="tab" aria-controls="ex-with-icons-tabs-1"
-                                        aria-selected="true">
-                                        Consultations
-                                    </a>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                    <a data-bs-toggle="tab" class="nav-link" id="ex-with-icons-tab-2"
-                                        href="#ex-with-icons-tabs-2" role="tab" aria-controls="ex-with-icons-tabs-2"
-                                        aria-selected="false">
-                                        Draft
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                        
                         <!-- Tabs content -->
-                        <div class="tab-content" id="ex-with-icons-content">
-                            <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
-                                aria-labelledby="ex-with-icons-tab-1">
-                                <div class="table-responsive">
-                                    <table class="table table-borderless ">
-                                        <thead>
-                                            <tr class="">
-                                                <th>Date</th>
-                                                <th>Treatment </th>
-                                                <th>Treatment plan</th>
-                                                <th>Amount</th>
-                                                <th>
-                                                    <div class="d-flex gap-1 align-items-center">
-                                                    <p class="mb-0">Status</p>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-</svg>
-                                                </div></th>
-                                                <th>Next appointment</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>12/07/23</td>
-                                                <td>Bonnet Pierre</td>
-                                                <td>Daniel</td>
-                                                <td>273633</td>
-                                                <td>Dr. Daniel Soufi</td>
-                                                <td>Reason for visit</td>
-                                                <td>Treatment</td>
-                                                <td>CHF XXXX-.</td>
-                                                <td><a href="#"
-                                                        class="btn btn-info text-white rounded-pill btn-sm">View</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>12/07/23</td>
-                                                <td>Bonnet Pierre</td>
-                                                <td>Daniel</td>
-                                                <td>273633</td>
-                                                <td>Dr. Daniel Soufi</td>
-                                                <td>Reason for visit</td>
-                                                <td>Treatment</td>
-                                                <td>CHF XXXX-.</td>
-                                                <td><a href="#"
-                                                        class="btn btn-info text-white rounded-pill btn-sm">View</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>12/07/23</td>
-                                                <td>Bonnet Pierre</td>
-                                                <td>Daniel</td>
-                                                <td>273633</td>
-                                                <td>Dr. Daniel Soufi</td>
-                                                <td>Reason for visit</td>
-                                                <td>Treatment</td>
-                                                <td>CHF XXXX-.</td>
-                                                <td><a href="#"
-                                                        class="btn btn-info text-white rounded-pill btn-sm">View</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-
-                            </div>
                             <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
                                 aria-labelledby="ex-with-icons-tab-2">
                                 Tab 2 content
@@ -1080,8 +977,11 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="row cons-sm mx-auto mt-4 align-items-center custom-margin rounded-3 justify-content-center bg-white p-3">
+
+            <div class="col-md-12 col-lg-12 bg-color ">
+                    <div class="container rounded-3 mt-5">
+
+            <div class="w-full row cons-sm mx-auto mt-4 align-items-center custom-margin rounded-3 justify-content-center bg-white p-3">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
                         <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
@@ -1216,6 +1116,9 @@
 
             </div>
 
+
+        </div>
+        </div>
         </div>
 
     </div>
