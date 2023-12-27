@@ -506,22 +506,4 @@
             </div>
         </div>
     </div>
-
-    <script>
-        function nextTab() {
-            const activeTab = $('.nav-tabs .nav-link.active');
-            const nextTab = activeTab.parent().next().find('a');
-            if (nextTab.length > 0) {
-                nextTab.tab('show');
-            }
-        }
-
-        function prevTab() {
-            const activeTab = $('.nav-tabs .nav-link.active');
-            const prevTab = activeTab.parent().prev().find('a');
-            if (prevTab.length > 0) {
-                prevTab.tab('show');
-            }
-        }
-    </script>
 @endsection

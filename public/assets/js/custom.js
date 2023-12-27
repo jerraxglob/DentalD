@@ -1,6 +1,7 @@
+// docu upload code
 console.clear();
 ("use strict");
-(function () {
+(function() {
     "use strict";
     const preventDefaults = (event) => {
         event.preventDefault();
@@ -64,15 +65,14 @@ console.clear();
 
     // No 'image/gif' or PDF or webp allowed here, but it's up to your use case.
     // Double checks the input "accept" attribute
-    const isImageFile = (file) =>
-        ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
+    const isImageFile = (file) => ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
 
     function previewFiles(dataRefs) {
         if (!dataRefs.gallery) return;
         for (const file of dataRefs.files) {
             let reader = new FileReader();
             reader.readAsDataURL(file);
-            reader.onloadend = function () {
+            reader.onloadend = function() {
                 let img = document.createElement("img");
                 img.className = "upload_img mt-2";
                 img.setAttribute("alt", file.name);
@@ -97,9 +97,9 @@ console.clear();
         formData.append(name, dataRefs.files);
 
         fetch(url, {
-            method: "POST",
-            body: formData,
-        })
+                method: "POST",
+                body: formData,
+            })
             .then((response) => response.json())
             .then((data) => {
                 console.log("posted: ", data);
@@ -134,7 +134,7 @@ console.clear();
     };
 })();
 // datepicker
-$(document).ready(function () {
+$(document).ready(function() {
     $("#startDate").datepicker({
         format: "yyyy/mm/dd",
         todayHighlight: true,
@@ -147,3 +147,19 @@ $(document).ready(function () {
         autoclose: true,
     });
 });
+// next and previous button js on page patient sheet
+function nextTab() {
+    const activeTab = $(".nav-tabs .nav-link.active");
+    const nextTab = activeTab.parent().next().find("a");
+    if (nextTab.length > 0) {
+        nextTab.tab("show");
+    }
+}
+
+function prevTab() {
+    const activeTab = $(".nav-tabs .nav-link.active");
+    const prevTab = activeTab.parent().prev().find("a");
+    if (prevTab.length > 0) {
+        prevTab.tab("show");
+    }
+}

@@ -1,16 +1,19 @@
 @extends('frontend.partials.main')
 @section('content')
-<div class="modal fade" id="Stock_modification" tabindex="-1" aria-labelledby="Stock_modification" aria-hidden="true">
+    <div class="modal fade" id="Stock_modification" tabindex="-1" aria-labelledby="Stock_modification" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header  d-flex justify-content-center align-items-center">
                     <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
-  <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
-  <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
-</svg>
-                    <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
-      
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                            <path
+                                d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                            <path
+                                d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                        </svg>
+                        <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
+
                     </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -18,20 +21,26 @@
                     <form role="form" method="POST" action="">
                         <div class="row mb-5">
                             <p>You have changed the product stock.
+<<<<<<< HEAD
+                                Check the quantity entered, select a reason and specify the reason for the change</p>
+                            <div class="col-md-4">
+=======
 Check the quantity entered, select a reason and specify the reason for the change</p>
                             <div class="col-md-4 mt-4">
+>>>>>>> e833f2e624bc126962893e3663271b2eedff500f
                                 <label for="date" class="form-label">Actual stock</label>
-                                <input type="number" class="form-control form-control-sm" id="Actual_stock" name="Actual_stock">
+                                <input type="number" class="form-control form-control-sm" id="Actual_stock"
+                                    name="Actual_stock">
                             </div>
                             <div class="col-md-4 mt-4">
                                 <label for="Modification " class="form-label">Modification </label>
-                                <input type="text" class="form-control form-control-sm" id="Modification " name="Modification "
-                                    placeholder="Nom du Modification ">
+                                <input type="text" class="form-control form-control-sm" id="Modification "
+                                    name="Modification " placeholder="Nom du Modification ">
                             </div>
                             <div class="col-md-4 mt-4">
                                 <label for="Limit" class="form-label">Limit</label>
-                                <input type="number" class="form-control form-control-sm" id="Limit"
-                                    name="Limit" placeholder="8277t3d">
+                                <input type="number" class="form-control form-control-sm" id="Limit" name="Limit"
+                                    placeholder="8277t3d">
                             </div>
                         </div>
                         <hr>
@@ -43,11 +52,10 @@ Check the quantity entered, select a reason and specify the reason for the chang
                             </div>
                             <div class="col-md-8">
                                 <label for="Comment" class="form-label">Comment</label>
-                                <input type="text" class="form-control form-control-sm" id="Comment"
-                                    name="Comment">
+                                <input type="text" class="form-control form-control-sm" id="Comment" name="Comment">
                             </div>
                         </div>
-                        
+
                         <div class="row mb-3">
                             <div class="d-grid  col-md-6 d-flex justify-content-center w-full">
                                 <button type="submit" class="btn btn-info btn-sm text-white">Confirm modification</button>
@@ -61,13 +69,13 @@ Check the quantity entered, select a reason and specify the reason for the chang
         </div>
     </div>
 
-<div class="container-fluid">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-lg-8">
                 <div class="container rounded-3 mt-5">
                     <div class="row align-items-center rounded-3 bg-white p-3">
                         <div class="col-sm-12 col-md-4 col-lg-4 align-items-center">
-                            <strong class="text-start"> Stock management</strong>
+                            <strong class="text-start"> Gestion de stock</strong>
                         </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 align-items-center"> </div>
                         <div class="col-sm-12 col-md-4 col-lg-4 align-items-center">
@@ -120,10 +128,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn btn-sm btn-info px-3 text-white rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -135,10 +144,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn btn-sm text-white btn-info px-3 rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -150,10 +160,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn text-white btn-sm btn-info px-3 rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -165,10 +176,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn text-white btn-sm btn-info px-3 rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -180,10 +192,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn text-white btn-sm btn-info px-3 rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -195,10 +208,11 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>390</td>
                                             <td>---</td>
                                             <td>
-                                            <button type="button" class="btn btn-sm btn-info px-3 rounded-pill" data-bs-toggle="modal"
-                                        data-bs-target="#Stock_modification">
-                                        Edit
-                                    </button>
+                                                <button type="button"
+                                                    class="btn btn-sm text-white btn-info px-3 rounded-pill"
+                                                    data-bs-toggle="modal" data-bs-target="#Stock_modification">
+                                                    Edit
+                                                </button>
 
                                             </td>
                                         </tr>
@@ -271,7 +285,7 @@ Check the quantity entered, select a reason and specify the reason for the chang
                             <strong class="text-nowrap">Commandes.</strong>
                         </div>
                         <div class="col-12 col-md-3 col-lg-3">
-                            <a href="#" class="text-decoration-none text-nowrap tout_voir">Tout voir</a>
+                            <a href="#" class="text-decoration-none   text-nowrap tout_voir">Tout voir</a>
                         </div>
                     </div>
                     <div class="row">
@@ -291,7 +305,9 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 text-nowrap rounded-pill">Voir la
+                                                <button
+                                                    class="btn btn-sm btn-info px-3 text-nowrap text-white rounded-pill">Voir
+                                                    la
                                                     commande</button>
                                             </td>
                                         </tr>
@@ -299,7 +315,9 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 text-nowrap rounded-pill">Voir la
+                                                <button
+                                                    class="btn btn-sm btn-info px-3 text-white text-nowrap rounded-pill">Voir
+                                                    la
                                                     commande</button>
                                             </td>
                                         </tr>
@@ -307,7 +325,9 @@ Check the quantity entered, select a reason and specify the reason for the chang
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
-                                                <button class="btn btn-sm btn-info px-3 text-nowrap rounded-pill">Voir la
+                                                <button
+                                                    class="btn btn-sm btn-info px-3 text-white text-nowrap rounded-pill">Voir
+                                                    la
                                                     commande</button>
                                             </td>
                                         </tr>

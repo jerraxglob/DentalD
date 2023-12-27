@@ -45,4 +45,8 @@ class DentalController extends Controller
     {
         return view('frontend.11th_page');
     }
+    public function update_order()
+    {
+        return view('frontend.updateorder');
+    }
 }
