@@ -43,7 +43,7 @@ class DentalController extends Controller
     }
     public function setting()
     {
-        return view('frontend.11th_page');
+        return view('frontend.setting');
     }
     public function update_order()
     {

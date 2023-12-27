@@ -71,7 +71,6 @@
                             <div class="col-md-2 mt-4">
                                 <strong class="text-danger px-2">X</strong>
                             </div>
-
                         </div>
                         <div class="row mb-3 align-items-center">
                             <div class="col-md-3">
@@ -99,14 +98,12 @@
                             </div>
 
                         </div>
-
                         <div class="row mb-3 align-items-center">
                             <div class="col-md-8">
                             </div>
                             <div class="col-md-4">
                                 <h6>Total : CHF XXX .-</h6>
                             </div>
-
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-2"></div>
@@ -117,7 +114,6 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
@@ -147,7 +143,6 @@
                             Archived orders
                         </a>
                     </li>
-
                 </ul>
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
@@ -280,7 +275,6 @@
                         aria-labelledby="ex-with-icons-tab-2">
                         Tab 2 content
                     </div>
-
                 </div>
             </div>
         </div>

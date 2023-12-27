@@ -21,7 +21,6 @@
                                 value="" placeholder="supplier ID">
                         </div>
                         <div class="col-md-4">
-
                         </div>
                     </div>
                     <div class="row mb-3">
@@ -59,21 +58,16 @@
                                 name="deliv-time">
                         </div>
                         <div class="col-md-4">
-
                         </div>
                         <div class="col-md-4">
-
                         </div>
-
                     </div>
-
                     <div class="row mb-3">
                         <div class="col-md-6">
                             <label for="comments" class="form-label">Comments</label>
                             <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
                         </div>
                         <div class="col-md-6">
-
                         </div>
                     </div>
                     <div class="row mb-3">
@@ -85,7 +79,6 @@
                     </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>
@@ -154,7 +147,6 @@
                     </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>
@@ -219,7 +211,6 @@
                     </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>
@@ -287,7 +278,6 @@
                     </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>
@@ -825,7 +815,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="mon-end" class="form-control text-nowrap"
                                                         name="mon-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
 
                                             </li>
@@ -837,7 +828,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="tues-end" class="form-control text-nowrap"
                                                         name="tues-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
 
@@ -849,7 +841,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="thurs-end" class="form-control text-nowrap"
                                                         name="thurs-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -860,7 +853,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="fri-end" class="form-control text-nowrap"
                                                         name="fri-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -926,7 +920,7 @@
                                                     </label>
                                                 </div>
                                                 <div class="col-12 mt-2">
-                                                    <button type="button" class="btn btn-info px-2 btn-sm">Add
+                                                    <button type="button" class="btn text-white btn-info px-2 btn-sm">Add
                                                     </button>
                                                 </div>
                                             </div>
@@ -951,7 +945,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-tues-end"
                                                         class="form-control text-nowrap" name="tues-end">
-                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+                                                    <a href="#" class="btn btn-sm ml-4  text-white btn-info">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -962,7 +956,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-wed-end"
                                                         class="form-control text-nowrap" name="emer-wed-end">
-                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+                                                    <a href="#" class="btn text-white btn-sm ml-4 btn-info">Add</a>
                                                 </div>
                                             </li>
 
@@ -980,7 +974,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-fri-end"
                                                         class="form-control text-nowrap" name="emer-fri-end">
-                                                    <a href="#" class="btn btn-sm ml-4 btn-info">Add</a>
+                                                    <a href="#" class="btn text-white btn-sm ml-4 btn-info">Add</a>
 
                                                 </div>
                                             </li>
@@ -1021,14 +1015,12 @@
 
                                                 </div>
                                             </div>
-
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="row align-middle">
                                     <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
-                                        <button class="btn btn-info  btn-sm" type="button">Save</button>
+                                        <button class="btn btn-info  text-white btn-sm" type="button">Save</button>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1051,7 +1043,8 @@
                                             <div class="col col-md-12 col-lg-12 d-flex align-items-center align-middle">
                                                 <span>Planning:</span> <span class="text-danger">x</span>
                                                 <span>Hygienist</span>
-                                                <a href="#" class="btn btn-sm btn-info ml-4 text-end">Add</a>
+                                                <a href="#"
+                                                    class="btn btn-sm btn-info text-white ml-4 text-end">Add</a>
                                             </div>
                                         </div>
                                         <ul class="custom-square">
@@ -1063,7 +1056,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="Specialist1-mon-end"
                                                         class="form-control text-nowrap" name="mon-end">
-                                                    <a href="#" class="btn btn-sm ml-4 btn-info px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm ml-4 text-white btn-info px-1">Add</a>
                                                 </div>
 
                                             </li>
@@ -1075,7 +1069,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="Specialist2-tues-end"
                                                         class="form-control text-nowrap" name="Specialist2-tues-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -1086,7 +1081,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="Specialist3-wed-end"
                                                         class="form-control text-nowrap" name="Specialist3-wed-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
 
@@ -1098,7 +1094,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="Specialist4-thurs-end"
                                                         class="form-control text-nowrap" name="Specialist4-thurs-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn text-white btn-sm btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -1109,7 +1106,8 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="Specialist5-fri-end"
                                                         class="form-control text-nowrap" name="Specialist5-fri-end">
-                                                    <a href="#" class="btn btn-sm btn-info ml-4 px-1">Add</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -1166,7 +1164,6 @@
                                                             name="endDate" id="endDate" placeholder="07/09/2023">
                                                         <span class="text-danger px-2"> x </span>
                                                     </div>
-
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-4 col-lg-4 align-items-center align-middle">
@@ -1177,9 +1174,8 @@
                                                             name="vaction" id="vaction" placeholder="">
                                                         <span class="text-danger px-2"> x </span>
                                                     </div>
-
                                                 </div>
-                                                <a href="#" class="btn btn-info btn-sm"> Add</a>
+                                                <a href="#" class="btn btn-info btn-sm text-white"> Add</a>
                                             </div>
                                         </div>
                                         <div class="row mt-3 align-middle">
@@ -1211,7 +1207,6 @@
                                                                 <td>Paid</td>
                                                                 <td>Completed</td>
                                                             </tr>
-
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -1219,7 +1214,8 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
-                                                <button class="btn btn-info  btn-sm" type="button">Save</button>
+                                                <button class="btn btn-info  text-white btn-sm"
+                                                    type="button">Save</button>
                                             </div>
                                         </div>
                                     </div>
@@ -1581,7 +1577,7 @@
                                         </ul>
                                     </div>
                                     <span>
-                                        <a href="#" class="btn btn-sm btn-info">
+                                        <a href="#" class="btn btn-sm text-white btn-info">
                                             Add
                                         </a>
                                     </span>

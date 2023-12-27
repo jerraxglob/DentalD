@@ -94,7 +94,7 @@
                             <a class="dropdown-item" href="#">My profile</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="{{ URL::route('setting') }}">Settings</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="#">Logout</a>

@@ -70,7 +70,6 @@
                                                 <strong class="card-title px-3 fw-bold">831</strong>
                                                 <p class="card-text  px-3 text-nowrap">Total patients</p>
                                             </div>
-
                                         </div>
                                     </div>
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
@@ -85,9 +84,7 @@
                                                 <p class="card-text px-3 text-nowrap">Appointment</p>
                                             </div>
                                         </div>
-
                                     </div>
-
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
@@ -112,9 +109,7 @@
                                                 <strong class="card-title px-3 fw-bold">13</strong>
                                                 <p class="card-text px-3 text-nowrap ">Missed appointment</p>
                                             </div>
-
                                         </div>
-
                                     </div>
                                     <div class=" col-sm-12 col-md-4 col-mg-4">
                                         <div class="card-body d-flex justify-center align-items-center">
@@ -595,7 +590,6 @@
                                                 </tbody>
                                             </table>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -619,57 +613,65 @@
                         </div>
                         <div class="stock">
                             <div class="row col-with-line">
-                                <!-- Specialist -->
                                 <div class="col-md-4 mb-3">
                                     <label for="name" class="form-label">Specialist</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="name"
                                         id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Material -->
                                 <div class="col-md-6 mb-3">
                                     <label for="material" class="form-label">Material</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="material"
                                         id="material" placeholder="" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Qty -->
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
                                         class="form-control qty form-control-sm dark-input" value=""
                                         id="qty">
                                 </div>
-
                             </div>
                             <div class="row col-with-line">
-                                <!-- Specialist -->
                                 <div class="col-md-4 mb-3">
                                     <label for="name" class="form-label">Specialist</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="name"
                                         id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Material -->
                                 <div class="col-md-6 mb-3">
                                     <label for="material" class="form-label">Material</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="material"
                                         id="material" placeholder="" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Qty -->
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
                                         class="form-control qty form-control-sm dark-input" value=""
                                         id="qty">
                                 </div>
-
                             </div>
                             <div class="row col-with-line">
-                                <!-- Specialist -->
                                 <div class="col-md-4 mb-3">
                                     <label for="name" class="form-label">Specialist</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="name"
                                         id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Material -->
+                                <div class="col-md-6 mb-3">
+                                    <label for="material" class="form-label">Material</label>
+                                    <input type="text" class="form-control form-control-sm dark-input" name="material"
+                                        id="material" placeholder="" aria-describedby="emailHelp">
+                                </div>
+                                <div class="col-md-2 mb-3">
+                                    <label for="qty" class="form-label qty ">Qty</label>
+                                    <input type="text" name="qty"
+                                        class="form-control qty form-control-sm dark-input " value=""
+                                        id="qty">
+                                </div>
+                            </div>
+                            <div class="row col-with-line">
+                                <div class="col-md-4 mb-3">
+                                    <label for="name" class="form-label">Specialist</label>
+                                    <input type="text" class="form-control form-control-sm dark-input" name="name"
+                                        id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
+                                </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="material" class="form-label">Material</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="material"
@@ -685,48 +687,22 @@
 
                             </div>
                             <div class="row col-with-line">
-                                <!-- Specialist -->
                                 <div class="col-md-4 mb-3">
                                     <label for="name" class="form-label">Specialist</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="name"
                                         id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Material -->
                                 <div class="col-md-6 mb-3">
                                     <label for="material" class="form-label">Material</label>
                                     <input type="text" class="form-control form-control-sm dark-input" name="material"
                                         id="material" placeholder="" aria-describedby="emailHelp">
                                 </div>
-                                <!-- Qty -->
                                 <div class="col-md-2 mb-3">
                                     <label for="qty" class="form-label qty ">Qty</label>
                                     <input type="text" name="qty"
                                         class="form-control qty form-control-sm dark-input " value=""
                                         id="qty">
                                 </div>
-
-                            </div>
-                            <div class="row col-with-line">
-                                <!-- Specialist -->
-                                <div class="col-md-4 mb-3">
-                                    <label for="name" class="form-label">Specialist</label>
-                                    <input type="text" class="form-control form-control-sm dark-input" name="name"
-                                        id="name" placeholder="Dr. Soufi Daniel" aria-describedby="emailHelp">
-                                </div>
-                                <!-- Material -->
-                                <div class="col-md-6 mb-3">
-                                    <label for="material" class="form-label">Material</label>
-                                    <input type="text" class="form-control form-control-sm dark-input" name="material"
-                                        id="material" placeholder="" aria-describedby="emailHelp">
-                                </div>
-                                <!-- Qty -->
-                                <div class="col-md-2 mb-3">
-                                    <label for="qty" class="form-label qty ">Qty</label>
-                                    <input type="text" name="qty"
-                                        class="form-control qty form-control-sm dark-input " value=""
-                                        id="qty">
-                                </div>
-
                             </div>
                         </div>
                         <div class="row mt-5 d-flex stock-sm justify-content-center align-items-center">
@@ -756,8 +732,8 @@
                                                 <td>
                                                     <div class="mb-3">
                                                         <span
-                                                            class="wd100 form-control float-left form-control-sm dark-input processing-btn text-center"
-                                                            > Sent </span>
+                                                            class="wd100 form-control float-left form-control-sm dark-input processing-btn text-center">
+                                                            Sent </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -767,7 +743,8 @@
                                                 <td>
                                                     <div class="mb-3">
                                                         <span
-                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center">
+                                                            Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -776,8 +753,9 @@
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
                                                 <td>
                                                     <div class="mb-3">
-                                                    <span
-                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
+                                                        <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center">
+                                                            Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -786,8 +764,9 @@
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
                                                 <td>
                                                     <div class="mb-3">
-                                                    <span
-                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
+                                                        <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center">
+                                                            Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -796,20 +775,21 @@
                                                 <td class="text-white text-nowrap">Change of regulations …</td>
                                                 <td>
                                                     <div class="mb-3">
-                                                    <span
-                                                            class="wd100 form-control float-left form-control-sm dark-input text-center"> Draft </span>
+                                                        <span
+                                                            class="wd100 form-control float-left form-control-sm dark-input text-center">
+                                                            Draft </span>
                                                     </div>
                                                 </td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
-
                             </div>
                         </div>
                         <div class="text-center pb-4 mt-3">
                             <div class="d-grid gap-2 col-6 col-md-4 mx-auto">
-                                <button type="submit" class="btn btn-nowrap btn-sm btn-info text-white">Add a new note</button>
+                                <button type="submit" class="btn btn-nowrap btn-sm btn-info text-white">Add a new
+                                    note</button>
                             </div>
                         </div>
                     </form>
@@ -823,7 +803,8 @@
                         <div class="row cons-sm mx-auto align-items-center rounded-3 justify-content-center bg-white p-3">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="row">
-                                    <div class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between mb-5">
+                                    <div
+                                        class="col-md-12 col-lg-12  rounded-3 bg-white d-flex justify-content-between mb-5">
                                         <h5 class="py-2">Consultations</h5>
                                         <div class="align-items-center pl-3 d-flex align-items-center">
                                             <div class="dropdown align-items-center">
@@ -859,11 +840,13 @@
                                             <div class="ml-auto d-flex gap-3 text-center align-items-center">
                                                 <div class="date-range mr-3 text-dark">
                                                     <span>
-                                                    Date range
+                                                        Date range
                                                     </span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
-</svg>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                                                    </svg>
                                                 </div>
                                                 <button type="button" class="btn btn-white border border-dark w-10 h-60">
                                                     Add filter <i class="fas fa-bars mr-3"></i>
@@ -923,7 +906,7 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><a href="#"
-                                                                        class="btn btn-info  rounded-pill btn-sm">View</a>
+                                                                        class="btn btn-info  text-white rounded-pill btn-sm">View</a>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -936,7 +919,7 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><button type="button"
-                                                                        class="btn btn-info rounded-pill btn-sm">View</button>
+                                                                        class="btn btn-info text-white rounded-pill btn-sm">View</button>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -949,13 +932,12 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><button type="button"
-                                                                        class="btn btn-info rounded-pill btn-sm">View</button>
+                                                                        class="btn btn-info text-white rounded-pill btn-sm">View</button>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
-
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
@@ -963,169 +945,169 @@
                                             Tab 2 content
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
-                        
                         <!-- Tabs content -->
-                            <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
-                                aria-labelledby="ex-with-icons-tab-2">
-                                Tab 2 content
+                        <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
+                            aria-labelledby="ex-with-icons-tab-2">
+                            Tab 2 content
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 col-lg-12 bg-color ">
+            <div class="container rounded-3 mt-5">
+                <div
+                    class="w-full row cons-sm mx-auto mt-4 align-items-center custom-margin rounded-3 justify-content-center bg-white p-3">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
+                                <h5 class="py-2 ">Files to be invoiced.</h5>
+                                <a href="#" class="text-decoration-none text-info px-4 py-2">See
+                                    all</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                        <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
+                            <table class="table table-borderless table-responsive">
+                                <thead>
+                                    <tr class="">
+                                        <th>Patient</th>
+                                        <th>Specialist </th>
+                                        <th>Date</th>
+                                        <th>Treatment </th>
+                                        <th>Treatment plan</th>
+                                        <th>Amount</th>
+                                        <th>
+                                            <div class="flex gap-2">
+                                                <span>Status</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                    fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                                </svg>
+                                            </div>
+                                        </th>
+                                        <th>Next appointment</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>12 July 2023</td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            12 July 2023
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>12 July 2023</td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            12 July 2023
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>12 July 2023</td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            12 July 2023
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>12 July 2023</td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            12 July 2023
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>12 July 2023</td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            12 July 2023
+                                        </td>
+                                    </tr>
 
-            <div class="col-md-12 col-lg-12 bg-color ">
-                    <div class="container rounded-3 mt-5">
-            <div class="w-full row cons-sm mx-auto mt-4 align-items-center custom-margin rounded-3 justify-content-center bg-white p-3">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="row">
-                        <div class="col-md-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                            <h5 class="py-2 ">Files to be invoiced.</h5>
-                            <a href="#" class="text-decoration-none text-info px-4 py-2">See
-                                all</a>
+                                </tbody>
+
+                            </table>
                         </div>
-                    </div>
-                    <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
-                        <table class="table table-borderless table-responsive">
-                            <thead>
-                                <tr class="">
-                                    <th>Patient</th>
-                                    <th>Specialist </th>
-                                    <th>Date</th>
-                                    <th>Treatment </th>
-                                    <th>Treatment plan</th>
-                                    <th>Amount</th>
-                                    <th>
-                                        <div class="flex gap-2">
-                                        <span>Status</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-</svg>
-                                        </div>
-                                    </th>
-                                    <th>Next appointment</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr. Daniel Soufi</td>
-                                    <td>12 July 2023</td>
-                                    <td>
-                                        Ongoing treatment
-                                    </td>
-                                    <td>
-                                        12 months
-                                    </td>
-                                    <td>
-                                        CHF XXXX-.
-                                    </td>
-                                    <td>
-                                        Unbilled
-                                    </td>
-                                    <td>
-                                        12 July 2023
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr. Daniel Soufi</td>
-                                    <td>12 July 2023</td>
-                                    <td>
-                                        Ongoing treatment
-                                    </td>
-                                    <td>
-                                        12 months
-                                    </td>
-                                    <td>
-                                        CHF XXXX-.
-                                    </td>
-                                    <td>
-                                        Unbilled
-                                    </td>
-                                    <td>
-                                        12 July 2023
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr. Daniel Soufi</td>
-                                    <td>12 July 2023</td>
-                                    <td>
-                                        Ongoing treatment
-                                    </td>
-                                    <td>
-                                        12 months
-                                    </td>
-                                    <td>
-                                        CHF XXXX-.
-                                    </td>
-                                    <td>
-                                        Unbilled
-                                    </td>
-                                    <td>
-                                        12 July 2023
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr. Daniel Soufi</td>
-                                    <td>12 July 2023</td>
-                                    <td>
-                                        Ongoing treatment
-                                    </td>
-                                    <td>
-                                        12 months
-                                    </td>
-                                    <td>
-                                        CHF XXXX-.
-                                    </td>
-                                    <td>
-                                        Unbilled
-                                    </td>
-                                    <td>
-                                        12 July 2023
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr. Daniel Soufi</td>
-                                    <td>12 July 2023</td>
-                                    <td>
-                                        Ongoing treatment
-                                    </td>
-                                    <td>
-                                        12 months
-                                    </td>
-                                    <td>
-                                        CHF XXXX-.
-                                    </td>
-                                    <td>
-                                        Unbilled
-                                    </td>
-                                    <td>
-                                        12 July 2023
-                                    </td>
-                                </tr>
+                        <!-- Tabs content -->
 
-                            </tbody>
-
-                        </table>
                     </div>
-                    <!-- Tabs content -->
 
                 </div>
 
             </div>
-
-
         </div>
-        </div>
-        </div>
+    </div>
 
     </div>
 @endsection
