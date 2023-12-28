@@ -1,307 +1,11 @@
 @extends('frontend.partials.main')
 
 @section('content')
-    {{-- add new user --}}
-    <div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form role="form" method="POST" action="">
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control form-control-sm" id="name" name="name">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control form-control-sm" id="email" name="email">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="role" class="form-label">Role</label>
-                                <select class="form-select form-select-sm" name="role"
-                                    aria-label=".form-select-sm example">
-                                    <option selected>Administrator</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="newsletter" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Subscribe to the newsletter?
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="comments" class="form-label">Comments</label>
-                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="password" class="form-label">Access password</label>
-                                <input type="password" class="form-control form-control-sm" id="password" name="password">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-2"></div>
-                            <div class="d-grid  col-md-6 ">
-                                <button type="submit" class="btn btn-info btn-sm text-white">Add and send
-                                    email</button>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- modal add new supplier --}}
-    <div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form role="form" method="POST" action="">
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control form-control-sm" id="name" name="name"
-                                    value="" placeholder=" Supplier name">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="supp-id" class="form-label">ID</label>
-                                <input type="text" class="form-control form-control-sm" id="supp-id" name="supp-id"
-                                    value="" placeholder="supplier ID">
-                            </div>
-                            <div class="col-md-4">
-
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control form-control-sm" id="address"
-                                    name="address">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="npa" class="form-label">NPA</label>
-                                <input type="text" class="form-control form-control-sm" id="npa"
-                                    name="npa">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="country" class="form-label">Country</label>
-                                <input type="text" class="form-control form-control-sm" id="country"
-                                    name="country">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="phone" class="form-label">Phone</label>
-                                <input type="phone" class="form-control form-control-sm" id="phone"
-                                    name="phone">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control form-control-sm" id="email"
-                                    name="email">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="site-web" class="form-label">Site Web</label>
-                                <input type="text" class="form-control form-control-sm" id="site-web"
-                                    name="site-web">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="deliv-time" class="form-label">Delivery time (average)</label>
-                                <input type="text" class="form-control form-control-sm" id="deliv-time"
-                                    name="deliv-time">
-                            </div>
-                            <div class="col-md-4">
-
-                            </div>
-                            <div class="col-md-4">
-
-                            </div>
-
-                        </div>
-
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="comments" class="form-label">Comments</label>
-                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                            </div>
-                            <div class="col-md-6">
-
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-2"></div>
-                            <div class="d-grid  col-md-6 ">
-                                <button type="submit" class="btn btn-info btn-sm text-white">Add new
-                                    supplier</button>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    {{-- payment modal --}}
-    <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
-                        method
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form role="form" method="POST" action="">
-                        <div class="row mb-3">
-                            <div class="col-md-4">
-                                <label for="pay-method" class="form-label">Payment method</label>
-                                <select class="form-select form-select-sm" name="pay-method"
-                                    aria-label=".form-select-sm example">
-                                    <option selected>Bank Trasnfer</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="pay-term" class="form-label">Payment terms</label>
-                                <input type="text" class="form-control form-control-sm" id="pay-term"
-                                    name="pay-term">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="avai-for" class="form-label">Available for</label>
-                                <input type="text" class="form-control form-control-sm" id="avai-for"
-                                    name="avai-for" placeholder="Type of insurance">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-5">
-                                <label for="comments" class="form-label">Comments</label>
-                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                            </div>
-                            <div class="col-md-7">
-                                <div class="form-check">
-                                    <input class="form-check-input" name="post-pay" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Do not post for delinquent patients.
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" name="act-pay" type="checkbox" value=""
-                                        id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Activate payment method
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-2"></div>
-                            <div class="d-grid  col-md-6 ">
-                                <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    {{-- edit doc modal --}}
-    <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
-                    </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form role="form" method="POST" action="">
-                        <div class="row mb-3">
-                            <div class="col-md-12">
-                                <label for="pay-term" class="form-label">Document</label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text bg-info" id="basic-addon1"><i
-                                            class="fas fa-file text-white"></i></span>
-                                    <input type="text" class="form-control form-control-sm" name="doc"
-                                        aria-label="doc" aria-describedby="basic-addon1">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <label for="doc-name" class="form-label">Document name</label>
-                                <input type="text" class="form-control form-control-sm" id="doc-name"
-                                    name="doc-name">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="category" class="form-label">Category</label>
-                                <select class="form-select form-select-sm" name="category"
-                                    aria-label=".form-select-sm example">
-                                    <option selected>Category</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-6">
-                                <div class="form-check">
-                                    <input class="form-check-input" name="online" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Online
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-2"></div>
-                            <div class="d-grid  col-md-6 ">
-                                <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                            </div>
-                            <div class="col-md-2"></div>
-                        </div>
-                    </form>
-                </div>
-
-            </div>
-        </div>
-    </div>
     <div class="mt-5 container-fluid">
-        <div class="row d-flex  gx-2 justify-content-center  mt-4 ">
-            <div class="container col-sm-8 col-md-8 col-lg-8 col-11 mb-5 ml-5  bg-white settings-sm">
-                <h5 class="py-2">Settings.</h5>
-                <ul class="nav nav-tabs mb-3  d-flex  justify-content-start align-items-center" id="ex-with-icons"
+        <div class="row d-flex  gx-2 justify-content-center position-relative">
+            <div class="container col-sm-8 col-md-8 col-lg-8 col-11 mb-5 ml-5 settings-sm">
+                <h5 class=" py-3 px-3 bg-white  m-0">Settings.</h5>
+                <ul class="nav nav-tabs bg-white  d-flex  justify-content-start align-items-center" id="ex-with-icons"
                     role="tablist">
                     <li class="nav-item" role="presentation">
                         <a data-bs-toggle="tab" class="nav-link active " id="ex-with-icons-tab-1"
@@ -343,8 +47,8 @@
                 </ul>
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
-                        aria-labelledby="ex-with-icons-tab-1">
-                        <div class="container">
+                        aria-labelledby="ex-with-icons-tab-1 ">
+                        <div class="container bg-white">
                             <div class="row align-items-center d-flex justify-content-between">
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="row  justify-content-center align-items-center">
@@ -614,11 +318,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
+                    <div class="tab-pane fade bg-white" id="ex-with-icons-tabs-2" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-2">
                         <div class="container">
                             <div class="row align-items-center d-flex justify-content-between">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="col-lg-3 col-md-6 col-sm-12 py-2">
                                     <div class="row  justify-content-center align-items-center">
                                         <div class="col-md-6 col-lg-6 text-center">
                                             <h4 class="text-dark text-nowrap"> All users.</h4>
@@ -817,7 +521,7 @@
                         aria-labelledby="ex-with-icons-tab-3">
 
                         <form action="" method="">
-                            <div class="container-fluid">
+                            <div class="container-fluid bg-white">
                                 <div class="row align-middle">
                                     <div class="col-12 col-md-7 col-lg-7 mt-2 border border-light align-middle ">
                                         <strong>Clinic opening hours.</strong>
@@ -1319,26 +1023,17 @@
                     <div class="tab-pane fade  " id="ex-with-icons-tabs-5" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-5">
                         <div class="container">
-                            <div class="row align-items-center d-flex justify-content-between">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <div class="row  justify-content-center align-items-center">
-                                        <div class="col-md-6 col-lg-6 text-center">
-                                            <h4 class="text-dark text-nowrap">Fournisseurs.</h4>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-4 col-12 text-center">
-                                    <div class="d-grid">
-                                        <a href="#" class="btn btn-sm text-white btn-info ml-4"
-                                            data-bs-toggle="modal" data-bs-target="#addnewsupplier">
-                                            Add supplier
-                                        </a>
-                                    </div>
-
+                            <div class="row ">
+                                <div
+                                    class="col-lg-12 col-md-12 col-sm-12  bg-white d-flex justify-content-between align-items-center">
+                                    <h4 class="text-dark text-nowrap mt-3 p-0">Fournisseurs.</h4>
+                                    <a href="#" class="btn btn-sm text-white btn-info mt-3 p-0"
+                                        data-bs-toggle="modal" data-bs-target="#addnewsupplier">
+                                        Add supplier
+                                    </a>
                                 </div>
                             </div>
-                            <div class="row mb-4 mt-2">
+                            <div class="row pb-3 py-2 bg-white">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -1500,22 +1195,15 @@
 
                                 </div>
                             </div>
-                            <div class="row align-items-center d-flex justify-content-between">
-                                <div class="col-lg-3 col-md-6 col-sm-12">
-                                    <div class="row  justify-content-center align-items-center">
-                                        <div class="col-md-6 col-lg-6 text-center">
-                                            <h4 class="text-dark text-nowrap">Categories.</h4>
-                                        </div>
-
-                                    </div>
+                            <div class="row mt-4 bg-white ">
+                                <div
+                                    class="col-lg-12 col-md-12 col-sm-12  py-3 d-flex justify-content-between align-items-center">
+                                    <h4 class="text-dark text-nowrap">Categories.</h4>
+                                    <a href="#" class="btn  btn-sm text-white btn-info">Add new category</a>
                                 </div>
-                                <div class="col-lg-3 col-md-4 col-12 text-center">
-                                    <div class="d-grid ">
-                                        <a href="#" class="btn  btn-sm text-white btn-info">Add new category</a>
-                                    </div>
-                                </div>
+                                </a>
                             </div>
-                            <div class="row mb-4 mt-2">
+                            <div class="row pb-3 py-2 bg-white">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -1606,14 +1294,13 @@
                                                 </tr>
                                         </table>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-6" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-6">
-                        <div class="container">
+                        <div class="container bg-white">
                             <div class="row  d-flex justify-content-center align-items-center">
                                 <div class="col-12">
                                     <h4 class="text-start py-3 px-3">Documents center.</h4>
@@ -1790,7 +1477,7 @@
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-7" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-7">
-                        <div class="container">
+                        <div class="container bg-white">
                             <div class="row ">
                                 <div class="col-12 col-md-6 col-lg-6 align-items-center d-flex justify-content-center">
                                     <div class=" bg-white d-flex justify-content-between">
@@ -1818,14 +1505,12 @@
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="sms" value="" id="flexCheckSMS">
-                                                            <label class="form-check-label"
-                                                                for="flexCheckSMS">SMS</label>
+                                                            <label class="form-check-label" for="flexCheckSMS">SMS</label>
                                                         </div>
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="app-noti" value="" id="flexCheckAppNoti">
-                                                            <label class="form-check-label"
-                                                                for="flexCheckAppNoti">In-app
+                                                            <label class="form-check-label" for="flexCheckAppNoti">In-app
                                                                 notification</label>
                                                         </div>
                                                     </div>
@@ -1837,17 +1522,15 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="afterDays" class="form-label">After</label>
-                                                            <input type="number" name="afterDays"
-                                                                class="form-control" id="afterDays"
-                                                                placeholder="days">
+                                                            <input type="number" name="afterDays" class="form-control"
+                                                                id="afterDays" placeholder="days">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="everyDays" class="form-label">Every</label>
-                                                            <input type="number" name="everyDays"
-                                                                class="form-control" id="everyDays"
-                                                                placeholder=" days">
+                                                            <input type="number" name="everyDays" class="form-control"
+                                                                id="everyDays" placeholder=" days">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2040,5 +1723,309 @@
                 </div>
             </div>
         </div>
-    </div>
-@endsection
+        {{-- add new user --}}
+        <div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="name"
+                                        name="name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-sm" id="email"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="role" class="form-label">Role</label>
+                                    <select class="form-select form-select-sm" name="role"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Administrator</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="newsletter"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Subscribe to the newsletter?
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="password" class="form-label">Access password</label>
+                                    <input type="password" class="form-control form-control-sm" id="password"
+                                        name="password">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Add and send
+                                        email</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- modal add new supplier --}}
+        <div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="name"
+                                        name="name" value="" placeholder=" Supplier name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="supp-id" class="form-label">ID</label>
+                                    <input type="text" class="form-control form-control-sm" id="supp-id"
+                                        name="supp-id" value="" placeholder="supplier ID">
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control form-control-sm" id="address"
+                                        name="address">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="npa" class="form-label">NPA</label>
+                                    <input type="text" class="form-control form-control-sm" id="npa"
+                                        name="npa">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="country" class="form-label">Country</label>
+                                    <input type="text" class="form-control form-control-sm" id="country"
+                                        name="country">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="phone" class="form-control form-control-sm" id="phone"
+                                        name="phone">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-sm" id="email"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="site-web" class="form-label">Site Web</label>
+                                    <input type="text" class="form-control form-control-sm" id="site-web"
+                                        name="site-web">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="deliv-time" class="form-label">Delivery time (average)</label>
+                                    <input type="text" class="form-control form-control-sm" id="deliv-time"
+                                        name="deliv-time">
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6">
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Add new
+                                        supplier</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {{-- payment modal --}}
+        <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
+                            method
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="pay-method" class="form-label">Payment method</label>
+                                    <select class="form-select form-select-sm" name="pay-method"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Bank Trasnfer</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="pay-term" class="form-label">Payment terms</label>
+                                    <input type="text" class="form-control form-control-sm" id="pay-term"
+                                        name="pay-term">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="avai-for" class="form-label">Available for</label>
+                                    <input type="text" class="form-control form-control-sm" id="avai-for"
+                                        name="avai-for" placeholder="Type of insurance">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="post-pay" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Do not post for delinquent patients.
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="act-pay" type="checkbox"
+                                            value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Activate payment method
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {{-- edit doc modal --}}
+        <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <label for="pay-term" class="form-label">Document</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text bg-info" id="basic-addon1"><i
+                                                class="fas fa-file text-white"></i></span>
+                                        <input type="text" class="form-control form-control-sm" name="doc"
+                                            aria-label="doc" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="doc-name" class="form-label">Document name</label>
+                                    <input type="text" class="form-control form-control-sm" id="doc-name"
+                                        name="doc-name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="category" class="form-label">Category</label>
+                                    <select class="form-select form-select-sm" name="category"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="online" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Online
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    @endsection
