@@ -1,14 +1,14 @@
 // docu upload code
 console.clear();
-("use strict");
-(function() {
+
+(function () {
     "use strict";
     const preventDefaults = (event) => {
         event.preventDefault();
         event.stopPropagation();
     };
-    const highlight = (event) => event.target.classList.add("highlight");
 
+    const highlight = (event) => event.target.classList.add("highlight");
     const unhighlight = (event) => event.target.classList.remove("highlight");
 
     const getInputAndGalleryRefs = (element) => {
@@ -22,6 +22,13 @@ console.clear();
         const dataRefs = getInputAndGalleryRefs(event.target);
         dataRefs.files = event.dataTransfer.files;
         handleFiles(dataRefs);
+    };
+
+    const handleBrowseClick = (event) => {
+        const dataRefs = getInputAndGalleryRefs(event.target);
+        if (dataRefs.input) {
+            dataRefs.input.click(); // Trigger the click event on the file input
+        }
     };
 
     const eventHandlers = (zone) => {
@@ -39,12 +46,19 @@ console.clear();
         ["dragenter", "dragover"].forEach((event) => {
             zone.addEventListener(event, highlight, false);
         });
+
         ["dragleave", "drop"].forEach((event) => {
             zone.addEventListener(event, unhighlight, false);
         });
 
         // Handle dropped files
         zone.addEventListener("drop", handleDrop, false);
+
+        // Handle browse click
+        const browseLink = zone.querySelector(".upload_gallery");
+        if (browseLink) {
+            browseLink.addEventListener("click", handleBrowseClick, false);
+        }
 
         // Handle browse selected files
         dataRefs.input.addEventListener(
@@ -57,22 +71,20 @@ console.clear();
         );
     };
 
-    // Initialise ALL dropzones
     const dropZones = document.querySelectorAll(".upload_dropZone");
     for (const zone of dropZones) {
         eventHandlers(zone);
     }
 
-    // No 'image/gif' or PDF or webp allowed here, but it's up to your use case.
-    // Double checks the input "accept" attribute
-    const isImageFile = (file) => ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
+    const isImageFile = (file) =>
+        ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
 
     function previewFiles(dataRefs) {
         if (!dataRefs.gallery) return;
         for (const file of dataRefs.files) {
             let reader = new FileReader();
             reader.readAsDataURL(file);
-            reader.onloadend = function() {
+            reader.onloadend = function () {
                 let img = document.createElement("img");
                 img.className = "upload_img mt-2";
                 img.setAttribute("alt", file.name);
@@ -82,9 +94,7 @@ console.clear();
         }
     }
 
-    // Based on: https://flaviocopes.com/how-to-upload-files-fetch/
     const imageUpload = (dataRefs) => {
-        // Multiple source routes, so double check validity
         if (!dataRefs.files || !dataRefs.input) return;
 
         const url = dataRefs.input.getAttribute("data-post-url");
@@ -97,9 +107,9 @@ console.clear();
         formData.append(name, dataRefs.files);
 
         fetch(url, {
-                method: "POST",
-                body: formData,
-            })
+            method: "POST",
+            body: formData,
+        })
             .then((response) => response.json())
             .then((data) => {
                 console.log("posted: ", data);
@@ -114,11 +124,9 @@ console.clear();
             });
     };
 
-    // Handle both selected and dropped files
     const handleFiles = (dataRefs) => {
         let files = [...dataRefs.files];
 
-        // Remove unaccepted file types
         files = files.filter((item) => {
             if (!isImageFile(item)) {
                 console.log("Not an image, ", item.type);
@@ -133,8 +141,9 @@ console.clear();
         imageUpload(dataRefs);
     };
 })();
+
 // datepicker
-$(document).ready(function() {
+$(document).ready(function () {
     $("#startDate").datepicker({
         format: "yyyy/mm/dd",
         todayHighlight: true,

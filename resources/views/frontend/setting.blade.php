@@ -1307,14 +1307,9 @@
                                     <h4 class="text-start py-3 px-3">Documents center.</h4>
                                 </div>
                                 <div class="col-12 col-md-12 col-lg-12mt-5">
-                                    <h1 class="h4 text-center mb-3 mt-4">Drag and drop a document,</h1>
                                     <div class="card card-with-dash-border  ">
                                         <form>
                                             <fieldset class="upload_dropZone text-center mb-3 p-4">
-
-                                                or <a href="#" class="text-center mb-3 ">browse
-                                                    your computer</a>
-                                                <br>
 
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                                                     fill="currentColor"
@@ -1323,24 +1318,25 @@
                                                     <path
                                                         d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M6.354 9.854a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 8.707V12.5a.5.5 0 0 1-1 0V8.707z" />
                                                 </svg>
-
+                                                <h6 class="h4 text-center mb-3 mt-4">Drag and drop a document,</h6>
+                                                <div class=" d-flex flex-wrap justify-content-center">
+                                                    <span class="text-decoration-none text-dark "> or </span> <a
+                                                        href="#"
+                                                        class="text-center mb-3 upload_gallery text-decoration-underline px-2 mb-0 ">
+                                                        <span class="text-decoration-underline">browse your computer</span>
+                                                    </a>
+                                                </div>
                                                 <p class="small my-2 mt-2">Supported files: word, pdf…
                                                 </p>
                                                 <input id="upload_image_background" data-post-name="image_background"
                                                     data-post-url="https://someplace.com/image/uploads/backgrounds/"
                                                     class="position-absolute invisible" type="file" multiple
                                                     accept="image/jpeg, image/png, image/svg+xml" />
-
-                                                <label class="btn btn-upload mb-3" for="upload_image_background">Choose
-                                                    file(s)</label>
-
-                                                <div
-                                                    class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0">
-                                                </div>
-
                                             </fieldset>
                                         </form>
+
                                     </div>
+
                                 </div>
                                 <div
                                     class="col-12 col-md-12 col-lg-12 p-4 align-items-center form-control mb-3 d-flex justify-content-between">
