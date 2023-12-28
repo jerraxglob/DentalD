@@ -1,290 +1,9 @@
 @extends('frontend.partials.main')
-{{-- modal add new supplier --}}
-<div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header  d-flex justify-content-center align-items-center">
-                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control form-control-sm" id="name" name="name"
-                                value="" placeholder=" Supplier name">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="supp-id" class="form-label">ID</label>
-                            <input type="text" class="form-control form-control-sm" id="supp-id" name="supp-id"
-                                value="" placeholder="supplier ID">
-                        </div>
-                        <div class="col-md-4">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="address" class="form-label">Address</label>
-                            <input type="text" class="form-control form-control-sm" id="address" name="address">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="npa" class="form-label">NPA</label>
-                            <input type="text" class="form-control form-control-sm" id="npa" name="npa">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="country" class="form-label">Country</label>
-                            <input type="text" class="form-control form-control-sm" id="country" name="country">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="phone" class="form-label">Phone</label>
-                            <input type="phone" class="form-control form-control-sm" id="phone" name="phone">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control form-control-sm" id="email" name="email">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="site-web" class="form-label">Site Web</label>
-                            <input type="text" class="form-control form-control-sm" id="site-web" name="site-web">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="deliv-time" class="form-label">Delivery time (average)</label>
-                            <input type="text" class="form-control form-control-sm" id="deliv-time"
-                                name="deliv-time">
-                        </div>
-                        <div class="col-md-4">
-                        </div>
-                        <div class="col-md-4">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="comments" class="form-label">Comments</label>
-                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                        </div>
-                        <div class="col-md-6">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-2"></div>
-                        <div class="d-grid  col-md-6 ">
-                            <button type="submit" class="btn btn-info btn-sm text-white">Add new supplier</button>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{{-- payment modal --}}
-<div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header  d-flex justify-content-center align-items-center">
-                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment method
-                </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="pay-method" class="form-label">Payment method</label>
-                            <select class="form-select form-select-sm" name="pay-method"
-                                aria-label=".form-select-sm example">
-                                <option selected>Bank Trasnfer</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="pay-term" class="form-label">Payment terms</label>
-                            <input type="text" class="form-control form-control-sm" id="pay-term"
-                                name="pay-term">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="avai-for" class="form-label">Available for</label>
-                            <input type="text" class="form-control form-control-sm" id="avai-for"
-                                name="avai-for" placeholder="Type of insurance">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-5">
-                            <label for="comments" class="form-label">Comments</label>
-                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="form-check">
-                                <input class="form-check-input" name="post-pay" type="checkbox" value=""
-                                    id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Do not post for delinquent patients.
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" name="act-pay" type="checkbox" value=""
-                                    id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked">
-                                    Activate payment method
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-2"></div>
-                        <div class="d-grid  col-md-6 ">
-                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{{-- edit doc modal --}}
-<div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header  d-flex justify-content-center align-items-center">
-                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
-                </h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <label for="pay-term" class="form-label">Document</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text bg-info" id="basic-addon1"><i
-                                        class="fas fa-file text-white"></i></span>
-                                <input type="text" class="form-control form-control-sm" name="doc"
-                                    aria-label="doc" aria-describedby="basic-addon1">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="doc-name" class="form-label">Document name</label>
-                            <input type="text" class="form-control form-control-sm" id="doc-name"
-                                name="doc-name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="category" class="form-label">Category</label>
-                            <select class="form-select form-select-sm" name="category"
-                                aria-label=".form-select-sm example">
-                                <option selected>Category</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <div class="form-check">
-                                <input class="form-check-input" name="online" type="checkbox" value=""
-                                    id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Online
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-2"></div>
-                        <div class="d-grid  col-md-6 ">
-                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{{-- add new user --}}
-<div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header  d-flex justify-content-center align-items-center">
-                <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <div class="row mb-3">
-                        <div class="col-md-4">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control form-control-sm" id="name"
-                                name="name">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control form-control-sm" id="email"
-                                name="email">
-                        </div>
-                        <div class="col-md-4">
-                            <label for="role" class="form-label">Role</label>
-                            <select class="form-select form-select-sm" name="role"
-                                aria-label=".form-select-sm example">
-                                <option selected>Administrator</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" name="newsletter" value=""
-                                    id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Subscribe to the newsletter?
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="comments" class="form-label">Comments</label>
-                            <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="password" class="form-label">Access password</label>
-                            <input type="password" class="form-control form-control-sm" id="password"
-                                name="password">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-2"></div>
-                        <div class="d-grid  col-md-6 ">
-                            <button type="submit" class="btn btn-info btn-sm text-white">Add and send
-                                email</button>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
+
 @section('content')
-    <div class="container-fluid">
-        <div class="row d-flex align-items-center gx-2 justify-content-center ">
-            <div class="col-md-8 col-lg-8 col-12 mb-5  tab-margin bg-white">
+    <div class="mt-5 container-fluid">
+        <div class="row d-flex  gx-2 justify-content-center position-relative">
+            <div class="container col-sm-8 col-md-8 col-lg-8 col-11 mb-5 ml-5 tab-margin bg-white settings-sm">
                 <h5 class="py-2">Settings.</h5>
                 <ul class="nav nav-tabs mb-3  d-flex  justify-content-start align-items-center" id="ex-with-icons"
                     role="tablist">
@@ -347,9 +66,11 @@
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
                                     <div class="d-grid gap-2">
                                         <button class="btn btn-info text-white" type="button">Import a new photo</button>
+
                                     </div>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="d-flex justify-content-center mb-3 mt-2">
@@ -375,9 +96,10 @@
                                                 </div>
                                                 <div class="col lang_mar">
                                                     <label class="lang" for="lang">Language</label>
-                                                    <select class="js-example-basic-multiple form-select p-5 px-6"
-                                                        name="lang[]" multiple="multiple">
-                                                        <option selected value="urdu">Urdu</option>
+                                                    <select
+                                                        class="multipleSelect2 js-example-basic-multiple  form-select p-5 px-6"
+                                                        name="lang[]" multiple="true" style="width: 218px;">
+                                                        <option value="urdu">Urdu</option>
                                                         <option value="eng">English</option>
                                                     </select>
                                                 </div>
@@ -416,15 +138,15 @@
                                             </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6">
+                                <div class="col-12 col-md-5 col-lg-5 mx-3">
                                     <div class="form-outline">
-                                        <label class="form-label" for="textAreaExample">Description</label>
+                                        <h5 class="form-label" for="textAreaExample">Description</h5>
                                         <textarea class="form-control" id="textAreaExample1" rows="8">
                                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi distinctio consectetur delectus a, itaque sapiente sint eaque aliquam similique in laboriosam fugit alias! Incidunt blanditiis cupiditate delectus eligendi cumque!
                                                     </textarea>
-                                        <div class="row mt-4">
+                                        <div class="form-outline mt-4">
                                             <div class="mb-3">
-                                                <label for="exampleFormControlInput1" class="form-label">Website</label>
+                                                <h5 for="exampleFormControlInput1" class="form-label">Website</h5>
                                                 <input type="text" class="form-control" id="exampleFormControlInput1"
                                                     placeholder="URL">
                                             </div>
@@ -459,13 +181,14 @@
                                     </form>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row align-items-center">
-                                <div class="col-lg-12 col-md-12 col-12">
-                                    <h4 class="text-nowrap  text-start text-dark mt-2"> Billing and payment methods.</h4>
+                                <div class="col-lg-12 col-sm-12 col-md-12 col-sm-12 col-12">
+                                    <h6 class="text-nowrap  text-start text-dark mt-2"> Billing and payment methods.</h6>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-12 col-md-12 col-lg-12">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                                     <form action="" method="">
                                         <div class="row mb-4 mt-2 d-flex justify-content-center align-items-center">
                                             <div class="col-12 col-md-1 col-lg-1"></div>
@@ -800,13 +523,13 @@
                         <form action="" method="">
                             <div class="container-fluid">
                                 <div class="row align-middle">
-                                    <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
+                                    <div class="col-12 col-md-7 col-lg-7 mt-2 border border-light align-middle ">
                                         <strong>Clinic opening hours.</strong>
                                         <p class="mt-2">Set the clinic’s opening hours. By default, these hours apply to
                                             all
                                             practitioners. You can define the opening hours for each practitioner
                                             in the “Practitioner schedule” section below.</p>
-                                        <ul class="custom-square">
+                                        <ul class="custom-square overflow-x">
                                             <li>
                                                 <div>
                                                     <span>Monday:</span>
@@ -816,7 +539,7 @@
                                                     <input type="time" id="mon-end" class="form-control text-nowrap"
                                                         name="mon-end">
                                                     <a href="#"
-                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
+                                                        class="btn btn-sm btn-info ml-4 text-white px-1">Add</a>
                                                 </div>
 
                                             </li>
@@ -828,6 +551,19 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="tues-end" class="form-control text-nowrap"
                                                         name="tues-end">
+                                                    <a href="#"
+                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div>
+                                                    <span>Wednesday</span>
+                                                    <input type="time" id="wed-start" class="form-control text-nowrap"
+                                                        name="wed-start">
+                                                    <b class="px-1">_</b>
+                                                    <input type="time" id="wed-end" class="form-control text-nowrap"
+                                                        name="wed-end">
                                                     <a href="#"
                                                         class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
                                                 </div>
@@ -859,7 +595,7 @@
                                             </li>
                                             <li>
                                                 <div>
-                                                    <span>Saturday:</span>
+                                                    <span class="mr-5">Saturday:</span>
                                                     <input type="time" id="sat1-start"
                                                         class="form-control text-nowrap" name="sat1-start">
                                                     <b class="px-1">_</b>
@@ -882,31 +618,26 @@
 
                                         </ul>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
+                                    <div class="col-12 col-md-5 col-lg-5  border mt-2 border-light align-middle">
                                         <strong>Closing.</strong>
                                         <div class="row mt-2">
                                             <div class="col-12 col-md-6 col-lg-6">
                                                 <label for="startDate">Start Date:</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text"><i
-                                                                class="fas fa-calendar-alt"></i></span>
-                                                    </div>
-                                                    <input type="text" class="form-control date-input"
-                                                        name="startDate" id="startDate" placeholder="07/09/2023">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1"><i
+                                                            class="fas fa-calendar-alt"></i></span>
+                                                    <input type="text" class="form-control" placeholder="07/09/2023"
+                                                        name="startDate" id="startDate" value="">
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-6 col-lg-6">
                                                 <label for="endDate">End Date:</label>
-                                                <div class="input-group bg-white">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text"><i
-                                                                class="fas fa-calendar-alt bg-white"></i></span>
-                                                    </div>
-                                                    <input type="text" class="form-control date-input" name="endDate"
-                                                        id="endDate" placeholder="07/09/2023">
-                                                    <span class="text-danger px-2"> x </span>
-
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1"><i
+                                                            class="fas fa-calendar-alt"></i></span>
+                                                    <input type="text" class="form-control" placeholder="07/09/2023"
+                                                        name="endDate" id="endDate" value=""> <span
+                                                        class="text-danger fs-3 px-2"> x </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -920,7 +651,7 @@
                                                     </label>
                                                 </div>
                                                 <div class="col-12 mt-2">
-                                                    <button type="button" class="btn text-white btn-info px-2 btn-sm">Add
+                                                    <button type="button" class="btn text-white btn-info btn-sm">Add
                                                     </button>
                                                 </div>
                                             </div>
@@ -928,9 +659,9 @@
                                     </div>
                                 </div>
                                 <div class="row mt-2 align-middle">
-                                    <div class="col-12 col-md-6 col-lg-6 mt-2 border border-light align-middle ">
+                                    <div class="col-12 col-md-7 col-lg-7 mt-2 border border-light align-middle ">
                                         <strong>Emergency slots.</strong>
-                                        <ul class="custom-square">
+                                        <ul class="custom-square overflow-x">
                                             <li>
                                                 <div>
                                                     <span>Monday:</span>
@@ -945,7 +676,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-tues-end"
                                                         class="form-control text-nowrap" name="tues-end">
-                                                    <a href="#" class="btn btn-sm ml-4  text-white btn-info">Add</a>
+                                                    <a href="#" class="btn btn-sm text-white ml-4 btn-info">Add</a>
                                                 </div>
                                             </li>
                                             <li>
@@ -956,7 +687,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-wed-end"
                                                         class="form-control text-nowrap" name="emer-wed-end">
-                                                    <a href="#" class="btn text-white btn-sm ml-4 btn-info">Add</a>
+                                                    <a href="#" class="btn btn-sm text-white ml-4 btn-info">Add</a>
                                                 </div>
                                             </li>
 
@@ -974,7 +705,7 @@
                                                     <b class="px-1">_</b>
                                                     <input type="time" id="emer-fri-end"
                                                         class="form-control text-nowrap" name="emer-fri-end">
-                                                    <a href="#" class="btn text-white btn-sm ml-4 btn-info">Add</a>
+                                                    <a href="#" class="btn btn-sm ml-4 text-white btn-info">Add</a>
 
                                                 </div>
                                             </li>
@@ -993,7 +724,7 @@
 
                                         </ul>
                                     </div>
-                                    <div class="col-12 col-md-6 col-lg-6  border mt-2 border-light align-middle">
+                                    <div class="col-12 col-md-5 col-lg-5  border mt-2 border-light align-middle">
                                         <strong>Time slot.</strong><br>
                                         <small>Define the duration of each reservation slot.</small>
                                         <div class="row mt-2">
@@ -1015,12 +746,14 @@
 
                                                 </div>
                                             </div>
+
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="row align-middle">
                                     <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
-                                        <button class="btn btn-info  text-white btn-sm" type="button">Save</button>
+                                        <button class="btn btn-info text-white  btn-sm" type="button">Save</button>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -1044,92 +777,153 @@
                                                 <span>Planning:</span> <span class="text-danger">x</span>
                                                 <span>Hygienist</span>
                                                 <a href="#"
-                                                    class="btn btn-sm btn-info text-white ml-4 text-end">Add</a>
+                                                    class="btn btn-sm text-white btn-info ml-4 text-end">Add</a>
                                             </div>
                                         </div>
-                                        <ul class="custom-square">
+                                        <ul class="custom-square overflow-x">
                                             <li>
-                                                <div>
-                                                    <span>Monday:</span>
-                                                    <input type="time" id="Specialist1-mon-start"
-                                                        class="form-control text-nowrap" name="mon-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist1-mon-end"
-                                                        class="form-control text-nowrap" name="mon-end">
-                                                    <a href="#"
-                                                        class="btn btn-sm ml-4 text-white btn-info px-1">Add</a>
-                                                </div>
-
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <span>Tuesday:</span>
-                                                    <input type="time" id="Specialist2-tues-start"
-                                                        class="form-control text-nowrap" name="Specialist2-tues-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist2-tues-end"
-                                                        class="form-control text-nowrap" name="Specialist2-tues-end">
-                                                    <a href="#"
-                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <span>Wednesday:</span>
-                                                    <input type="time" id="Specialist3-wed-start"
-                                                        class="form-control text-nowrap" name="Specialist3-wed-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist3-wed-end"
-                                                        class="form-control text-nowrap" name="Specialist3-wed-end">
-                                                    <a href="#"
-                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Monday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist1-mon-start"
+                                                            class="form-control text-nowrap " name="mon-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist1-mon-end"
+                                                            class="form-control text-nowrap" name="mon-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn btn-sm text-white btn-info ml-5">Add</a>
+                                                    </div>
                                                 </div>
                                             </li>
 
                                             <li>
-                                                <div>
-                                                    <span>Thursday:</span>
-                                                    <input type="time" id="Specialist4-thurs-start"
-                                                        class="form-control text-nowrap" name="Specialist4-thurs-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist4-thurs-end"
-                                                        class="form-control text-nowrap" name="Specialist4-thurs-end">
-                                                    <a href="#"
-                                                        class="btn text-white btn-sm btn-info ml-4 px-1">Add</a>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Tuesday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist2-tues-start"
+                                                            class="form-control text-nowrap"
+                                                            name="Specialist2-tues-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist2-tues-end"
+                                                            class="form-control text-nowrap" name="Specialist2-tues-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn text-white btn-sm btn-info ml-5">Add</a>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div>
-                                                    <span>Friday:</span>
-                                                    <input type="time" id="Specialist5-fri-start"
-                                                        class="form-control text-nowrap" name="Specialist5-fri-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist5-fri-end"
-                                                        class="form-control text-nowrap" name="Specialist5-fri-end">
-                                                    <a href="#"
-                                                        class="btn btn-sm text-white btn-info ml-4 px-1">Add</a>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Wednesday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist3-wed-start"
+                                                            class="form-control text-nowrap" name="Specialist3-wed-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist3-wed-end"
+                                                            class="form-control text-nowrap" name="Specialist3-wed-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn  text-white btn-sm btn-info ml-5 ">Add</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Thursday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist4-thurs-start"
+                                                            class="form-control text-nowrap"
+                                                            name="Specialist4-thurs-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist4-thurs-end"
+                                                            class="form-control text-nowrap" name="Specialist4-thurs-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn text-white btn-sm btn-info ml-5 ">Add</a>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div>
-                                                    <span>Saturday:</span>
-                                                    <input type="time" id="Specialist6-sat1-start"
-                                                        class="form-control text-nowrap" name="Specialist6-sat1-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist6-sat1-end"
-                                                        class="form-control text-nowrap" name="sat1-end">
-                                                    <input type="time" id="Specialist6-sat2-start"
-                                                        class="m-g form-control text-nowrap"
-                                                        name="Specialist6-sat2-start">
-                                                    <b class="px-1">_</b>
-                                                    <input type="time" id="Specialist6-sat2-end"
-                                                        class="form-control text-nowrap" name="Specialist6-sat2-end">
-                                                    <span class="text-danger px-2"> X </span>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Friday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist5-fri-start"
+                                                            class="form-control text-nowrap" name="Specialist5-fri-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist5-fri-end"
+                                                            class="form-control text-nowrap" name="Specialist5-fri-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn text-white btn-sm btn-info ml-4 ml-5">Add</a>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <div>
-                                                    <span>Sunday:</span>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Saturday:</span>
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-6 col-lg-6 d-flex align-items-center align-middle">
+                                                        <input type="time" id="Specialist6-sat1-start"
+                                                            class="form-control text-nowrap"
+                                                            name="Specialist6-sat1-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist6-sat1-end"
+                                                            class="form-control text-nowrap" name="sat1-end">
+                                                        <input type="time" id="Specialist6-sat2-start"
+                                                            class="m-g form-control text-nowrap"
+                                                            name="Specialist6-sat2-start">
+                                                        <b class="px-1">_</b>
+                                                        <input type="time" id="Specialist6-sat2-end"
+                                                            class="form-control text-nowrap" name="Specialist6-sat2-end">
+                                                    </div>
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <a href="#"
+                                                            class="btn btn-sm text-danger btn-light ml-5">X</a>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="row align-middle">
+                                                    <div
+                                                        class="col col-md-3 col-lg-3 d-flex align-items-center align-middle">
+                                                        <span>Sunday:</span>
+                                                    </div>
 
                                                 </div>
                                             </li>
@@ -1164,6 +958,7 @@
                                                             name="endDate" id="endDate" placeholder="07/09/2023">
                                                         <span class="text-danger px-2"> x </span>
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <div class="col-12 col-md-4 col-lg-4 align-items-center align-middle">
@@ -1174,8 +969,9 @@
                                                             name="vaction" id="vaction" placeholder="">
                                                         <span class="text-danger px-2"> x </span>
                                                     </div>
+
                                                 </div>
-                                                <a href="#" class="btn btn-info btn-sm text-white"> Add</a>
+                                                <a href="#" class="btn text-white btn-info btn-sm"> Add</a>
                                             </div>
                                         </div>
                                         <div class="row mt-3 align-middle">
@@ -1207,6 +1003,7 @@
                                                                 <td>Paid</td>
                                                                 <td>Completed</td>
                                                             </tr>
+
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -1214,7 +1011,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-12 col-md-12 col-lg-12 text-center align-middle">
-                                                <button class="btn btn-info  text-white btn-sm"
+                                                <button class="btn btn-info text-white  btn-sm"
                                                     type="button">Save</button>
                                             </div>
                                         </div>
@@ -1237,8 +1034,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
                                     <div class="d-grid">
-                                        <a href="#" class="btn btn-sm btn-info ml-4" data-bs-toggle="modal"
-                                            data-bs-target="#addnewsupplier">
+                                        <a href="#" class="btn btn-sm text-white btn-info ml-4"
+                                            data-bs-toggle="modal" data-bs-target="#addnewsupplier">
                                             Add supplier
                                         </a>
                                     </div>
@@ -1386,11 +1183,9 @@
                                                     </td>
                                                 </tr>
                                         </table>
-                                    </div>
-                                    <div class="row d-flex justify-content-end pr-4">
-                                        <nav aria-label="Page navigation example  ">
-                                            <ul class="pagination">
-                                                <li class="page-item">
+                                        <nav aria-label="Page navigation ">
+                                            <ul class="pagination  d-flex justify-content-end">
+                                                <li class="page-item disabled">
                                                     <a class="page-link" href="#" aria-label="Previous">
                                                         <span aria-hidden="true">&laquo;</span>
                                                     </a>
@@ -1406,6 +1201,7 @@
                                             </ul>
                                         </nav>
                                     </div>
+
                                 </div>
                             </div>
                             <div class="row align-items-center d-flex justify-content-between">
@@ -1419,7 +1215,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-4 col-12 text-center">
                                     <div class="d-grid ">
-                                        <a href="#" class="btn  btn-sm btn-info">Add new category</a>
+                                        <a href="#" class="btn  btn-sm text-white btn-info">Add new category</a>
                                     </div>
                                 </div>
                             </div>
@@ -1673,28 +1469,27 @@
                                                     </td>
                                                 </tr>
                                         </table>
+                                        <nav aria-label="Page navigation ">
+                                            <ul class="pagination  d-flex justify-content-end">
+                                                <li class="page-item disabled">
+                                                    <a class="page-link" href="#" aria-label="Previous">
+                                                        <span aria-hidden="true">&laquo;</span>
+                                                    </a>
+                                                </li>
+                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                <li class="page-item">
+                                                    <a class="page-link" href="#" aria-label="Next">
+                                                        <span aria-hidden="true">&raquo;</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row d-flex justify-content-end pr-4">
-                                <nav aria-label="Page navigation example  ">
-                                    <ul class="pagination">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Previous">
-                                                <span aria-hidden="true">&laquo;</span>
-                                            </a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Next">
-                                                <span aria-hidden="true">&raquo;</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
+
                         </div>
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-7" role="tabpanel"
@@ -1702,9 +1497,10 @@
                         <div class="container">
                             <div class="row ">
                                 <div class="col-12 col-md-6 col-lg-6 align-items-center d-flex justify-content-center">
-                                    <div class="card-header bg-white d-flex justify-content-between">
-                                        <span>Appointment reminder</span> <span>Invoice</span>
-                                        <span>Administrative</span>
+                                    <div class=" bg-white d-flex justify-content-between">
+                                        <span class="px-3">Appointment reminder</span> <span
+                                            class="px-3">Invoice</span>
+                                        <span class="px-3">Administrative</span>
                                     </div>
                                 </div>
                             </div>
@@ -1726,14 +1522,12 @@
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="sms" value="" id="flexCheckSMS">
-                                                            <label class="form-check-label"
-                                                                for="flexCheckSMS">SMS</label>
+                                                            <label class="form-check-label" for="flexCheckSMS">SMS</label>
                                                         </div>
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="app-noti" value="" id="flexCheckAppNoti">
-                                                            <label class="form-check-label"
-                                                                for="flexCheckAppNoti">In-app
+                                                            <label class="form-check-label" for="flexCheckAppNoti">In-app
                                                                 notification</label>
                                                         </div>
                                                     </div>
@@ -1745,17 +1539,15 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="afterDays" class="form-label">After</label>
-                                                            <input type="number" name="afterDays"
-                                                                class="form-control" id="afterDays"
-                                                                placeholder="days">
+                                                            <input type="number" name="afterDays" class="form-control"
+                                                                id="afterDays" placeholder="days">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="everyDays" class="form-label">Every</label>
-                                                            <input type="number" name="everyDays"
-                                                                class="form-control" id="everyDays"
-                                                                placeholder=" days">
+                                                            <input type="number" name="everyDays" class="form-control"
+                                                                id="everyDays" placeholder=" days">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1814,7 +1606,7 @@
 
                                         <div class="row mx-auto">
                                             <div class="d-grid gap-2 col-12">
-                                                <button class="btn btn-info" type="button">Update</button>
+                                                <button class="btn btn-info text-white" type="button">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -1824,116 +1616,433 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 chat  bg-white rounded-3">
-                <div class="card-header bg-white">
-                    <h4 class="text-dark"> Help & Support</h4>
-                </div>
-                <div class="accordion accordion-flush help-support" id="accordionFlushExample">
-                    <div class="accordion-item">
-                        <strong class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                aria-controls="flush-collapseOne">
-                                Getting started
-                            </button>
-                        </strong>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted">Modify my profile</li>
-                                    <li class="list-group-item text-muted">Add a patient</li>
-                                    <li class="list-group-item text-muted">Calendar</li>
-                                    <li class="list-group-item text-muted">Tools and services</li>
-                                </ul>
+            <div class="container col-sm-12 col-md-3 col-lg-3 help-sm ms-5 rounded-3">
+                <div class="card">
+                    <div class="card-header bg-white">
+                        <h4 class="text-dark">Help & Support</h4>
+                    </div>
+                    <div class="accordion accordion-flush help-support" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <div class="accordion-content">
+                                        <h5 class="accord-h ">Getting started</h5>
+                                        <i class="fa fa-angle-right px-2" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted">Modify my profile</li>
+                                        <li class="list-group-item text-muted">Add a patient</li>
+                                        <li class="list-group-item text-muted">Calendar</li>
+                                        <li class="list-group-item text-muted">Tools and services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="accordion-content">
+                                        <h5 class="accord-h ">Features</h5>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted">Modify my profile</li>
+                                        <li class="list-group-item text-muted">Add a patient</li>
+                                        <li class="list-group-item text-muted">Calendar</li>
+                                        <li class="list-group-item text-muted">Tools and services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <div class="accordion-content">
+                                        <h5 class="accord-h">Treatment plans</h5>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted">Modify my profile</li>
+                                        <li class="list-group-item text-muted">Add a patient</li>
+                                        <li class="list-group-item text-muted">Calendar</li>
+                                        <li class="list-group-item text-muted">Tools and services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <div class="accordion-content">
+                                        <h5 class="accord-h">Recommendations</h5>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted">Modify my profile</li>
+                                        <li class="list-group-item text-muted">Add a patient</li>
+                                        <li class="list-group-item text-muted">Calendar</li>
+                                        <li class="list-group-item text-muted">Tools and services</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <div class="accordion-content">
+                                        <h5 class="accord-h ">Mobile application</h5>
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body p-0">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item text-muted">Modify my profile</li>
+                                        <li class="list-group-item text-muted">Add a patient</li>
+                                        <li class="list-group-item text-muted">Calendar</li>
+                                        <li class="list-group-item text-muted">Tools and services</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <strong class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                aria-controls="flush-collapseTwo">
-                                Features
-                            </button>
-                        </strong>
-                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted">Modify my profile</li>
-                                    <li class="list-group-item text-muted">Add a patient</li>
-                                    <li class="list-group-item text-muted">Calendar</li>
-                                    <li class="list-group-item text-muted">Tools and services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <strong class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                aria-controls="flush-collapseThree">
-                                Treatment plans
-                            </button>
-                        </strong>
-                        <div id="flush-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted">Modify my profile</li>
-                                    <li class="list-group-item text-muted">Add a patient</li>
-                                    <li class="list-group-item text-muted">Calendar</li>
-                                    <li class="list-group-item text-muted">Tools and services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <strong class="accordion-header" id="flush-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                aria-controls="flush-collapseFour">
-                                Recommandations
-                            </button>
-                        </strong>
-                        <div id="flush-collapseFour " class="accordion-collapse collapse "
-                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted">Modify my profile</li>
-                                    <li class="list-group-item text-muted">Add a patient</li>
-                                    <li class="list-group-item text-muted">Calendar</li>
-                                    <li class="list-group-item text-muted">Tools and services</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <strong class="accordion-header" id="flush-headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                aria-controls="flush-collapseFive">
-                                Mobile application
-                            </button>
-                        </strong>
-                        <div id="flush-collapseFive" class="accordion-collapse collapse"
-                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item text-muted">Modify my profile</li>
-                                    <li class="list-group-item text-muted">Add a patient</li>
-                                    <li class="list-group-item text-muted">Calendar</li>
-                                    <li class="list-group-item text-muted">Tools and services</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="d-grid  text-center pb-5">
-                            <button class="btn btn-info text-white" type="button">Contact support</button>
-                        </div>
+                    <div class="text-center pb-4"> <a href="#" class="btn btn-info text-white">Contact
+                            support</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-@endsection
+        {{-- add new user --}}
+        <div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="name"
+                                        name="name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-sm" id="email"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="role" class="form-label">Role</label>
+                                    <select class="form-select form-select-sm" name="role"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Administrator</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="newsletter"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Subscribe to the newsletter?
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="password" class="form-label">Access password</label>
+                                    <input type="password" class="form-control form-control-sm" id="password"
+                                        name="password">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Add and send
+                                        email</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- modal add new supplier --}}
+        <div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-sm" id="name"
+                                        name="name" value="" placeholder=" Supplier name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="supp-id" class="form-label">ID</label>
+                                    <input type="text" class="form-control form-control-sm" id="supp-id"
+                                        name="supp-id" value="" placeholder="supplier ID">
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control form-control-sm" id="address"
+                                        name="address">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="npa" class="form-label">NPA</label>
+                                    <input type="text" class="form-control form-control-sm" id="npa"
+                                        name="npa">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="country" class="form-label">Country</label>
+                                    <input type="text" class="form-control form-control-sm" id="country"
+                                        name="country">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="phone" class="form-control form-control-sm" id="phone"
+                                        name="phone">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-sm" id="email"
+                                        name="email">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="site-web" class="form-label">Site Web</label>
+                                    <input type="text" class="form-control form-control-sm" id="site-web"
+                                        name="site-web">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="deliv-time" class="form-label">Delivery time (average)</label>
+                                    <input type="text" class="form-control form-control-sm" id="deliv-time"
+                                        name="deliv-time">
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+                                <div class="col-md-4">
+
+                                </div>
+
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-6">
+
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Add new
+                                        supplier</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {{-- payment modal --}}
+        <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
+                            method
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="pay-method" class="form-label">Payment method</label>
+                                    <select class="form-select form-select-sm" name="pay-method"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Bank Trasnfer</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="pay-term" class="form-label">Payment terms</label>
+                                    <input type="text" class="form-control form-control-sm" id="pay-term"
+                                        name="pay-term">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="avai-for" class="form-label">Available for</label>
+                                    <input type="text" class="form-control form-control-sm" id="avai-for"
+                                        name="avai-for" placeholder="Type of insurance">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="post-pay" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Do not post for delinquent patients.
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="act-pay" type="checkbox"
+                                            value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Activate payment method
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        {{-- edit doc modal --}}
+        <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header  d-flex justify-content-center align-items-center">
+                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-12">
+                                    <label for="pay-term" class="form-label">Document</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text bg-info" id="basic-addon1"><i
+                                                class="fas fa-file text-white"></i></span>
+                                        <input type="text" class="form-control form-control-sm" name="doc"
+                                            aria-label="doc" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="doc-name" class="form-label">Document name</label>
+                                    <input type="text" class="form-control form-control-sm" id="doc-name"
+                                        name="doc-name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="category" class="form-label">Category</label>
+                                    <select class="form-select form-select-sm" name="category"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Category</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="online" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Online
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    @endsection
