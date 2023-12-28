@@ -1028,8 +1028,8 @@
                                 <div
                                     class="col-lg-12 col-md-12 col-sm-12  bg-white d-flex justify-content-between align-items-center">
                                     <h4 class="text-dark text-nowrap mt-3 p-0">Fournisseurs.</h4>
-                                    <a href="#" class="btn btn-sm text-white btn-info mt-3 p-0"
-                                        data-bs-toggle="modal" data-bs-target="#addnewsupplier">
+                                    <a href="#" class="btn btn-sm text-white btn-info mt-3" data-bs-toggle="modal"
+                                        data-bs-target="#addnewsupplier">
                                         Add supplier
                                     </a>
                                 </div>
