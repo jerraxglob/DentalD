@@ -184,67 +184,68 @@
                             <hr>
                             <div class="row align-items-center">
                                 <div class="col-lg-12 col-sm-12 col-md-12 col-sm-12 col-12">
-                                    <h6 class="text-nowrap  text-start text-dark mt-2"> Billing and payment methods.</h6>
+                                    <h5 class="text-nowrap  text-start text-dark  py-2 px-2"> Billing and payment methods.
+                                    </h5>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                    <form action="" method="">
-                                        <div class="row mb-4 mt-2 d-flex justify-content-center align-items-center">
-                                            <div class="col-12 col-md-1 col-lg-1"></div>
-                                            <div class="col-12 col-md-2 col-lg-2">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <label class="clinic_points" for="clinic_points">Clinic
-                                                        points</label>
-                                                    <input type="text" id="clinic_points" name="clinic_points"
-                                                        placeholder="points" class="form-control" />
-                                                </div>
+                                    <div class="row mb-4 mt-2 d-flex justify-content-center align-items-center">
+                                        <div class="col-12 col-md-1 col-lg-1"></div>
+                                        <div class="col-12 col-md-2 col-lg-2">
+                                            <label class="clinic_points" for="clinic_points">Clinic
+                                                points</label>
+                                            <div class="mb-3">
+                                                <span class=" wd100 form-control  form-control-sm  text-center">
+                                                    Points </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-2 col-lg-2">
+                                            <label class="clinic_points text-nowrap" for="clinic_points ">Private patient
+                                                points
+                                            </label>
+                                            <div class="mb-3">
+                                                <span class=" wd100 form-control  form-control-sm  text-center">
+                                                    Points </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-2 col-lg-2">
+                                            <label class="ins_points" for="ins_points text-nowrap">Insurance
+                                                points
+                                            </label>
+                                            <div class="mb-3">
+                                                <span class=" wd100 form-control  form-control-sm  text-center">
+                                                    Points </span>
                                             </div>
 
-                                            <div class="col-12 col-md-2 col-lg-2">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <label class="p_points text-nowrap" for="p_points">Private
-                                                        patient points
-                                                    </label>
-                                                    <input type="text" id="p_points" name="p_points"
-                                                        placeholder="points" class="form-control" />
-                                                </div>
-                                            </div>
-
-                                            <div class="col-12 col-md-2 col-lg-2">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <label class="ins_points" for="ins_points text-nowrap">Insurance
-                                                        points
-                                                    </label>
-                                                    <input type="text" id="ins_points" name="ins_points"
-                                                        placeholder="points" class="form-control" />
-                                                </div>
-                                            </div>
-
-                                            <!-- Fourth Input -->
-                                            <div class="col-12 col-md-2 col-lg-2">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <label class="Soci_points" for="Soci_points">Social points
-                                                    </label>
-                                                    <input type="text" id="Soci_points" name="Soci_points"
-                                                        placeholder="points" class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-2 col-lg-2">
-                                                <div data-mdb-input-init class="form-outline">
-                                                    <label class="tva_applic" for="tva_applic">TVA applicable
-                                                    </label>
-                                                    <input type="text" id="tva_applic" name="tva_applic"
-                                                        placeholder="%" class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-1 col-lg-1"></div>
                                         </div>
 
-                                    </form>
+                                        <!-- Fourth Input -->
+                                        <div class="col-12 col-md-2 col-lg-2">
+
+                                            <label class="Soci_points" for="Soci_points">Social points
+                                            </label>
+                                            <div class="mb-3">
+                                                <span class=" wd100 form-control  form-control-sm  text-center">
+                                                    Points </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-12 col-md-2 col-lg-2">
+
+                                            <label class="tva_applic" for="tva_applic">TVA applicable
+                                            </label>
+                                            <div class="mb-3">
+                                                <span class=" wd100 form-control  form-control-sm  text-center">
+                                                    % </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-12 col-md-1 col-lg-1"></div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row mb-4 mt-2 ">
+                            <div class="row mb-4">
                                 <div class="col-12 col-md-12 col-lg-12">
                                     <div class="table-responsive">
                                         <table class="table">
