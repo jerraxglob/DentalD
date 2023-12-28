@@ -110,11 +110,11 @@
                                 appointment.</b></h5>
                         <strong class="card-text fs-2">109 <i
                                 class="fas px-3 fa-calendar-alt text-muted"></i></strong><br>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z" />
-                                </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z" />
+                        </svg>
                         <span class="text-danger text-nowrap py-1">-30 compared to the period</span> <br>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Sales</h5>
+                        <h5 class="text-dark">Sales</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="sales_Chart"></canvas>
@@ -185,7 +185,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Breakdown of sales by treatment.</h5>
+                        <h5 class="text-dark">Breakdown of sales by treatment.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="sales_by_treatment"></canvas>
@@ -198,7 +198,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Productivity.</h5>
+                        <h5 class="text-dark ">Productivity.</h5>
                         <button type="button" class="btn btn-sm btn-white border border-dark px-2">
                             Add filter <i class="fas fa-bars mr-3"></i>
                         </button>
@@ -218,7 +218,7 @@
                             <tbody>
                                 <tr>
                                     <td>#1ied8n2</td>
-                                    bg-whiteem ip bg-white si amet</td>
+                                    <td>Lorem ipsum dolor si amet</td>
                                     <td>320</td>
                                     <td>
                                         320
@@ -325,7 +325,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Rapport de stock.</h5>
+                        <h5 class="text-dark">Rapport de stock.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="re_de_stock"></canvas>
@@ -349,7 +349,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Most popular items.</h5>
+                        <h5 class="text-dark">Most popular items.</h5>
                     </div>
                     <div class="card-body">
                         <table class="table table-borderless table-responsive">
@@ -445,7 +445,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>The most common treatments</h5>
+                        <h5 class="text-dark">The most common treatments</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="comm_treat"></canvas>
@@ -456,7 +456,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Demographic distribution.</h5>
+                        <h5 class="text-dark">Demographic distribution.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="demo_dis"></canvas>
@@ -514,7 +514,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Invoice.</h5>
+                        <h5 class="text-dark">Invoice.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="invoive"></canvas>
@@ -524,7 +524,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Payment deadlines.</h5>
+                        <h5 class="text-dark">Payment deadlines.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="pay_deadline"></canvas>
