@@ -21,10 +21,6 @@ body {
     --colorLinkHover: #00cdd7;
 }
 
-body {
-    margin: 24px;
-}
-
 .upload_dropZone {
     color: #0f3c4b;
     outline-offset: -12px;
