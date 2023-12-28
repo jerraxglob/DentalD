@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-3 bg-white">
+        <div class="row align-items-center mt-3">
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="row gx-5 align-item-center mt-3 bg-white">
+        <div class="row gx-5 align-item-center mt-3">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white align-items-center d-flex justify-content-between">
@@ -147,7 +147,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-white">
+        <div class="row align-item-center mt-3">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -341,7 +341,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-white">
+        <div class="row align-item-center mt-3">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -456,7 +456,7 @@
                 </div>
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-white">
+        <div class="row align-item-center mt-3">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -658,7 +658,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-white">
+        <div class="row align-item-center mt-3">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
@@ -790,7 +790,7 @@
 
             </div>
         </div>
-        <div class="row align-item-center mt-3 bg-white">
+        <div class="row align-item-center mt-3">
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">

@@ -55,11 +55,11 @@
                             <div class="col-12 col-md-12 col-lg-12 mt-2">
                                 <div class="mb-3">
                                     <label for="des" class="form-label">Description</label>
-                                    <textarea class="form-control" id="des" rows="4">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Eveniet in hic ipsa minus assumenda vel sapiente, saepe
-                                    dolorem totam voluptatibus velit praesentium at accusantium.
-                                </textarea>
+                                    <textarea class="form-control des" rows="4">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Eveniet in hic ipsa minus assumenda vel sapiente, saepe
+                                        dolorem totam voluptatibus velit praesentium at accusantium.
+                                      </textarea>
                                 </div>
                             </div>
                             <div class="col-12 col-md-12 col-lg-12 mt-2">

@@ -1,11 +1,16 @@
 .bg-color,
 body {
-    background-color: #e9ebed;
+    background-color: hsl(210, 10%, 92%);
+}
+
+.des {
+    white-space: pre-wrap;
+    font-family: inherit;
 }
 
 .f_r {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e9ebed;
+    background-color: hsl(210, 10%, 92%);
 }
 
 i {
