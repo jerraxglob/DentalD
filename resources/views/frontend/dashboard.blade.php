@@ -5,9 +5,9 @@
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-8 mr-0">
                     <div class="container">
-                        <div class="row mt-5">
-                            <div class="col-12 col-md-4 mb-small my-auto mx-auto">
-                                <div class="card p_f  rounded-3 d-flex align-items-center justify-content-center">
+                        <div class="row  d-flex justify-content-between mt-5">
+                            <div class="col-12 col-md-4 mb-small p_f my-auto mx-auto">
+                                <div class="card card-p  p_f rounded-3 d-flex align-items-center justify-content-center">
                                     <div class="card-body">
                                         <div class="card-title pb-5 text-center">
                                             <img src="..." class="rounded p-3 img-fluid img-thumbnail" alt="...">
@@ -18,7 +18,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-8 card-sm col-md-8 bg-white mx-auto">
+                            <div class="col-sm-12 col-lg-7 card-sm col-md-7 bg-white mx-auto">
                                 <div class="row py-4 px-4 d-flex justify-center align-items-center">
                                     <!-- Sub-columns inside the Second Card -->
                                     <div class="col-12 col-md-4">

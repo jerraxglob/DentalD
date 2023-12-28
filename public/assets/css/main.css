@@ -87,8 +87,17 @@ i {
     justify-content: center;
 }
 
+.card-p {
+    padding: 2rem;
+}
+
 .c_d {
     color: #53a8b6;
+}
+
+.stock-sm {
+    margin-top: 20px;
+    padding-right: 20px;
 }
 
 .p_f {
@@ -1319,6 +1328,10 @@ ul.custom-square li::marker {
     }
     .settings-sm {
         margin-left: 1rem !important;
+    }
+    .stock-sm {
+        margin-top: 0;
+        padding-right: 0;
     }
 }
 
