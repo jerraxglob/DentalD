@@ -280,6 +280,18 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     height: 262px;
 }
 
+.search-padding {
+    padding-left: 7px !important;
+}
+
+.table-left-padding {
+    padding-left: 10px !important;
+}
+
+.border-color {
+    border: solid 2px #e9ebed !important;
+}
+
 .btn-nowrap {
     white-space: nowrap;
 }
