@@ -125,8 +125,8 @@
         <div class="row gx-5 align-item-center mt-3 bg-white">
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
-                    <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Financial report.</h5>
+                    <div class="card-header bg-white align-items-center d-flex justify-content-between">
+                        <h5 class="text-dark">Financial report.</h5>
                         <a href="#" class="text-decoration-none bg-info text-white px-2">Edit data</a>
                     </div>
                     <div class="card-body">
@@ -138,7 +138,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5>Revenues by type of service.</h5>
+                        <h5 class="text-dark">Revenues by type of service.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="services"></canvas>
@@ -151,7 +151,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Outstanding invoices.</h5>
+                        <h5 class="text-dark">Outstanding invoices.</h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -345,7 +345,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Billing files.</h5>
+                        <h5 class="text-dark">Billing files.</h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -460,7 +460,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Refund and adjustment.</h5>
+                        <h5 class="text-dark">Refund and adjustment.</h5>
                         <button class="btn btn-sm btn-info text-white">Add a new entry</button>
                     </div>
                     <div class="card-body">
@@ -662,7 +662,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Staff payments.</h5>
+                        <h5 class="text-dark">Staff payments.</h5>
                         <button class="btn btn-sm btn-info text-white">Add a new entry</button>
                     </div>
                     <div class="card-body">
@@ -794,7 +794,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between">
-                        <h5>Invoice codes.</h5>
+                        <h5 class="text-dark">Invoice codes.</h5>
                         <button class="btn btn-sm btn-info text-white">Add a new entry</button>
                     </div>
                     <div class="card-body">
