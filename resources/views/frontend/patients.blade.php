@@ -34,6 +34,7 @@
                         <div class="row d-flex  justify-content-between">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <div class="input-icons position-relative d-flex align-items-center">
+
                                     <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
                                         style="left : 3%" id="Box_1" data-name="Box 1"
                                         xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
@@ -44,6 +45,9 @@
                                                 fill="#8e999a" />
                                         </g>
                                     </svg>
+
+                                    <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput"
+                                        placeholder="Search for a patient …">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-7 col-lg-7 d-flex gap-2">
@@ -65,9 +69,9 @@
                                     </svg>
                                 </div>
                                 <!-- <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
-                                                        plane X</small> -->
+                                                            plane X</small> -->
                                 <!-- <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
-                                                        years) </small> -->
+                                                            years) </small> -->
                                 <span class="px-2"> <button type="button"
                                         class="btn btn-sm btn-white border border-dark w-10 h-60">
                                         Add filter <i class="fas fa-bars mr-3"></i>
@@ -105,8 +109,9 @@
                                         <th>
                                             <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">First name </p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
-                                                    width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
                                                     <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
                                                         height="16.667" fill="none" />
                                                     <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
@@ -752,6 +757,8 @@
                             </table>
                             <nav aria-label="Page navigation ">
                                 <ul class="pagination d-flex justify-content-end">
+                                    <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true"><svg style="transform: rotate(90deg);"
