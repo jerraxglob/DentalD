@@ -514,9 +514,14 @@ ul.custom-square li::marker {
 .medium-btn {
     color: #ed9b32 !important;
 }
-
 .wd100 {
     width: 100px !important;
+}
+.wd200 {
+    width: 200px !important;
+}
+.wd150 {
+    width: 150px !important;
 }
 
 .processing-btn {
@@ -1404,4 +1409,18 @@ ul.custom-square li::marker {
         overflow: auto;
     }
     /* document upload */
+}
+
+/*//////////////// new css //////////////////// */
+#PatientsearchInput{
+
+}
+.clr-br{
+    color: #707070 !important;
+}
+.clr-th{
+    color: #2A283B !important;
+}
+.border-b-br{
+    border-bottom: 1px solid #70707023;
 }

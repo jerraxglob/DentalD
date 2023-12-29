@@ -314,20 +314,32 @@
                                 </tr>
                             </tbody>
                         </table>
-
-                        <nav aria-label="Page navigation">
+                        <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><svg style="transform: rotate(90deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg></span>
                                     </a>
                                 </li>
                             </ul>
@@ -444,15 +456,28 @@
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><svg style="transform: rotate(90deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg></span>
                                     </a>
                                 </li>
                             </ul>
@@ -630,19 +655,32 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <nav aria-label="Page navigation">
+                        <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><svg style="transform: rotate(90deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg></span>
                                     </a>
                                 </li>
                             </ul>
@@ -751,19 +789,32 @@
 
                             </tbody>
                         </table>
-                        <nav aria-label="Page navigation">
+                        <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><svg style="transform: rotate(90deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg></span>
                                     </a>
                                 </li>
                             </ul>
@@ -1046,19 +1097,32 @@
 
                             </tbody>
                         </table>
-                        <nav aria-label="Page navigation">
+                        <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><svg style="transform: rotate(90deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg>
+                                        </span>
                                     </a>
                                 </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                viewBox="0 0 14.08 8.448">
+                                                <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                    d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                    fill="#8791a3" />
+                                            </svg></span>
                                     </a>
                                 </li>
                             </ul>
