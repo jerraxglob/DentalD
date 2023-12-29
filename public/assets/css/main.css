@@ -510,9 +510,6 @@ ul.custom-square li::marker {
 .medium-btn {
     color: #ed9b32 !important;
 }
-.clr-br{
-    color: #707070 !important;
-}
 .wd100 {
     width: 100px !important;
 }
@@ -1412,5 +1409,14 @@ ul.custom-square li::marker {
 
 /*//////////////// new css //////////////////// */
 #PatientsearchInput{
-    
+
+}
+.clr-br{
+    color: #707070 !important;
+}
+.clr-th{
+    color: #2A283B !important;
+}
+.border-b-br{
+    border-bottom: 1px solid #70707023;
 }
