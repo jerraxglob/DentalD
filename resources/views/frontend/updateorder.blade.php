@@ -2,7 +2,7 @@
 @section('content')
     <div class="container bg-white rounded-3  mt-5">
         <form action="">
-            <div class="row   d-flex align-itmes-center p-5">
+            <div class="row align-itmes-center p-5">
                 <div class="col-12 col-md-12 col-lg-12 mt-4 d-d-flex justify-content-center align-items-center">
                     <h6>Order n°23u3d.</h6>
                     <small>Order created 23/08/2023</small>
@@ -228,20 +228,19 @@
                                     <td>#83736e</td>
                                     <td>Lorem ipsum dolor si amt</td>
 
-                                    <div class="row mt-4 p-4">
-                                        <div class="col-md-12 mx-auto">
-                                            <div class="d-grid gap-4 d-md-flex justify-content-md-center">
-                                                <button
-                                                    class="btn btn-outline-danger text-danger bg-white btn-sm wd150">Delete
-                                                    order</button>
-                                                <button class="btn css-primary-btn text-white btn-sm wd150 font-14">
-                                                    Update order</button>
-                                            </div>
-                                        </div>
-                                    </div>
                     </div>
+                    </table>
                 </div>
-
-        </form>
+            </div>
+    </div>
+    <div class="row mt-4 p-4">
+        <div class="col-md-12 mx-auto">
+            <div class="d-grid gap-4 d-md-flex justify-content-md-center">
+                <button class="btn btn-outline-danger text-danger bg-white btn-sm wd150">Delete order</button>
+                <button class="btn css-primary-btn text-white btn-sm wd150 font-14">Update order</button>
+            </div>
+        </div>
+    </div>
+    </form>
     </div>
 @endsection
