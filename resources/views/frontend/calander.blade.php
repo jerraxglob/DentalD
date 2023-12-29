@@ -92,7 +92,7 @@
             <div class="col-12 col-md-4 col-lg-4 mt-4">
                 <div class="p-3 border bg-white">
                     <span class="font-22 clr-db mb-4">Next events.</span>
-                    
+
                     <div class="table-responsive mt-4">
                         <table class="table">
                             <thead>

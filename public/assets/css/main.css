@@ -129,6 +129,53 @@ i {
     position: relative;
 }
 
+.mr-right {
+    margin-right: 8rem !important;
+}
+
+.no-border-bottom {
+    border-bottom: none !important;
+}
+
+.modal-title {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.modal-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #31d2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btn-close {
+    background-color: hsl(210, 27%, 96%);
+    cursor: pointer;
+    padding: 0;
+    background-size: 34% !important;
+}
+
+.btn-close::before,
+.btn-close::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: #f1f3f5;
+    background-color: hsl(210, 27%, 96%);
+    cursor: pointer;
+    padding: 0;
+    background-size: 34% !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
 .custom-btn::before {
     content: "<";
     position: absolute;
@@ -510,12 +557,15 @@ ul.custom-square li::marker {
 .medium-btn {
     color: #ed9b32 !important;
 }
+
 .wd100 {
     width: 100px !important;
 }
+
 .wd200 {
     width: 200px !important;
 }
+
 .wd150 {
     width: 150px !important;
 }
@@ -1408,20 +1458,16 @@ ul.custom-square li::marker {
 }
 
 /*//////////////// new css //////////////////// */
-#PatientsearchInput{
 
+#PatientsearchInput {
 }
-.pl-8{
-    padding-left: 8% !important;
-}
-.clr-pg{
-    color: #8791A3 !important;
-}
-.clr-br{
+
+.clr-br {
     color: #707070 !important;
 }
-.font-22{
-    font-size: 22px !important;
+
+.clr-th {
+    color: #2a283b !important;
 }
 .clr-db{
     color: #102940 !important;
@@ -1438,15 +1484,19 @@ ul.custom-square li::marker {
 .border-none{
     border: none;
 }
-.border-b-bl{
-    border-bottom: 2px solid #50C2F6 !important;
+
+.border-b-bl {
+    border-bottom: 2px solid #50c2f6 !important;
 }
-.nav-link{
-    color:#8791A3  ;
+
+.nav-link {
+    color: #8791a3;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     border: none !important;
-    border-bottom: 2px solid #50C2F6 !important;
+    border-bottom: 2px solid #50c2f6 !important;
     /* border-color: transparent !important; */
-    color: #50C2F6;
+    color: #50c2f6;
 }

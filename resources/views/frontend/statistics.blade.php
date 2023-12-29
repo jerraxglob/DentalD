@@ -9,13 +9,11 @@
                 </div>
 
             </div>
-
             <div class="col-12 col-md-2 col-lg-2  d-flex justify-content-between ">
                 <button class="btn  css-primary-btn "><i class="fas fa-file text-white px-1 "></i>Export</button>
                 <button class="btn  css-primary-btn "><i class="fas fa-print text-white px-1 "></i>Print
                     report</button>
             </div>
-
             <div class="col-12 col-md-3 col-lg-3 text-center">
                 <div class="dropdown">
                     <button class="btn btn-sm dropdown-toggle custom-no-outline" type="button" id="dropdownMenuButton"
@@ -29,7 +27,6 @@
                     </ul>
                 </div>
             </div>
-
             <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-between text-center align-items-center">
                 <span class="">Period</span>
                 <div class=" btn-group">
@@ -62,8 +59,8 @@
                 </div>
             </div>
         </div>
-        <div class="row align-items-center mt-3 ">
-            <div class=" col-12 col-md-4 col-lg-4">
+        <div class="row align-items-center  rounded-3 d-flex justify-content-between mt-3  ">
+            <div class=" col-12 col-md-4  col-lg-4  ">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Income.</b></h5>
@@ -78,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class=" col-12 col-md-4 col-lg-4">
+            <div class=" col-12 col-md-4 col-lg-4 ">
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Spending.</b></h5>

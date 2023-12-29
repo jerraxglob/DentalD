@@ -22,7 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Average sales",
-                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
+                data: [
+                    4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
+                    4100, 4000,
+                ],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -30,7 +33,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Performed",
-                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
+                data: [
+                    1100, 2500, 2100, 2300, 3100, 2800, 3100, 3500, 3100, 3500,
+                    3000, 3300,
+                ],
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
@@ -38,7 +44,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Billed",
-                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
+                data: [
+                    700, 1000, 1600, 800, 1000, 1050, 1100, 1300, 980, 1200,
+                    1300, 1160,
+                ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -46,7 +55,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "In recovery",
-                data: [500, 800, 1300, 700, 800,750, 900,1050,880,1050,1000,960],
+                data: [
+                    500, 800, 1300, 700, 800, 750, 900, 1050, 880, 1050, 1000,
+                    960,
+                ],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
@@ -109,7 +121,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Average sales",
-                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
+                data: [
+                    4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
+                    4100, 4000,
+                ],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -117,7 +132,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Performed",
-                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
+                data: [
+                    1100, 2500, 2100, 2300, 3100, 2800, 3100, 3500, 3100, 3500,
+                    3000, 3300,
+                ],
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
@@ -125,7 +143,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Billed",
-                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
+                data: [
+                    700, 1000, 1600, 800, 1000, 1050, 1100, 1300, 980, 1200,
+                    1300, 1160,
+                ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -133,7 +154,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "In recovery",
-                data: [500, 800, 1300, 700, 800,750, 900,1050,880,1050,1000,960],
+                data: [
+                    500, 800, 1300, 700, 800, 750, 900, 1050, 880, 1050, 1000,
+                    960,
+                ],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
@@ -197,7 +221,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Treatment category 1",
-                data: [2000, 3000, 4000,2000, 3000, 4000,2000, 3000, 4000,2000, 3000, 4000],
+                data: [
+                    2000, 3000, 4000, 2000, 3000, 4000, 2000, 3000, 4000, 2000,
+                    3000, 4000,
+                ],
                 backgroundColor: "blue",
                 borderColor: "blue",
                 borderWidth: 5,
@@ -205,7 +232,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 2",
-                data: [1500, 2500, 3500, 4500,1500, 2500, 3500, 4500,1500, 2500, 3500, 4500],
+                data: [
+                    1500, 2500, 3500, 4500, 1500, 2500, 3500, 4500, 1500, 2500,
+                    3500, 4500,
+                ],
                 backgroundColor: "grey",
                 borderColor: "grey",
                 borderWidth: 5,
@@ -213,7 +243,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 3",
-                data: [1000, 2000, 3000, 4000, 5000,1000, 2000, 3000, 4000, 5000,1000, 2000],
+                data: [
+                    1000, 2000, 3000, 4000, 5000, 1000, 2000, 3000, 4000, 5000,
+                    1000, 2000,
+                ],
                 backgroundColor: "yellow",
                 borderColor: "yellow",
                 borderWidth: 5,
@@ -221,7 +254,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 4",
-                data: [4000, 1000, 6000, 2000, 4000,1000, 2000, 3000, 4000, 5000, 2000, 4000],
+                data: [
+                    4000, 1000, 6000, 2000, 4000, 1000, 2000, 3000, 4000, 5000,
+                    2000, 4000,
+                ],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
                 borderWidth: 5,
@@ -248,7 +284,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
-                    position: 'bottom',
+                    position: "bottom",
                 },
                 datalabels: {
                     anchor: "end",
@@ -257,7 +293,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         return value.y + "%";
                     },
                 },
-
             },
         },
     };
@@ -288,7 +323,9 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Category 1",
-                data: [260, 370, 342,260, 370, 342,260, 370, 342,260, 370, 342],
+                data: [
+                    260, 370, 342, 260, 370, 342, 260, 370, 342, 260, 370, 342,
+                ],
                 backgroundColor: "blue",
                 borderColor: "blue",
                 borderWidth: 5,
@@ -296,7 +333,9 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Category 2",
-                data: [234, 245, 106, 108,234, 245, 106, 108,234, 245,234, 245],
+                data: [
+                    234, 245, 106, 108, 234, 245, 106, 108, 234, 245, 234, 245,
+                ],
                 backgroundColor: "grey",
                 borderColor: "grey",
                 borderWidth: 5,
@@ -304,7 +343,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Category 3",
-                data: [1000, 2000, 3000, 4000, 5000,1000, 2000, 3000, 4000, 5000, 4000, 5000],
+                data: [
+                    1000, 2000, 3000, 4000, 5000, 1000, 2000, 3000, 4000, 5000,
+                    4000, 5000,
+                ],
                 backgroundColor: "yellow",
                 borderColor: "yellow",
                 borderWidth: 5,
@@ -312,7 +354,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Category 4",
-                data: [4000, 1000, 6000, 2000, 4000,4000, 1000, 6000, 2000, 4000, 2000, 4000],
+                data: [
+                    4000, 1000, 6000, 2000, 4000, 4000, 1000, 6000, 2000, 4000,
+                    2000, 4000,
+                ],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
                 borderWidth: 5,
@@ -339,7 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
-                    position: 'bottom',
+                    position: "bottom",
                 },
                 datalabels: {
                     anchor: "end",
@@ -378,11 +423,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        
+
         datasets: [
             {
                 label: "Treatment category 1",
-                data: [4000, 1000, 6000, 2000, 4000,4000, 1000, 6000, 2000, 4000, 2000, 4000],
+                data: [
+                    4000, 1000, 6000, 2000, 4000, 4000, 1000, 6000, 2000, 4000,
+                    2000, 4000,
+                ],
                 backgroundColor: "blue",
                 borderColor: "blue",
                 borderWidth: 5,
@@ -390,7 +438,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 2",
-                data: [1000, 2000, 3000, 4000, 5000,1000, 2000, 3000, 4000, 5000, 4000, 5000],
+                data: [
+                    1000, 2000, 3000, 4000, 5000, 1000, 2000, 3000, 4000, 5000,
+                    4000, 5000,
+                ],
                 backgroundColor: "grey",
                 borderColor: "grey",
                 borderWidth: 5,
@@ -398,7 +449,9 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 3",
-                data: [234, 245, 106, 108,234, 245, 106, 108,234, 245,234, 245],
+                data: [
+                    234, 245, 106, 108, 234, 245, 106, 108, 234, 245, 234, 245,
+                ],
                 backgroundColor: "yellow",
                 borderColor: "yellow",
                 borderWidth: 5,
@@ -406,7 +459,9 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment category 4",
-                data: [260, 370, 342,260, 370, 342,260, 370, 342,260, 370, 342],
+                data: [
+                    260, 370, 342, 260, 370, 342, 260, 370, 342, 260, 370, 342,
+                ],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
                 borderWidth: 5,
@@ -433,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
-                    position: 'bottom',
+                    position: "bottom",
                 },
                 datalabels: {
                     anchor: "end",
@@ -541,7 +596,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
         labels: labels,
         datasets: [
-            
             {
                 label: "Woman",
                 data: [6000, 5000, 3000],
@@ -579,7 +633,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
-                    position: 'bottom',
+                    position: "bottom",
                 },
                 datalabels: {
                     anchor: "end",
@@ -770,7 +824,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Inventory size",
-                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
+                data: [
+                    4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
+                    4100, 4000,
+                ],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -778,7 +835,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Orders",
-                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
+                data: [
+                    1100, 2500, 2100, 2300, 3100, 2800, 3100, 3500, 3100, 3500,
+                    3000, 3300,
+                ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -786,7 +846,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Costs",
-                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
+                data: [
+                    700, 1000, 1600, 800, 1000, 1050, 1100, 1300, 980, 1200,
+                    1300, 1160,
+                ],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
