@@ -264,55 +264,113 @@
                                                     <td>On site</td>
                                                     <td>Live</td>
                                                     <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
                                                     <td>
-                                                        <div class="d-grid">
-                                                            <a href="#" class="btn btn-sm text-white btn-info ml-4"
-                                                                data-bs-toggle="modal" data-bs-target="#payment-method">
-                                                                Add
-                                                            </a>
-                                                        </div>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
                                                     </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <td>
+                                            <div class="d-grid  col-1 float start pb-4">
+                                                <a href="#" class="btn btn-sm text-white btn-info ml-4"
+                                                    data-bs-toggle="modal" data-bs-target="#payment-method">
+                                                    Add
+                                                </a>
+                                            </div>
+                                        </td>
                                     </div>
 
                                 </div>
@@ -1534,12 +1592,14 @@
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="sms" value="" id="flexCheckSMS">
-                                                            <label class="form-check-label" for="flexCheckSMS">SMS</label>
+                                                            <label class="form-check-label"
+                                                                for="flexCheckSMS">SMS</label>
                                                         </div>
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="app-noti" value="" id="flexCheckAppNoti">
-                                                            <label class="form-check-label" for="flexCheckAppNoti">In-app
+                                                            <label class="form-check-label"
+                                                                for="flexCheckAppNoti">In-app
                                                                 notification</label>
                                                         </div>
                                                     </div>
@@ -1551,15 +1611,17 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="afterDays" class="form-label">After</label>
-                                                            <input type="number" name="afterDays" class="form-control"
-                                                                id="afterDays" placeholder="days">
+                                                            <input type="number" name="afterDays"
+                                                                class="form-control" id="afterDays"
+                                                                placeholder="days">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="everyDays" class="form-label">Every</label>
-                                                            <input type="number" name="everyDays" class="form-control"
-                                                                id="everyDays" placeholder=" days">
+                                                            <input type="number" name="everyDays"
+                                                                class="form-control" id="everyDays"
+                                                                placeholder=" days">
                                                         </div>
                                                     </div>
                                                 </div>
