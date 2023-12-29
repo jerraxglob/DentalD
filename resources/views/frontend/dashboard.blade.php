@@ -40,7 +40,7 @@
                                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                                             </ul>
                                         </div>
-                                        <a href="" class="text-decoration-none float-end p-3">See All</a>
+                                        <a href="" class="text-decoration-none text-nowrap float-end p-3">See All</a>
                                     </div>
                                 </div>
                                 <div class="row d-flex justify-center align-items-center pr-4 pb-3 ">

@@ -194,128 +194,139 @@
             </div>
         </div>
         <div class="row align-item-center mt-3">
-            <div class="col-12 col-md-12 col-lg-12">
+            <div class="col-12 col-md-12 col-lg-12 rounded-3">
                 <div class="card">
-                    <div class="card-header bg-white d-flex justify-content-between">
+                    <div class="card-header bg-white d-flex justify-content-between custom-card-header">
                         <h5 class="text-dark ">Productivity.</h5>
-                        <button type="button" class="btn btn-sm btn-white border border-dark px-2">
+                        <button type="button" class="btn btn-sm btn-white border border-dark px-2 ">
                             Add filter <i class="fas fa-bars mr-3"></i>
                         </button>
                     </div>
                     <div class="card-body">
-                        <table class="table table-responsive table-borderless table">
-                            <thead>
-                                <tr class="">
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Specialist</th>
-                                    <th scope="col">Appointment</th>
-                                    <th scope="col">Missed</th>
-                                    <th scope="col">Occupancy rate</th>
-                                    <th scope="col">Average sales</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                        <div class="table-responsive">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Specialist</th>
+                                        <th scope="col">Appointment</th>
+                                        <th scope="col">Missed</th>
+                                        <th scope="col">Occupancy rate</th>
+                                        <th scope="col">Average sales</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>320</td>
+                                        <td>60%</td>
+                                        <td>1000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                                <tr>
-                                    <td>#1ied8n2</td>
-                                    <td>Lorem ipsum dolor si amet</td>
-                                    <td>320</td>
-                                    <td>
-                                        320
-                                    </td>
-                                    <td>
-                                        60%
-                                    </td>
-                                    <td>
-                                        1000
+                                    </tr>
+                                    <tr>
+                                        <td>#1ied8n2</td>
+                                        <td>Lorem ipsum dolor si amet</td>
+                                        <td>320</td>
+                                        <td>
+                                            320
+                                        </td>
+                                        <td>
+                                            60%
+                                        </td>
+                                        <td>
+                                            1000
 
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -345,13 +356,13 @@
             </div>
         </div>
         <div class="row align-item-center mt-3">
-            <div class="col-12 col-md-12 col-lg-12">
+            <div class="col-12 col-md-12 col-lg-12 rounded-3">
                 <div class="card">
-                    <div class="card-header bg-white d-flex justify-content-between">
+                    <div class="card-header bg-white d-flex justify-content-between custom-card-header">
                         <h5 class="text-dark">Most popular items.</h5>
                     </div>
                     <div class="card-body">
-                        <table class="table table-borderless table-responsive">
+                        <table class="table  table-responsive">
                             <thead>
                                 <tr>
                                     <th scope="col">Reference</th>

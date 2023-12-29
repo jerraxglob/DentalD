@@ -305,6 +305,10 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     white-space: nowrap;
 }
 
+.custom-card-header {
+    border-bottom: none;
+}
+
 .nav-link span {
     max-width: 65px !important;
 }
