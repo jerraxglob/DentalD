@@ -34,7 +34,6 @@
                         <div class="row d-flex  justify-content-between">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <div class="input-icons position-relative d-flex align-items-center">
-
                                     <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
                                         style="left : 3%" id="Box_1" data-name="Box 1"
                                         xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
@@ -45,9 +44,6 @@
                                                 fill="#8e999a" />
                                         </g>
                                     </svg>
-
-                                    <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput"
-                                        placeholder="Search for a patient …">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-7 col-lg-7 d-flex gap-2">
@@ -69,9 +65,9 @@
                                     </svg>
                                 </div>
                                 <!-- <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
-                                                            plane X</small> -->
+                                                        plane X</small> -->
                                 <!-- <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
-                                                            years) </small> -->
+                                                        years) </small> -->
                                 <span class="px-2"> <button type="button"
                                         class="btn btn-sm btn-white border border-dark w-10 h-60">
                                         Add filter <i class="fas fa-bars mr-3"></i>
@@ -109,9 +105,8 @@
                                         <th>
                                             <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">First name </p>
-                                                <svg id="Group_921" data-name="Group 921"
-                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
-                                                    viewBox="0 0 16.667 16.667">
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
+                                                    width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
                                                     <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
                                                         height="16.667" fill="none" />
                                                     <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
@@ -278,50 +273,6 @@
                                                     </g>
                                                 </svg>
                                                 Edit
-                                            </a></td>
-                                    </tr>
-                                    <tr class="border-b-br">
-                                        <td>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value=""
-                                                    id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-
-                                                </label>
-                                        </td>
-                                        <td>Stanley</td>
-                                        <td>Glenn</td>
-                                        <td>23/12/1980</td>
-                                        <td>
-                                            <div class="btn-group">
-                                                <button
-                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Ongoing treatment
-                                                </button>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li>
-                                                        <hr class="dropdown-divider">
-                                                    </li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                        </td>
-
-                                        <td>
-                                            1 week
-                                        </td>
-                                        <td>
-                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
-                                        </td>
-                                        <td> <a
                                                 class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
@@ -572,9 +523,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-
                                         </td>
-
                                         <td>
                                             1 week
                                         </td>
@@ -640,6 +589,69 @@
 
                                         </td>
 
+                                        <td>
+                                            1 week
+                                        </td>
+                                        <td>
+                                            <i class="fas fa-mobile-alt pr-1"></i> Connected
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                                Edit
+                                            </a></td>
+                                    </tr>
+                                    <tr class="border-b-br">
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+
+                                                </label>
+                                        </td>
+                                        <td>Stanley</td>
+                                        <td>Glenn</td>
+                                        <td>23/12/1980</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Ongoing treatment
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
                                         <td>
                                             1 week
                                         </td>
@@ -750,6 +762,15 @@
                                                         fill="#8791a3" />
                                                 </svg>
                                             </span>
+                                            <span aria-hidden="true"><svg style="  transform: rotate(90deg);
+"
+                                                    xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                    viewBox="0 0 14.08 8.448">
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                        fill="#8791a3" />
+                                                </svg>
+                                            </span>
                                         </a>
                                     </li>
                                     <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
@@ -757,7 +778,7 @@
                                     <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                     <li class="page-item">
                                         <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                            <span aria-hidden="true"><svg style="  transform: rotate(270deg);"
                                                     xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
                                                     viewBox="0 0 14.08 8.448">
                                                     <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
