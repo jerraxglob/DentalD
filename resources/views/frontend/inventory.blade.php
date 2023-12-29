@@ -3,7 +3,7 @@
     <div class="modal fade" id="Stock_modification" tabindex="-1" aria-labelledby="Stock_modification" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
                     <div class="d-flex flex-column justify-content-center align-items-center w-full">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
                             class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
@@ -15,7 +15,8 @@
                         <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
 
                     </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close rounded-circle border border-dark text-dark"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
@@ -367,14 +368,14 @@
             </div>
         </div>
     </div>
-
     {{-- add new product modal --}}
     <div class="modal fade" id="addnewproduct" tabindex="-1" aria-labelledby="addnewproductLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new product</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-header d-flex justify-content-center align-items-center no-border-bottom">
+                    <h5 class="modal-title mx-auto-no-right fw-bold" id="addnewsupplier">Add new product</h5>
+                    <button type="button" class="btn-close rounded-circle border border-dark text-dark"
+                        data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
@@ -390,9 +391,9 @@
                                     name="pro-name" value="">
                             </div>
                             <div class="col-md-4">
-                                <label for="category" class="form-label ">Category</label>
+                                <label for="category" class="form-label">Category</label>
                                 <select class="form-select form-select-sm" name="category" aria-label=".form-select-sm ">
-                                    <option selected>Chose Category</option>
+                                    <option selected class="px-2">chose category</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
