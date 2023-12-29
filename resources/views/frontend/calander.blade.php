@@ -91,22 +91,22 @@
             </div>
             <div class="col-12 col-md-4 col-lg-4 mt-4">
                 <div class="p-3 border bg-white">
-                    <strong>Next events.</strong>
-                    <hr>
-                    <div class="table-responsive">
+                    <span class="font-22 clr-db mb-4">Next events.</span>
+                    
+                    <div class="table-responsive mt-4">
                         <table class="table">
                             <thead>
-                                <tr>
-                                    <th>Date</th>
-                                    <th>Event</th>
-                                    <th>Status</th>
+                                <tr style="border-color: transparent">
+                                    <th class="font-14 clr-bg">Date</th>
+                                    <th class="font-14 clr-bg">Event</th>
+                                    <th class="font-14 clr-bg d-flex justify-content-end">Status</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-success text-nowrap">Information
                                             sent</button>
                                     </td>
@@ -114,7 +114,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-success text-nowrap">Information
                                             sent</button>
                                     </td>
@@ -122,7 +122,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-success text-nowrap">Information
                                             sent</button>
                                     </td>
@@ -130,7 +130,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-success text-nowrap">Information
                                             sent</button>
                                     </td>
@@ -138,7 +138,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-success text-nowrap">Information
                                             sent</button>
                                     </td>
@@ -146,7 +146,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-muted text-nowrap">pendding
                                         </button>
                                     </td>
@@ -154,7 +154,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-muted text-nowrap">pendding
                                         </button>
                                     </td>
@@ -162,7 +162,7 @@
                                 <tr>
                                     <td>22/05/23</td>
                                     <td class="text-nowrap">Event name</td>
-                                    <td><button
+                                    <td class="d-flex justify-content-end"><button
                                             class="btn btn-sm bg-white btn-outline-secondary text-muted text-nowrap">pedding
                                         </button>
                                     </td>

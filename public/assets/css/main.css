@@ -184,7 +184,7 @@ i {
     background-color: #3bcffc !important;
     border-radius: 5px !important;
     color: white !important;
-    font-size: 10px !important;
+    /* font-size: 10px !important; */
 }
 
 .col-with-line {
@@ -1434,4 +1434,16 @@ ul.custom-square li::marker {
 }
 .border-b-br{
     border-bottom: 1px solid #70707023;
+}
+.border-b-bl{
+    border-bottom: 2px solid #50C2F6 !important;
+}
+.nav-link{
+    color:#8791A3  ;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    border-bottom: 2px solid #50C2F6 !important;
+    /* border-color: transparent !important; */
+    color: #50C2F6;
 }
