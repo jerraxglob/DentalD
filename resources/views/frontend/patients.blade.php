@@ -68,10 +68,6 @@
                                             d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
                                     </svg>
                                 </div>
-                                <!-- <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
-                                                            plane X</small> -->
-                                <!-- <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
-                                                            years) </small> -->
                                 <span class="px-2"> <button type="button"
                                         class="btn btn-sm btn-white border border-dark w-10 h-60">
                                         Add filter <i class="fas fa-bars mr-3"></i>
@@ -256,7 +252,8 @@
                                         <td>
                                             <i class="fas fa-mobile-alt pr-1"></i> Connected
                                         </td>
-                                        <td> <a
+                                        <td>
+                                            <a
                                                 class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
@@ -278,28 +275,8 @@
                                                     </g>
                                                 </svg>
                                                 Edit
-                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                    height="14.526" viewBox="0 0 13.37 14.526">
-                                                    <defs>
-                                                        <clipPath id="clip-path">
-                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                                width="4.029" height="15.744" fill="#102940" />
-                                                        </clipPath>
-                                                    </defs>
-                                                    <g id="Group_393" data-name="Group 393"
-                                                        transform="translate(10.329) rotate(41)">
-                                                        <g id="Group_244" data-name="Group 244"
-                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
-                                                            <path id="Path_29" data-name="Path 29"
-                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                                transform="translate(0 0)" fill="#102940" />
-                                                        </g>
-                                                    </g>
-                                                </svg>
-                                                Edit
-                                            </a></td>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr class="border-b-br">
                                         <td>
@@ -342,7 +319,8 @@
                                         <td>
                                             <i class="fas fa-mobile-alt pr-1"></i> Connected
                                         </td>
-                                        <td> <a
+                                        <td>
+                                            <a
                                                 class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                     xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
@@ -364,7 +342,8 @@
                                                     </g>
                                                 </svg>
                                                 Edit
-                                            </a></td>
+                                            </a>
+                                        </td>
                                     </tr>
                                     <tr class="border-b-br">
                                         <td>

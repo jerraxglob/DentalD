@@ -23,7 +23,6 @@
                             </g>
                         </svg>
                         <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
-
                     </div>
                         <a type="" class="" data-bs-dismiss="modal" aria-label="Close"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
@@ -49,7 +48,8 @@
                     <form role="form" method="POST" action="">
                         <div class="row mb-5">
                             <p>You have changed the product stock.
-                                Check the quantity entered, select a reason and specify the reason for the change</p>
+                                Check the quantity entered, select a reason and specify the reason for the change
+                            </p>
                             <div class="col-md-4 mt-4">
                                 <label for="date" class="form-label">Actual stock</label>
                                 <input type="number" class="form-control form-control-sm" id="Actual_stock"
@@ -79,7 +79,6 @@
                                     name="Comment">
                             </div>
                         </div>
-
                         <div class="row mb-3">
                             <div class="d-grid  col-md-6 d-flex justify-content-center w-full">
                                 <button type="submit" class="btn btn-info btn-sm text-white">Confirm
@@ -89,7 +88,6 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
@@ -131,7 +129,6 @@
                             <a href="#" type="button" class="btn btn-sm btn-white border border-dark px-2">
                                 Add filter <i class="fas fa-bars mr-3"></i>
                             </a>
-
                         </div>
                     </div>
                     <div class="row align-items-center rounded-3 bg-white py-3">
@@ -164,7 +161,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                         <tr class="border-b-br">
@@ -180,7 +176,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                         <tr class="border-b-br">
@@ -196,7 +191,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                         <tr class="border-b-br">
@@ -212,7 +206,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                         <tr class="border-b-br">
@@ -228,7 +221,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                         <tr class="border-b-br">
@@ -244,7 +236,6 @@
                                                     data-bs-toggle="modal" data-bs-target="#Stock_modification">
                                                     Edit
                                                 </button>
-
                                             </td>
                                         </tr>
                                     </tbody>
@@ -254,9 +245,10 @@
                                         <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
                                         <li class="page-item disabled">
                                             <a class="page-link" href="#" aria-label="Previous">
-                                                <span aria-hidden="true"><svg style="
-    transform: rotate(90deg);
-"
+                                                <span aria-hidden="true">
+                                                    <svg style="
+                                        transform: rotate(90deg);
+                                        "
                                                         xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
                                                         viewBox="0 0 14.08 8.448">
                                                         <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
@@ -272,23 +264,23 @@
                                         <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                         <li class="page-item">
                                             <a class="page-link" href="#" aria-label="Next">
-                                                <span aria-hidden="true"><svg style="
-    transform: rotate(270deg);
-"
+                                                <span aria-hidden="true">
+                                                    <svg style="
+                                        transform: rotate(270deg);
+                                        "
                                                         xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
                                                         viewBox="0 0 14.08 8.448">
                                                         <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
                                                             d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
                                                             fill="#8791a3" />
-                                                    </svg></span>
+                                                    </svg>
+                                                </span>
                                             </a>
                                         </li>
                                     </ul>
                                 </nav>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -331,7 +323,6 @@
                                             <td>Lorem ipsum </td>
                                             <td>1239</td>
                                         </tr>
-
                                     </tbody>
                                 </table>
                             </div>
@@ -394,7 +385,6 @@
                                 </table>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -414,16 +404,15 @@
                 </div>
             </div>
             <div class="col-md-4 bg-white mt-5 px-3 py-3">
-                <span class="py-2 font-22 clr-bg">Distribution by category.</span> <span
-                    class="float-end font-14 clr-db">Last 6 month
-
+                <span class="py-2 font-22 clr-bg">Distribution by category.</span>
+                <span class="float-end font-14 clr-db">
+                    Last 6 month
                     <svg xmlns="http://www.w3.org/2000/svg" width="8.333" height="5" viewBox="0 0 8.333 5"
                         class="ml-5">
                         <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
                             d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
                             fill="#2a283b" />
                     </svg>
-
                 </span>
                 <canvas class="py-2 pb-4" id="dis_category"></canvas>
             </div>
@@ -433,15 +422,30 @@
     <div class="modal fade" id="addnewproduct" tabindex="-1" aria-labelledby="addnewproductLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-body">
-                    <div class=" mb-5 d-flex justify-content-center align-items-center position-relative">
-                        <h5 class="modal-title  fw-bold" id="addnewsupplier">Add new product</h5>
-                        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal"
-                            aria-label="Close" style="
-    right: 0%;
-    font-size: 32px;
-"></button>
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                        <h5 class="modal-title fw-bold" id="addnewproduct">Add new product</h5>
                     </div>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                    fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                    <circle cx="14" cy="14" r="14" stroke="none" />
+                                    <circle cx="14" cy="14" r="13.5" fill="none" />
+                                </g>
+                                <g id="Group_212" data-name="Group 212" transform="translate(587.991 31.377) rotate(45)">
+                                    <line id="Line_2" data-name="Line 2" y2="15.591" transform="translate(7.986)"
+                                        fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2" />
+                                    <line id="Line_3" data-name="Line 3" x2="15.591"
+                                        transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body">
                     <form role="form" method="POST" action="">
                         <div class="row mb-3">
                             <div class="col-md-4">
@@ -498,10 +502,8 @@
                                     name="buy-price">
                             </div>
                             <div class="col-md-4">
-
                             </div>
                         </div>
-
                         <div class="row mb-3 d-flex align-items-center mt-4">
                             <div class="col-md-8">
                                 <div class="form-check">
@@ -519,14 +521,12 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-
                             <div class="d-flex justify-content-center">
                                 <button type="submit" class="btn btn-info btn-sm text-white">Add new product</button>
                             </div>
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>

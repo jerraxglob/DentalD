@@ -60,78 +60,116 @@
                                         <th>
 
                                         </th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">ID</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
+                                                    width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Tasks</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
+                                                    width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Birth</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Assigned to</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Date of creation</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Due date</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Priority</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
-                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                        </th>
+                                        <th> <span class="d-flex gap-2 align-items-center">
                                                 <p class="clr-th mb-0 font-14">Status</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
 
                                             </span>
-</th>
+                                        </th>
 
                                     </tr>
                                 </thead>
@@ -152,8 +190,8 @@
                                         <td>23/12/1980</td>
                                         <td>
                                         <td>
-                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm " type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm "
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Emergency
                                             </button>
 
@@ -197,8 +235,8 @@
                                         <td>23/12/1980</td>
                                         <td>
                                         <td>
-                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm " type="button"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                            <button class="btn btn-outline-dark bg-white text-danger btn-sm "
+                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Emergency
                                             </button>
 
@@ -511,16 +549,20 @@
                             </table>
                             <nav aria-label="Page navigation ">
                                 <ul class="pagination d-flex justify-content-end">
-                                <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+                                    <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
 
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true"><svg style="
     transform: rotate(90deg);
-" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
-</svg>
-</span>
+"
+                                                    xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                    viewBox="0 0 14.08 8.448">
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                        fill="#8791a3" />
+                                                </svg>
+                                            </span>
                                         </a>
                                     </li>
                                     <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
@@ -530,13 +572,18 @@
                                         <a class="page-link" href="#" aria-label="Next">
                                             <span aria-hidden="true"><svg style="
     transform: rotate(270deg);
-" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
-</svg></span>
+"
+                                                    xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                                    viewBox="0 0 14.08 8.448">
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                        fill="#8791a3" />
+                                                </svg></span>
                                         </a>
                                     </li>
                                 </ul>
-                            </nav>                        </div>
+                            </nav>
+                        </div>
 
                     </div>
                     <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
@@ -554,37 +601,48 @@
                 <div class="p-3 border bg-white  rounded-3">
                     <h5 class=" py-3"> Recent activity</h5>
                     <ul class="list-group  pb-4">
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text ">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none ">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been
+                            archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
 
@@ -606,25 +664,33 @@
                                 <th>Category</th>
                                 <th>Note</th>
                                 <th>
-                                <span class="d-flex gap-2 align-items-center">
-                                                <p class="clr-th mb-0 font-14">Priority</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                    <span class="d-flex gap-2 align-items-center">
+                                        <p class="clr-th mb-0 font-14">Priority</p>
+                                        <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
+                                            width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+                                            <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                height="16.667" fill="none" />
+                                            <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                transform="translate(4.167 5.833)" fill="#2a283b" />
+                                        </svg>
 
-                                            </span>
+                                    </span>
 
                                 </th>
                                 <th>
-                                <span class="d-flex gap-2 align-items-center">
-                                                <p class="clr-th mb-0 font-14">Status</p>
-                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
-  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
-</svg>
+                                    <span class="d-flex gap-2 align-items-center">
+                                        <p class="clr-th mb-0 font-14">Status</p>
+                                        <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg"
+                                            width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+                                            <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                height="16.667" fill="none" />
+                                            <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                transform="translate(4.167 5.833)" fill="#2a283b" />
+                                        </svg>
 
-                                            </span>
+                                    </span>
 
                                 </th>
                             </tr>
@@ -788,33 +854,42 @@
                         </tbody>
                     </table>
                     <nav aria-label="Page navigation ">
-                                <ul class="pagination d-flex justify-content-end">
-                                <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+                        <ul class="pagination d-flex justify-content-end">
+                            <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
 
-                                    <li class="page-item disabled">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true"><svg style="
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><svg style="
     transform: rotate(90deg);
-" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
-</svg>
-</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
-                                    <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
-                                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true"><svg style="
+"
+                                            xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                            viewBox="0 0 14.08 8.448">
+                                            <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                fill="#8791a3" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                            <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                            <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><svg style="
     transform: rotate(270deg);
-" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
-  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
-</svg></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>                </div>
+"
+                                            xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
+                                            viewBox="0 0 14.08 8.448">
+                                            <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z"
+                                                fill="#8791a3" />
+                                        </svg></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
 
             </div>
 

@@ -1,7 +1,7 @@
 @extends('frontend.partials.main')
 @section('content')
     <div class="container mt-3">
-        <div class="row p-1 align-items-center rounded mt-3 bg-white">
+        {{-- <div class="row p-1 align-items-center rounded mt-3 bg-white">
             <div class="col-md-3 col-lg-3 ">
                 <h5 class="text-nowrap px-2 py-2 ">Invoicing</h5>
                 <small class="px-2">Data for CHD clinic</small>
@@ -52,6 +52,68 @@
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> --}}
+        <div class="row  mt-3 bg-white p-3 rounded-3 align-items-center">
+            <div class="col-md-3 col-lg-3   d-flex  justify-content-start align-items-center">
+                <div>
+                    <h5 class="text-nowrap ">Invoicing</h5>
+                    <small class=" text-muted font-12 p-0">Data for CHD clinic</small>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-2 col-lg-2  d-flex justify-content-between ">
+                <button class="btn btn-sm   css-primary-btn "><i class="fas fa-file text-white px-1 "></i>Export</button>
+                <button class="btn btn-sm  css-primary-btn "><i class="fas fa-print text-white px-1 "></i>Print
+                    report</button>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 text-center">
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle custom-no-outline" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                        </svg> All specialists
+                        <i class="fas fa-angle-down thin-arrow p-3"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-between text-center align-items-center">
+                <span class="">Period</span>
+                <div class=" btn-group">
+                    <button
+                        class="btn btn-white p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class=" fas px-1  fa-calendar-alt"></i> Last 6 months
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+
+                <span> Vs </span>
+
+                <div class="btn-group">
+                    <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class=" float-start fas fa-calendar-alt"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </div>

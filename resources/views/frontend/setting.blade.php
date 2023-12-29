@@ -264,55 +264,113 @@
                                                     <td>On site</td>
                                                     <td>Live</td>
                                                     <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>12/07/23</td>
-                                                    <td>On site</td>
-                                                    <td>Live</td>
-                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
-                                                    <td> <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                                class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a></td>
-                                                </tr>
-                                                <tr>
                                                     <td>
-                                                        <div class="d-grid">
-                                                            <a href="#" class="btn btn-sm text-white btn-info ml-4"
-                                                                data-bs-toggle="modal" data-bs-target="#payment-method">
-                                                                Add
-                                                            </a>
-                                                        </div>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
                                                     </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>On site</td>
+                                                    <td>Live</td>
+                                                    <td>Lorem ipsum dolor si amet net ipsum me</td>
+                                                    <td>
+                                                        <a
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <td>
+                                            <div class="d-grid  col-1 float start pb-4">
+                                                <a href="#" class="btn btn-sm text-white btn-info ml-4"
+                                                    data-bs-toggle="modal" data-bs-target="#payment-method">
+                                                    Add
+                                                </a>
+                                            </div>
+                                        </td>
                                     </div>
 
                                 </div>
@@ -1534,12 +1592,14 @@
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="sms" value="" id="flexCheckSMS">
-                                                            <label class="form-check-label" for="flexCheckSMS">SMS</label>
+                                                            <label class="form-check-label"
+                                                                for="flexCheckSMS">SMS</label>
                                                         </div>
                                                         <div class="form-check">
                                                             <input class="form-check-input" type="checkbox"
                                                                 name="app-noti" value="" id="flexCheckAppNoti">
-                                                            <label class="form-check-label" for="flexCheckAppNoti">In-app
+                                                            <label class="form-check-label"
+                                                                for="flexCheckAppNoti">In-app
                                                                 notification</label>
                                                         </div>
                                                     </div>
@@ -1551,15 +1611,17 @@
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="afterDays" class="form-label">After</label>
-                                                            <input type="number" name="afterDays" class="form-control"
-                                                                id="afterDays" placeholder="days">
+                                                            <input type="number" name="afterDays"
+                                                                class="form-control" id="afterDays"
+                                                                placeholder="days">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-md-6">
                                                         <div class="mb-3">
                                                             <label for="everyDays" class="form-label">Every</label>
-                                                            <input type="number" name="everyDays" class="form-control"
-                                                                id="everyDays" placeholder=" days">
+                                                            <input type="number" name="everyDays"
+                                                                class="form-control" id="everyDays"
+                                                                placeholder=" days">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1757,10 +1819,31 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="addnewuser">Add new user</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
                     </div>
                     <div class="modal-body">
                         <form role="form" method="POST" action="">
@@ -1826,10 +1909,31 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="addnewsupplier">Add new supplier</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
                     </div>
                     <div class="modal-body">
                         <form role="form" method="POST" action="">
@@ -1916,7 +2020,6 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1924,7 +2027,7 @@
         <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+                {{-- <div class="modal-content">
                     <div class="modal-header  d-flex justify-content-center align-items-center">
                         <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
                             method
@@ -1988,7 +2091,91 @@
                         </form>
                     </div>
 
+             </div> --}}
+                <div class="modal-content">
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="payment">Modify / Add payment</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="pay-method" class="form-label">Payment method</label>
+                                    <select class="form-select form-select-sm" name="pay-method"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Bank Trasnfer</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="pay-term" class="form-label">Payment terms</label>
+                                    <input type="text" class="form-control form-control-sm" id="pay-term"
+                                        name="pay-term">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="avai-for" class="form-label">Available for</label>
+                                    <input type="text" class="form-control form-control-sm" id="avai-for"
+                                        name="avai-for" placeholder="Type of insurance">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="post-pay" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Do not post for delinquent patients.
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="act-pay" type="checkbox"
+                                            value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Activate payment method
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+
             </div>
         </div>
         {{-- edit doc modal --}}
