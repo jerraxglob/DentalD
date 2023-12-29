@@ -64,7 +64,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Income.</b></h5>
-                        <strong class="card-text fs-2">CHF 100 000.-</strong><br>
+                        <span class="card-text fs-2 stats-heading">CHF 100 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -79,7 +79,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Spending.</b></h5>
-                        <strong class="card-text fs-2">CHF 20 000.-</strong><br>
+                        <span class="card-text fs-2 stats-heading">CHF 20 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -93,7 +93,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Number of patient.</b></h5>
-                        <strong class="card-text fs-2">CHF 20 000.-</strong><br>
+                        <span class="card-text fs-2 stats-heading">CHF 20 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -110,8 +110,8 @@
                     <div class="card-body">
                         <h5 class="card-title"><b class="text-nowrap">Number of
                                 appointment.</b></h5>
-                        <strong class="card-text fs-2">109 <i
-                                class="fas px-3 fa-calendar-alt text-muted"></i></strong><br>
+                        <span class="card-text fs-2 stats-heading">109 <i
+                                class="fas px-3 fa-calendar-alt text-muted"></i></span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -125,8 +125,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title text-nowrap"><b>Average appointment time</b></h5>
-                        <strong class="card-text fs-2">70 min<i class="fas px-3 fa-clock text-muted"></i>
-                        </strong><br>
+                        <span  class="card-text fs-2 stats-heading">70 min<i class="fas px-3 fa-clock text-muted"></i>
+                        </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -141,8 +141,8 @@
                     <div class="card-body">
                         <h6 class="card-title text-nowrap"><b>Number of appointments cancelled.</b>
                         </h6>
-                        <strong class="card-text fs-2">30 <i class="fas px-3 fa-times text-muted"></i>
-                        </strong><br>
+                        <span class="card-text fs-2 stats-heading">30 <i class="fas px-3 fa-times text-muted"></i>
+                        </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -157,8 +157,8 @@
                     <div class="card-body">
                         <h5 class="card-title text-nowrap"><b>Occupancy
                                 rate.</b></h5>
-                        <strong class="card-text fs-2">80% <i class="fas fa-chart-bar "></i>
-                        </strong><br>
+                        <span class="card-text fs-2 stats-heading">80% <i class="fas fa-chart-bar "></i>
+                        </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"

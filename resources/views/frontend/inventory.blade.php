@@ -25,9 +25,6 @@
                         <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
 
                     </div>
-                    <<<<<<< HEAD <button type="button" class="btn-close rounded-circle border border-dark text-dark"
-                        data-bs-dismiss="modal" aria-label="Close"></button>
-                        =======
                         <a type="" class="" data-bs-dismiss="modal" aria-label="Close"><svg
                                 xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
                                 <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
@@ -47,7 +44,6 @@
                                 </g>
                             </svg>
                         </a>
-                        >>>>>>> aa39d50d4260ce46c6a8a0760ddb454508f2da49
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
