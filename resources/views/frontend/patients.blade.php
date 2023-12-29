@@ -42,7 +42,7 @@
   </g>
 </svg>
 
-                                    <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput" placeholder="Search for a patient …">
+                                    <input class="form-control form-control-sm w-50 mx-2 pl-8" id="PatientsearchInput" placeholder="Search for a patient …">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-7 col-lg-7 d-flex gap-2">
@@ -633,6 +633,8 @@ Edit
                             </table>
                             <nav aria-label="Page navigation ">
                                 <ul class="pagination d-flex justify-content-end">
+                                <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
                                             <span aria-hidden="true"><svg style="

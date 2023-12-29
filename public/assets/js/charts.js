@@ -22,35 +22,35 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Average sales",
-                data: [2000, 3000, 4000],
+                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
-                tension: 0.1,
+                // tension: 1,
             },
             {
                 label: "Performed",
-                data: [1500, 2500, 3500, 4500],
+                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "Billed",
-                data: [4000, 1000, 6000, 2000, 4000],
+                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "In recovery",
-                data: [560, 300, 430, 230, 600],
+                data: [500, 800, 1300, 700, 800,750, 900,1050,880,1050,1000,960],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
-                tension: 0.1,
+                // tension: 0.1,
             },
         ],
     };
@@ -109,11 +109,11 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Average sales",
-                data: [2000, 3000, 4000],
+                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "Performed",
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "Billed",
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "In recovery",
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
-                tension: 0.1,
+                // tension: 0.1,
             },
         ],
     };
@@ -282,34 +282,34 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Category 1",
-                data: [260, 370, 342],
+                data: [260, 370, 342,260, 370, 342,260, 370, 342,260, 370, 342],
                 backgroundColor: "blue",
                 borderColor: "blue",
-                borderWidth: 1,
+                borderWidth: 5,
                 tension: 0.1,
             },
             {
                 label: "Category 2",
-                data: [234, 245, 106, 108],
+                data: [234, 245, 106, 108,234, 245, 106, 108,234, 245,234, 245],
                 backgroundColor: "grey",
                 borderColor: "grey",
-                borderWidth: 1,
+                borderWidth: 5,
                 tension: 0.1,
             },
             {
                 label: "Category 3",
-                data: [1000, 2000, 3000, 4000, 5000],
+                data: [1000, 2000, 3000, 4000, 5000,1000, 2000, 3000, 4000, 5000, 4000, 5000],
                 backgroundColor: "yellow",
                 borderColor: "yellow",
-                borderWidth: 1,
+                borderWidth: 5,
                 tension: 0.1,
             },
             {
                 label: "Category 4",
-                data: [4000, 1000, 6000, 2000, 4000],
+                data: [4000, 1000, 6000, 2000, 4000,4000, 1000, 6000, 2000, 4000, 2000, 4000],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
-                borderWidth: 1,
+                borderWidth: 5,
                 tension: 0.1,
             },
         ],
@@ -320,22 +320,101 @@ document.addEventListener("DOMContentLoaded", function () {
         data: data,
         options: {
             scales: {
-                x: {
-                    stacked: true,
-                },
                 y: {
                     beginAtZero: true,
                     ticks: {
-                        stepSize: 1000,
+                        stepSize: 100,
                         callback: function (value, index, values) {
-                            return value === 0 ? value : value / 1000 + "k";
+                            return value === 0 ? value : value / 100 + "yo";
                         },
                     },
                 },
             },
             plugins: {
                 legend: {
-                    position: 'bottom', // Set legend position to bottom
+                    display: true,
+                    position: 'bottom',
+                },
+                datalabels: {
+                    anchor: "end",
+                    align: "end",
+                    formatter: function (value, context) {
+                        return value.y + "%";
+                    },
+                },
+            },
+        },
+    };
+
+    var myBarChart = new Chart(ctx, config);
+});
+document.addEventListener("DOMContentLoaded", function () {
+    var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
+    const monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+    ];
+
+    const labels = monthNames.slice(0, 12);
+    const data = {
+        labels: labels,
+        datasets: [
+            
+            {
+                label: "Woman",
+                data: [6000, 5000, 3000],
+                backgroundColor: "orange",
+                borderColor: "orange",
+                borderWidth: 5,
+                tension: 0.1,
+            },
+            {
+                label: "Man",
+                data: [5000, 6000, 3000, 4000],
+                backgroundColor: "blue",
+                borderColor: "blue",
+                borderWidth: 5,
+                tension: 0.1,
+            },
+        ],
+    };
+
+    const config = {
+        type: "bar",
+        data: data,
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 100,
+                        callback: function (value, index, values) {
+                            return value === 0 ? value : value / 100 + "yo";
+                        },
+                    },
+                },
+            },
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'bottom',
+                },
+                datalabels: {
+                    anchor: "end",
+                    align: "end",
+                    formatter: function (value, context) {
+                        return value.y + "%";
+                    },
                 },
             },
         },
@@ -530,6 +609,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
         labels: labels,
         datasets: [
+            
             {
                 label: "Woman",
                 data: [6000, 5000, 3000],
@@ -757,15 +837,15 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Inventory size",
-                data: [2000, 3000, 4000],
+                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
-                tension: 0.1,
+                // tension: 0.1,
             },
             {
                 label: "Orders",
-                data: [1500, 2500, 3500, 4500],
+                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -773,11 +853,11 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Costs",
-                data: [1000, 2000, 3000, 4000, 5000],
+                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
-                tension: 0.1,
+                // tension: 0.1,
             },
         ],
     };

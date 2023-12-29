@@ -66,13 +66,12 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8 col-lg-8">
-                <div class="container rounded-3 mt-5">
-                    <div class="row align-items-center rounded-3 bg-white p-3">
-                        <div class="col-sm-12 col-md-4 col-lg-4 align-items-center">
+                <div class="container rounded-3 mt-5 bg-white pt-4">
+                    <div class=" align-items-center rounded-3 bg-white py-3 d-flex justify-content-between">
+                        <div class="d-flex align-items-center">
                             <strong class="text-start"> Gestion de stock</strong>
                         </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 align-items-center"> </div>
-                        <div class="col-sm-12 col-md-4 col-lg-4 align-items-center">
+                        <div class=" align-items-end d-flex gap-3 align-items-end">
                             <a href="#" class="btn btn-sm btn-outline-info px-2"> Order</a>
                             <a href="#" class="btn btn-sm btn-info text-white px-2" data-bs-toggle="modal"
                                 data-bs-target="#addnewproduct"><i class="fas fa-plus text-white"></i>
@@ -80,13 +79,17 @@
                                 product</a>
                         </div>
                     </div>
-                    <div class="row align-items-center rounded-3 bg-white p-3">
+                    <div class="row align-items-center rounded-3 bg-white py-3">
                         <div class="col-sm-12 col-md-6 col-lg-6 align-items-center">
                             <div class="input-icons position-relative d-flex align-items-center">
-                                <i class="fas  fa-search position-absolute translate-bottom mt-2 px-  text-start  text-secondary"
-                                    style="padding-left:21px; padding-bottom:6px;"></i>
-                                <input class="form-control form-control-sm w-50 mx-2 px-5" id="searchInput" type="text"
-                                    placeholder="Search for a consultation …" />
+                            <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
+                                        style="left : 3%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012" viewBox="0 0 15.012 15.012">
+  <g id="Group_1" data-name="Group 1">
+    <path id="Union" d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z" fill="#8e999a"/>
+  </g>
+</svg>
+                                <input class="form-control form-control-sm w-50 mx-2 pl-8" id="searchInput" type="text"
+                                    placeholder="Search for a product …" />
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2"></div>
@@ -97,24 +100,24 @@
 
                         </div>
                     </div>
-                    <div class="row align-items-center rounded-3 bg-white p-3">
-                        <div class="col-sm-12 col-md-1 col-lg-1"></div>
-                        <div class="col-sm-12 col-md-10 col-lg-10">
+                    <div class="row align-items-center rounded-3 bg-white py-3">
+                        <!-- <div class="col-sm-12 col-md-1 col-lg-1"></div> -->
+                        <div class="w-full px-0">
                             <div class="table-responsive">
                                 <table class="table table-borderless ">
                                     <thead>
                                         <tr>
-                                            <th>Reference</th>
-                                            <th>Product name</th>
-                                            <th>Category</th>
-                                            <th>In stock</th>
-                                            <th>Limit</th>
-                                            <th>Expiration date</th>
-                                            <th>Actions</th>
+                                            <th class="clr-th font-14">Reference</th>
+                                            <th class="clr-th font-14">Product name</th>
+                                            <th class="clr-th font-14">Category</th>
+                                            <th class="clr-th font-14">In stock</th>
+                                            <th class="clr-th font-14">Limit</th>
+                                            <th class="clr-th font-14">Expiration date</th>
+                                            <th class="clr-th font-14">Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -130,7 +133,7 @@
 
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -146,7 +149,7 @@
 
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -162,7 +165,7 @@
 
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -178,7 +181,7 @@
 
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -194,7 +197,7 @@
 
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>Lorem ipsum</td>
@@ -213,22 +216,33 @@
                                     </tbody>
                                 </table>
                                 <nav aria-label="Page navigation ">
-                                    <ul class="pagination  d-flex justify-content-end">
-                                        <li class="page-item disabled">
-                                            <a class="page-link" href="#" aria-label="Previous">
-                                                <span aria-hidden="true">&laquo;</span>
-                                            </a>
-                                        </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Next">
-                                                <span aria-hidden="true">&raquo;</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                                <ul class="pagination d-flex justify-content-end">
+                                    <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(90deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg>
+</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                    <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(270deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
                             </div>
                         </div>
 
@@ -236,15 +250,14 @@
                 </div>
             </div>
             <div class="col-md-4 col-lg-4 mt-5 px-3">
-                <div class="container bg-white">
-                    <div class="row p-3">
+                <div class="container bg-white rounded-3">
+                    <div class="row py-3">
                         <div class="col-sm-12 col-md-6 col-lg-6 py-3">
-                            <strong class="text-nowrap">Articles les plus consommés.</strong>
+                            <span class="text-nowrap clr-db font-22">Articles les plus consommés.</span>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-1 col-lg-1"></div>
-                        <div class="col-sm-12 col-md-11 col-lg-11">
+                        <div class="">
                             <div class="table-responsive">
                                 <table class="table table-borderless ">
                                     <thead>
@@ -255,12 +268,22 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>1239</td>
                                         </tr>
-                                        <tr>
+                                        <tr  class="border-b-br">
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>1239</td>
+                                        </tr>
+                                        <tr  class="border-b-br">
+                                            <td>#1ied8n2</td>
+                                            <td>Lorem ipsum </td>
+                                            <td>1239</td>
+                                        </tr>
+                                        <tr  class="border-b-br">
                                             <td>#1ied8n2</td>
                                             <td>Lorem ipsum </td>
                                             <td>1239</td>
@@ -273,18 +296,17 @@
                         <div class="col-sm-12 col-md-1 col-lg-1"></div>
                     </div>
                 </div>
-                <div class="container mt-3 bg-white">
-                    <div class="row p-3 d-flex align-items-center ">
-                        <div class="col-sm-12 col-md-3 col-lg-3 py-3 text-md-end d-flex align-items-center">
-                            <strong class="text-nowrap">Commandes.</strong>
+                <div class="container mt-3 bg-white rounded-3">
+                    <div class="py-3 d-flex justify-content-between w-full align-items-center">
+                        <div class="">
+                            <span class="text-nowrap clr-db font-22">Commandes.</span>
                         </div>
-                        <div class="col-12 col-md-3 col-lg-3">
-                            <a href="#" class="text-decoration-none   text-nowrap tout_voir">Tout voir</a>
+                        <div class="">
+                            <a href="#" class="text-decoration-none   text-nowrap font-16 lblue">Tout voir</a>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-12 col-md-1 col-lg-1"></div>
-                        <div class="col-sm-12 col-md-11 col-lg-11">
+                        <div class="">
                             <div class="table-responsive">
                                 <table class="table table-borderless ">
                                     <thead>
@@ -295,7 +317,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
+                                        <tr  class="border-b-br">
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
@@ -305,7 +327,7 @@
                                                     commande</button>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr class="border-b-br">
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
@@ -315,7 +337,7 @@
                                                     commande</button>
                                             </td>
                                         </tr>
-                                        <tr>
+                                        <tr class="border-b-br">
                                             <td>12/07/23</td>
                                             <td>Lorem ipsum </td>
                                             <td>
@@ -329,7 +351,7 @@
                                 </table>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-1 col-lg-1"></div>
+                       
                     </div>
                 </div>
             </div>
