@@ -354,80 +354,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myBarChart = new Chart(ctx, config);
 });
-document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
-    const monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-    ];
 
-    const labels = monthNames.slice(0, 12);
-    const data = {
-        labels: labels,
-        datasets: [
-            
-            {
-                label: "Woman",
-                data: [6000, 5000, 3000],
-                backgroundColor: "orange",
-                borderColor: "orange",
-                borderWidth: 5,
-                tension: 0.1,
-            },
-            {
-                label: "Man",
-                data: [5000, 6000, 3000, 4000],
-                backgroundColor: "blue",
-                borderColor: "blue",
-                borderWidth: 5,
-                tension: 0.1,
-            },
-        ],
-    };
-
-    const config = {
-        type: "bar",
-        data: data,
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        stepSize: 100,
-                        callback: function (value, index, values) {
-                            return value === 0 ? value : value / 100 + "yo";
-                        },
-                    },
-                },
-            },
-            plugins: {
-                legend: {
-                    display: true,
-                    position: 'bottom',
-                },
-                datalabels: {
-                    anchor: "end",
-                    align: "end",
-                    formatter: function (value, context) {
-                        return value.y + "%";
-                    },
-                },
-            },
-        },
-    };
-
-    var myBarChart = new Chart(ctx, config);
-});
 
 // done
 document.addEventListener("DOMContentLoaded", function () {
@@ -545,7 +472,7 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Treatment code 1",
-                data: [2000, 3000, 4000],
+                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -553,7 +480,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment code 2",
-                data: [1500, 2500, 3500, 4500],
+                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
@@ -561,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment code 3",
-                data: [1000, 2000, 3000, 4000, 5000],
+                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -605,19 +532,10 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
     const monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-    ];
+       
+        "Women",
+        "Men",
+       ];
 
     const labels = monthNames.slice(0, 12);
     const data = {
@@ -701,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Open invoices",
-                data: [2000, 3000, 4000],
+                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -709,7 +627,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Pending payment",
-                data: [1500, 2500, 3500, 4500],
+                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -717,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Unpaid invoices",
-                data: [1000, 2000, 3000, 4000, 5000],
+                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
@@ -751,6 +669,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     },
                 },
             },
+            
         },
     };
 
@@ -804,7 +723,7 @@ document.addEventListener("DOMContentLoaded", function () {
             animations: {
                 tension: {
                     duration: 1000,
-                    easing: "easeInOutBounce",
+                    easing: "linear",
                     from: 1,
                     to: 0,
 
@@ -968,18 +887,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("services").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
+        "",
     ];
 
     const labels = monthNames.slice(0, 12);
@@ -988,7 +896,7 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Private services",
-                data: [260, 370, 342],
+                data: [2600],
                 backgroundColor: "skyblue",
                 borderColor: "skyblue",
                 borderWidth: 1,
@@ -996,7 +904,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "insurances",
-                data: [234, 245, 106, 108],
+                data: [1200],
                 backgroundColor: "blue",
                 borderColor: "blue",
                 borderWidth: 1,
@@ -1004,7 +912,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Social",
-                data: [1000, 2000, 3000, 4000, 5000],
+                data: [5000],
                 backgroundColor: "#FFD47F",
                 borderColor: "#FFD47F",
                 borderWidth: 1,
@@ -1018,9 +926,6 @@ document.addEventListener("DOMContentLoaded", function () {
         data: data,
         options: {
             scales: {
-                x: {
-                    stacked: true,
-                },
                 y: {
                     beginAtZero: true,
                     ticks: {
@@ -1028,6 +933,19 @@ document.addEventListener("DOMContentLoaded", function () {
                         callback: function (value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
+                    },
+                },
+            },
+            plugins: {
+                legend: {
+                    display: true,
+                    position: 'bottom',
+                },
+                datalabels: {
+                    anchor: "end",
+                    align: "end",
+                    formatter: function (value, context) {
+                        return value.y + "%";
                     },
                 },
             },
