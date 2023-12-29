@@ -822,7 +822,24 @@
                                                 <table class="table table-borderless ">
                                                     <thead>
                                                         <tr class="">
-                                                            <th>Date</th>
+                                                            <th>
+                                                                <span class="d-flex gap-2 align-items-center">
+                                                                    <p class="clr-th mb-0 font-14">Date</p>
+                                                                    <svg id="Group_921" data-name="Group 921"
+                                                                        xmlns="http://www.w3.org/2000/svg" width="16.667"
+                                                                        height="16.667" viewBox="0 0 16.667 16.667">
+                                                                        <rect id="Rectangle_850" data-name="Rectangle 850"
+                                                                            width="16.667" height="16.667"
+                                                                            fill="none" />
+                                                                        <path id="Vector_22_Stroke_"
+                                                                            data-name="Vector 22 (Stroke)"
+                                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                                            transform="translate(4.167 5.833)"
+                                                                            fill="#2a283b" />
+                                                                    </svg>
+
+                                                                </span>
+                                                            </th>
                                                             <th>Patient </th>
                                                             <th>Patient number</th>
                                                             <th>Specialist</th>
@@ -911,25 +928,60 @@
                         </div>
                         <div class="col-md-12 col-lg-12 gx-5 py-3 rounded-3 bg-white d-flex align-items-center">
                             <table class="table table-borderless table-responsive">
+
                                 <thead>
-                                    <tr class="">
-                                        <th>Patient</th>
-                                        <th>Specialist </th>
-                                        <th>Date</th>
-                                        <th>Treatment </th>
-                                        <th>Treatment plan</th>
-                                        <th>Amount</th>
+                                    <tr>
+
                                         <th>
-                                            <div class="flex gap-2">
-                                                <span>Status</span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                                    fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
-                                                    <path fill-rule="evenodd"
-                                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
-                                                </svg>
-                                            </div>
+                                            <p class="clr-th mb-0 font-14">Patient </p>
                                         </th>
-                                        <th>Next appointment</th>
+                                        <th>
+                                            <p class="clr-th mb-0 font-14">Specialist </p>
+                                        </th>
+                                        <th>
+                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Date</p>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
+
+                                            </span>
+                                        </th>
+                                        <th>
+                                            <p class="clr-th mb-0 font-14">Treatment</p>
+                                        </th>
+                                        <th>
+                                            <p class="clr-th mb-0 font-14">Treatment Plan</p>
+
+                                        </th>
+                                        <th>
+
+                                            <p class="clr-th mb-0 font-14">Amount </p>
+                                        </th>
+                                        <th>
+                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Status</p>
+                                                <svg id="Group_921" data-name="Group 921"
+                                                    xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                    viewBox="0 0 16.667 16.667">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#2a283b" />
+                                                </svg>
+
+                                            </span>
+                                        </th>
+                                        <th>
+                                            <p class="clr-th mb-0 font-14">Next appointment</p>
+                                        </th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -937,19 +989,7 @@
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                         <td>
                                             Ongoing treatment
@@ -964,38 +1004,14 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                         <td>
                                             Ongoing treatment
@@ -1010,38 +1026,14 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                         <td>
                                             Ongoing treatment
@@ -1056,37 +1048,13 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                         <td>
                                             Ongoing treatment
@@ -1101,38 +1069,14 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                         <td>
                                             Ongoing treatment
@@ -1147,19 +1091,7 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            <div class="dropdown">
-                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
-                                                    href="#" role="button" id="dropdownMenuLink"
-                                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                                    12 July 2023
-                                                </a>
-                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                            12 July 2023
                                         </td>
                                     </tr>
 
@@ -1167,7 +1099,6 @@
 
                             </table>
                         </div>
-                        <!-- Tabs content -->
 
                     </div>
 
