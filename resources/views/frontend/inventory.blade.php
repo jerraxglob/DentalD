@@ -5,17 +5,31 @@
             <div class="modal-content">
                 <div class="modal-header  d-flex justify-content-center align-items-center">
                     <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
-                            class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
-                            <path
-                                d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
-                            <path
-                                d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
-                        </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="59" height="53" viewBox="0 0 59 53">
+  <g id="Group_604" data-name="Group 604" transform="translate(-89.504 -373.872)">
+    <text id="_" data-name="!" transform="translate(115.504 388.872)" fill="#102940" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-1" y="30">!</tspan></text>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(89.504 373.872)" fill="none" stroke-linecap="round">
+      <path d="M28.626,1.57a1,1,0,0,1,1.748,0l27.8,49.944A1,1,0,0,1,57.3,53H1.7a1,1,0,0,1-.874-1.486Z" stroke="none"/>
+      <path d="M 29.49999237060547 10.28081512451172 L 8.505359649658203 47.99999618530273 L 50.49463272094727 47.99999618530273 L 29.49999237060547 10.28081512451172 M 29.49999809265137 1.056167602539062 C 29.84158134460449 1.056167602539062 30.18316268920898 1.227386474609375 30.3737621307373 1.56982421875 L 58.17268753051758 51.5136604309082 C 58.543701171875 52.18019866943359 58.06176376342773 52.99999618530273 57.29892349243164 52.99999618530273 L 1.701076507568359 52.99999618530273 C 0.9382247924804688 52.99999618530273 0.456298828125 52.18019866943359 0.827301025390625 51.5136604309082 L 28.62622451782227 1.56982421875 C 28.81683158874512 1.227386474609375 29.15841484069824 1.056167602539062 29.49999809265137 1.056167602539062 Z" stroke="none" fill="#102940"/>
+    </g>
+  </g>
+</svg>
                         <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
 
                     </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)" fill="#eff1f2" stroke="#102940" stroke-width="1">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13.5" fill="none"/>
+    </g>
+    <g id="Group_212" data-name="Group 212" transform="translate(587.991 31.377) rotate(45)">
+      <line id="Line_2" data-name="Line 2" y2="15.591" transform="translate(7.986)" fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_3" data-name="Line 3" x2="15.591" transform="translate(0 7.985)" fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
+</a>
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
@@ -362,7 +376,7 @@
                     <div class="row align-items-center rounded-3 bg-white p-3">
                         <div class="col-sm-12 col-md-2 col-lg-2"></div>
                         <div class="col-md-9 col-lg-9 bg-white  px-3 py-3">
-                            <strong class="py-2">Report.</strong> <span class="float-end">This year</span>
+                            <span class="py-2 font-22 clr-bg">Report.</span> <span class="float-end font-14 clr-bg">This year</span>
                             <canvas class="py-2 pb-4" id="report"></canvas>
                         </div>
                         <div class="col-sm-12 col-md-1 col-lg-1"></div>
@@ -370,7 +384,13 @@
                 </div>
             </div>
             <div class="col-md-4 bg-white mt-5 px-3 py-3">
-                <strong class="py-2">Distribution by category.</strong> <span class="float-end">Last 6 month</span>
+                <span class="py-2 font-22 clr-bg">Distribution by category.</span> <span class="float-end font-14 clr-db">Last 6 month
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="8.333" height="5" viewBox="0 0 8.333 5" class="ml-5">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" fill="#2a283b"/>
+</svg>
+
+                </span>
                 <canvas class="py-2 pb-4" id="dis_category"></canvas>
             </div>
         </div>
@@ -380,11 +400,14 @@
     <div class="modal fade" id="addnewproduct" tabindex="-1" aria-labelledby="addnewproductLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header  d-flex justify-content-center align-items-center">
-                    <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new product</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
                 <div class="modal-body">
+                    <div class=" mb-5 d-flex justify-content-center align-items-center position-relative">
+                        <h5 class="modal-title  fw-bold" id="addnewsupplier">Add new product</h5>
+                        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close" style="
+    right: 0%;
+    font-size: 32px;
+"></button>
+                    </div>
                     <form role="form" method="POST" action="">
                         <div class="row mb-3">
                             <div class="col-md-4">
@@ -424,7 +447,7 @@
                                     name="limit-alert">
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="row mb-3 border-b-br pb-4">
                             <div class="col-md-4">
                                 <label for="supplier" class="form-label ">Supplier</label>
                                 <select class="form-select form-select-sm" name="supplier"
@@ -444,7 +467,7 @@
 
                             </div>
                         </div>
-                        <hr>
+                        
 
                         <div class="row mb-3 d-flex align-items-center mt-4">
                             <div class="col-md-8">
