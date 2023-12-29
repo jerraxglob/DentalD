@@ -703,8 +703,8 @@
                             </div>
                         </div>
                         <div class="row d-flex stock-sm justify-content-center align-items-center">
-                            <div class="col-md-12">
-                                <div class="">
+                            <div class="col-md-12 d-flex justify-content-center align-items-center ">
+                                <div class=" d-flex justify-content-center align-items-center ">
                                     <table class="table stock-sm table-borderless">
                                         <thead>
                                             <tr>
@@ -984,7 +984,21 @@
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
                                         <td>
                                             Ongoing treatment
                                         </td>
@@ -998,13 +1012,39 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            12 July 2023
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
                                         <td>
                                             Ongoing treatment
                                         </td>
@@ -1018,13 +1058,39 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            12 July 2023
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
                                         <td>
                                             Ongoing treatment
                                         </td>
@@ -1038,13 +1104,84 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            12 July 2023
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr. Daniel Soufi</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Ongoing treatment
+                                        </td>
+                                        <td>
+                                            12 months
+                                        </td>
+                                        <td>
+                                            CHF XXXX-.
+                                        </td>
+                                        <td>
+                                            Unbilled
+                                        </td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Glenn Stanley</td>
                                         <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
                                         <td>
                                             Ongoing treatment
                                         </td>
@@ -1058,27 +1195,19 @@
                                             Unbilled
                                         </td>
                                         <td>
-                                            12 July 2023
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Glenn Stanley</td>
-                                        <td>Dr. Daniel Soufi</td>
-                                        <td>12 July 2023</td>
-                                        <td>
-                                            Ongoing treatment
-                                        </td>
-                                        <td>
-                                            12 months
-                                        </td>
-                                        <td>
-                                            CHF XXXX-.
-                                        </td>
-                                        <td>
-                                            Unbilled
-                                        </td>
-                                        <td>
-                                            12 July 2023
+                                            <div class="dropdown">
+                                                <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
+                                                    href="#" role="button" id="dropdownMenuLink"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    12 July 2023
+                                                </a>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </td>
                                     </tr>
 
