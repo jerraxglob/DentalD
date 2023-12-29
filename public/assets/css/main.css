@@ -292,6 +292,15 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     border: solid 2px #e9ebed !important;
 }
 
+.custom-no-outline:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
 .btn-nowrap {
     white-space: nowrap;
 }

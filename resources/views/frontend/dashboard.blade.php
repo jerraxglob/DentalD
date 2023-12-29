@@ -40,8 +40,6 @@
                                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                                             </ul>
                                         </div>
-                                    </div>
-                                    <div class="col-12 col-md-4">
                                         <a href="" class="text-decoration-none float-end p-3">See All</a>
                                     </div>
                                 </div>
@@ -136,13 +134,24 @@
                                     </div>
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center  d-flex justify-content-end bg-white mt-4">
-                                        <h6>
-                                            <i class="fas fa-user px-2"></i> Everybody
-                                            <i class='fas fa-angle-down thin-arrow p-3'></i>
-                                        </h6>
-                                        <a href="#" class="btn btn-sm btn-white border border-dark w-10 h-60">
+
+                                        <div class="dropdown">
+                                            <button class="btn btn-sm dropdown-toggle  custom-no-outline" type="button"
+                                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fas fa-user px-2"></i> Everybody
+                                                <i class='fas fa-angle-down thin-arrow p-3'></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <li><a class="dropdown-item" href="#">Item 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Item 2</a></li>
+                                            </ul>
+                                        </div>
+
+                                        <a href="#" class="btn btn-sm btn-white border border-dark w-200 h-60">
+                                            <!-- Adjust the width as needed -->
                                             Add filter <i class="fas fa-bars mr-3"></i>
                                         </a>
+
                                     </div>
                                     <div class="table-responsive">
                                         <table class="table table-hover">
@@ -168,53 +177,46 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="emergency-btn btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
-                                                                aria-expanded="false">
-                                                                Emergency</i>
+                                                                type="button" id="emergencyDropdown"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                Emergency
                                                             </button>
-                                                            <ul class="dropdown-menu">
+                                                            <ul class="dropdown-menu" aria-labelledby="emergencyDropdown">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
-                                                                    <hr class="dropdown-divider" />
+                                                                    <hr class="dropdown-divider">
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
+
                                                     </td>
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
                                                                 class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -227,54 +229,46 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="wd100 medium-btn btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
                                                                 Medium
-                                                                </i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
+
                                                     </td>
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
                                                                 class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -287,26 +281,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency</i>
+                                                                Emergency
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
-                                                                    <hr class="dropdown-divider" />
+                                                                    <hr class="dropdown-divider">
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -314,26 +304,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                To do</i>
+                                                                To do
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -346,26 +332,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency</i>
+                                                                Emergency
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -373,26 +355,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -405,26 +383,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency</i>
+                                                                Emergency
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -432,26 +406,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -464,26 +434,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency</i>
+                                                                Emergency
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -491,26 +457,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -523,26 +485,22 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency</i>
+                                                                Emergency
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
@@ -550,30 +508,27 @@
                                                         <div class="btn-group">
                                                             <button
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
-                                                                type="button" data-mdb-dropdown-init data-mdb-ripple-init
+                                                                type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing</i>
+                                                                Processing
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Another
-                                                                        action</a>
-                                                                </li>
-                                                                <li><a class="dropdown-item" href="#">Something
-                                                                        else
-                                                                        here</a>
-                                                                </li>
+                                                                        action</a></li>
+                                                                <li><a class="dropdown-item" href="#">Something else
+                                                                        here</a></li>
                                                                 <li>
                                                                     <hr class="dropdown-divider" />
                                                                 </li>
                                                                 <li><a class="dropdown-item" href="#">Separated
-                                                                        link</a>
-                                                                </li>
+                                                                        link</a></li>
                                                             </ul>
                                                         </div>
                                                     </td>
                                                 </tr>
+
                                             </tbody>
                                         </table>
                                         <div class="d-flex justify-content-center pb-4"> <a href="#"
@@ -696,7 +651,7 @@
                         </div>
                         <div class="row mt-5 d-flex stock-sm justify-content-center align-items-center">
                             <div class="col-md-10 py-3">
-                                <h5 class="text-nowrap">Important communication.</h5>
+                                <h5 class="text-nowrap px-5">Important communication.</h5>
                             </div>
                             <div class="col-md-2 py-3 text-md-right">
                                 <a href="#" class="text-decoration-none text-nowrap">Sell all</a>
