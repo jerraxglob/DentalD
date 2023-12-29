@@ -34,16 +34,29 @@
                         <div class="row d-flex  justify-content-between">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <div class="input-icons position-relative d-flex align-items-center">
-                                    <i class="fas  fa-search position-absolute translate-bottom mt-2 px-  text-start  text-secondary"
-                                        style="padding-left:21px; padding-bottom:6px;"></i>
-                                    <input class="form-control form-control-sm w-50 mx-2 px-5" id="searchInput">
+                                    <i class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
+                                        style="left : 3%"></i>
+                                    <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput" placeholder="Search for a patient …">
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-7 col-lg-7 d-flex">
-                                <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
-                                    plane X</small>
-                                <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
-                                    years) </small>
+                            <div class="col-sm-12 col-md-7 col-lg-7 d-flex gap-2">
+                                <div class="d-flex justify-content-between wd-200 px-3 py-0 bg-light align-items-center">
+                                    <span class="font-14 clr-br px-2">Ongoing treatment
+                                    plane</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#707070" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                                </div>
+                                <div class="d-flex justify-content-between wd-200 px-3 py-0 bg-light align-items-center">
+                                    <span class="font-14 clr-br px-2">Last consultation (+2 years)</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#707070" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                                </div>
+                                <!-- <small class="text-nowrap bg-light px-2 fs-6">Ongoing treatment
+                                    plane X</small> -->
+                                <!-- <small class="text-nowrap bg-light px-2 fs-6">Last consultation (+2
+                                    years) </small> -->
                                 <span class="px-2"> <button type="button"
                                         class="btn btn-sm btn-white border border-dark w-10 h-60">
                                         Add filter <i class="fas fa-bars mr-3"></i>
