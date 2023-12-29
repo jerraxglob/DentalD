@@ -305,6 +305,12 @@ button.fc-customButton-button.fc-button.fc-button-primary:hover {
     white-space: nowrap;
 }
 
+.btn-custom {
+    padding: 5px 10px;
+    align-items: center;
+    width: 150px;
+}
+
 .custom-card-header {
     border-bottom: none;
 }

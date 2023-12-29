@@ -146,12 +146,9 @@
                                                 <li><a class="dropdown-item" href="#">Item 2</a></li>
                                             </ul>
                                         </div>
-
                                         <a href="#" class="btn btn-sm btn-white border border-dark w-200 h-60">
-                                            <!-- Adjust the width as needed -->
                                             Add filter <i class="fas fa-bars mr-3"></i>
                                         </a>
-
                                     </div>
                                     <div class="table-responsive">
                                         <table class="table table-hover">

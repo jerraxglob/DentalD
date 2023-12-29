@@ -1,52 +1,58 @@
 @extends('frontend.partials.main')
 @section('content')
     <div class="container mt-3">
-        <div class="row p-1 d-flex align-items-center justify-content-center rounded mt-3 bg-white">
-            <div class="col-md-3 col-lg-3">
-                <h5 class="text-nowrap px-2 py-2 ">Statistics & Financial report</h5>
-                <small class="px-2 text-muted font-12">Data for CHD clinic</small>
+        <div class="row  mt-3 bg-white p-3 rounded-3 align-items-center">
+            <div class="col-md-3 col-lg-3   d-flex  justify-content-start align-items-center">
+                <div>
+                    <h5 class="text-nowrap ">Statistics & Financial report</h5>
+                    <small class=" text-muted font-12 p-0">Data for CHD clinic</small>
+                </div>
+
             </div>
-            <div class=" col-12 col-md-3 col-lg-3 text-center mt-2">
-                <button class="btn btn-sm css-primary-btn mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
-                <button class="btn btn-sm css-primary-btn me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
+
+            <div class="col-12 col-md-2 col-lg-2  d-flex justify-content-between ">
+                <button class="btn  css-primary-btn "><i class="fas fa-file text-white px-1 "></i>Export</button>
+                <button class="btn  css-primary-btn "><i class="fas fa-print text-white px-1 "></i>Print
                     report</button>
             </div>
-            <div class=" col-12 col-md-2 col-lg-2 text-center">
+
+            <div class="col-12 col-md-3 col-lg-3 text-center">
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle custom-no-outline" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user px-2"></i> Every specialist
+                        <i class="fas fa-angle-down thin-arrow p-3"></i>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Item 2</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-between text-center align-items-center">
+                <span class="">Period</span>
+                <div class=" btn-group">
+                    <button
+                        class="btn btn-white p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class=" fas px-1  fa-calendar-alt"></i> Last 6 months
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+
+                <span> Vs </span>
+
                 <div class="btn-group">
-                    <button class="btn btn-white btn-sm dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-user"></i> Every specialist
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center align-items-center">
-                <span class="px-1">Period</span>
-                <div class=" px-1 btn-group">
-                    <button class="btn btn-white border px-2 border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-calendar-alt"></i> Last 6 months
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2 text-center">
-                <span class="px-2 d-flex align-items-center"> Vs </span>
-                <div class="btn-group px-1">
-                    <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-calendar-alt"></i>
+                    <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class=" float-start fas fa-calendar-alt"></i>
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
