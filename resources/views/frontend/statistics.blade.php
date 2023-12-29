@@ -10,8 +10,8 @@
 
             </div>
             <div class="col-12 col-md-2 col-lg-2  d-flex justify-content-between ">
-                <button class="btn  css-primary-btn "><i class="fas fa-file text-white px-1 "></i>Export</button>
-                <button class="btn  css-primary-btn "><i class="fas fa-print text-white px-1 "></i>Print
+                <button class="btn btn-sm   css-primary-btn "><i class="fas fa-file text-white px-1 "></i>Export</button>
+                <button class="btn btn-sm  css-primary-btn "><i class="fas fa-print text-white px-1 "></i>Print
                     report</button>
             </div>
             <div class="col-12 col-md-3 col-lg-3 text-center">
