@@ -1432,8 +1432,11 @@ ul.custom-square li::marker {
 .lblue{
     color: #50C2F6 !important;
 }
-.border-b-br{
-    border-bottom: 1px solid #70707023;
+.border-b-br {
+    border-bottom: 1px solid #70707023 !important;
+}
+.border-none{
+    border: none;
 }
 .border-b-bl{
     border-bottom: 2px solid #50C2F6 !important;
