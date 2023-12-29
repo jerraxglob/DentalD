@@ -1469,9 +1469,20 @@ ul.custom-square li::marker {
 .clr-th {
     color: #2a283b !important;
 }
-
+.clr-db{
+    color: #102940 !important;
+}
+.clr-th{
+    color: #2A283B !important;
+}
+.lblue{
+    color: #50C2F6 !important;
+}
 .border-b-br {
-    border-bottom: 1px solid #70707023;
+    border-bottom: 1px solid #70707023 !important;
+}
+.border-none{
+    border: none;
 }
 
 .border-b-bl {

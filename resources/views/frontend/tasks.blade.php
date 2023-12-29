@@ -2,7 +2,7 @@
 @section('content')
     <div class="container py-4">
         <div class="row gx-5 ">
-            <div class="col-12 col-md-9 col-lg-9 bg-white">
+            <div class="col-12 col-md-9 col-lg-9 bg-white  rounded-3">
                 <div class="d-flex justify-content-between">
                     <h5 class="py-4 mb-4  ">Assigned tasks.</h5>
                     <a href="#"
@@ -56,18 +56,82 @@
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
-                                    <tr>
+                                    <tr style="border-color : transparent">
                                         <th>
 
                                         </th>
-                                        <th>ID</th>
-                                        <th>Tasks</th>
-                                        <th>Birth</th>
-                                        <th>Assigned to</th>
-                                        <th>Date of creation</th>
-                                        <th>Due date</th>
-                                        <th>Priority</th>
-                                        <th>Status</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">ID</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Tasks</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Birth</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Assigned to</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Date of creation</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Due date</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Priority</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
+                                        <th>                                            <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Status</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+</th>
 
                                     </tr>
                                 </thead>
@@ -445,24 +509,34 @@
 
                                 </tbody>
                             </table>
-                            <nav aria-label="Page navigation">
-                                <ul class="pagination  d-flex justify-content-end">
+                            <nav aria-label="Page navigation ">
+                                <ul class="pagination d-flex justify-content-end">
+                                <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+
                                     <li class="page-item disabled">
                                         <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(90deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg>
+</span>
                                         </a>
                                     </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                    <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                     <li class="page-item">
                                         <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(270deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg></span>
                                         </a>
                                     </li>
                                 </ul>
-                            </nav>
-                        </div>
+                            </nav>                        </div>
 
                     </div>
                     <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
@@ -476,41 +550,41 @@
 
                 </div>
             </div>
-            <div class="col-12 col-md-3 mt-4 col-lg-3">
-                <div class="p-3 border bg-white">
-                    <h5 class="text-center p-3"> Recent activity</h5>
+            <div class="col-12 col-md-3  col-lg-3">
+                <div class="p-3 border bg-white  rounded-3">
+                    <h5 class=" py-3"> Recent activity</h5>
                     <ul class="list-group  pb-4">
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text ">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none ">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
-                        <li class="list-group-item extra-small-text ">Task <b>#1256</b> has been archived
+                        <li class="list-group-item extra-small-text border-b-br border-none">Task <b>#1256</b> has been archived
                             <br><small class=" extra-small-text">10 min ago</small>
                         </li>
 
@@ -531,8 +605,28 @@
                                 <th>Specialist</th>
                                 <th>Category</th>
                                 <th>Note</th>
-                                <th>Priority</th>
-                                <th>Status</th>
+                                <th>
+                                <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Priority</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+
+                                </th>
+                                <th>
+                                <span class="d-flex gap-2 align-items-center">
+                                                <p class="clr-th mb-0 font-14">Status</p>
+                                                <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667" viewBox="0 0 16.667 16.667">
+  <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#2a283b"/>
+</svg>
+
+                                            </span>
+
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -693,24 +787,34 @@
                             </tr>
                         </tbody>
                     </table>
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination d-flex justify-content-end">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+                    <nav aria-label="Page navigation ">
+                                <ul class="pagination d-flex justify-content-end">
+                                <span class="clr-pg font-14 px-4  d-flex align-items-center">1000 results</span>
+
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(90deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg>
+</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item disabled"><a class="page-link" href="#">Page 1/3</a></li>
+                                    <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
+                                    <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><svg style="
+    transform: rotate(270deg);
+" xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448" viewBox="0 0 14.08 8.448">
+  <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.295.326a.938.938,0,0,1,1.422,0L7.04,6.22,12.363.326a.938.938,0,0,1,1.422,0,1.2,1.2,0,0,1,0,1.575L8.462,7.8a1.877,1.877,0,0,1-2.844,0L.295,1.9A1.2,1.2,0,0,1,.295.326Z" fill="#8791a3"/>
+</svg></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>                </div>
 
             </div>
 
