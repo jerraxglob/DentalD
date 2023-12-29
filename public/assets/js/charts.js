@@ -585,30 +585,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // done
 document.addEventListener("DOMContentLoaded", function () {
-    var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
-    const monthNames = [
-       
-        "Women",
-        "Men",
-       ];
-
-    const labels = monthNames.slice(0, 12);
+    var ctx = document.getElementById("demo_dis").getContext("2d");
+    
+    const labels = ["Women", "Men"]; // Only two labels needed
+    
     const data = {
         labels: labels,
         datasets: [
             {
-                label: "Woman",
-                data: [6000, 5000, 3000],
-                backgroundColor: "orange",
-                borderColor: "orange",
+                label: "Women",
+                data: [4500, 0],
+                backgroundColor: ["#EB9A37"], // Set transparent color for the empty bars
+                borderColor: "#EB9A37",
                 borderWidth: 5,
                 tension: 0.1,
             },
             {
-                label: "Man",
-                data: [5000, 6000, 3000, 4000],
-                backgroundColor: "blue",
-                borderColor: "blue",
+                label: "Men",
+                data: [0, 5300],
+                backgroundColor: [ "#50C2F6"], // Set transparent color for the empty bars
+                borderColor: "#50C2F6",
                 borderWidth: 5,
                 tension: 0.1,
             },
@@ -648,6 +644,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myBarChart = new Chart(ctx, config);
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("invoive").getContext("2d");
@@ -733,27 +730,22 @@ document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("pay_deadline").getContext("2d");
 
     const monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
+        "1 Month",
+        "2 Months",
+        "3 Months",
+        "4 Months",
+        "5 Months",
+        "6 Months",
+        
     ];
 
-    const labels = monthNames.slice(0, 12);
+    const labels = monthNames.slice(0, 6);
     const data = {
         labels: labels,
         datasets: [
             {
                 label: "private",
-                data: [2000, 3000, 4000],
+                data: [2000, 3000,1500, 4000, 3000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -761,7 +753,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "public",
-                data: [1500, 2500, 3500, 4500],
+                data: [1500, 2000, 500, 3500,1200 ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -772,6 +764,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const config = {
         type: "line",
+        
         data: data,
         options: {
             animations: {

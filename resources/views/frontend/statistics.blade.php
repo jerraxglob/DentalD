@@ -487,7 +487,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Patients undergoing treatment.</b></h5>
-                        <strong class="card-text fs-2">1 000</strong><br>
+                        <span class="card-text fs-2 stats-heading">1 000</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -501,7 +501,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Patients with appointment reminders.</b></h5>
-                        <strong class="card-text fs-2">650</strong><br>
+                        <span class="card-text fs-2 stats-heading">650</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
@@ -515,7 +515,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><b>Walk-in patients.</b></h5>
-                        <strong class="card-text fs-2">350</strong><br>
+                        <span class="card-text fs-2 stats-heading">350</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
                             <path fill-rule="evenodd"
