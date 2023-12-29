@@ -1757,10 +1757,31 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewuser">Add new user</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="addnewuser">Add new user</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
                     </div>
                     <div class="modal-body">
                         <form role="form" method="POST" action="">
@@ -1826,10 +1847,31 @@
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Add new supplier</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="addnewsupplier">Add new supplier</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
                     </div>
                     <div class="modal-body">
                         <form role="form" method="POST" action="">
@@ -1916,7 +1958,6 @@
                             </div>
                         </form>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1924,7 +1965,7 @@
         <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+                {{-- <div class="modal-content">
                     <div class="modal-header  d-flex justify-content-center align-items-center">
                         <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
                             method
@@ -1988,7 +2029,91 @@
                         </form>
                     </div>
 
+             </div> --}}
+                <div class="modal-content">
+                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                            <h5 class="modal-title fw-bold" id="payment">Modify / Add payment</h5>
+                        </div>
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591"
+                                            transform="translate(7.986)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" method="POST" action="">
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <label for="pay-method" class="form-label">Payment method</label>
+                                    <select class="form-select form-select-sm" name="pay-method"
+                                        aria-label=".form-select-sm example">
+                                        <option selected>Bank Trasnfer</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="pay-term" class="form-label">Payment terms</label>
+                                    <input type="text" class="form-control form-control-sm" id="pay-term"
+                                        name="pay-term">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="avai-for" class="form-label">Available for</label>
+                                    <input type="text" class="form-control form-control-sm" id="avai-for"
+                                        name="avai-for" placeholder="Type of insurance">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-5">
+                                    <label for="comments" class="form-label">Comments</label>
+                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="post-pay" type="checkbox"
+                                            value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Do not post for delinquent patients.
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" name="act-pay" type="checkbox"
+                                            value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            Activate payment method
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-2"></div>
+                                <div class="d-grid  col-md-6 ">
+                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+
             </div>
         </div>
         {{-- edit doc modal --}}
