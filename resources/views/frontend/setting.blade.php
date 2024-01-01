@@ -2106,9 +2106,9 @@
                                             </div>
                                         </div>
 
-                                        <div class="row mx-auto">
+                                        <div class="row mx-auto pb-4 ">
                                             <div class="d-grid gap-2 col-12">
-                                                <button class="btn btn-info text-white" type="button">Update</button>
+                                                <button class="btn btn-info text-white " type="button">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -2539,89 +2539,88 @@
         </div>
     </div>
     {{-- edit doc modal --}}
-    <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
-                <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                    <h5 class="modal-title fw-bold" id="payment">Edit document</h5>
+    <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                        <h5 class="modal-title fw-bold" id="payment">Edit document</h5>
+                    </div>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                    fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                    <circle cx="14" cy="14" r="14" stroke="none" />
+                                    <circle cx="14" cy="14" r="13.5" fill="none" />
+                                </g>
+                                <g id="Group_212" data-name="Group 212"
+                                    transform="translate(587.991 31.377) rotate(45)">
+                                    <line id="Line_2" data-name="Line 2" y2="15.591"
+                                        transform="translate(7.986)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                    <line id="Line_3" data-name="Line 3" x2="15.591"
+                                        transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
-                <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-                        <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
-                            <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
-                                fill="#eff1f2" stroke="#102940" stroke-width="1">
-                                <circle cx="14" cy="14" r="14" stroke="none" />
-                                <circle cx="14" cy="14" r="13.5" fill="none" />
-                            </g>
-                            <g id="Group_212" data-name="Group 212"
-                                transform="translate(587.991 31.377) rotate(45)">
-                                <line id="Line_2" data-name="Line 2" y2="15.591"
-                                    transform="translate(7.986)" fill="none" stroke="#102940"
-                                    stroke-linecap="round" stroke-width="2" />
-                                <line id="Line_3" data-name="Line 3" x2="15.591"
-                                    transform="translate(0 7.985)" fill="none" stroke="#102940"
-                                    stroke-linecap="round" stroke-width="2" />
-                            </g>
-                        </g>
-                    </svg>
-                </a>
-            </div>
-            <div class="modal-body">
-                <form role="form" method="POST" action="">
-                    <div class="row mb-3">
-                        <div class="col-md-12">
-                            <label for="pay-term" class="form-label">Document</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text bg-info" id="basic-addon1"><i
-                                        class="fas fa-file text-white"></i></span>
-                                <input type="text" class="form-control form-control-sm" name="doc"
-                                    aria-label="doc" aria-describedby="basic-addon1">
+                <div class="modal-body">
+                    <form role="form" method="POST" action="">
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <label for="pay-term" class="form-label">Document</label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-info" id="basic-addon1"><i
+                                            class="fas fa-file text-white"></i></span>
+                                    <input type="text" class="form-control form-control-sm" name="doc"
+                                        aria-label="doc" aria-describedby="basic-addon1">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="doc-name" class="form-label">Document name</label>
-                            <input type="text" class="form-control form-control-sm" id="doc-name"
-                                name="doc-name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="category" class="form-label">Category</label>
-                            <select class="form-select form-select-sm" name="category"
-                                aria-label=".form-select-sm example">
-                                <option selected>Category</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <div class="form-check">
-                                <input class="form-check-input" name="online" type="checkbox" value=""
-                                    id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Online
-                                </label>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="doc-name" class="form-label">Document name</label>
+                                <input type="text" class="form-control form-control-sm" id="doc-name"
+                                    name="doc-name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="category" class="form-label">Category</label>
+                                <select class="form-select form-select-sm" name="category"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>Category</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-check">
+                                    <input class="form-check-input" name="online" type="checkbox" value=""
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Online
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row mb-3">
-                        <div class="col-md-2"></div>
-                        <div class="d-grid  col-md-6 ">
-                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                        <div class="row mb-3">
+                            <div class="col-md-2"></div>
+                            <div class="d-grid  col-md-6 ">
+                                <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                            </div>
+                            <div class="col-md-2"></div>
                         </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
 
+        </div>
     </div>
-</div>
 @endsection
