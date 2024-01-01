@@ -400,7 +400,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var myBarChart = new Chart(ctx, config);
 });
 
-
 // done
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("dis_category").getContext("2d"); // Change the ID to match your HTML canvas element
@@ -527,7 +526,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Treatment code 1",
-                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
+                data: [
+                    4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
+                    4100, 4000,
+                ],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -535,7 +537,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment code 2",
-                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
+                data: [
+                    1100, 2500, 2100, 2300, 3100, 2800, 3100, 3500, 3100, 3500,
+                    3000, 3300,
+                ],
                 fill: false,
                 borderColor: "blue",
                 backgroundColor: "blue",
@@ -543,7 +548,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Treatment code 3",
-                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
+                data: [
+                    700, 1000, 1600, 800, 1000, 1050, 1100, 1300, 980, 1200,
+                    1300, 1160,
+                ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -586,11 +594,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // done
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("demo_dis").getContext("2d"); // Change the ID to match your HTML canvas element
-    const monthNames = [
-       
-        "Women",
-        "Men",
-       ];
+    const monthNames = ["Women", "Men"];
 
     const labels = monthNames.slice(0, 12);
     const data = {
@@ -673,7 +677,10 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Open invoices",
-                data: [4000,4200,4300,4100,4000,4700,4900,4300,4700,4900,4100,4000],
+                data: [
+                    4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
+                    4100, 4000,
+                ],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -681,7 +688,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Pending payment",
-                data: [1100, 2500,2100 ,2300, 3100, 2800, 3100, 3500, 3100, 3500 , 3000,3300],
+                data: [
+                    1100, 2500, 2100, 2300, 3100, 2800, 3100, 3500, 3100, 3500,
+                    3000, 3300,
+                ],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -689,7 +699,10 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Unpaid invoices",
-                data: [700, 1000, 1600, 800, 1000,1050, 1100,1300,980,1200,1300,1160],
+                data: [
+                    700, 1000, 1600, 800, 1000, 1050, 1100, 1300, 980, 1200,
+                    1300, 1160,
+                ],
                 fill: false,
                 borderColor: "red",
                 backgroundColor: "red",
@@ -723,7 +736,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     },
                 },
             },
-            
         },
     };
 
@@ -757,7 +769,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
-                tension: 0.1,
+                tension: 0.1, // Adjust tension for the private dataset
             },
             {
                 label: "public",
@@ -765,7 +777,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
-                tension: 0.1,
+                tension: 0.1, // Adjust tension for the public dataset
             },
         ],
     };
@@ -778,9 +790,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 tension: {
                     duration: 1000,
                     easing: "linear",
-                    from: 1,
-                    to: 0,
-
+                    from: 0.1,
+                    to: 0.1,
                     responsive: true,
                 },
             },
@@ -800,6 +811,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myLineChart = new Chart(ctx, config);
 });
+
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("report").getContext("2d");
 
@@ -949,9 +961,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("services").getContext("2d"); // Change the ID to match your HTML canvas element
 
-    const monthNames = [
-        "",
-    ];
+    const monthNames = [""];
 
     const labels = monthNames.slice(0, 12);
     const data = {
@@ -1002,7 +1012,7 @@ document.addEventListener("DOMContentLoaded", function () {
             plugins: {
                 legend: {
                     display: true,
-                    position: 'bottom',
+                    position: "bottom",
                 },
                 datalabels: {
                     anchor: "end",

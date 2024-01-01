@@ -143,7 +143,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h6 class="card-title text-nowrap"><b>Number of appointments cancelled.</b>
+                        <h6 class="card-title"><b>Number of appointments cancelled.</b>
                         </h6>
                         <strong class="card-text fs-2">30 <i class="fas px-3 fa-times text-muted"></i>
                         </strong><br>
