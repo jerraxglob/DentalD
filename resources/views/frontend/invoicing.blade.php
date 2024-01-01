@@ -162,10 +162,21 @@
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="input-icons position-relative d-flex align-items-center">
-                                <i class="fas  fa-search position-absolute translate-bottom mt-2 px-  text-start  text-secondary"
-                                    style="padding-left:21px; padding-bottom:6px;"></i>
-                                <input class="form-control form-control-sm w-100 mx-2 text-nowrap px-5" id="searchInput"
-                                    placeholder="Invoice number / Service …">
+                                <div class="input-icons position-relative align-items-center">
+                                    <svg class="fas  fa-search position-absolute translate-bottom  mt-2 px- text-start text-secondar"
+                                        style="left : 4%" id="Box_1" data-name="Box 1"
+                                        xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
+                                        viewBox="0 0 15.012 15.012">
+                                        <g id="Group_1" data-name="Group 1">
+                                            <path id="Union"
+                                                d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                                                fill="#8e999a" />
+                                        </g>
+                                    </svg>
+
+                                    <input class="form-control mx-2 px-5" id="searchInput" type="text"
+                                        id="PatientsearchInput" placeholder="Invoice number / Service …">
+                                </div>
                             </div>
                             <button type="button" class="btn btn-sm btn-white border border-dark mr-right">
                                 Add filter <i class="fas fa-bars mr-3"></i>
@@ -364,10 +375,21 @@
                         <div class="row">
                             <div class="col-12 col-md-10 col-lg-10 py-3 d-flex justify-content-between">
                                 <div class="input-icons position-relative d-flex align-items-center">
-                                    <i class="fas  fa-search position-absolute translate-bottom mt-2 px-  text-start  text-secondary"
-                                        style="padding-left:21px; padding-bottom:6px;"></i>
-                                    <input class="form-control form-control-sm w-100 mx-2 text-nowrap px-5"
-                                        id="searchInput" placeholder="Search for a consultation …">
+                                    <div class="input-icons position-relative align-items-center">
+                                        <svg class="fas  fa-search position-absolute translate-bottom  mt-2 px- text-start text-secondar"
+                                            style="left : 4%" id="Box_1" data-name="Box 1"
+                                            xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
+                                            viewBox="0 0 15.012 15.012">
+                                            <g id="Group_1" data-name="Group 1">
+                                                <path id="Union"
+                                                    d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                                                    fill="#8e999a" />
+                                            </g>
+                                        </svg>
+
+                                        <input class="form-control mx-2 px-5" id="searchInput" type="text"
+                                            id="PatientsearchInput" placeholder="Search for a consultation …">
+                                    </div>
                                 </div>
                                 <div>
                                     <div class=" pl-3 d-flex align-items-center justify-content-between">
@@ -885,8 +907,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
@@ -926,8 +967,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
@@ -967,8 +1027,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
@@ -1008,8 +1087,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
@@ -1049,8 +1147,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
@@ -1090,8 +1207,27 @@
                                         CHF XXXX.-
                                     </td>
                                     <td> <a
-                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2"><i
-                                                class="fas fa-pencil-alt pr-1"></i>Edit
+                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
+                                                viewBox="0 0 13.37 14.526">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
+                                                            height="15.744" fill="#102940" />
+                                                    </clipPath>
+                                                </defs>
+                                                <g id="Group_393" data-name="Group 393"
+                                                    transform="translate(10.329) rotate(41)">
+                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
+                                                        clip-path="url(#clip-path)">
+                                                        <path id="Path_29" data-name="Path 29"
+                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                            transform="translate(0 0)" fill="#102940" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            Edit
                                         </a>
                                         <a
                                             class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
