@@ -222,6 +222,10 @@ i {
     color: #44b350 !important;
 }
 
+.processing {
+    color: #44b350 !important;
+}
+
 .dark-input::placeholder {
     color: #fff;
     text-align: center;
@@ -316,7 +320,7 @@ button.fc-customButton-button.fc-button.fc-button-primary {
     background-color: #3bcffc !important;
     border-radius: 5px !important;
     color: white !important;
-    padding: 5px 25px ;
+    padding: 5px 25px;
 }
 
 button.fc-customButton-button.fc-button.fc-button-primary:hover {
@@ -1470,19 +1474,24 @@ ul.custom-square li::marker {
 .clr-th {
     color: #2a283b !important;
 }
-.clr-db{
+
+.clr-db {
     color: #102940 !important;
 }
-.clr-th{
-    color: #2A283B !important;
+
+.clr-th {
+    color: #2a283b !important;
 }
-.lblue{
-    color: #50C2F6 !important;
+
+.lblue {
+    color: #50c2f6 !important;
 }
+
 .border-b-br {
     border-bottom: 1px solid #70707023 !important;
 }
-.border-none{
+
+.border-none {
     border: none;
 }
 
@@ -1501,34 +1510,42 @@ ul.custom-square li::marker {
     /* border-color: transparent !important; */
     color: #50c2f6;
 }
-.adevtime{
+
+.adevtime {
     padding: 2px 5px;
-    background-color: #F3F3F3 !important;
-    border-radius: 5px;}
-.stats-heading{
-    color: #15181A;
+    background-color: #f3f3f3 !important;
+    border-radius: 5px;
 }
+
+.stats-heading {
+    color: #15181a;
+}
+
 /* calendar  */
-.fc-scrollgrid-sync-inner>a{
- color: #2A283B !important;
- font-size: 14px !important;
- font-weight: 450 !important;
+
+.fc-scrollgrid-sync-inner > a {
+    color: #2a283b !important;
+    font-size: 14px !important;
+    font-weight: 450 !important;
 }
-.fc .fc-daygrid-day-number{
+
+.fc .fc-daygrid-day-number {
     position: absolute !important;
     left: 0 !important;
-    color: #93C0CF !important;
+    color: #93c0cf !important;
 }
-.fc .fc-toolbar.fc-header-toolbar{
+
+.fc .fc-toolbar.fc-header-toolbar {
     position: relative;
 }
-.fc .fc-button-group{
+
+.fc .fc-button-group {
     gap: 200px;
     display: flex !important;
 }
-.fc .fc-toolbar-title{
+
+.fc .fc-toolbar-title {
     position: absolute;
     left: 45px;
-    top: 5px ;
+    top: 5px;
 }
-

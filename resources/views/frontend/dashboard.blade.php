@@ -176,7 +176,7 @@
                                                                 class="emergency-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" id="emergencyDropdown"
                                                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu" aria-labelledby="emergencyDropdown">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -192,7 +192,6 @@
                                                                         link</a></li>
                                                             </ul>
                                                         </div>
-
                                                     </td>
                                                     <td>
                                                         <div class="btn-group">
@@ -200,7 +199,8 @@
                                                                 class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                Processing <i
+                                                                    class='fas  text-success fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -228,7 +228,7 @@
                                                                 class="wd100 medium-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Medium
+                                                                Medium <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -252,7 +252,7 @@
                                                                 class="processing-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                Processing <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -280,7 +280,7 @@
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -303,7 +303,7 @@
                                                                 class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                To do
+                                                                To do <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -331,7 +331,7 @@
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -351,10 +351,10 @@
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
-                                                                class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                To do <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -382,7 +382,7 @@
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -402,10 +402,10 @@
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
-                                                                class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                To do <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -433,7 +433,7 @@
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -453,10 +453,10 @@
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
-                                                                class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                To do <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -484,7 +484,7 @@
                                                                 class="btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Emergency
+                                                                Emergency <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -504,10 +504,10 @@
                                                     <td>
                                                         <div class="btn-group">
                                                             <button
-                                                                class="btn btn-white border border-dark btn-sm dropdown-toggle"
+                                                                class="wd100 todo-btn btn btn-white border border-dark btn-sm dropdown-toggle"
                                                                 type="button" data-bs-toggle="dropdown"
                                                                 aria-expanded="false">
-                                                                Processing
+                                                                To do <i class='fas fa-angle-down thin-arrow'></i>
                                                             </button>
                                                             <ul class="dropdown-menu">
                                                                 <li><a class="dropdown-item" href="#">Action</a>
@@ -525,7 +525,6 @@
                                                         </div>
                                                     </td>
                                                 </tr>
-
                                             </tbody>
                                         </table>
                                         <div class="d-flex justify-content-center pb-4"> <a href="#"
