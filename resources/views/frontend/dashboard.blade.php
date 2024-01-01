@@ -768,12 +768,20 @@
                                     </div>
                                     <div
                                         class="col-md-12 col-lg-12 py-2 lign-items-center bg-white d-flex justify-content-between mb-3">
-                                        <div class=" w-48  search-padding">
-                                            <div class="input-icons position-relative align-items-center">
-                                                <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
-                                                    style="padding-left: 21px"></i>
-                                                <input class="form-control mx-2 px-5" id="searchInput" type="text"
-                                                    placeholder="Rechercher un patient" />
+                                        <div class=" w-50  search-padding">
+                                            <div class="input-icons position-relative d-flex align-items-center">
+                                                <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
+                                                    style="left : 3%" id="Box_1" data-name="Box 1"
+                                                    xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
+                                                    viewBox="0 0 15.012 15.012">
+                                                    <g id="Group_1" data-name="Group 1">
+                                                        <path id="Union"
+                                                            d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                                                            fill="#8e999a" />
+                                                    </g>
+                                                </svg>
+                                                <input class="form-control form-control-sm w-50 mx-2 px-4"
+                                                    id="PatientsearchInput" placeholder="Rechercher un patient">
                                             </div>
                                         </div>
                                         <div class="align-items-center pl-3 d-flex align-items-center">
