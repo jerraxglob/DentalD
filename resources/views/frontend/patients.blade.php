@@ -208,7 +208,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-
                                     <tr class="border-b-br">
                                         <td>
                                             <div class="form-check">
@@ -385,8 +384,8 @@
                                             <i class="fas fa-mobile-alt pr-1"></i> Connected
                                         </td>
                                         <td> <a
-                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg"
                                                     xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
                                                     height="14.526" viewBox="0 0 13.37 14.526">
                                                     <defs>
@@ -746,8 +745,7 @@
                                                         fill="#8791a3" />
                                                 </svg>
                                             </span>
-                                            <span aria-hidden="true"><svg style="  transform: rotate(90deg);
-"
+                                            <span aria-hidden="true"><svg style="  transform: rotate(90deg);"
                                                     xmlns="http://www.w3.org/2000/svg" width="14.08" height="8.448"
                                                     viewBox="0 0 14.08 8.448">
                                                     <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"

@@ -1,62 +1,6 @@
 @extends('frontend.partials.main')
 @section('content')
     <div class="container mt-3">
-        {{-- <div class="row p-1 align-items-center rounded mt-3 bg-white">
-            <div class="col-md-3 col-lg-3 ">
-                <h5 class="text-nowrap px-2 py-2 ">Invoicing</h5>
-                <small class="px-2">Data for CHD clinic</small>
-            </div>
-            <div class=" col-12 col-md-3 col-lg-3">
-                <button class="btn btn-sm btn-primary mb-2"><i class="fas fa-file text-white px-2"></i>Export</button>
-                <button class="btn btn-sm btn-primary me-2 mb-2"><i class="fas fa-print text-white px-2"></i>Print
-                    report</button>
-            </div>
-            <div class=" col-12 col-md-2 col-lg-2">
-                <div class="btn-group">
-                    <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-user"></i> All specialists
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2">
-                <span class="px-1">Period</span>
-                <div class=" px-1 btn-group">
-                    <button class="btn btn-white border px-2 border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-calendar-alt"></i> Last 6 months
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class=" d-flex col-12 col-md-2 col-lg-2">
-                <span class="px-1"> Vs </span>
-                <div class="btn-group px-1">
-                    <button class="btn btn-white border border-dark btn-sm dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <i class="fas fa-calendar-alt"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <hr class="dropdown-divider">
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> --}}
         <div class="row  mt-3 bg-white p-3 rounded-3 align-items-center">
             <div class="col-md-3 col-lg-3   d-flex  justify-content-start align-items-center">
                 <div>
