@@ -34,7 +34,6 @@
                         <div class="row d-flex  justify-content-between">
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <div class="input-icons position-relative d-flex align-items-center">
-
                                     <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
                                         style="left : 3%" id="Box_1" data-name="Box 1"
                                         xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
@@ -45,7 +44,6 @@
                                                 fill="#8e999a" />
                                         </g>
                                     </svg>
-
                                     <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput"
                                         placeholder="Search for a patient …">
                                 </div>

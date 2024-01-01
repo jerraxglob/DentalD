@@ -7,9 +7,21 @@
         </button>
         <form class="form-inline my-2 my-lg-0 px-3 search-form">
             <div class="input-icons position-relative align-items-center">
-                <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
+                {{-- <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
                     style="padding-left: 21px"></i>
-                <input class="form-control mx-2 px-5" id="searchInput" type="text" placeholder="Search.." />
+                <input class="form-control mx-2 px-5" id="searchInput" type="text" placeholder="Search.." /> --}}
+                <svg class="fas  fa-search position-absolute translate-bottom  mt-2 px- text-start text-secondar"
+                    style="left : 4%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012"
+                    height="15.012" viewBox="0 0 15.012 15.012">
+                    <g id="Group_1" data-name="Group 1">
+                        <path id="Union"
+                            d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                            fill="#8e999a" />
+                    </g>
+                </svg>
+
+                <input class="form-control mx-2 px-5" id="searchInput" type="text" id="PatientsearchInput"
+                    placeholder="Search..">
             </div>
         </form>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
