@@ -189,7 +189,7 @@
                 <div class="card">
                     <div class="card-header bg-white align-items-center d-flex justify-content-between">
                         <h5 class="text-dark">Financial report.</h5>
-                        <a href="#" class="text-decoration-none bg-info text-white px-2">Edit data</a>
+                        <a href="#" class="text-decoration-none css-primary-btn text-white px-2">Edit data</a>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="finance_report"></canvas>

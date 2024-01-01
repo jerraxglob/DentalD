@@ -313,12 +313,13 @@ i {
 }
 
 button.fc-customButton-button.fc-button.fc-button-primary {
-    background: #0b5ed7;
-    color: white;
+    background-color: #3bcffc !important;
+    border-radius: 5px !important;
+    color: white !important;
+    padding: 5px 25px ;
 }
 
 button.fc-customButton-button.fc-button.fc-button-primary:hover {
-    background: #0b5ed7;
     color: white;
 }
 
@@ -1500,3 +1501,34 @@ ul.custom-square li::marker {
     /* border-color: transparent !important; */
     color: #50c2f6;
 }
+.adevtime{
+    padding: 2px 5px;
+    background-color: #F3F3F3 !important;
+    border-radius: 5px;}
+.stats-heading{
+    color: #15181A;
+}
+/* calendar  */
+.fc-scrollgrid-sync-inner>a{
+ color: #2A283B !important;
+ font-size: 14px !important;
+ font-weight: 450 !important;
+}
+.fc .fc-daygrid-day-number{
+    position: absolute !important;
+    left: 0 !important;
+    color: #93C0CF !important;
+}
+.fc .fc-toolbar.fc-header-toolbar{
+    position: relative;
+}
+.fc .fc-button-group{
+    gap: 200px;
+    display: flex !important;
+}
+.fc .fc-toolbar-title{
+    position: absolute;
+    left: 45px;
+    top: 5px ;
+}
+

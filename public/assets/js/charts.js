@@ -601,18 +601,18 @@ document.addEventListener("DOMContentLoaded", function () {
         labels: labels,
         datasets: [
             {
-                label: "Woman",
-                data: [6000, 5000, 3000],
-                backgroundColor: "orange",
-                borderColor: "orange",
+                label: "Women",
+                data: [4500, 0],
+                backgroundColor: ["#EB9A37"], // Set transparent color for the empty bars
+                borderColor: "#EB9A37",
                 borderWidth: 5,
                 tension: 0.1,
             },
             {
-                label: "Man",
-                data: [5000, 6000, 3000, 4000],
-                backgroundColor: "blue",
-                borderColor: "blue",
+                label: "Men",
+                data: [0, 5300],
+                backgroundColor: ["#50C2F6"], // Set transparent color for the empty bars
+                borderColor: "#50C2F6",
                 borderWidth: 5,
                 tension: 0.1,
             },
@@ -745,27 +745,21 @@ document.addEventListener("DOMContentLoaded", function () {
     var ctx = document.getElementById("pay_deadline").getContext("2d");
 
     const monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
+        "1 Month",
+        "2 Months",
+        "3 Months",
+        "4 Months",
+        "5 Months",
+        "6 Months",
     ];
 
-    const labels = monthNames.slice(0, 12);
+    const labels = monthNames.slice(0, 6);
     const data = {
         labels: labels,
         datasets: [
             {
                 label: "private",
-                data: [2000, 3000, 4000],
+                data: [2000, 3000, 1500, 4000, 3000],
                 fill: false,
                 borderColor: "black",
                 backgroundColor: "black",
@@ -773,7 +767,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "public",
-                data: [1500, 2500, 3500, 4500],
+                data: [1500, 2000, 500, 3500, 1200],
                 fill: false,
                 borderColor: "skyblue",
                 backgroundColor: "skyblue",
@@ -784,6 +778,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const config = {
         type: "line",
+
         data: data,
         options: {
             animations: {
@@ -919,17 +914,23 @@ document.addEventListener("DOMContentLoaded", function () {
         datasets: [
             {
                 label: "Income",
-                data: [1000, 2000, 3000, 4000, 5000],
-                backgroundColor: "skyblue",
-                borderColor: "skyblue",
+                data: [
+                    { x: 8000, y: 4, indexLabel: "\u2605 Highest" },
+                    { x: 7000, y: 4, indexLabel: "\u2605 Highest" },
+                    { x: 5000, y: 4, indexLabel: "\u2605 Highest" },
+                    { x: 8000, y: 4, indexLabel: "\u2605 Highest" },
+                    { x: 6000, y: 4, indexLabel: "\u2605 Highest" },
+                ],
+                backgroundColor: "#50C2F6",
+                borderColor: "#50C2F6",
                 borderWidth: 1,
                 tension: 0.1,
             },
             {
                 label: "Expenses",
-                data: [5000, 4000, 3000, 1000],
-                backgroundColor: "orange",
-                borderColor: "orange",
+                data: [5000, 4000, 3000, 1000, 3000, 1000],
+                backgroundColor: "#EB9A37",
+                borderColor: "#EB9A37",
                 borderWidth: 1,
                 tension: 0.1,
             },
@@ -970,24 +971,24 @@ document.addEventListener("DOMContentLoaded", function () {
             {
                 label: "Private services",
                 data: [2600],
-                backgroundColor: "skyblue",
-                borderColor: "skyblue",
+                backgroundColor: "#50C2F6",
+                borderColor: "#50C2F6",
                 borderWidth: 1,
                 tension: 0.1,
             },
             {
                 label: "insurances",
                 data: [1200],
-                backgroundColor: "blue",
-                borderColor: "blue",
+                backgroundColor: "#93C0CF",
+                borderColor: "#93C0CF",
                 borderWidth: 1,
                 tension: 0.1,
             },
             {
                 label: "Social",
                 data: [5000],
-                backgroundColor: "#FFD47F",
-                borderColor: "#FFD47F",
+                backgroundColor: "#F4EB99",
+                borderColor: "#F4EB99",
                 borderWidth: 1,
                 tension: 0.1,
             },

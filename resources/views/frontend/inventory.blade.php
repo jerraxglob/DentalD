@@ -24,23 +24,25 @@
                         </svg>
                         <h5 class="modal-title   fw-bold" id="addnewsupplier">Stock modification</h5>
                     </div>
-                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
-                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
-                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)" fill="#eff1f2"
-                                    stroke="#102940" stroke-width="1">
-                                    <circle cx="14" cy="14" r="14" stroke="none" />
-                                    <circle cx="14" cy="14" r="13.5" fill="none" />
+                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                        <circle cx="14" cy="14" r="14" stroke="none" />
+                                        <circle cx="14" cy="14" r="13.5" fill="none" />
+                                    </g>
+                                    <g id="Group_212" data-name="Group 212"
+                                        transform="translate(587.991 31.377) rotate(45)">
+                                        <line id="Line_2" data-name="Line 2" y2="15.591" transform="translate(7.986)"
+                                            fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2" />
+                                        <line id="Line_3" data-name="Line 3" x2="15.591"
+                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                            stroke-linecap="round" stroke-width="2" />
+                                    </g>
                                 </g>
-                                <g id="Group_212" data-name="Group 212" transform="translate(587.991 31.377) rotate(45)">
-                                    <line id="Line_2" data-name="Line 2" y2="15.591" transform="translate(7.986)"
-                                        fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2" />
-                                    <line id="Line_3" data-name="Line 3" x2="15.591" transform="translate(0 7.985)"
-                                        fill="none" stroke="#102940" stroke-linecap="round" stroke-width="2" />
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
+                            </svg>
+                        </a>
                 </div>
                 <div class="modal-body">
                     <form role="form" method="POST" action="">
