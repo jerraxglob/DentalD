@@ -425,8 +425,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -445,8 +466,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -465,8 +507,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -485,8 +548,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -505,8 +589,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -525,8 +630,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -545,28 +671,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>39384</td>
-                                                    <td>First name Last name</td>
-                                                    <td>nompraticien@gmail.com</td>
-                                                    <td>Administrator</td>
-                                                    <td class="d-flex"> <a
-                                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            X Delete
-                                                        </a>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-user"></i>
-                                                            Connexion
-                                                        </a>
-                                                        <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -995,11 +1122,9 @@
                                             <div class="col-12 col-md-4 col-lg-4 align-middle">
                                                 <div class="mb-3 px-3">
                                                     <label for="startDate">Start Date:</label>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i
-                                                                    class="fas fa-calendar-alt"></i></span>
-                                                        </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1"><i
+                                                                class="fas fa-calendar-alt"></i></span>
                                                         <input type="text" class="form-control date-input"
                                                             name="startDate" id="startDate" placeholder="07/09/2023">
                                                     </div>
@@ -1008,11 +1133,9 @@
                                             <div class="col-12 col-md-4 col-lg-4 align-middle">
                                                 <div class="mb-3">
                                                     <label for="endDate">End Date:</label>
-                                                    <div class="input-group bg-white">
-                                                        <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i
-                                                                    class="fas fa-calendar-alt bg-white"></i></span>
-                                                        </div>
+                                                    <div class="input-group mb-3">
+                                                        <span class="input-group-text" id="basic-addon1"><i
+                                                                class="fas fa-calendar-alt"></i></span>
                                                         <input type="text" class="form-control date-input"
                                                             name="endDate" id="endDate" placeholder="07/09/2023">
                                                         <span class="text-danger px-2"> x </span>
@@ -1122,8 +1245,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -1143,8 +1287,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -1164,8 +1329,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -1185,8 +1371,29 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                                height="14.526" viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -1206,8 +1413,30 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -1227,11 +1456,34 @@
                                                             Connexion
                                                         </a>
                                                         <a
-                                                            class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
                                                     </td>
                                                 </tr>
+
                                         </table>
                                         <nav aria-label="Page navigation ">
                                             <ul class="pagination d-flex justify-content-end">
@@ -1248,13 +1500,15 @@
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <li class="page-item disabled"><a class="page-link" href="#">Page
+                                                <li class="page-item disabled"><a class="page-link"
+                                                        href="#">Page
                                                         1/3</a></li>
                                                 <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
                                                 <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                                 <li class="page-item">
                                                     <a class="page-link" href="#" aria-label="Next">
-                                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                        <span aria-hidden="true"><svg
+                                                                style=" transform: rotate(270deg);"
                                                                 xmlns="http://www.w3.org/2000/svg" width="14.08"
                                                                 height="8.448" viewBox="0 0 14.08 8.448">
                                                                 <path id="Vector_22_Stroke_"
@@ -1397,7 +1651,8 @@
                                                     <span class="text-decoration-none text-dark "> or </span> <a
                                                         href="#"
                                                         class="text-center mb-3 upload_gallery text-decoration-underline px-2 mb-0 ">
-                                                        <span class="text-decoration-underline">browse your computer</span>
+                                                        <span class="text-decoration-underline">browse your
+                                                            computer</span>
                                                     </a>
                                                 </div>
                                                 <p class="small my-2 mt-2">Supported files: word, pdf…
@@ -1458,9 +1713,31 @@
                                                         Online
                                                     </td>
                                                     <td>
-                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
-                                                            data-bs-toggle="modal" data-bs-target="#document">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
 
                                                     </td>
@@ -1477,9 +1754,31 @@
                                                         Online
                                                     </td>
                                                     <td>
-                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
-                                                            data-bs-toggle="modal" data-bs-target="#document">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
 
                                                     </td>
@@ -1496,9 +1795,31 @@
                                                         Online
                                                     </td>
                                                     <td>
-                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
-                                                            data-bs-toggle="modal" data-bs-target="#document">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
 
                                                     </td>
@@ -1515,13 +1836,118 @@
                                                         Online
                                                     </td>
                                                     <td>
-                                                        <a class="btn btn-sm mx-2 text-dark bg-white text-decoration-none text-nowrap px-4 py-2"
-                                                            data-bs-toggle="modal" data-bs-target="#document">
-                                                            <i class="fas fa-pencil-alt pr-1"></i>Edit
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
                                                         </a>
 
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>Document name</td>
+                                                    <td>
+                                                        PDF</td>
+                                                    <td>
+                                                        Prescription
+                                                    </td>
+                                                    <td>
+                                                        Online
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12/07/23</td>
+                                                    <td>Document name</td>
+                                                    <td>
+                                                        PDF</td>
+                                                    <td>
+                                                        Prescription
+                                                    </td>
+                                                    <td>
+                                                        Online
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"
+                                                            data-bs-toggle="modal" data-bs-target="#document"><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                width="13.37" height="14.526"
+                                                                viewBox="0 0 13.37 14.526">
+                                                                <defs>
+                                                                    <clipPath id="clip-path">
+                                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                            width="4.029" height="15.744"
+                                                                            fill="#102940" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                                <g id="Group_393" data-name="Group 393"
+                                                                    transform="translate(10.329) rotate(41)">
+                                                                    <g id="Group_244" data-name="Group 244"
+                                                                        transform="translate(0 0)"
+                                                                        clip-path="url(#clip-path)">
+                                                                        <path id="Path_29" data-name="Path 29"
+                                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                            transform="translate(0 0)" fill="#102940" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                            Edit
+                                                        </a>
+
+                                                    </td>
+                                                </tr>
+
                                         </table>
                                         <nav aria-label="Page navigation ">
                                             <ul class="pagination d-flex justify-content-end">
@@ -1538,13 +1964,15 @@
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <li class="page-item disabled"><a class="page-link" href="#">Page
+                                                <li class="page-item disabled"><a class="page-link"
+                                                        href="#">Page
                                                         1/3</a></li>
                                                 <!-- <li class="page-item"><a class="page-link" href="#">2</a></li> -->
                                                 <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
                                                 <li class="page-item">
                                                     <a class="page-link" href="#" aria-label="Next">
-                                                        <span aria-hidden="true"><svg style=" transform: rotate(270deg);"
+                                                        <span aria-hidden="true"><svg
+                                                                style=" transform: rotate(270deg);"
                                                                 xmlns="http://www.w3.org/2000/svg" width="14.08"
                                                                 height="8.448" viewBox="0 0 14.08 8.448">
                                                                 <path id="Vector_22_Stroke_"
@@ -1814,434 +2242,386 @@
                 </div>
             </div>
         </div>
-        {{-- add new user --}}
-        <div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
-                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                            <h5 class="modal-title fw-bold" id="addnewuser">Add new user</h5>
-                        </div>
-                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                viewBox="0 0 28 28">
-                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
-                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
-                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
-                                        <circle cx="14" cy="14" r="14" stroke="none" />
-                                        <circle cx="14" cy="14" r="13.5" fill="none" />
-                                    </g>
-                                    <g id="Group_212" data-name="Group 212"
-                                        transform="translate(587.991 31.377) rotate(45)">
-                                        <line id="Line_2" data-name="Line 2" y2="15.591"
-                                            transform="translate(7.986)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                        <line id="Line_3" data-name="Line 3" x2="15.591"
-                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                    </g>
+    </div>
+    {{-- add new user --}}
+    <div class="modal fade" id="addnewuser" tabindex="-1" aria-labelledby="addnewuserLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                        <h5 class="modal-title fw-bold" id="addnewuser">Add new user</h5>
+                    </div>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                    fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                    <circle cx="14" cy="14" r="14" stroke="none" />
+                                    <circle cx="14" cy="14" r="13.5" fill="none" />
                                 </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form" method="POST" action="">
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" class="form-control form-control-sm" id="name"
-                                        name="name">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control form-control-sm" id="email"
-                                        name="email">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="role" class="form-label">Role</label>
-                                    <select class="form-select form-select-sm" name="role"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Administrator</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-12">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="newsletter"
-                                            value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Subscribe to the newsletter?
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label for="comments" class="form-label">Comments</label>
-                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="password" class="form-label">Access password</label>
-                                    <input type="password" class="form-control form-control-sm" id="password"
-                                        name="password">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-2"></div>
-                                <div class="d-grid  col-md-6 ">
-                                    <button type="submit" class="btn btn-info btn-sm text-white">Add and send
-                                        email</button>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{-- modal add new supplier --}}
-        <div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
-                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                            <h5 class="modal-title fw-bold" id="addnewsupplier">Add new supplier</h5>
-                        </div>
-                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                viewBox="0 0 28 28">
-                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
-                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
-                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
-                                        <circle cx="14" cy="14" r="14" stroke="none" />
-                                        <circle cx="14" cy="14" r="13.5" fill="none" />
-                                    </g>
-                                    <g id="Group_212" data-name="Group 212"
-                                        transform="translate(587.991 31.377) rotate(45)">
-                                        <line id="Line_2" data-name="Line 2" y2="15.591"
-                                            transform="translate(7.986)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                        <line id="Line_3" data-name="Line 3" x2="15.591"
-                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                    </g>
+                                <g id="Group_212" data-name="Group 212"
+                                    transform="translate(587.991 31.377) rotate(45)">
+                                    <line id="Line_2" data-name="Line 2" y2="15.591"
+                                        transform="translate(7.986)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                    <line id="Line_3" data-name="Line 3" x2="15.591"
+                                        transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
                                 </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form" method="POST" action="">
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" class="form-control form-control-sm" id="name"
-                                        name="name" value="" placeholder=" Supplier name">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="supp-id" class="form-label">ID</label>
-                                    <input type="text" class="form-control form-control-sm" id="supp-id"
-                                        name="supp-id" value="" placeholder="supplier ID">
-                                </div>
-                                <div class="col-md-4">
-
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="address" class="form-label">Address</label>
-                                    <input type="text" class="form-control form-control-sm" id="address"
-                                        name="address">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="npa" class="form-label">NPA</label>
-                                    <input type="text" class="form-control form-control-sm" id="npa"
-                                        name="npa">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="country" class="form-label">Country</label>
-                                    <input type="text" class="form-control form-control-sm" id="country"
-                                        name="country">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="phone" class="form-label">Phone</label>
-                                    <input type="phone" class="form-control form-control-sm" id="phone"
-                                        name="phone">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control form-control-sm" id="email"
-                                        name="email">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="site-web" class="form-label">Site Web</label>
-                                    <input type="text" class="form-control form-control-sm" id="site-web"
-                                        name="site-web">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="deliv-time" class="form-label">Delivery time (average)</label>
-                                    <input type="text" class="form-control form-control-sm" id="deliv-time"
-                                        name="deliv-time">
-                                </div>
-                                <div class="col-md-4">
-
-                                </div>
-                                <div class="col-md-4">
-
-                                </div>
-
-                            </div>
-
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label for="comments" class="form-label">Comments</label>
-                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                                </div>
-                                <div class="col-md-6">
-
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-2"></div>
-                                <div class="d-grid  col-md-6 ">
-                                    <button type="submit" class="btn btn-info btn-sm text-white">Add new
-                                        supplier</button>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                        </form>
-                    </div>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
-            </div>
-        </div>
-        {{-- payment modal --}}
-        <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                {{-- <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Modify / Add payment
-                            method
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form" method="POST" action="">
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="pay-method" class="form-label">Payment method</label>
-                                    <select class="form-select form-select-sm" name="pay-method"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Bank Trasnfer</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="pay-term" class="form-label">Payment terms</label>
-                                    <input type="text" class="form-control form-control-sm" id="pay-term"
-                                        name="pay-term">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="avai-for" class="form-label">Available for</label>
-                                    <input type="text" class="form-control form-control-sm" id="avai-for"
-                                        name="avai-for" placeholder="Type of insurance">
-                                </div>
+                <div class="modal-body">
+                    <form role="form" method="POST" action="">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control form-control-sm" id="name"
+                                    name="name">
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-5">
-                                    <label for="comments" class="form-label">Comments</label>
-                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="post-pay" type="checkbox"
-                                            value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Do not post for delinquent patients.
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="act-pay" type="checkbox"
-                                            value="" id="flexCheckChecked" checked>
-                                        <label class="form-check-label" for="flexCheckChecked">
-                                            Activate payment method
-                                        </label>
-                                    </div>
-                                </div>
+                            <div class="col-md-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control form-control-sm" id="email"
+                                    name="email">
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-2"></div>
-                                <div class="d-grid  col-md-6 ">
-                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                                </div>
-                                <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <label for="role" class="form-label">Role</label>
+                                <select class="form-select form-select-sm" name="role"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>Administrator</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
                             </div>
-                        </form>
-                    </div>
-
-             </div> --}}
-                <div class="modal-content">
-                    <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
-                        <div class="d-flex flex-column justify-content-center align-items-center w-full">
-                            <h5 class="modal-title fw-bold" id="payment">Modify / Add payment</h5>
                         </div>
-                        <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                viewBox="0 0 28 28">
-                                <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
-                                    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
-                                        fill="#eff1f2" stroke="#102940" stroke-width="1">
-                                        <circle cx="14" cy="14" r="14" stroke="none" />
-                                        <circle cx="14" cy="14" r="13.5" fill="none" />
-                                    </g>
-                                    <g id="Group_212" data-name="Group 212"
-                                        transform="translate(587.991 31.377) rotate(45)">
-                                        <line id="Line_2" data-name="Line 2" y2="15.591"
-                                            transform="translate(7.986)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                        <line id="Line_3" data-name="Line 3" x2="15.591"
-                                            transform="translate(0 7.985)" fill="none" stroke="#102940"
-                                            stroke-linecap="round" stroke-width="2" />
-                                    </g>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="newsletter" value=""
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Subscribe to the newsletter?
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="comments" class="form-label">Comments</label>
+                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password" class="form-label">Access password</label>
+                                <input type="password" class="form-control form-control-sm" id="password"
+                                    name="password">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-2"></div>
+                            <div class="d-grid  col-md-6 ">
+                                <button type="submit" class="btn btn-info btn-sm text-white">Add and send
+                                    email</button>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- modal add new supplier --}}
+    <div class="modal fade" id="addnewsupplier" tabindex="-1" aria-labelledby="addnewsupplierLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                        <h5 class="modal-title fw-bold" id="addnewsupplier">Add new supplier</h5>
+                    </div>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                    fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                    <circle cx="14" cy="14" r="14" stroke="none" />
+                                    <circle cx="14" cy="14" r="13.5" fill="none" />
                                 </g>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form" method="POST" action="">
-                            <div class="row mb-3">
-                                <div class="col-md-4">
-                                    <label for="pay-method" class="form-label">Payment method</label>
-                                    <select class="form-select form-select-sm" name="pay-method"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Bank Trasnfer</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="pay-term" class="form-label">Payment terms</label>
-                                    <input type="text" class="form-control form-control-sm" id="pay-term"
-                                        name="pay-term">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="avai-for" class="form-label">Available for</label>
-                                    <input type="text" class="form-control form-control-sm" id="avai-for"
-                                        name="avai-for" placeholder="Type of insurance">
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-5">
-                                    <label for="comments" class="form-label">Comments</label>
-                                    <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
-                                </div>
-                                <div class="col-md-7">
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="post-pay" type="checkbox"
-                                            value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Do not post for delinquent patients.
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="act-pay" type="checkbox"
-                                            value="" id="flexCheckChecked" checked>
-                                        <label class="form-check-label" for="flexCheckChecked">
-                                            Activate payment method
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-md-2"></div>
-                                <div class="d-grid  col-md-6 ">
-                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                                </div>
-                                <div class="col-md-2"></div>
-                            </div>
-                        </form>
-                    </div>
+                                <g id="Group_212" data-name="Group 212"
+                                    transform="translate(587.991 31.377) rotate(45)">
+                                    <line id="Line_2" data-name="Line 2" y2="15.591"
+                                        transform="translate(7.986)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                    <line id="Line_3" data-name="Line 3" x2="15.591"
+                                        transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
                 </div>
+                <div class="modal-body">
+                    <form role="form" method="POST" action="">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control form-control-sm" id="name"
+                                    name="name" value="" placeholder=" Supplier name">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="supp-id" class="form-label">ID</label>
+                                <input type="text" class="form-control form-control-sm" id="supp-id"
+                                    name="supp-id" value="" placeholder="supplier ID">
+                            </div>
+                            <div class="col-md-4">
 
-            </div>
-        </div>
-        {{-- edit doc modal --}}
-        <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header  d-flex justify-content-center align-items-center">
-                        <h5 class="modal-title  mx-auto-no-right  fw-bold" id="addnewsupplier">Edit document
-                        </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form" method="POST" action="">
-                            <div class="row mb-3">
-                                <div class="col-md-12">
-                                    <label for="pay-term" class="form-label">Document</label>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text bg-info" id="basic-addon1"><i
-                                                class="fas fa-file text-white"></i></span>
-                                        <input type="text" class="form-control form-control-sm" name="doc"
-                                            aria-label="doc" aria-describedby="basic-addon1">
-                                    </div>
-                                </div>
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label for="doc-name" class="form-label">Document name</label>
-                                    <input type="text" class="form-control form-control-sm" id="doc-name"
-                                        name="doc-name">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="category" class="form-label">Category</label>
-                                    <select class="form-select form-select-sm" name="category"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Category</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </select>
-                                </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="address" class="form-label">Address</label>
+                                <input type="text" class="form-control form-control-sm" id="address"
+                                    name="address">
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <div class="form-check">
-                                        <input class="form-check-input" name="online" type="checkbox"
-                                            value="" id="flexCheckDefault">
-                                        <label class="form-check-label" for="flexCheckDefault">
-                                            Online
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                </div>
+                            <div class="col-md-4">
+                                <label for="npa" class="form-label">NPA</label>
+                                <input type="text" class="form-control form-control-sm" id="npa"
+                                    name="npa">
                             </div>
-                            <div class="row mb-3">
-                                <div class="col-md-2"></div>
-                                <div class="d-grid  col-md-6 ">
-                                    <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
-                                </div>
-                                <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <label for="country" class="form-label">Country</label>
+                                <input type="text" class="form-control form-control-sm" id="country"
+                                    name="country">
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="phone" class="form-control form-control-sm" id="phone"
+                                    name="phone">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control form-control-sm" id="email"
+                                    name="email">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="site-web" class="form-label">Site Web</label>
+                                <input type="text" class="form-control form-control-sm" id="site-web"
+                                    name="site-web">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="deliv-time" class="form-label">Delivery time (average)</label>
+                                <input type="text" class="form-control form-control-sm" id="deliv-time"
+                                    name="deliv-time">
+                            </div>
+                            <div class="col-md-4">
 
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="comments" class="form-label">Comments</label>
+                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                            </div>
+                            <div class="col-md-6">
+
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-2"></div>
+                            <div class="d-grid  col-md-6 ">
+                                <button type="submit" class="btn btn-info btn-sm text-white">Add new
+                                    supplier</button>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    @endsection
+    </div>
+    {{-- payment modal --}}
+    <div class="modal fade" id="payment-method" tabindex="-1" aria-labelledby="payment-methodLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                    <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                        <h5 class="modal-title fw-bold" id="payment">Modify / Add payment</h5>
+                    </div>
+                    <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                                <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                    fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                    <circle cx="14" cy="14" r="14" stroke="none" />
+                                    <circle cx="14" cy="14" r="13.5" fill="none" />
+                                </g>
+                                <g id="Group_212" data-name="Group 212"
+                                    transform="translate(587.991 31.377) rotate(45)">
+                                    <line id="Line_2" data-name="Line 2" y2="15.591"
+                                        transform="translate(7.986)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                    <line id="Line_3" data-name="Line 3" x2="15.591"
+                                        transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                        stroke-linecap="round" stroke-width="2" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="modal-body">
+                    <form role="form" method="POST" action="">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label for="pay-method" class="form-label">Payment method</label>
+                                <select class="form-select form-select-sm" name="pay-method"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>Bank Trasnfer</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="pay-term" class="form-label">Payment terms</label>
+                                <input type="text" class="form-control form-control-sm" id="pay-term"
+                                    name="pay-term">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="avai-for" class="form-label">Available for</label>
+                                <input type="text" class="form-control form-control-sm" id="avai-for"
+                                    name="avai-for" placeholder="Type of insurance">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-5">
+                                <label for="comments" class="form-label">Comments</label>
+                                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="form-check">
+                                    <input class="form-check-input" name="post-pay" type="checkbox" value=""
+                                        id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Do not post for delinquent patients.
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" name="act-pay" type="checkbox" value=""
+                                        id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Activate payment method
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-2"></div>
+                            <div class="d-grid  col-md-6 ">
+                                <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                            </div>
+                            <div class="col-md-2"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    {{-- edit doc modal --}}
+    <div class="modal fade" id="document" tabindex="-1" aria-labelledby="documentLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header   no-border-bottom d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column justify-content-center align-items-center w-full">
+                    <h5 class="modal-title fw-bold" id="payment">Edit document</h5>
+                </div>
+                <a type="" class="" data-bs-dismiss="modal" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                        <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
+                            <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(573.941 28.352)"
+                                fill="#eff1f2" stroke="#102940" stroke-width="1">
+                                <circle cx="14" cy="14" r="14" stroke="none" />
+                                <circle cx="14" cy="14" r="13.5" fill="none" />
+                            </g>
+                            <g id="Group_212" data-name="Group 212"
+                                transform="translate(587.991 31.377) rotate(45)">
+                                <line id="Line_2" data-name="Line 2" y2="15.591"
+                                    transform="translate(7.986)" fill="none" stroke="#102940"
+                                    stroke-linecap="round" stroke-width="2" />
+                                <line id="Line_3" data-name="Line 3" x2="15.591"
+                                    transform="translate(0 7.985)" fill="none" stroke="#102940"
+                                    stroke-linecap="round" stroke-width="2" />
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="modal-body">
+                <form role="form" method="POST" action="">
+                    <div class="row mb-3">
+                        <div class="col-md-12">
+                            <label for="pay-term" class="form-label">Document</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text bg-info" id="basic-addon1"><i
+                                        class="fas fa-file text-white"></i></span>
+                                <input type="text" class="form-control form-control-sm" name="doc"
+                                    aria-label="doc" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="doc-name" class="form-label">Document name</label>
+                            <input type="text" class="form-control form-control-sm" id="doc-name"
+                                name="doc-name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="category" class="form-label">Category</label>
+                            <select class="form-select form-select-sm" name="category"
+                                aria-label=".form-select-sm example">
+                                <option selected>Category</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <div class="form-check">
+                                <input class="form-check-input" name="online" type="checkbox" value=""
+                                    id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Online
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-2"></div>
+                        <div class="d-grid  col-md-6 ">
+                            <button type="submit" class="btn btn-info btn-sm text-white">Save</button>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+@endsection
