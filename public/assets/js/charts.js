@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("sales_Chart").getContext("2d");
 
     const monthNames = [
@@ -19,8 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Average sales",
                 data: [
                     4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
@@ -86,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -97,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myLineChart = new Chart(ctx, config);
 });
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("re_de_stock").getContext("2d");
 
     const monthNames = [
@@ -118,8 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Average sales",
                 data: [
                     4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
@@ -185,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -197,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("sales_by_treatment").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
@@ -218,8 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Treatment category 1",
                 data: [
                     2000, 3000, 4000, 2000, 3000, 4000, 2000, 3000, 4000, 2000,
@@ -275,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -289,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 datalabels: {
                     anchor: "end",
                     align: "end",
-                    formatter: function (value, context) {
+                    formatter: function(value, context) {
                         return value.y + "%";
                     },
                 },
@@ -299,7 +296,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myBarChart = new Chart(ctx, config);
 });
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("d_by_cate").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
@@ -320,8 +317,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Category 1",
                 data: [
                     260, 370, 342, 260, 370, 342, 260, 370, 342, 260, 370, 342,
@@ -375,7 +371,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 100,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 100 + "yo";
                         },
                     },
@@ -389,7 +385,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 datalabels: {
                     anchor: "end",
                     align: "end",
-                    formatter: function (value, context) {
+                    formatter: function(value, context) {
                         return value.y + "%";
                     },
                 },
@@ -401,7 +397,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // done
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("dis_category").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [
@@ -423,8 +419,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
         labels: labels,
 
-        datasets: [
-            {
+        datasets: [{
                 label: "Treatment category 1",
                 data: [
                     4000, 1000, 6000, 2000, 4000, 4000, 1000, 6000, 2000, 4000,
@@ -478,7 +473,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -492,7 +487,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 datalabels: {
                     anchor: "end",
                     align: "end",
-                    formatter: function (value, context) {
+                    formatter: function(value, context) {
                         return value.y + "%";
                     },
                 },
@@ -502,7 +497,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myBarChart = new Chart(ctx, config);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("comm_treat").getContext("2d");
 
     const monthNames = [
@@ -523,8 +518,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Treatment code 1",
                 data: [
                     4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
@@ -579,7 +573,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -599,8 +593,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 10);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Women",
                 data: [5000,4500,3500,6000,1500], // Two bars for "Women" in the "W" column
                 backgroundColor: ["#EB9A37", "#EB9A37"], // Color for each bar
@@ -628,7 +621,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 100,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 100 + "yo";
                         },
                     },
@@ -642,7 +635,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 datalabels: {
                     anchor: "end",
                     align: "end",
-                    formatter: function (value, context) {
+                    formatter: function(value, context) {
                         return value.y + "%";
                     },
                 },
@@ -675,8 +668,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Open invoices",
                 data: [
                     4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
@@ -731,7 +723,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -742,7 +734,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var myLineChart = new Chart(ctx, config);
 });
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("pay_deadline").getContext("2d");
 
     const monthNames = [
@@ -753,53 +745,85 @@ document.addEventListener("DOMContentLoaded", function () {
         "5 Months",
         "6 Months",
     ];
-
     const labels = monthNames.slice(0, 6);
-    const data = {
-        labels: labels,
-        datasets: [
-            {
-                label: "private",
-                data: [2000, 3000, 1500, 4000, 3000],
-                fill: false,
-                borderColor: "black",
-                backgroundColor: "black",
-                tension: 0.1, // Adjust tension for the private dataset
+    const data = [];
+    const data2 = [];
+    let prev = 100;
+    let prev2 = 80;
+    for (let i = 0; i < 1000; i++) {
+        prev += 5 - Math.random() * 10;
+        data.push({ x: i, y: prev });
+        prev2 += 5 - Math.random() * 10;
+        data2.push({ x: i, y: prev2 });
+    }
+    const totalDuration = 10000;
+    const delayBetweenPoints = totalDuration / data.length;
+    const previousY = (ctx) =>
+        ctx.index === 0 ?
+        ctx.chart.scales.y.getPixelForValue(100) :
+        ctx.chart
+        .getDatasetMeta(ctx.datasetIndex)
+        .data[ctx.index - 1].getProps(["y"], true).y;
+    const animation = {
+        x: {
+            type: "number",
+            easing: "linear",
+            duration: delayBetweenPoints,
+            from: NaN,
+            delay(ctx) {
+                if (ctx.type !== "data" || ctx.xStarted) {
+                    return 0;
+                }
+                ctx.xStarted = true;
+                return ctx.index * delayBetweenPoints;
             },
-            {
-                label: "public",
-                data: [1500, 2000, 500, 3500, 1200],
-                fill: false,
-                borderColor: "skyblue",
-                backgroundColor: "skyblue",
-                tension: 0.1, // Adjust tension for the public dataset
+        },
+        y: {
+            type: "number",
+            easing: "linear",
+            duration: delayBetweenPoints,
+            from: previousY,
+            delay(ctx) {
+                if (ctx.type !== "data" || ctx.yStarted) {
+                    return 0;
+                }
+                ctx.yStarted = true;
+                return ctx.index * delayBetweenPoints;
             },
-        ],
+        },
     };
-
     const config = {
         type: "line",
-
-        data: data,
-        options: {
-            animations: {
-                tension: {
-                    duration: 1000,
-                    easing: "linear",
-                    from: 0.1,
-                    to: 0.1,
-                    responsive: true,
+        data: {
+            labels: labels,
+            datasets: [{
+                    borderColor: "skyblue",
+                    borderWidth: 1,
+                    radius: 0,
+                    data: data,
                 },
+                {
+                    borderColor: "black",
+                    borderWidth: 1,
+                    radius: 0,
+                    data: data2,
+                },
+            ],
+        },
+        options: {
+            animation,
+            interaction: {
+                intersect: false,
+            },
+            plugins: {
+                legend: false,
             },
             scales: {
+                x: {
+                    type: "linear",
+                },
                 y: {
-                    beginAtZero: true,
-                    ticks: {
-                        stepSize: 1000,
-                        callback: function (value, index, values) {
-                            return value === 0 ? value : value / 1000 + "k";
-                        },
-                    },
+                    type: "linear",
                 },
             },
         },
@@ -808,7 +832,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("report").getContext("2d");
 
     const monthNames = [
@@ -829,8 +853,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Inventory size",
                 data: [
                     4000, 4200, 4300, 4100, 4000, 4700, 4900, 4300, 4700, 4900,
@@ -885,7 +908,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -897,7 +920,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myLineChart = new Chart(ctx, config);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("finance_report").getContext("2d");
 
     const practitionerLabels = [
@@ -912,8 +935,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const data = {
         labels: practitionerLabels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Income",
                 data: [
                     { x: 8000, y: 4, indexLabel: "\u2605 Highest" },
@@ -960,7 +982,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myBarChart = new Chart(ctx, config);
 });
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("services").getContext("2d"); // Change the ID to match your HTML canvas element
 
     const monthNames = [""];
@@ -968,8 +990,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const labels = monthNames.slice(0, 12);
     const data = {
         labels: labels,
-        datasets: [
-            {
+        datasets: [{
                 label: "Private services",
                 data: [2600],
                 backgroundColor: "#50C2F6",
@@ -1005,7 +1026,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     beginAtZero: true,
                     ticks: {
                         stepSize: 1000,
-                        callback: function (value, index, values) {
+                        callback: function(value, index, values) {
                             return value === 0 ? value : value / 1000 + "k";
                         },
                     },
@@ -1019,7 +1040,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 datalabels: {
                     anchor: "end",
                     align: "end",
-                    formatter: function (value, context) {
+                    formatter: function(value, context) {
                         return value.y + "%";
                     },
                 },
