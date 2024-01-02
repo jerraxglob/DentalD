@@ -735,7 +735,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("pay_deadline").getContext("2d");
-
     const monthNames = [
         "1 Month",
         "2 Months",

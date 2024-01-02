@@ -46,7 +46,7 @@
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </div>s
+                </div>
                 <span> Vs </span>
                 <div class="btn-group">
                     <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
