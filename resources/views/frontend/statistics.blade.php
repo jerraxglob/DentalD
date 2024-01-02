@@ -67,7 +67,7 @@
             <div class=" col-12 col-md-4  col-lg-4  ">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Income.</b></h5>
+                        <h5 class="card-title text-dark"><b>Income.</b></h5>
                         <span class="card-text fs-2 stats-heading">CHF 100 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -82,7 +82,7 @@
             <div class=" col-12 col-md-4 col-lg-4 ">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Spending.</b></h5>
+                        <h5 class="card-title text-dark"><b>Spending.</b></h5>
                         <span class="card-text fs-2 stats-heading">CHF 20 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -96,7 +96,7 @@
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Number of patient.</b></h5>
+                        <h5 class="card-title text-dark"><b>Number of patient.</b></h5>
                         <span class="card-text fs-2 stats-heading">CHF 20 000.-</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -112,10 +112,11 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b class="">Number of
-                                appointment.</b></h5>
-                        <span class="card-text fs-2 stats-heading">109 <i
-                                class="fas px-3 fa-calendar-alt text-muted"></i></span><br>
+                        <h5 class="card-title text-dark"><b>Number of</b>
+                            <br><b> appointment.</b>
+                        </h5>
+                        <span class="card-text fs-2 stats-heading">109
+                            <i class="fas px-3 float-end fa-calendar-alt text-muted mt-2"></i></span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -128,8 +129,13 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title "><b>Average appointment time</b></h5>
-                        <span class="card-text fs-2 stats-heading">70 min<i class="fas px-3 fa-clock text-muted"></i>
+                        <h5 class="card-title text-dark "><b>Average </b><br><b> appointment time</b></h5>
+                        <span class="card-text fs-2 stats-heading">70 min<svg xmlns="http://www.w3.org/2000/svg"
+                                width="30" height="30" fill="currentColor"
+                                class="bi bi-clock mt-2 float-end text-muted" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
                         </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -143,9 +149,15 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h6 class="card-title"><b>Number of appointments cancelled.</b>
+                        <h6 class="card-title text-dark"><b>Number of</b> <br><b>appointments cancelled.</b>
                         </h6>
-                        <span class="card-text fs-2 stats-heading">30 <i class="fas px-3 fa-times text-muted"></i>
+                        <span class="card-text fs-2 stats-heading">30<svg xmlns="http://www.w3.org/2000/svg"
+                                width="30" height="30" fill="currentColor"
+                                class="bi bi-x-circle mt-2 float-end text-muted" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                            </svg>
                         </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-arrow-down-right text-danger" viewBox="0 0 16 16">
@@ -159,9 +171,15 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title text-nowrap"><b>Occupancy
-                                rate.</b></h5>
-                        <span class="card-text fs-2 stats-heading">80% <i class="fas fa-chart-bar "></i>
+                        <h5 class="card-title text-dark"><b>Occupancy</b>
+                            <br><b> rate.</b>
+                        </h5>
+                        <span class="card-text fs-2 stats-heading">80% <svg xmlns="http://www.w3.org/2000/svg"
+                                width="30" height="30" fill="currentColor"
+                                class="bi bi-bar-chart mt-2 text-muted float-end" viewBox="0 0 16 16">
+                                <path
+                                    d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z" />
+                            </svg>
                         </span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">

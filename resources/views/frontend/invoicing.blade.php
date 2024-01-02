@@ -67,7 +67,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2">Sales.</h5>
+                        <h5 class="card-title py-2 text-dark">Sales.</h5>
                         <strong class="card-text fs-2">CHF XXXX.-</strong><br>
                         <span class="text-success text-nowrap">3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -81,7 +81,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2">Laboratry.</h5>
+                        <h5 class="card-title py-2 text-dark">Laboratry.</h5>
                         <strong class="card-text fs-2">CHF XXXX.-</strong><br>
                         <span class="text-success">+ 3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -97,12 +97,11 @@
                     <div class="card-body">
                         <div class="row  align-item-center">
                             <div class="col d-flex justify-content-between align-item-center">
-                                <h5 class="card-title py-2">Salary.</h5>
-                                <a href="#" class="text-decoration-none py-2 "><i
-                                        class='fas fa-pencil-alt text-primary'></i>percentage</a>
+                                <h5 class="card-title text-dark py-2">Salary.</h5>
+                                <a href="#" class="text-decoration-none text-info py-2 "><i
+                                        class='fas px-1 fa-pencil-alt text-info'></i>percentage</a>
                             </div>
                         </div>
-
                         <strong class="card-text fs-2">CHF XXXX.-</strong><br>
                         <span class="text-success">+ 3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
@@ -116,7 +115,7 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2">Number of patients.</h5>
+                        <h5 class="card-title py-2 text-dark">Number of patients.</h5>
                         <strong class="card-text fs-2">XXXX</strong><br>
                         <span class="text-success">3.49% over the period</span> <br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"

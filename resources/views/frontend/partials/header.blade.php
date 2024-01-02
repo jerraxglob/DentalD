@@ -6,9 +6,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <form class="form-inline my-2 my-lg-0 px-3 search-form">
-            <div class="input-icons position-relative align-items-center">
-                <svg class="fas  fa-search position-absolute translate-bottom  mt-2 px- text-start text-secondar"
-                    style="left : 4%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012"
+            <div class="input-icons position-relative align-items-center d-flex">
+                <svg class="fas fa-search position-absolute translate-bottom  px-text-start text-secondary"
+                    style="left: 4%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012"
                     height="15.012" viewBox="0 0 15.012 15.012">
                     <g id="Group_1" data-name="Group 1">
                         <path id="Union"
@@ -17,10 +17,11 @@
                     </g>
                 </svg>
 
-                <input class="form-control mx-2 px-5" id="searchInput" type="text" id="PatientsearchInput"
-                    placeholder="Search..">
+                <input class="form-control mx-2 px-5 align-self-center" id="searchInput" type="text"
+                    id="PatientsearchInput" placeholder="Search..">
             </div>
         </form>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0 d-flex flex-wrap align-items-center justify-content-between  w-full">
                 <li class="nav-item mr-2">
