@@ -46,10 +46,8 @@
                         <hr class="dropdown-divider">
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </div>
-
+                </div>s
                 <span> Vs </span>
-
                 <div class="btn-group">
                     <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,7 +73,6 @@
                                 d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
                         </svg>
                         <span class="text-success py-1">+ 3.49% compared to the period</span> <br>
-
                     </div>
                 </div>
             </div>
@@ -190,7 +187,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="row align-item-center mt-3 ">
             <div class="col-12 col-md-12 col-lg-12">
@@ -504,7 +500,7 @@
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Patients undergoing treatment.</b></h5>
+                        <h5 class="card-title text-dark"><b>Patients undergoing treatment.</b></h5>
                         <span class="card-text fs-2 stats-heading">1 000</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -518,7 +514,7 @@
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Patients with appointment reminders.</b></h5>
+                        <h5 class="card-title text-dark"><b>Patients with appointment reminders.</b></h5>
                         <span class="card-text fs-2 stats-heading">650</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
@@ -532,7 +528,7 @@
             <div class=" col-12 col-md-4 col-lg-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title"><b>Walk-in patients.</b></h5>
+                        <h5 class="card-title text-dark"><b>Walk-in patients.</b></h5>
                         <span class="card-text fs-2 stats-heading">350</span><br>
                         <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
                             fill="currentColor" class="bi bi-arrow-up-right py-1" viewBox="0 0 17 16">
