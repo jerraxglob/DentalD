@@ -79,7 +79,6 @@
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
     </div>
@@ -122,7 +121,6 @@
                     <li class="px-3">
                         <button class="bg-white custom-btn text-dark next mr-3" onclick="nextTab()"></button>
                     </li>
-
                 </ul>
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade" id="ex-with-icons-tabs-1" role="tabpanel"
@@ -358,7 +356,6 @@
                                     </div>
                                     <p class="card-text text-start text-muted">Lorem Ipsum is simply dummy text of
                                         the printing. Lorem Ipsum is simply dummy text of the printing …</p>
-
                                     <!-- Person 4 -->
                                     <div class="row justify-content-between align-items-center">
                                         <div class="col-12 col-sm-12 col-md-9">
@@ -399,7 +396,6 @@
                                         <button type="button" class="btn btn-info text-white">Envoyer</button>
                                     </form>
                                 </div>
-
                             </div>
                         </div>
                     </div>

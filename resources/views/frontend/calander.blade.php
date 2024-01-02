@@ -6,8 +6,7 @@
                 <div class="modal-body mx-4">
                     <div class="d-flex justify-content-center position-relative mb-4">
                         <h5 class="clr-db font-22" id="exampleModalLabel">Add an event.</h5>
-                        <a type="" class="position-absolute" style="
-    right: 0; "data-bs-dismiss="modal"
+                        <a type="" class="position-absolute" style="  right: 0; "data-bs-dismiss="modal"
                             aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
                                 viewBox="0 0 28 28">
                                 <g id="Group_252" data-name="Group 252" transform="translate(-573.941 -28.352)">
@@ -27,7 +26,6 @@
                                 </g>
                             </svg>
                         </a>
-
                     </div>
                     <div class="conatiner">
                         <form action="">
@@ -82,9 +80,7 @@
                                             </g>
                                         </g>
                                     </svg>
-
                                     <span>Wednesday,</span> <span>July 24, 2023</span>
-
                                     <small class="adevtime">10:30 </small>
                                     <small>-</small>
                                     <small class="adevtime"> 11:30 </small>
@@ -105,7 +101,6 @@
                                     <label for="des" class="clr-db font-14">Add guests</label>
                                     <textarea class="form-control des" rows="3">
                                       </textarea>
-
                                     <div class="form-check border-bottom  ">
                                         <input class="form-check-input" name="send-email" type="checkbox" value=""
                                             id="flexCheckDefault">
