@@ -145,9 +145,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+                                <div class="col-lg-3 col-md-6 col-sm-12 text-center align-items-center">
                                     <h6 class="text-dark">Information patient.</h6>
-                                    <i class="fas fa-exclamation-triangle text-danger mx-2"></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        fill="currentColor" class="bi bi-exclamation-triangle text-danger pb-1"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                                        <path
+                                            d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                                    </svg>
                                     <span class="text-danger">Bad payer</span>
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
@@ -165,10 +172,18 @@
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <form action="" method="">
                                         <div class="input-icons position-relative d-flex align-items-center">
-                                            <i class="fas  fa-search position-absolute translate-bottom mt-2 px-  text-start  text-secondary"
-                                                style="padding-left:21px; padding-bottom:6px;"></i>
-                                            <input class="form-control form-control-sm w-50 mx-2 px-5"
-                                                pattern="Search for an invoice, treatment …" id="searchInput">
+                                            <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
+                                                style="left : 3%" id="Box_1" data-name="Box 1"
+                                                xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
+                                                viewBox="0 0 15.012 15.012">
+                                                <g id="Group_1" data-name="Group 1">
+                                                    <path id="Union"
+                                                        d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                                                        fill="#8e999a"></path>
+                                                </g>
+                                            </svg>
+                                            <input class="form-control form-control-sm w-50 mx-2 px-4"
+                                                id="PatientsearchInput" placeholder="Search for an invoice, treatment …">
                                         </div>
                                     </form>
                                 </div>
@@ -279,7 +294,14 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-12 text-center">
                                     <h6 class="text-dark">Information patient.</h6>
-                                    <i class="fas fa-exclamation-triangle text-danger mx-2"></i>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        fill="currentColor" class="bi bi-exclamation-triangle text-danger pb-1"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+                                        <path
+                                            d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+                                    </svg>
                                     <span class="text-danger">Mauvais payeur</span>
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
@@ -374,7 +396,7 @@
                                             <label for="répondre" class="form-label">Répondre</label>
                                             <textarea class="form-control" name="répondre" id="répondre" rows="10"></textarea>
                                         </div>
-                                        <button type="button" class="btn btn-info">Envoyer</button>
+                                        <button type="button" class="btn btn-info text-white">Envoyer</button>
                                     </form>
                                 </div>
 
@@ -389,20 +411,28 @@
                                 <div class="col-sm-12 col-md-12 col-lg-12">
                                     <div class="row">
                                         <div
-                                            class="col-md-12 col-lg-12 py-2 rounded-3 bg-white d-flex justify-content-between">
-                                            <div class=" w-48">
-                                                <div class="input-icons position-relative align-items-center">
-                                                    <i class="fas fa-search position-absolute translate-bottom mt-2 px- text-start text-secondary"
-                                                        style="padding-left: 21px"></i>
-                                                    <input class="form-control mx-2 px-5" id="searchInput" type="text"
-                                                        placeholder="Rechercher un patient" />
+                                            class="col-md-12 col-lg-12 py-2 rounded-3 bg-white d-flex justify-content-between align-items-center">
+                                            <div class=" w-50">
+                                                <div class="input-icons position-relative d-flex align-items-center">
+                                                    <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
+                                                        style="left : 3%" id="Box_1" data-name="Box 1"
+                                                        xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
+                                                        viewBox="0 0 15.012 15.012">
+                                                        <g id="Group_1" data-name="Group 1">
+                                                            <path id="Union"
+                                                                d="M6.736,0a6.736,6.736,0,1,0,4.338,11.89l2.953,2.953a.577.577,0,0,0,.817-.817L11.89,11.074A6.736,6.736,0,0,0,6.736,0ZM1.155,6.736a5.582,5.582,0,1,1,5.582,5.582A5.582,5.582,0,0,1,1.155,6.736Z"
+                                                                fill="#8e999a" />
+                                                        </g>
+                                                    </svg>
+                                                    <input class="form-control form-control-sm w-50 mx-2 px-4"
+                                                        id="PatientsearchInput" placeholder="Rechercher un patient..">
                                                 </div>
                                             </div>
                                             <div class="align-items-center pl-3 d-flex align-items-center">
                                                 <div class="ml-auto">
                                                     <span class="date-range mr-3 text-dark">Date range</span>
                                                     <button type="button"
-                                                        class="btn btn-white border border-dark w-10 h-60">
+                                                        class="btn btn-white border mt-2 border-dark w-10 h-60">
                                                         Add filter <i class="fas fa-bars mr-3"></i>
                                                     </button>
                                                 </div>
@@ -458,7 +488,7 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><a href="#"
-                                                                        class="btn btn-info  rounded-pill btn-sm">View</a>
+                                                                        class="btn btn-info text-white  rounded-pill btn-sm">View</a>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -471,7 +501,7 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><button type="button"
-                                                                        class="btn btn-info rounded-pill btn-sm">View</button>
+                                                                        class="btn btn-info text-white rounded-pill btn-sm">View</button>
                                                                 </td>
                                                             </tr>
                                                             <tr>
@@ -484,7 +514,7 @@
                                                                 <td>Treatment</td>
                                                                 <td>CHF XXXX-.</td>
                                                                 <td><button type="button"
-                                                                        class="btn btn-info rounded-pill btn-sm">View</button>
+                                                                        class="btn btn-info text-white rounded-pill btn-sm">View</button>
                                                                 </td>
                                                             </tr>
                                                         </tbody>
