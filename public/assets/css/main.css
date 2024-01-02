@@ -542,6 +542,9 @@ ul.custom-square li::marker {
 .font-12 {
     font-size: 12px !important;
 }
+.font-30 {
+    font-size: 30px !important;
+}
 
 .font-14 {
     font-size: 14px !important;
@@ -551,8 +554,14 @@ ul.custom-square li::marker {
     font-size: 16px !important;
 }
 
-.font-16 {
-    font-size: 16px !important;
+.font-18 {
+    font-size: 18px !important;
+}
+.font-20 {
+    font-size: 20px !important;
+}
+.font-22 {
+    font-size: 22px !important;
 }
 
 .emergency-btn {
@@ -1464,9 +1473,6 @@ ul.custom-square li::marker {
 
 /*//////////////// new css //////////////////// */
 
-#PatientsearchInput {
-}
-
 .clr-br {
     color: #707070 !important;
 }
@@ -1519,6 +1525,11 @@ ul.custom-square li::marker {
 
 .stats-heading {
     color: #15181a;
+    font-size: 43px !important;
+}
+.stats-heading-2 {
+    color: #15181a;
+    font-size: 28px !important;
 }
 
 /* calendar  */
@@ -1548,4 +1559,10 @@ ul.custom-square li::marker {
     position: absolute;
     left: 45px;
     top: 5px;
+}
+.text-success{
+    color: #00CD98 !important;
+}
+.text-danger{
+    color: #FF7676 !important;
 }
