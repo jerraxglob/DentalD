@@ -1415,6 +1415,7 @@ ul.custom-square li::marker {
 }
 .outline-pending{
     border: 2px solid #D0D0D0 !important;
+    color: #D0D0D0 !important;
 }
 .outline-unpaid{
     border: 2px solid #FF7676 !important;
