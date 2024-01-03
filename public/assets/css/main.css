@@ -77,11 +77,15 @@ i {
     z-index: -1;
 }
 
+
+/* statistic card icon color */
+
 .avatar-container {
-    width: 35px;
-    height: 35px;
+    background-color: #cfe1e8 !important;
+    border: #a7cbd6 !important;
     border-radius: 50%;
-    background-color: #bbe4e9;
+    height: 44px !important;
+    width: 44px !important;
     display: flex;
     align-items: center;
     justify-content: center;

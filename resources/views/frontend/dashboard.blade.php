@@ -48,12 +48,19 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-user-plus text-muted"></i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-person-plus text-muted"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                                                        <path fill-rule="evenodd"
+                                                            d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3  text-center">
-                                                <strong class="card-title px-3 fw-bold">17</strong>
-                                                <p class="card-text  px-3 text-nowrap">Employees</p>
+                                                <strong class="card-title text-dark px-3 fw-bold">17</strong>
+                                                <p class="card-text  text-dark px-3 text-nowrap">Employees</p>
                                             </div>
                                         </div>
                                     </div>
@@ -61,12 +68,17 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-user text-muted"></i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-person text-muted"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3 fw-bold">831</strong>
-                                                <p class="card-text  px-3 text-nowrap">Total patients</p>
+                                                <strong class="card-title text-dark px-3 fw-bold">831</strong>
+                                                <p class="card-text  px-3 text-dark text-nowrap">Total patients</p>
                                             </div>
                                         </div>
                                     </div>
@@ -74,12 +86,12 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-calendar-alt"></i>
+                                                    <i class="fas fa-calendar-alt text-muted"></i>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3 fw-bold">500</strong>
-                                                <p class="card-text px-3 text-nowrap">Appointment</p>
+                                                <strong class="card-title text-dark px-3 fw-bold">500</strong>
+                                                <p class="card-text px-3 text-dark text-nowrap">Appointment</p>
                                             </div>
                                         </div>
                                     </div>
@@ -87,12 +99,19 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-clock text-muted"></i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-clock text-muted"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                                        <path
+                                                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 w-full">
-                                                <strong class="card-title px-3 fw-bold">45 min</strong>
-                                                <p class="card-text px-3 text-nowrap">Average time</p>
+                                                <strong class="card-title px-3 text-dark fw-bold">45 min</strong>
+                                                <p class="card-text px-3 text-dark text-nowrap">Average time</p>
                                             </div>
                                         </div>
                                     </div>
@@ -100,12 +119,19 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-times text-muted"></i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-x-circle text-muted"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                                                        <path
+                                                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3">
-                                                <strong class="card-title px-3 fw-bold">13</strong>
-                                                <p class="card-text px-3 text-nowrap ">Missed appointment</p>
+                                                <strong class="card-title text-dark px-3 fw-bold">13</strong>
+                                                <p class="card-text px-3 text-dark text-nowrap ">Missed appointment</p>
                                             </div>
                                         </div>
                                     </div>
@@ -113,12 +139,17 @@
                                         <div class="card-body d-flex justify-center align-items-center">
                                             <div class="col-sm-12 col-md-3 col-lg-3">
                                                 <div class="avatar-container">
-                                                    <i class="fas fa-chart-bar text-muted"></i>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                        fill="currentColor" class="bi bi-bar-chart text-muted"
+                                                        viewBox="0 0 16 16">
+                                                        <path
+                                                            d="M4 11H2v3h2zm5-4H7v7h2zm5-5v12h-2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1z" />
+                                                    </svg>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-md-3 col-lg-3 text-center">
-                                                <strong class="card-title px-3 fw-bold">20%</strong>
-                                                <p class="card-text px-3 text-nowrap">Occupancy rate</p>
+                                                <strong class="card-title text-dark px-3 fw-bold">20%</strong>
+                                                <p class="card-text px-3 text-dark text-nowrap">Occupancy rate</p>
                                             </div>
                                         </div>
                                     </div>
