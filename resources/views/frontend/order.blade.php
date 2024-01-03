@@ -364,6 +364,7 @@
                                                     class="fas fa-plus px-1 text-white"></i>Update order
                                             </a></td>
                                     </tr>
+
                                 </tbody>
                             </table>
                             <nav aria-label="Page navigation ">

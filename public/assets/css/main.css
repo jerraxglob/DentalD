@@ -91,6 +91,10 @@ i {
     justify-content: center;
 }
 
+.see-all {
+    color: #50c2f6 !important;
+}
+
 .card-p {
     padding: 2rem;
 }

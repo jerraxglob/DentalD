@@ -40,7 +40,8 @@
                                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                                             </ul>
                                         </div>
-                                        <a href="" class="text-decoration-none text-nowrap float-end p-3">See All</a>
+                                        <a href="" class="text-decoration-none see-all text-nowrap float-end p-3">See
+                                            All</a>
                                     </div>
                                 </div>
                                 <div class="row d-flex justify-center align-items-center pr-4 pb-3 ">
@@ -160,15 +161,21 @@
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-2 d-flex justify-content-between rounded-3 bg-white">
                                         <h5 class="py-2 px-3 fs-3">Task management</h5>
-                                        <a href="#" class="text-decoration-none text-info py-2">+ New
+                                        <a href="#" class="text-decoration-none see-all py-2">+ New
                                             ticket</a>
                                     </div>
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center  d-flex justify-content-end bg-white mt-4">
                                         <div class="dropdown">
-                                            <button class="btn btn-sm dropdown-toggle  custom-no-outline" type="button"
-                                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-user px-2"></i> Everybody
+                                            <button
+                                                class="btn btn-sm dropdown-toggle d-flex align-items-center  custom-no-outline"
+                                                type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664z" />
+                                                </svg> <span> Everybody</span>
                                                 <i class='fas fa-angle-down thin-arrow p-3'></i>
                                             </button>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -680,7 +687,7 @@
                                 <h5 class="text-nowrap px-5">Important communication.</h5>
                             </div>
                             <div class="col-md-2 py-3 text-md-right">
-                                <a href="#" class="text-decoration-none text-nowrap">Sell all</a>
+                                <a href="#" class="text-decoration-none see-all text-nowrap">Sell all</a>
                             </div>
                         </div>
                         <div class="row d-flex stock-sm justify-content-center align-items-center">
@@ -792,7 +799,7 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <a href="#" class="text-decoration-none text-info px-4 py-2">See
+                                            <a href="#" class="text-decoration-none see-all px-4 py-2">See
                                                 all</a>
                                         </div>
                                     </div>
@@ -801,7 +808,7 @@
                                         <div class=" w-50  search-padding">
                                             <div class="input-icons position-relative d-flex align-items-center">
                                                 <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
-                                                    style="left : 3%" id="Box_1" data-name="Box 1"
+                                                    style="left : 2%" id="Box_1" data-name="Box 1"
                                                     xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
                                                     viewBox="0 0 15.012 15.012">
                                                     <g id="Group_1" data-name="Group 1">

@@ -35,7 +35,7 @@
                             <div class="col-sm-12 col-md-4 col-lg-4">
                                 <div class="input-icons position-relative d-flex align-items-center">
                                     <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
-                                        style="left : 3%" id="Box_1" data-name="Box 1"
+                                        style="left : 4%" id="Box_1" data-name="Box 1"
                                         xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
                                         viewBox="0 0 15.012 15.012">
                                         <g id="Group_1" data-name="Group 1">

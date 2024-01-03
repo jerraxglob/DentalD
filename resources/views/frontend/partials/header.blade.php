@@ -8,7 +8,7 @@
         <form class="form-inline my-2 my-lg-0 px-3 search-form">
             <div class="input-icons position-relative align-items-center d-flex">
                 <svg class="fas fa-search position-absolute translate-bottom  px-text-start text-secondary"
-                    style="left: 4%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012"
+                    style="left: 8%" id="Box_1" data-name="Box 1" xmlns="http://www.w3.org/2000/svg" width="15.012"
                     height="15.012" viewBox="0 0 15.012 15.012">
                     <g id="Group_1" data-name="Group 1">
                         <path id="Union"

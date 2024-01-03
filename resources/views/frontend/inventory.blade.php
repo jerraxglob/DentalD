@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <div class="row align-items-center rounded-3 bg-white py-3">
-                        <div class="col-sm-12 col-md-6 col-lg-6 align-items-center">
+                        <div class="col-sm-12 col-md-6 col-lg-6">
                             <div class="input-icons position-relative d-flex align-items-center">
                                 <svg class="fas  fa-search position-absolute translate-bottom  text-start  text-secondary"
                                     style="left : 3%" id="Box_1" data-name="Box 1"
@@ -118,8 +118,8 @@
                                             fill="#8e999a" />
                                     </g>
                                 </svg>
-                                <input class="form-control form-control-sm w-50 mx-2 pl-8" id="searchInput"
-                                    type="text" placeholder="Search for a product …" />
+                                <input class="form-control form-control-sm w-50 mx-2 px-4" id="PatientsearchInput"
+                                    placeholder="Search for a product …">
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2"></div>
@@ -330,7 +330,8 @@
                             <span class="text-nowrap clr-db font-22">Commandes.</span>
                         </div>
                         <div class="">
-                            <a href="#" class="text-decoration-none   text-nowrap font-16 lblue">Tout voir</a>
+                            <a href="#" class="text-decoration-none see-all  text-nowrap font-16 lblue">Tout
+                                voir</a>
                         </div>
                     </div>
                     <div class="row">

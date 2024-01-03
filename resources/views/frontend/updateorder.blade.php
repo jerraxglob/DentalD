@@ -223,11 +223,6 @@
                                     </td>
                                     <td class="text-danger fs-4">X</td>
                                 </tr>
-                                <tr>
-                                    <td>Supplier 1</td>
-                                    <td>#83736e</td>
-                                    <td>Lorem ipsum dolor si amt</td>
-
                     </div>
                     </table>
                 </div>
