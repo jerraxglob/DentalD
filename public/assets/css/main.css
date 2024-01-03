@@ -95,6 +95,30 @@ i {
     color: #50c2f6 !important;
 }
 
+
+/* Custom styles for the accordion */
+
+.accordion-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accord-h {
+    margin-bottom: 0;
+}
+
+
+/* Style for the arrow icon */
+
+.accordion-button i {
+    transition: transform 0.3s;
+}
+
+.accordion-button[aria-expanded="true"] i {
+    transform: rotate(90deg);
+}
+
 .card-p {
     padding: 2rem;
 }
