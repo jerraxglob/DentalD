@@ -4,7 +4,8 @@
         <div class="row  mt-3 bg-white p-3 rounded-3 align-items-center">
             <div class="col-md-3 col-lg-3   d-flex  justify-content-start align-items-center">
                 <div>
-                    <h5 class="text-nowrap ">Invoicing</h5>
+
+                    <h5 class="text-nowrap font-22">Invoicing</h5>
                     <small class=" text-muted font-12 p-0">Data for CHD clinic</small>
                 </div>
 
@@ -16,7 +17,7 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 text-center">
                 <div class="dropdown">
-                    <button class="btn btn-sm dropdown-toggle custom-no-outline" type="button" id="dropdownMenuButton"
+                    <button class="btn btn-sm dropdown-toggle custom-no-outline font-16" type="button" id="dropdownMenuButton"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
@@ -32,10 +33,10 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-4 d-flex justify-content-between text-center align-items-center">
-                <span class="">Period</span>
+                <span class="font-14">Period</span>
                 <div class=" btn-group">
                     <button
-                        class="btn btn-white p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
+                        class="btn btn-white p-0  font-14 d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <i class=" fas px-1  fa-calendar-alt"></i> Last 6 months
                     </button>
@@ -48,7 +49,7 @@
                     </ul>
                 </div>
 
-                <span> Vs </span>
+                <span class="font-14"> Vs </span>
 
                 <div class="btn-group">
                     <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
@@ -67,29 +68,31 @@
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2 text-dark">Sales.</h5>
-                        <strong class="card-text fs-2">CHF XXXX.-</strong><br>
-                        <span class="text-success text-nowrap">3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
-                            fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 17 16">
-                            <path fill-rule="evenodd"
-                                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                        </svg>
-                    </div>
+                        <h5 class="card-title py-2 font-14 clr-db">Sales.</h5>
+                        <span class="stats-heading-2 fs-2">CHF XXXX.-</span><br>
+                        <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                        <path fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                    </svg>
+                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2 text-dark">Laboratry.</h5>
-                        <strong class="card-text fs-2">CHF XXXX.-</strong><br>
-                        <span class="text-success">+ 3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
-                            fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                            <path fill-rule="evenodd"
-                                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                        </svg>
-                    </div>
+                        <h5 class="card-title py-2  font-14 clr-db">Laboratry.</h5>
+                        <span class="card-text fs-2 stats-heading-2">CHF XXXX.-</span><br>
+                        <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                        <path fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                    </svg>
+                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
@@ -97,32 +100,35 @@
                     <div class="card-body">
                         <div class="row  align-item-center">
                             <div class="col d-flex justify-content-between align-item-center">
-                                <h5 class="card-title text-dark py-2">Salary.</h5>
+                                <h5 class="card-title  font-14 clr-db py-2">Salary.</h5>
                                 <a href="#" class="text-decoration-none text-info py-2 "><i
-                                        class='fas px-1 fa-pencil-alt text-info'></i>percentage</a>
+                                        class='fas px-1 fa-pencil-alt text-info'></i>Edit percentage</a>
                             </div>
                         </div>
-                        <strong class="card-text fs-2">CHF XXXX.-</strong><br>
-                        <span class="text-success">+ 3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
-                            fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 17 16">
-                            <path fill-rule="evenodd"
-                                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                        </svg>
-                    </div>
+                        <span class="card-text fs-2 stats-heading-2">CHF XXXX.-</span><br>
+                        <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                        <path fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                    </svg>
+                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title py-2 text-dark">Number of patients.</h5>
-                        <strong class="card-text fs-2">XXXX</strong><br>
-                        <span class="text-success">3.49% over the period</span> <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="23" height="23"
-                            fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                            <path fill-rule="evenodd"
-                                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                        </svg>
+                        <h5 class="card-title py-2  font-14 clr-db">Number of patients.</h5>
+                        <span class="card-text fs-2 stats-heading-2">XXXX</span><br>
+                        <div class="">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                        <path fill-rule="evenodd"
+                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                    </svg>
+                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -131,8 +137,8 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white align-items-center d-flex justify-content-between">
-                        <h5 class="text-dark">Financial report.</h5>
-                        <a href="#" class="text-decoration-none css-primary-btn text-white px-2">Edit data</a>
+                        <h5 class="font-22 clr-db">Financial report.</h5>
+                        <a href="#" class="text-decoration-none css-primary-btn text-white px-2 font-12">Edit data</a>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="finance_report"></canvas>
@@ -143,7 +149,7 @@
             <div class="col-12 col-md-6 col-lg-6 ">
                 <div class="card">
                     <div class="card-header bg-white">
-                        <h5 class="text-dark">Revenues by type of service.</h5>
+                        <h5 class="font-22 clr-db">Revenues by type of service.</h5>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="services"></canvas>
@@ -156,7 +162,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between custom-card-header">
-                        <h5 class="text-dark px-3 pb-4">Outstanding invoices.</h5>
+                        <h5 class="font-22 clr-db px-3 pb-4">Outstanding invoices.</h5>
                     </div>
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center">
@@ -181,19 +187,85 @@
                         <table class="table  table-responsive mt-5">
                             <thead>
                                 <tr>
-                                    <th scope="col">Invoice no.</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Specialist</th>
-                                    <th scope="col">Patient</th>
-                                    <th scope="col">Treatment</th>
-                                    <th scope="col">Insurance</th>
-                                    <th scope="col">Amount</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Payment</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Invoice no.
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Date 
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Specialist 
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Patient </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Treatment </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Insurance </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Amount </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Status 
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Payment </th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td class="font-14 clr-db">1234</td>
+                                    <td class="font-14 clr-db">12/07/2023</td>
+                                    <td class="font-14 clr-db">Praticien</td>
+                                    <td class="font-14 clr-db">
+                                        Patient name
+                                    </td>
+                                    <td class="font-14 clr-db">
+                                        Treatment
+                                    </td>
+                                    <td class="font-14 clr-db">
+                                        Private
+                                    </td>
+                                    <td class="font-14 clr-db">CHF XXXX.-</td>
+                                    <td class="font-14 clr-db"><button type="button"
+                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
+                                    </td>
+                                    <td class="font-14 clr-db"><button type="button"
+                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                            reminder</button>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td>1234</td>
                                     <td>12/07/2023</td>
                                     <td>Praticien</td>
@@ -208,7 +280,7 @@
                                     </td>
                                     <td>CHF XXXX.-</td>
                                     <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
+                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
@@ -230,7 +302,7 @@
                                     </td>
                                     <td>CHF XXXX.-</td>
                                     <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
+                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
@@ -252,7 +324,7 @@
                                     </td>
                                     <td>CHF XXXX.-</td>
                                     <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
+                                            class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
@@ -274,7 +346,7 @@
                                     </td>
                                     <td>CHF XXXX.-</td>
                                     <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
+                                            class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
@@ -296,29 +368,7 @@
                                     </td>
                                     <td>CHF XXXX.-</td>
                                     <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-outline-danger bg-white text-danger">Unpaid</button>
+                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
@@ -365,7 +415,7 @@
             <div class="col-12 col-md-12 col-lg-12 rounded-3">
                 <div class="card">
                     <div class="card-header bg-white d-flex justify-content-between custom-card-header">
-                        <h5 class="text-dark px-3 pb-4">Billing files.</h5>
+                        <h5 class="font-22 clr-db px-3">Billing files.</h5>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -373,7 +423,7 @@
                                 <div class="input-icons position-relative d-flex align-items-center">
                                     <div class="input-icons position-relative align-items-center">
                                         <svg class="fas  fa-search position-absolute translate-bottom  mt-2 px- text-start text-secondar"
-                                            style="left : 4%" id="Box_1" data-name="Box 1"
+                                            style="left: 8%;top: 10%;" id="Box_1" data-name="Box 1"
                                             xmlns="http://www.w3.org/2000/svg" width="15.012" height="15.012"
                                             viewBox="0 0 15.012 15.012">
                                             <g id="Group_1" data-name="Group 1">
@@ -413,14 +463,36 @@
                         <table class="table  table-responsive mt-3 ">
                             <thead>
                                 <tr>
-                                    <th class="text-nowrap">Patient</th>
-                                    <th class="text-nowrap">Specialist</th>
-                                    <th class="text-nowrap">Date</th>
-                                    <th class="text-nowrap">Treatment</th>
-                                    <th class="text-nowrap">Treatment plan</th>
-                                    <th class="text-nowrap">Amount</th>
-                                    <th class="text-nowrap">Status</th>
-                                    <th class="text-nowrap">Next appointment</th>
+                                    <th  class="font-14 clr-db fw450">Patient</th>
+                                    <th class="font-14 clr-db fw450">Specialist</th>
+                                    <th class="font-14 clr-db fw450">Date
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th class="font-14 clr-db fw450">Treatment</th>
+                                    <th class="font-14 clr-db fw450">Treatment plan</th>
+                                    <th class="font-14 clr-db fw450">Amount</th>
+                                    <th class="font-14 clr-db fw450">Status
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th class="font-14 clr-db fw450">Next appointment</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -514,7 +586,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header d-flex mt-3  bg-white d-flex justify-content-between custom-card-header">
-                        <h5 class="text-dark ">Refund and adjustment.</h5>
+                        <h5 class="font-22 clr-db px-3">Refund and adjustment.</h5>
                         <button class="btn btn-sm btn-info text-white  ">Add a new entry</button>
                     </div>
                     <div class="card-header d-flex mt-1  bg-white d-flex justify-content-end custom-card-header">
@@ -526,16 +598,50 @@
                         <table class="table table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col">Invoice no.</th>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Specialist</th>
-                                    <th scope="col">Patient</th>
-                                    <th scope="col">Treatment</th>
-                                    <th scope="col">Recipient</th>
-                                    <th scope="col">Montant</th>
-                                    <th scope="col">Reason</th>
-                                    <th scope="col">Status</th>
-                                    <th scope="col">Payment</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Invoice no.</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Date
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Specialist
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Patient</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Treatment</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Recipient</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Montant</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Reason</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Status
+
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Payment</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -555,7 +661,7 @@
                                     <td>CHF XXXX.-</td>
                                     <td>Lorem ipsum dolor</td>
                                     <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
+                                            type="button"class="btn btn-sm outline-refund bg-white text-nowrap text-danger px-4">To
                                             refund</button>
                                     </td>
                                     <td><button type="button"
@@ -578,8 +684,8 @@
                                     <td>CHF XXXX.-</td>
                                     <td>Lorem ipsum dolor</td>
                                     <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
+                                            type="button"class="btn btn-sm outline-Overdue bg-white text-nowrap text-danger px-4">To
+                                            Adjustment</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
@@ -601,8 +707,8 @@
                                     <td>CHF XXXX.-</td>
                                     <td>Lorem ipsum dolor</td>
                                     <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
+                                            type="button"class="btn btn-sm outline-unpaid bg-white text-nowrap text-danger px-4">To
+                                            Credit</button>
                                     </td>
                                     <td><button type="button"
                                             class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
@@ -718,7 +824,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header d-flex mt-3  bg-white d-flex justify-content-between custom-card-header">
-                        <h5 class="text-dark ">Staff payments.</h5>
+                        <h5 class="font-22 clr-db px-3">Staff payments.</h5>
                         <button class="btn btn-sm btn-info text-white  ">Add a new entry</button>
                     </div>
                     <div class="card-header d-flex mt-1  bg-white d-flex justify-content-end custom-card-header">
@@ -730,11 +836,33 @@
                         <table class="table  table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Specialist</th>
-                                    <th scope="col">Salary type</th>
-                                    <th scope="col">Sales</th>
-                                    <th scope="col">Note</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Date
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Specialist
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Salary type</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Sales</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Note</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -851,7 +979,7 @@
             <div class="col-12 col-md-12 col-lg-12">
                 <div class="card">
                     <div class="card-header d-flex mt-3  bg-white d-flex justify-content-between custom-card-header">
-                        <h5 class="text-dark ">Invoice codes.</h5>
+                        <h5 class="font-22 clr-db px-3">Invoice codes.</h5>
                         <button class="btn btn-sm btn-info text-white">Add a new entry</button>
                     </div>
                     <div class="card-header d-flex mt-1  bg-white d-flex justify-content-end custom-card-header">
@@ -863,12 +991,45 @@
                         <table class="table table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col">Date</th>
-                                    <th scope="col">Code</th>
-                                    <th scope="col">Service</th>
-                                    <th scope="col">Group</th>
-                                    <th scope="col">Tarif</th>
-                                    <th scope="col">Action</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Date 
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Code
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Service
+                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
+    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
+      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
+    </g>
+  </g>
+</svg>
+
+                                    </th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Group</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Tarif</th>
+                                    <th scope="col"  class="font-14 clr-db fw450">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
