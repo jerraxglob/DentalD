@@ -198,7 +198,7 @@
                                 <div class="row d-flex align-items-center  ">
                                     <div
                                         class="col-sm-12 col-md-12 col-lg-12 task_m align-items-center py-2 d-flex justify-content-between rounded-3 bg-white">
-                                        <h5 class="py-2 px-3 fs-3">Task management</h5>
+                                        <h5 class="py-2 px-3  task-m">Task management</h5>
                                         <a href="#" class="text-decoration-none see-all py-2">+ New
                                             ticket</a>
                                     </div>

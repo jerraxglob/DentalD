@@ -49,4 +49,9 @@ class DentalController extends Controller
     {
         return view('frontend.updateorder');
     }
+
+    public function Patient_sheet()
+    {
+        return view('frontend.patient_sheet');
+    }
 }

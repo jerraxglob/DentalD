@@ -234,6 +234,13 @@ i {
     border-radius: 5px;
 }
 
+
+/* dashboard custom font size */
+
+.task-m {
+    font-size: 22px !important;
+}
+
 .custom-btn.prev::before {
     content: "‹";
 }

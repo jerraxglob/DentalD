@@ -29,3 +29,4 @@ route::get('/tasks', [DentalController::class, 'assigned_tasks'])->name('tasks')
 route::get('/invoicing', [DentalController::class, 'invoicing'])->name('invoicing');
 route::get('/setting', [DentalController::class, 'setting'])->name('setting');
 route::get('/update-order', [DentalController::class, 'update_order'])->name('update_order');
+route::get('/Patient-sheet', [DentalController::class, 'Patient_sheet'])->name('Patient_sheet');
