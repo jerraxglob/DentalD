@@ -157,8 +157,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
                                     <h6 class="text-dark">Prochain(s) rendez-vous.</h6>
-                                    <span class="fs-6 bg-success text-white p-1">
-                                        Motif de consultation Statut patient
+                                    <span class="fs-6 custom-color text-dark p-1">
+                                        25/08/23 | 14:30 - 15:30 | Reason of consultation
                                     </span>
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
@@ -304,8 +304,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
                                     <h6 class="text-dark">Prochain(s) rendez-vous.</h6>
-                                    <span class="fs-6 bg-success text-white p-1">
-                                        Motif de consultation Statut patient
+                                    <span class="fs-6 custom-color d-flex text-dark p-1">
+                                        25/08/23 | 14:30 - 15:30 | Reason of consultation
                                     </span>
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">

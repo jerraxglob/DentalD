@@ -298,7 +298,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("d_by_cate").getContext("2d"); // Change the ID to match your HTML canvas element
-
     const monthNames = [
         "Jan",
         "Feb",
@@ -586,16 +585,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // done
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("demo_dis").getContext("2d");
-    const monthNames = ["","","Women","","", "","","Men","",""];
-
+    const monthNames = ["", "", "Women", "", "", "", "", "Men", "", ""];
     const labels = monthNames.slice(0, 10);
     const data = {
         labels: labels,
         datasets: [{
                 label: "Women",
-                data: [5000,4500,3500,6000,1500], // Two bars for "Women" in the "W" column
+                data: [5000, 4500, 3500, 6000, 1500], // Two bars for "Women" in the "W" column
                 backgroundColor: ["#EB9A37", "#EB9A37"], // Color for each bar
                 borderColor: "#EB9A37",
                 borderWidth: 5,
@@ -603,7 +601,18 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             {
                 label: "Men",
-                data: [null,null,null,null,null, 5300,3500,6000,1500,9000], // One bar for "Men" in the "M" column
+                data: [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    5300,
+                    3500,
+                    6000,
+                    1500,
+                    9000,
+                ], // One bar for "Men" in the "M" column
                 backgroundColor: ["#50C2F6"], // Color for the bar
                 borderColor: "#50C2F6",
                 borderWidth: 5,
@@ -646,8 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var myBarChart = new Chart(ctx, config);
 });
 
-
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("invoive").getContext("2d");
 
     const monthNames = [
