@@ -557,6 +557,10 @@ ul.custom-square li::marker {
     font-size: 12px !important;
 }
 
+.font-30 {
+    font-size: 30px !important;
+}
+
 .font-14 {
     font-size: 14px !important;
 }
@@ -565,8 +569,16 @@ ul.custom-square li::marker {
     font-size: 16px !important;
 }
 
-.font-16 {
-    font-size: 16px !important;
+.font-18 {
+    font-size: 18px !important;
+}
+
+.font-20 {
+    font-size: 20px !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
 }
 
 .emergency-btn {
@@ -1410,6 +1422,12 @@ ul.custom-square li::marker {
 
 .stats-heading {
     color: #15181a;
+    font-size: 43px !important;
+}
+
+.stats-heading-2 {
+    color: #15181a;
+    font-size: 28px !important;
 }
 
 

@@ -744,6 +744,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 document.addEventListener("DOMContentLoaded", function() {
     var ctx = document.getElementById("pay_deadline").getContext("2d");
+
     const monthNames = [
         "1 Month",
         "2 Months",
@@ -752,6 +753,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "5 Months",
         "6 Months",
     ];
+
     const labels = monthNames.slice(0, 6);
     const data = [];
     const data2 = [];
@@ -804,12 +806,14 @@ document.addEventListener("DOMContentLoaded", function() {
         data: {
             labels: labels,
             datasets: [{
+                    label: "Public",
                     borderColor: "skyblue",
                     borderWidth: 1,
                     radius: 0,
                     data: data,
                 },
                 {
+                    label: "Private",
                     borderColor: "black",
                     borderWidth: 1,
                     radius: 0,
@@ -828,6 +832,12 @@ document.addEventListener("DOMContentLoaded", function() {
             scales: {
                 x: {
                     type: "linear",
+                    ticks: {
+                        stepSize: 200,
+                        callback: function(value, index) {
+                            return labels[index]; // Set custom labels here
+                        },
+                    },
                 },
                 y: {
                     type: "linear",
