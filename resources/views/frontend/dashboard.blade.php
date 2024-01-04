@@ -5,15 +5,15 @@
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-8 mr-0">
                     <div class="container">
-                        <div class="row  d-flex justify-content-between mt-5">
+                        <div class="row  d-flex justify-content-center align-items-center mt-5">
                             <div class="col-12 col-md-4 mb-small rounded-3 p_f my-auto mx-auto ">
                                 <div class="card   p_f rounded-3 d-flex align-items-center justify-content-center">
                                     <div class="card-body text-center">
-                                        <div class="card-title pb-5 text-center">
+                                        <div class="card-title  text-center">
                                             <img src="{{ asset('assets/img/CHD-Logo_200.png') }}"
                                                 class="rounded p-3 logo-img img-fluid  p_f" alt="...">
                                         </div>
-                                        <h6 class="text-white chd text-nowrap">Clinique Dentaire CHD Meyrin</h6>
+                                        <h6 class="text-white  ">Clinique Dentaire CHD Meyrin</h6>
                                         <span class="c_p ">12</span><span class="text-white">connected people
                                         </span>
                                     </div>
@@ -264,7 +264,7 @@
                                         </a>
                                     </div>
                                     <div class="table-responsive">
-                                        <table class="table table-hover">
+                                        <table class="table">
                                             <thead>
                                                 <tr>
                                                     <th>Tasks <i class='fas fa-angle-down p-3 thin-arrow'></i>

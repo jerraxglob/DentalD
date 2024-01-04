@@ -48,7 +48,7 @@
                 <div class="tab-content" id="ex-with-icons-content">
                     <div class="tab-pane fade show active" id="ex-with-icons-tabs-1" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-1 ">
-                        <div class="container bg-white">
+                        <div class="container-fluid bg-white">
                             <div class="row align-items-center d-flex justify-content-between">
                                 <div class="col-lg-3 col-md-6 col-sm-12">
                                     <div class="row  justify-content-center align-items-center">
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                             <hr>
-                            <div class="row">
+                            <div class="row d-flex align-items-center justify-content-center">
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <div class="d-flex justify-content-center mb-3 mt-2">
                                         <form action="" method="">
@@ -138,20 +138,19 @@
                                             </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-5 col-lg-5 mx-3">
-                                    <div class="form-outline">
+                                <div class="col-12 col-md-6 col-lg-6 mx-3">
+                                    <div class="mb-3">
                                         <h5 class="form-label" for="textAreaExample">Description</h5>
                                         <textarea class="form-control" id="textAreaExample1" rows="8">
                                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi distinctio consectetur delectus a, itaque sapiente sint eaque aliquam similique in laboriosam fugit alias! Incidunt blanditiis cupiditate delectus eligendi cumque!
-                                                    </textarea>
-                                        <div class="form-outline mt-4">
-                                            <div class="mb-3">
-                                                <h5 for="exampleFormControlInput1" class="form-label">Website</h5>
-                                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                    placeholder="URL">
-                                            </div>
-                                        </div>
+                                         </textarea>
                                     </div>
+                                    <div class="mb-3">
+                                        <h5 for="exampleFormControlInput1" class="form-label">Website</h5>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="URL">
+                                    </div>
+
                                     <div class="row">
                                         <div class="col-12 mb-2">
                                             Social
@@ -188,61 +187,50 @@
                                     </h5>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                                    <div class="row mb-4 mt-2 d-flex justify-content-center align-items-center">
-                                        <div class="col-12 col-md-1 col-lg-1"></div>
-                                        <div class="col-12 col-md-2 col-lg-2">
-                                            <label class="clinic_points" for="clinic_points">Clinic
-                                                points</label>
-                                            <div class="mb-3">
-                                                <span class=" wd100 form-control  form-control-sm  text-center">
-                                                    Points </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-2 col-lg-2">
-                                            <label class="clinic_points text-nowrap" for="clinic_points ">Private patient
-                                                points
-                                            </label>
-                                            <div class="mb-3">
-                                                <span class=" wd100 form-control  form-control-sm  text-center">
-                                                    Points </span>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-2 col-lg-2">
-                                            <label class="ins_points" for="ins_points text-nowrap">Insurance
-                                                points
-                                            </label>
-                                            <div class="mb-3">
-                                                <span class=" wd100 form-control  form-control-sm  text-center">
-                                                    Points </span>
-                                            </div>
-
-                                        </div>
-
-                                        <!-- Fourth Input -->
-                                        <div class="col-12 col-md-2 col-lg-2">
-
-                                            <label class="Soci_points" for="Soci_points">Social points
-                                            </label>
-                                            <div class="mb-3">
-                                                <span class=" wd100 form-control  form-control-sm  text-center">
-                                                    Points </span>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-12 col-md-2 col-lg-2">
-
-                                            <label class="tva_applic" for="tva_applic">TVA applicable
-                                            </label>
-                                            <div class="mb-3">
-                                                <span class=" wd100 form-control  form-control-sm  text-center">
-                                                    % </span>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-12 col-md-1 col-lg-1"></div>
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <div class="col-12 col-md-2 col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="clinic_points " for="clinic_points">Clinic
+                                            points</label>
+                                        <span class=" wd100 form-control  form-control-sm  text-center">
+                                            Points </span>
                                     </div>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="clinic_points " for="clinic_points ">Private patient
+                                            points
+                                        </label>
+                                        <span class=" wd100 form-control  form-control-sm  text-center">
+                                            Points </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="ins_points " for="ins_points ">Insurance
+                                            points
+                                        </label>
+                                        <span class=" wd100 form-control  form-control-sm  text-center">
+                                            Points </span>
+                                    </div>
+                                </div>
+                                <!-- Fourth Input -->
+                                <div class="col-12 col-md-2 col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="Soci_points " for="Soci_points">Social points
+                                        </label>
+                                        <span class=" wd100 form-control  form-control-sm  text-center">
+                                            Points </span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-2 col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="tva_applic" for="tva_applic">TVA applicable
+                                        </label>
+                                        <span class=" wd100 form-control  form-control-sm  text-center">
+                                            % </span>
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="row mb-4">
@@ -379,7 +367,7 @@
                     </div>
                     <div class="tab-pane fade bg-white" id="ex-with-icons-tabs-2" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-2">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row align-items-center d-flex justify-content-between">
                                 <div class="col-lg-3 col-md-6 col-sm-12 py-2">
                                     <div class="row  justify-content-center align-items-center">
@@ -709,7 +697,7 @@
                         <form action="" method="">
                             <div class="container-fluid bg-white">
                                 <div class="row align-middle">
-                                    <div class="col-12 col-md-7 col-lg-7 mt-2 border border-light align-middle ">
+                                    <div class="col-12 col-md-7 col-lg-7 mt-2  align-middle ">
                                         <strong>Clinic opening hours.</strong>
                                         <p class="mt-2">Set the clinic’s opening hours. By default, these hours apply to
                                             all
@@ -1204,7 +1192,7 @@
                     </div>
                     <div class="tab-pane fade  " id="ex-with-icons-tabs-5" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-5">
-                        <div class="container">
+                        <div class="container-fluid">
                             <div class="row ">
                                 <div
                                     class="col-lg-12 col-md-12 col-sm-12  bg-white d-flex justify-content-between align-items-center">
@@ -1629,7 +1617,7 @@
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-6" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-6">
-                        <div class="container bg-white">
+                        <div class="container-fluid bg-white">
                             <div class="row  d-flex justify-content-center align-items-center">
                                 <div class="col-12">
                                     <h4 class="text-start py-3 px-3">Documents center.</h4>
@@ -1992,7 +1980,7 @@
                     </div>
                     <div class="tab-pane fade " id="ex-with-icons-tabs-7" role="tabpanel"
                         aria-labelledby="ex-with-icons-tab-7">
-                        <div class="container bg-white">
+                        <div class="container-fluid bg-white">
                             <div class="row ">
                                 <div class="col-12 col-md-6 col-lg-6 align-items-center d-flex justify-content-center">
                                     <div class=" bg-white d-flex justify-content-between">
@@ -2192,7 +2180,7 @@
                             </div>
                         </div>
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
+                            <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     <div class="accordion-content">

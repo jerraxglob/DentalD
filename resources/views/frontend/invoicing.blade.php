@@ -252,223 +252,229 @@
                                 Add filter <i class="fas fa-bars mr-3"></i>
                             </button>
                         </div>
-                        <table class="table  table-responsive mt-5">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="font-14 clr-db fw450">Invoice no.
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                        <div class="table-responsive">
+                            <table class="table   mt-5">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="font-14 clr-db fw450">Invoice no.
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Date
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Date
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Specialist
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Specialist
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Patient </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Treatment </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Insurance </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Amount </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Status
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Patient </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Treatment </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Insurance </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Amount </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Status
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Payment </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="font-14 clr-db">1234</td>
-                                    <td class="font-14 clr-db">12/07/2023</td>
-                                    <td class="font-14 clr-db">Praticien</td>
-                                    <td class="font-14 clr-db">
-                                        Patient name
-                                    </td>
-                                    <td class="font-14 clr-db">
-                                        Treatment
-                                    </td>
-                                    <td class="font-14 clr-db">
-                                        Private
-                                    </td>
-                                    <td class="font-14 clr-db">CHF XXXX.-</td>
-                                    <td class="font-14 clr-db"><button type="button"
-                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
-                                    </td>
-                                    <td class="font-14 clr-db"><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td><button type="button"
-                                            class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
-                                            reminder</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Payment </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="font-14 clr-db">1234</td>
+                                        <td class="font-14 clr-db">12/07/2023</td>
+                                        <td class="font-14 clr-db">Praticien</td>
+                                        <td class="font-14 clr-db">
+                                            Patient name
+                                        </td>
+                                        <td class="font-14 clr-db">
+                                            Treatment
+                                        </td>
+                                        <td class="font-14 clr-db">
+                                            Private
+                                        </td>
+                                        <td class="font-14 clr-db">CHF XXXX.-</td>
+                                        <td class="font-14 clr-db"><button type="button"
+                                                class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
+                                        </td>
+                                        <td class="font-14 clr-db"><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td><button type="button"
+                                                class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td><button type="button"
+                                                class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td><button type="button"
+                                                class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td><button type="button"
+                                                class="btn btn-sm outline-Overdue bg-white text-danger">Overdue</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td><button type="button"
+                                                class="btn btn-sm outline-unpaid bg-white text-danger">Unpaid</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-2">Payment
+                                                reminder</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
@@ -552,106 +558,111 @@
 
                             </div>
                         </div>
-                        <table class="table  table-responsive mt-3 ">
-                            <thead>
-                                <tr>
-                                    <th class="font-14 clr-db fw450">Patient</th>
-                                    <th class="font-14 clr-db fw450">Specialist</th>
-                                    <th class="font-14 clr-db fw450">Date
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                        <div class="table-responsive">
+                            <table class="table   mt-3 ">
+                                <thead>
+                                    <tr>
+                                        <th class="font-14 clr-db fw450">Patient</th>
+                                        <th class="font-14 clr-db fw450">Specialist</th>
+                                        <th class="font-14 clr-db fw450">Date
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th class="font-14 clr-db fw450">Treatment</th>
-                                    <th class="font-14 clr-db fw450">Treatment plan</th>
-                                    <th class="font-14 clr-db fw450">Amount</th>
-                                    <th class="font-14 clr-db fw450">Status
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th class="font-14 clr-db fw450">Treatment</th>
+                                        <th class="font-14 clr-db fw450">Treatment plan</th>
+                                        <th class="font-14 clr-db fw450">Amount</th>
+                                        <th class="font-14 clr-db fw450">Status
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th class="font-14 clr-db fw450">Next appointment</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr.Daniel Soufi</td>
-                                    <td>12 juillet 2023</td>
-                                    <td>Ongoing treatment</td>
-                                    <td>12 months</td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Not invoiced</td>
-                                    <td>July 12th 2023</td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr.Daniel Soufi</td>
-                                    <td>12 juillet 2023</td>
-                                    <td>Ongoing treatment</td>
-                                    <td>12 months</td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Not invoiced</td>
-                                    <td>July 12th 2023</td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr.Daniel Soufi</td>
-                                    <td>12 juillet 2023</td>
-                                    <td>Ongoing treatment</td>
-                                    <td>12 months</td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Not invoiced</td>
-                                    <td>July 12th 2023</td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr.Daniel Soufi</td>
-                                    <td>12 juillet 2023</td>
-                                    <td>Ongoing treatment</td>
-                                    <td>12 months</td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Not invoiced</td>
-                                    <td>July 12th 2023</td>
-                                </tr>
-                                <tr>
-                                    <td>Glenn Stanley</td>
-                                    <td>Dr.Daniel Soufi</td>
-                                    <td>12 juillet 2023</td>
-                                    <td>Ongoing treatment</td>
-                                    <td>12 months</td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Not invoiced</td>
-                                    <td>July 12th 2023</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </th>
+                                        <th class="font-14 clr-db fw450">Next appointment</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr.Daniel Soufi</td>
+                                        <td>12 juillet 2023</td>
+                                        <td>Ongoing treatment</td>
+                                        <td>12 months</td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Not invoiced</td>
+                                        <td>July 12th 2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr.Daniel Soufi</td>
+                                        <td>12 juillet 2023</td>
+                                        <td>Ongoing treatment</td>
+                                        <td>12 months</td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Not invoiced</td>
+                                        <td>July 12th 2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr.Daniel Soufi</td>
+                                        <td>12 juillet 2023</td>
+                                        <td>Ongoing treatment</td>
+                                        <td>12 months</td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Not invoiced</td>
+                                        <td>July 12th 2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr.Daniel Soufi</td>
+                                        <td>12 juillet 2023</td>
+                                        <td>Ongoing treatment</td>
+                                        <td>12 months</td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Not invoiced</td>
+                                        <td>July 12th 2023</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Glenn Stanley</td>
+                                        <td>Dr.Daniel Soufi</td>
+                                        <td>12 juillet 2023</td>
+                                        <td>Ongoing treatment</td>
+                                        <td>12 months</td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Not invoiced</td>
+                                        <td>July 12th 2023</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
@@ -699,214 +710,220 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <table class="table table-responsive">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="font-14 clr-db fw450">Invoice no.</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Date
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                        <div class="table-responsive">
+                            <table class="table ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="font-14 clr-db fw450">Invoice no.</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Date
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Specialist
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Specialist
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Patient</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Treatment</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Recipient</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Montant</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Reason</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Status
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Patient</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Treatment</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Recipient</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Montant</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Reason</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Status
 
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Payment</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm outline-refund bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm outline-Overdue bg-white text-nowrap text-danger px-4">To
-                                            Adjustment</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm outline-unpaid bg-white text-nowrap text-danger px-4">To
-                                            Credit</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1234</td>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>
-                                        Patient name
-                                    </td>
-                                    <td>
-                                        Treatment
-                                    </td>
-                                    <td>
-                                        Private
-                                    </td>
-                                    <td>CHF XXXX.-</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td><button
-                                            type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
-                                            refund</button>
-                                    </td>
-                                    <td><button type="button"
-                                            class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Payment</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm outline-refund bg-white text-nowrap text-danger px-4">To
+                                                refund</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm outline-Overdue bg-white text-nowrap text-danger px-4">To
+                                                Adjustment</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm outline-unpaid bg-white text-nowrap text-danger px-4">To
+                                                Credit</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
+                                                refund</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
+                                                refund</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1234</td>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>
+                                            Patient name
+                                        </td>
+                                        <td>
+                                            Treatment
+                                        </td>
+                                        <td>
+                                            Private
+                                        </td>
+                                        <td>CHF XXXX.-</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td><button
+                                                type="button"class="btn btn-sm btn-outline-danger bg-white text-nowrap text-danger px-4">To
+                                                refund</button>
+                                        </td>
+                                        <td><button type="button"
+                                                class="btn btn-sm btn-info bg-info text-white rounded-pill px-4">Update</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
@@ -955,126 +972,131 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <table class="table  table-responsive">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="font-14 clr-db fw450">Date
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                        <div class="table-responsive">
+                            <table class="table  ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="font-14 clr-db fw450">Date
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Specialist
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Specialist
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Salary type</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Sales</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Note</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>Praticien</td>
-                                    <td>Fixed salary</td>
-                                    <td>
-                                        Sales : CHF XXXX.-
-                                        Invoiced : CHF XXXX.-
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                </tr>
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Salary type</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Sales</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Note</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>Praticien</td>
+                                        <td>Fixed salary</td>
+                                        <td>
+                                            Sales : CHF XXXX.-
+                                            Invoiced : CHF XXXX.-
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                    </tr>
 
-                            </tbody>
-                        </table>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
@@ -1122,432 +1144,444 @@
                         </button>
                     </div>
                     <div class="card-body">
-                        <table class="table table-responsive">
-                            <thead>
-                                <tr>
-                                    <th scope="col" class="font-14 clr-db fw450">Date
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                        <div class=" table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="font-14 clr-db fw450">Date
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Code
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Code
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Service
-                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
-                                            height="20" viewBox="0 0 20 20">
-                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
-                                                    height="20" transform="translate(0.146)" fill="none" />
-                                                <g id="Group_921" data-name="Group 921"
-                                                    transform="translate(1.85 1.667)">
-                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
-                                                        height="16.667" fill="none" />
-                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
-                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
-                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Service
+                                            <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="20" viewBox="0 0 20 20">
+                                                <g id="Arrow_Bottom" data-name="Arrow Bottom"
+                                                    transform="translate(-0.146)">
+                                                    <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                        height="20" transform="translate(0.146)" fill="none" />
+                                                    <g id="Group_921" data-name="Group 921"
+                                                        transform="translate(1.85 1.667)">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none" />
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#102940" />
+                                                    </g>
                                                 </g>
-                                            </g>
-                                        </svg>
+                                            </svg>
 
-                                    </th>
-                                    <th scope="col" class="font-14 clr-db fw450">Group</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Tarif</th>
-                                    <th scope="col" class="font-14 clr-db fw450">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                        </th>
+                                        <th scope="col" class="font-14 clr-db fw450">Group</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Tarif</th>
+                                        <th scope="col" class="font-14 clr-db fw450">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                height="14.526" viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                            width="4.029" height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                height="14.526" viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                            width="4.029" height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                height="14.526" viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                            width="4.029" height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                height="14.526" viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                            width="4.029" height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>12/07/2023</td>
-                                    <td>1234</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Services
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Another action</a>
-                                                </li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else
-                                                        here</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        Group code
-                                    </td>
-                                    <td>
-                                        CHF XXXX.-
-                                    </td>
-                                    <td> <a
-                                            class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
-                                                height="14.526" viewBox="0 0 13.37 14.526">
-                                                <defs>
-                                                    <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
-                                                            width="4.029" height="15.744" fill="#102940" />
-                                                    </clipPath>
-                                                </defs>
-                                                <g id="Group_393" data-name="Group 393"
-                                                    transform="translate(10.329) rotate(41)">
-                                                    <g id="Group_244" data-name="Group 244" transform="translate(0 0)"
-                                                        clip-path="url(#clip-path)">
-                                                        <path id="Path_29" data-name="Path 29"
-                                                            d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
-                                                            transform="translate(0 0)" fill="#102940" />
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12/07/2023</td>
+                                        <td>1234</td>
+                                        <td>
+                                            <div class="btn-group">
+                                                <button
+                                                    class="btn btn-outline-dark bg-white text-dark btn-sm dropdown-toggle"
+                                                    type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Services
+                                                </button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a>
+                                                    </li>
+                                                    <li>
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="#">Something else
+                                                            here</a></li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            Group code
+                                        </td>
+                                        <td>
+                                            CHF XXXX.-
+                                        </td>
+                                        <td> <a
+                                                class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                    height="14.526" viewBox="0 0 13.37 14.526">
+                                                    <defs>
+                                                        <clipPath id="clip-path">
+                                                            <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                                width="4.029" height="15.744" fill="#102940" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <g id="Group_393" data-name="Group 393"
+                                                        transform="translate(10.329) rotate(41)">
+                                                        <g id="Group_244" data-name="Group 244"
+                                                            transform="translate(0 0)" clip-path="url(#clip-path)">
+                                                            <path id="Path_29" data-name="Path 29"
+                                                                d="M2.014,0A2.016,2.016,0,0,0,0,2.014V12.27a.549.549,0,0,0,.058.245l1.465,2.93a.554.554,0,0,0,.983,0l1.465-2.93a.549.549,0,0,0,.058-.245V2.014A2.016,2.016,0,0,0,2.014,0M2.93,12.14l-.916,1.831L1.1,12.14v-.053H2.93Zm0-1.152H1.1V4.029H2.93Zm0-8.058H1.1V2.014a.916.916,0,1,1,1.831,0Z"
+                                                                transform="translate(0 0)" fill="#102940" />
+                                                        </g>
                                                     </g>
-                                                </g>
-                                            </svg>
-                                            Edit
-                                        </a>
-                                        <a
-                                            class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
-                                            X Delete
-                                        </a>
-                                    </td>
-                                    </td>
-                                </tr>
+                                                </svg>
+                                                Edit
+                                            </a>
+                                            <a
+                                                class="btn btn-sm mx-2 text-danger bg-white text-decoration-none text-nowrap  px-4 py-2">
+                                                X Delete
+                                            </a>
+                                        </td>
+                                        </td>
+                                    </tr>
 
-                            </tbody>
-                        </table>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <nav aria-label="Page navigation ">
                             <ul class="pagination d-flex justify-content-end">
                                 <li class="page-item disabled">
