@@ -3,7 +3,7 @@
 @section('content')
     <div class="mt-5 container-fluid">
         <div class="row d-flex  gx-2 justify-content-center position-relative">
-            <div class="container col-sm-8 col-md-8 col-lg-8 col-11 mb-5 ml-5 settings-sm">
+            <div class="container col-sm-8 col-md-8 col-lg-8 col-11 mb-5 ml-5 settings-sm rounded-3">
                 <h5 class=" py-3 px-3 bg-white  m-0">Settings.</h5>
                 <ul class="nav nav-tabs bg-white  d-flex  justify-content-start align-items-center" id="ex-with-icons"
                     role="tablist">

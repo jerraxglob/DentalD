@@ -17,8 +17,8 @@
             </div>
             <div class="col-12 col-md-3 col-lg-3 text-center">
                 <div class="dropdown">
-                    <button class="btn btn-sm dropdown-toggle custom-no-outline font-16" type="button" id="dropdownMenuButton"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <button class="btn btn-sm dropdown-toggle custom-no-outline font-16" type="button"
+                        id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-person" viewBox="0 0 16 16">
                             <path
@@ -36,9 +36,42 @@
                 <span class="font-14">Period</span>
                 <div class=" btn-group">
                     <button
-                        class="btn btn-white p-0  font-14 d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
+                        class="btn btn-white p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class=" fas px-1  fa-calendar-alt"></i> Last 6 months
+                        <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
+                            viewBox="0 0 19.5 17.5" class="float-start">
+                            <g id="Group_14" data-name="Group 14">
+                                <path id="Union" d="M13.75,9a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z" fill="#102940">
+                                </path>
+                                <path id="Union-2" data-name="Union"
+                                    d="M8,9.75A.75.75,0,0,1,8.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,8,9.75Z"
+                                    fill="#102940"></path>
+                                <path id="Union-3" data-name="Union" d="M3.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                    fill="#102940"></path>
+                                <path id="Union-4" data-name="Union"
+                                    d="M13,12.75a.75.75,0,0,1,.75-.75h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,13,12.75Z"
+                                    fill="#102940"></path>
+                                <path id="Union-5" data-name="Union" d="M8.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                    fill="#102940"></path>
+                                <g id="Group_1" data-name="Group 1">
+                                    <g id="Union-6" data-name="Union" fill="none">
+                                        <path d="M3,9.75A.75.75,0,0,1,3.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,3,9.75Z"
+                                            stroke="none"></path>
+                                        <path
+                                            d="M 3.75 9 L 5.75 9 C 6.164210319519043 9 6.5 9.335789680480957 6.5 9.75 C 6.5 10.16421031951904 6.164210319519043 10.5 5.75 10.5 L 3.75 10.5 C 3.335790157318115 10.5 3 10.16421031951904 3 9.75 C 3 9.335789680480957 3.335790157318115 9 3.75 9 Z"
+                                            stroke="none" fill="#102940"></path>
+                                    </g>
+                                    <g id="Union-7" data-name="Union" fill="none">
+                                        <path
+                                            d="M4.75,0A.75.75,0,0,1,5.5.75V1H14V.75a.75.75,0,0,1,1.5,0V1h1.25A2.75,2.75,0,0,1,19.5,3.75v11a2.75,2.75,0,0,1-2.75,2.75h-14A2.75,2.75,0,0,1,0,14.75v-11A2.75,2.75,0,0,1,2.75,1H4V.75A.75.75,0,0,1,4.75,0ZM14,2.5v.25a.75.75,0,0,0,1.5,0V2.5h1.25A1.25,1.25,0,0,1,18,3.75v2a.25.25,0,0,1-.25.25h-16a.25.25,0,0,1-.25-.25v-2A1.25,1.25,0,0,1,2.75,2.5H4v.25a.75.75,0,0,0,1.5,0V2.5ZM1.5,7.482a1.765,1.765,0,0,0,.25.018h16A1.765,1.765,0,0,0,18,7.482V14.75A1.25,1.25,0,0,1,16.75,16h-14A1.25,1.25,0,0,1,1.5,14.75Z"
+                                            stroke="none"></path>
+                                        <path
+                                            d="M 4.75 0 C 5.164210319519043 0 5.5 0.3357906341552734 5.5 0.75 L 5.5 1 L 14 1 L 14 0.75 C 14 0.3357906341552734 14.33579063415527 0 14.75 0 C 15.16420936584473 0 15.5 0.3357906341552734 15.5 0.75 L 15.5 1 L 16.75 1 C 18.26877975463867 1 19.5 2.231220245361328 19.5 3.75 L 19.5 14.75 C 19.5 16.26877975463867 18.26877975463867 17.5 16.75 17.5 L 2.75 17.5 C 1.231220245361328 17.5 0 16.26877975463867 0 14.75 L 0 3.75 C 0 2.231220245361328 1.231220245361328 1 2.75 1 L 4 1 L 4 0.75 C 4 0.3357906341552734 4.335789680480957 0 4.75 0 Z M 4.75 3.5 C 4.335789680480957 3.5 4 3.164210319519043 4 2.75 L 4 2.5 L 2.75 2.5 C 2.059640884399414 2.5 1.5 3.059639930725098 1.5 3.75 L 1.5 5.75 C 1.5 5.888070106506348 1.611930847167969 6 1.75 6 L 17.75 6 C 17.88806915283203 6 18 5.888070106506348 18 5.75 L 18 3.75 C 18 3.059639930725098 17.44034957885742 2.5 16.75 2.5 L 15.5 2.5 L 15.5 2.75 C 15.5 3.164210319519043 15.16420936584473 3.5 14.75 3.5 C 14.33579063415527 3.5 14 3.164210319519043 14 2.75 L 14 2.5 L 5.5 2.5 L 5.5 2.75 C 5.5 3.164210319519043 5.164210319519043 3.5 4.75 3.5 Z M 17.75 7.5 L 1.75 7.5 C 1.665119171142578 7.5 1.581649780273438 7.493960380554199 1.5 7.482279777526855 L 1.5 14.75 C 1.5 15.4403600692749 2.059640884399414 16 2.75 16 L 16.75 16 C 17.44034957885742 16 18 15.4403600692749 18 14.75 L 18 7.482279777526855 C 17.91835021972656 7.493960380554199 17.83488082885742 7.5 17.75 7.5 Z"
+                                            stroke="none" fill="#102940"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg> <span class="px-1">Last 6 months</span>
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -48,13 +81,44 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </div>
-
-                <span class="font-14"> Vs </span>
-
+                <span> Vs </span>
                 <div class="btn-group">
                     <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class=" float-start fas fa-calendar-alt"></i>
+                        <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
+                            viewBox="0 0 19.5 17.5" class="float-start">
+                            <g id="Group_14" data-name="Group 14">
+                                <path id="Union" d="M13.75,9a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z" fill="#102940">
+                                </path>
+                                <path id="Union-2" data-name="Union"
+                                    d="M8,9.75A.75.75,0,0,1,8.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,8,9.75Z"
+                                    fill="#102940"></path>
+                                <path id="Union-3" data-name="Union"
+                                    d="M3.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z" fill="#102940"></path>
+                                <path id="Union-4" data-name="Union"
+                                    d="M13,12.75a.75.75,0,0,1,.75-.75h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,13,12.75Z"
+                                    fill="#102940"></path>
+                                <path id="Union-5" data-name="Union"
+                                    d="M8.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z" fill="#102940"></path>
+                                <g id="Group_1" data-name="Group 1">
+                                    <g id="Union-6" data-name="Union" fill="none">
+                                        <path d="M3,9.75A.75.75,0,0,1,3.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,3,9.75Z"
+                                            stroke="none"></path>
+                                        <path
+                                            d="M 3.75 9 L 5.75 9 C 6.164210319519043 9 6.5 9.335789680480957 6.5 9.75 C 6.5 10.16421031951904 6.164210319519043 10.5 5.75 10.5 L 3.75 10.5 C 3.335790157318115 10.5 3 10.16421031951904 3 9.75 C 3 9.335789680480957 3.335790157318115 9 3.75 9 Z"
+                                            stroke="none" fill="#102940"></path>
+                                    </g>
+                                    <g id="Union-7" data-name="Union" fill="none">
+                                        <path
+                                            d="M4.75,0A.75.75,0,0,1,5.5.75V1H14V.75a.75.75,0,0,1,1.5,0V1h1.25A2.75,2.75,0,0,1,19.5,3.75v11a2.75,2.75,0,0,1-2.75,2.75h-14A2.75,2.75,0,0,1,0,14.75v-11A2.75,2.75,0,0,1,2.75,1H4V.75A.75.75,0,0,1,4.75,0ZM14,2.5v.25a.75.75,0,0,0,1.5,0V2.5h1.25A1.25,1.25,0,0,1,18,3.75v2a.25.25,0,0,1-.25.25h-16a.25.25,0,0,1-.25-.25v-2A1.25,1.25,0,0,1,2.75,2.5H4v.25a.75.75,0,0,0,1.5,0V2.5ZM1.5,7.482a1.765,1.765,0,0,0,.25.018h16A1.765,1.765,0,0,0,18,7.482V14.75A1.25,1.25,0,0,1,16.75,16h-14A1.25,1.25,0,0,1,1.5,14.75Z"
+                                            stroke="none"></path>
+                                        <path
+                                            d="M 4.75 0 C 5.164210319519043 0 5.5 0.3357906341552734 5.5 0.75 L 5.5 1 L 14 1 L 14 0.75 C 14 0.3357906341552734 14.33579063415527 0 14.75 0 C 15.16420936584473 0 15.5 0.3357906341552734 15.5 0.75 L 15.5 1 L 16.75 1 C 18.26877975463867 1 19.5 2.231220245361328 19.5 3.75 L 19.5 14.75 C 19.5 16.26877975463867 18.26877975463867 17.5 16.75 17.5 L 2.75 17.5 C 1.231220245361328 17.5 0 16.26877975463867 0 14.75 L 0 3.75 C 0 2.231220245361328 1.231220245361328 1 2.75 1 L 4 1 L 4 0.75 C 4 0.3357906341552734 4.335789680480957 0 4.75 0 Z M 4.75 3.5 C 4.335789680480957 3.5 4 3.164210319519043 4 2.75 L 4 2.5 L 2.75 2.5 C 2.059640884399414 2.5 1.5 3.059639930725098 1.5 3.75 L 1.5 5.75 C 1.5 5.888070106506348 1.611930847167969 6 1.75 6 L 17.75 6 C 17.88806915283203 6 18 5.888070106506348 18 5.75 L 18 3.75 C 18 3.059639930725098 17.44034957885742 2.5 16.75 2.5 L 15.5 2.5 L 15.5 2.75 C 15.5 3.164210319519043 15.16420936584473 3.5 14.75 3.5 C 14.33579063415527 3.5 14 3.164210319519043 14 2.75 L 14 2.5 L 5.5 2.5 L 5.5 2.75 C 5.5 3.164210319519043 5.164210319519043 3.5 4.75 3.5 Z M 17.75 7.5 L 1.75 7.5 C 1.665119171142578 7.5 1.581649780273438 7.493960380554199 1.5 7.482279777526855 L 1.5 14.75 C 1.5 15.4403600692749 2.059640884399414 16 2.75 16 L 16.75 16 C 17.44034957885742 16 18 15.4403600692749 18 14.75 L 18 7.482279777526855 C 17.91835021972656 7.493960380554199 17.83488082885742 7.5 17.75 7.5 Z"
+                                            stroke="none" fill="#102940"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
                     </button>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Action</a></li>
@@ -71,13 +135,14 @@
                         <h5 class="card-title py-2 font-14 clr-db">Sales.</h5>
                         <span class="stats-heading-2 fs-2">CHF XXXX.-</span><br>
                         <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
-                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                        <path fill-rule="evenodd"
-                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                    </svg>
-                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
-                        </div>                    </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                            <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
@@ -86,13 +151,14 @@
                         <h5 class="card-title py-2  font-14 clr-db">Laboratry.</h5>
                         <span class="card-text fs-2 stats-heading-2">CHF XXXX.-</span><br>
                         <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
-                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                        <path fill-rule="evenodd"
-                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                    </svg>
-                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
-                        </div>                    </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                            <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
@@ -107,13 +173,14 @@
                         </div>
                         <span class="card-text fs-2 stats-heading-2">CHF XXXX.-</span><br>
                         <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
-                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                        <path fill-rule="evenodd"
-                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                    </svg>
-                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
-                        </div>                    </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                            <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class=" col-12 col-md-3 col-lg-3">
@@ -122,12 +189,12 @@
                         <h5 class="card-title py-2  font-14 clr-db">Number of patients.</h5>
                         <span class="card-text fs-2 stats-heading-2">XXXX</span><br>
                         <div class="">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
-                        fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
-                        <path fill-rule="evenodd"
-                        d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
-                    </svg>
-                    <span class="text-success font-10 py-1">3.49% over the period</span> <br>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="text-success" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-up-right " viewBox="0 0 17 16">
+                                <path fill-rule="evenodd"
+                                    d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                            </svg>
+                            <span class="text-success font-10 py-1">3.49% over the period</span> <br>
                         </div>
                     </div>
                 </div>
@@ -138,7 +205,8 @@
                 <div class="card">
                     <div class="card-header bg-white align-items-center d-flex justify-content-between">
                         <h5 class="font-22 clr-db">Financial report.</h5>
-                        <a href="#" class="text-decoration-none css-primary-btn text-white px-2 font-12">Edit data</a>
+                        <a href="#" class="text-decoration-none css-primary-btn text-white px-2 font-12">Edit
+                            data</a>
                     </div>
                     <div class="card-body">
                         <canvas class="pb-4" id="finance_report"></canvas>
@@ -188,58 +256,82 @@
                             <thead>
                                 <tr>
                                     <th scope="col" class="font-14 clr-db fw450">Invoice no.
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Date 
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Date
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Specialist 
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Specialist
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Patient </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Treatment </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Insurance </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Amount </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Status 
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Patient </th>
+                                    <th scope="col" class="font-14 clr-db fw450">Treatment </th>
+                                    <th scope="col" class="font-14 clr-db fw450">Insurance </th>
+                                    <th scope="col" class="font-14 clr-db fw450">Amount </th>
+                                    <th scope="col" class="font-14 clr-db fw450">Status
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Payment </th>
+                                    <th scope="col" class="font-14 clr-db fw450">Payment </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -463,33 +555,45 @@
                         <table class="table  table-responsive mt-3 ">
                             <thead>
                                 <tr>
-                                    <th  class="font-14 clr-db fw450">Patient</th>
+                                    <th class="font-14 clr-db fw450">Patient</th>
                                     <th class="font-14 clr-db fw450">Specialist</th>
                                     <th class="font-14 clr-db fw450">Date
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
                                     <th class="font-14 clr-db fw450">Treatment</th>
                                     <th class="font-14 clr-db fw450">Treatment plan</th>
                                     <th class="font-14 clr-db fw450">Amount</th>
                                     <th class="font-14 clr-db fw450">Status
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
                                     <th class="font-14 clr-db fw450">Next appointment</th>
@@ -599,49 +703,67 @@
                             <thead>
                                 <tr>
                                     <th scope="col" class="font-14 clr-db fw450">Invoice no.</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Date
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Date
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Specialist
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Specialist
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Patient</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Treatment</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Recipient</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Montant</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Reason</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Status
+                                    <th scope="col" class="font-14 clr-db fw450">Patient</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Treatment</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Recipient</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Montant</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Reason</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Status
 
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Payment</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Payment</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -836,33 +958,45 @@
                         <table class="table  table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col"  class="font-14 clr-db fw450">Date
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Date
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Specialist
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Specialist
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Salary type</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Sales</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Note</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Salary type</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Sales</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Note</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -991,45 +1125,63 @@
                         <table class="table table-responsive">
                             <thead>
                                 <tr>
-                                    <th scope="col"  class="font-14 clr-db fw450">Date 
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Date
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Code
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Code
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Service
-                                    <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-  <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
-    <rect id="Rectangle_849" data-name="Rectangle 849" width="20" height="20" transform="translate(0.146)" fill="none"/>
-    <g id="Group_921" data-name="Group 921" transform="translate(1.85 1.667)">
-      <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667" fill="none"/>
-      <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)" d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z" transform="translate(4.167 5.833)" fill="#102940"/>
-    </g>
-  </g>
-</svg>
+                                    <th scope="col" class="font-14 clr-db fw450">Service
+                                        <svg class="ml-3" xmlns="http://www.w3.org/2000/svg" width="20"
+                                            height="20" viewBox="0 0 20 20">
+                                            <g id="Arrow_Bottom" data-name="Arrow Bottom" transform="translate(-0.146)">
+                                                <rect id="Rectangle_849" data-name="Rectangle 849" width="20"
+                                                    height="20" transform="translate(0.146)" fill="none" />
+                                                <g id="Group_921" data-name="Group 921"
+                                                    transform="translate(1.85 1.667)">
+                                                    <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                        height="16.667" fill="none" />
+                                                    <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                        d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                        transform="translate(4.167 5.833)" fill="#102940" />
+                                                </g>
+                                            </g>
+                                        </svg>
 
                                     </th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Group</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Tarif</th>
-                                    <th scope="col"  class="font-14 clr-db fw450">Action</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Group</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Tarif</th>
+                                    <th scope="col" class="font-14 clr-db fw450">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -1126,12 +1278,12 @@
                                     <td> <a
                                             class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                height="14.526" viewBox="0 0 13.37 14.526">
                                                 <defs>
                                                     <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                            width="4.029" height="15.744" fill="#102940" />
                                                     </clipPath>
                                                 </defs>
                                                 <g id="Group_393" data-name="Group 393"
@@ -1186,12 +1338,12 @@
                                     <td> <a
                                             class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                height="14.526" viewBox="0 0 13.37 14.526">
                                                 <defs>
                                                     <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                            width="4.029" height="15.744" fill="#102940" />
                                                     </clipPath>
                                                 </defs>
                                                 <g id="Group_393" data-name="Group 393"
@@ -1246,12 +1398,12 @@
                                     <td> <a
                                             class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                height="14.526" viewBox="0 0 13.37 14.526">
                                                 <defs>
                                                     <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                            width="4.029" height="15.744" fill="#102940" />
                                                     </clipPath>
                                                 </defs>
                                                 <g id="Group_393" data-name="Group 393"
@@ -1306,12 +1458,12 @@
                                     <td> <a
                                             class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                height="14.526" viewBox="0 0 13.37 14.526">
                                                 <defs>
                                                     <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                            width="4.029" height="15.744" fill="#102940" />
                                                     </clipPath>
                                                 </defs>
                                                 <g id="Group_393" data-name="Group 393"
@@ -1366,12 +1518,12 @@
                                     <td> <a
                                             class="btn btn-sm text-dark bg-white text-decoration-none text-nowrap px-0 py-2"><svg
                                                 xmlns="http://www.w3.org/2000/svg"
-                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37" height="14.526"
-                                                viewBox="0 0 13.37 14.526">
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" width="13.37"
+                                                height="14.526" viewBox="0 0 13.37 14.526">
                                                 <defs>
                                                     <clipPath id="clip-path">
-                                                        <rect id="Rectangle_34" data-name="Rectangle 34" width="4.029"
-                                                            height="15.744" fill="#102940" />
+                                                        <rect id="Rectangle_34" data-name="Rectangle 34"
+                                                            width="4.029" height="15.744" fill="#102940" />
                                                     </clipPath>
                                                 </defs>
                                                 <g id="Group_393" data-name="Group 393"
