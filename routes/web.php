@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.fiche_patient');
-});
+})->name('home');
 
 route::get('/dashboard', [DentalController::class, 'dashboard'])->name('dashboard');
 route::get('/statistics', [DentalController::class, 'statistics'])->name('statistics');
