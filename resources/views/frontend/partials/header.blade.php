@@ -18,7 +18,6 @@
                             fill="#8e999a" />
                     </g>
                 </svg>
-
                 <input class="form-control mx-2 px-5 align-self-center" id="searchInput" type="text"
                     id="PatientsearchInput" placeholder="Search..">
             </div>
@@ -72,7 +71,6 @@
                         <span class="d-inline-block px-2">Statistics </span>
                     </a>
                 </li>
-
                 <li class="nav-item mr-2">
                     <a class="nav-link d-flex align-items-center" href="{{ URL::route('Patients') }}">
                         <svg id="Megaphone" xmlns="http://www.w3.org/2000/svg" width="19.42" height="19.5"

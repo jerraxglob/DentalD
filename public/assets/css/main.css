@@ -102,6 +102,13 @@ i {
     align-items: center;
 }
 
+.nav-link:hover svg path {
+    fill: #50c2f6 !important;
+}
+
+.nav-link:hover {
+    color: #50c2f6 !important;
+}
 .accord-h {
     margin-bottom: 0;
 }
