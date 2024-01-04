@@ -309,8 +309,8 @@
                         </svg>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ URL::route('calander') }}"> <svg id="Map"
-                                xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
+                        <a class="dropdown-item" href="{{ URL::route('calander') }}">
+                            <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
                                 viewBox="0 0 19.5 17.5">
                                 <g id="Group_14" data-name="Group 14">
                                     <path id="Union" d="M13.75,9a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
@@ -475,6 +475,14 @@
                         id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img (31).webp" class="rounded-circle"
                             height="22" alt="Avatar" loading="lazy" />
+                        <svg id="Group_921" data-name="Group 921" xmlns="http://www.w3.org/2000/svg" width="16.667"
+                            height="16.667" viewBox="0 0 16.667 16.667">
+                            <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667" height="16.667"
+                                fill="none"></rect>
+                            <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                transform="translate(4.167 5.833)" fill="#2a283b"></path>
+                        </svg>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink px-3">
                         <li>
