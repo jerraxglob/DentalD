@@ -220,7 +220,20 @@
                                                     <table class="table table-borderless ">
                                                         <thead>
                                                             <tr class="">
-                                                                <th>Date</th>
+                                                                <th>Date <svg id="Group_921" data-name="Group 921"
+                                                                        xmlns="http://www.w3.org/2000/svg" width="16.667"
+                                                                        height="16.667" viewBox="0 0 16.667 16.667">
+                                                                        <rect id="Rectangle_850" data-name="Rectangle 850"
+                                                                            width="16.667" height="16.667"
+                                                                            fill="none"></rect>
+                                                                        <path id="Vector_22_Stroke_"
+                                                                            data-name="Vector 22 (Stroke)"
+                                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                                            transform="translate(4.167 5.833)"
+                                                                            fill="#2a283b"></path>
+                                                                    </svg>
+
+                                                                </th>
                                                                 <th>Patient </th>
                                                                 <th>Patient number</th>
                                                                 <th>Specialist</th>
@@ -362,13 +375,31 @@
                                         <thead>
                                             <tr>
                                                 <th>Invoice no. </th>
-                                                <th>Date</th>
+                                                <th>Date
+                                                    <svg id="Group_921" data-name="Group 921"
+                                                        xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                        viewBox="0 0 16.667 16.667">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none"></rect>
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#2a283b"></path>
+                                                    </svg>
+                                                </th>
                                                 <th>Prestation</th>
                                                 <th>Treatment plan</th>
                                                 <th>Points</th>
                                                 <th>Insurance</th>
                                                 <th>Amount</th>
-                                                <th>Status</th>
+                                                <th>Status <svg id="Group_921" data-name="Group 921"
+                                                        xmlns="http://www.w3.org/2000/svg" width="16.667" height="16.667"
+                                                        viewBox="0 0 16.667 16.667">
+                                                        <rect id="Rectangle_850" data-name="Rectangle 850" width="16.667"
+                                                            height="16.667" fill="none"></rect>
+                                                        <path id="Vector_22_Stroke_" data-name="Vector 22 (Stroke)"
+                                                            d="M.174.193a.555.555,0,0,1,.842,0L4.167,3.682,7.317.193a.555.555,0,0,1,.842,0,.71.71,0,0,1,0,.932L5.008,4.614a1.111,1.111,0,0,1-1.684,0L.174,1.125A.71.71,0,0,1,.174.193Z"
+                                                            transform="translate(4.167 5.833)" fill="#2a283b"></path>
+                                                    </svg></th>
                                                 <th>Payment</th>
 
                                             </tr>

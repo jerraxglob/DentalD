@@ -1,7 +1,7 @@
 // docu upload code
 console.clear();
 
-(function() {
+(function () {
     "use strict";
     const preventDefaults = (event) => {
         event.preventDefault();
@@ -76,14 +76,15 @@ console.clear();
         eventHandlers(zone);
     }
 
-    const isImageFile = (file) => ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
+    const isImageFile = (file) =>
+        ["image/jpeg", "image/png", "image/svg+xml"].includes(file.type);
 
     function previewFiles(dataRefs) {
         if (!dataRefs.gallery) return;
         for (const file of dataRefs.files) {
             let reader = new FileReader();
             reader.readAsDataURL(file);
-            reader.onloadend = function() {
+            reader.onloadend = function () {
                 let img = document.createElement("img");
                 img.className = "upload_img mt-2";
                 img.setAttribute("alt", file.name);
@@ -106,9 +107,9 @@ console.clear();
         formData.append(name, dataRefs.files);
 
         fetch(url, {
-                method: "POST",
-                body: formData,
-            })
+            method: "POST",
+            body: formData,
+        })
             .then((response) => response.json())
             .then((data) => {
                 console.log("posted: ", data);
@@ -142,7 +143,7 @@ console.clear();
 })();
 
 // datepicker
-$(document).ready(function() {
+$(document).ready(function () {
     $("#startDate").datepicker({
         format: "yyyy/mm/dd",
         todayHighlight: true,
@@ -173,8 +174,15 @@ function prevTab() {
 }
 // accordian js
 
-$(document).ready(function() {
-    $('.accordion-button').click(function() {
-        $(this).find('i').toggleClass('rotate-icon');
+$(document).ready(function () {
+    $(".accordion-button").click(function () {
+        $(this).find("i").toggleClass("rotate-icon");
+    });
+});
+// patient-sheet js
+$(document).ready(function () {
+    $(".clickable-row").click(function () {
+        var route = $(this).data("route");
+        window.location.href = route;
     });
 });

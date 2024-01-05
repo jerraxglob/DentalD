@@ -5,20 +5,21 @@
             <div class="row">
                 <div class="col-12 col-md-8 col-lg-8 mr-0">
                     <div class="container">
-                        <div class="row  d-flex justify-content-between mt-5">
-                            <div class="col-12 col-md-4 mb-small rounded-3 p_f my-auto mx-auto">
-                                <div class="card card-p  p_f rounded-3 d-flex align-items-center justify-content-center">
-                                    <div class="card-body">
-                                        <div class="card-title pb-5 text-center">
-                                            <img src="..." class="rounded p-3 img-fluid img-thumbnail" alt="...">
+                        <div class="row  d-flex justify-content-center align-items-center mt-5">
+                            <div class="col-12 col-md-4 mb-small rounded-3 p_f my-auto mx-auto ">
+                                <div class="card   p_f rounded-3 d-flex align-items-center justify-content-center">
+                                    <div class="card-body text-center">
+                                        <div class="card-title  text-center">
+                                            <img src="{{ asset('assets/img/CHD-Logo_200.png') }}"
+                                                class="rounded p-3 logo-img img-fluid  p_f" alt="...">
                                         </div>
-                                        <h6 class="text-white text-nowrap">Clinique Dentaire CHD Meyrin</h6>
-                                        <span class="c_p text-center">12</span><span class="text-white">connected people
+                                        <h6 class="text-white  ">Clinique Dentaire CHD Meyrin</h6>
+                                        <span class="c_p ">12</span><span class="text-white">connected people
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-7 rounded-3 card-sm col-md-7 bg-white mx-auto">
+                            <div class="col-sm-12 col-lg-7 rounded-3 card-sm col-md-7 bg-white mx-auto h-60">
                                 <div class="row py-4 px-4 d-flex justify-center align-items-center">
                                     <!-- Sub-columns inside the Second Card -->
                                     <div class="col-12 col-md-4">
@@ -32,7 +33,44 @@
                                             <a class="btn btn-white btn-sm border border-dark dropdown-toggle"
                                                 href="#" role="button" id="dropdownMenuLink"
                                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-calendar-alt"></i> Month to date
+                                                <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5"
+                                                    height="17.5" viewBox="0 0 19.5 17.5">
+                                                    <g id="Group_14" data-name="Group 14">
+                                                        <path id="Union"
+                                                            d="M13.75,9a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                            fill="#102940" />
+                                                        <path id="Union-2" data-name="Union"
+                                                            d="M8,9.75A.75.75,0,0,1,8.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,8,9.75Z"
+                                                            fill="#102940" />
+                                                        <path id="Union-3" data-name="Union"
+                                                            d="M3.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                            fill="#102940" />
+                                                        <path id="Union-4" data-name="Union"
+                                                            d="M13,12.75a.75.75,0,0,1,.75-.75h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,13,12.75Z"
+                                                            fill="#102940" />
+                                                        <path id="Union-5" data-name="Union"
+                                                            d="M8.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                            fill="#102940" />
+                                                        <g id="Group_1" data-name="Group 1">
+                                                            <g id="Union-6" data-name="Union" fill="none">
+                                                                <path
+                                                                    d="M3,9.75A.75.75,0,0,1,3.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,3,9.75Z"
+                                                                    stroke="none" />
+                                                                <path
+                                                                    d="M 3.75 9 L 5.75 9 C 6.164210319519043 9 6.5 9.335789680480957 6.5 9.75 C 6.5 10.16421031951904 6.164210319519043 10.5 5.75 10.5 L 3.75 10.5 C 3.335790157318115 10.5 3 10.16421031951904 3 9.75 C 3 9.335789680480957 3.335790157318115 9 3.75 9 Z"
+                                                                    stroke="none" fill="#102940" />
+                                                            </g>
+                                                            <g id="Union-7" data-name="Union" fill="none">
+                                                                <path
+                                                                    d="M4.75,0A.75.75,0,0,1,5.5.75V1H14V.75a.75.75,0,0,1,1.5,0V1h1.25A2.75,2.75,0,0,1,19.5,3.75v11a2.75,2.75,0,0,1-2.75,2.75h-14A2.75,2.75,0,0,1,0,14.75v-11A2.75,2.75,0,0,1,2.75,1H4V.75A.75.75,0,0,1,4.75,0ZM14,2.5v.25a.75.75,0,0,0,1.5,0V2.5h1.25A1.25,1.25,0,0,1,18,3.75v2a.25.25,0,0,1-.25.25h-16a.25.25,0,0,1-.25-.25v-2A1.25,1.25,0,0,1,2.75,2.5H4v.25a.75.75,0,0,0,1.5,0V2.5ZM1.5,7.482a1.765,1.765,0,0,0,.25.018h16A1.765,1.765,0,0,0,18,7.482V14.75A1.25,1.25,0,0,1,16.75,16h-14A1.25,1.25,0,0,1,1.5,14.75Z"
+                                                                    stroke="none" />
+                                                                <path
+                                                                    d="M 4.75 0 C 5.164210319519043 0 5.5 0.3357906341552734 5.5 0.75 L 5.5 1 L 14 1 L 14 0.75 C 14 0.3357906341552734 14.33579063415527 0 14.75 0 C 15.16420936584473 0 15.5 0.3357906341552734 15.5 0.75 L 15.5 1 L 16.75 1 C 18.26877975463867 1 19.5 2.231220245361328 19.5 3.75 L 19.5 14.75 C 19.5 16.26877975463867 18.26877975463867 17.5 16.75 17.5 L 2.75 17.5 C 1.231220245361328 17.5 0 16.26877975463867 0 14.75 L 0 3.75 C 0 2.231220245361328 1.231220245361328 1 2.75 1 L 4 1 L 4 0.75 C 4 0.3357906341552734 4.335789680480957 0 4.75 0 Z M 4.75 3.5 C 4.335789680480957 3.5 4 3.164210319519043 4 2.75 L 4 2.5 L 2.75 2.5 C 2.059640884399414 2.5 1.5 3.059639930725098 1.5 3.75 L 1.5 5.75 C 1.5 5.888070106506348 1.611930847167969 6 1.75 6 L 17.75 6 C 17.88806915283203 6 18 5.888070106506348 18 5.75 L 18 3.75 C 18 3.059639930725098 17.44034957885742 2.5 16.75 2.5 L 15.5 2.5 L 15.5 2.75 C 15.5 3.164210319519043 15.16420936584473 3.5 14.75 3.5 C 14.33579063415527 3.5 14 3.164210319519043 14 2.75 L 14 2.5 L 5.5 2.5 L 5.5 2.75 C 5.5 3.164210319519043 5.164210319519043 3.5 4.75 3.5 Z M 17.75 7.5 L 1.75 7.5 C 1.665119171142578 7.5 1.581649780273438 7.493960380554199 1.5 7.482279777526855 L 1.5 14.75 C 1.5 15.4403600692749 2.059640884399414 16 2.75 16 L 16.75 16 C 17.44034957885742 16 18 15.4403600692749 18 14.75 L 18 7.482279777526855 C 17.91835021972656 7.493960380554199 17.83488082885742 7.5 17.75 7.5 Z"
+                                                                    stroke="none" fill="#102940" />
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg> Month to date
                                             </a>
                                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -226,7 +264,7 @@
                                         </a>
                                     </div>
                                     <div class="table-responsive">
-                                        <table class="table table-hover">
+                                        <table class="table">
                                             <thead>
                                                 <tr>
                                                     <th>Tasks <i class='fas fa-angle-down p-3 thin-arrow'></i>
@@ -826,7 +864,44 @@
                                                 <div class="btn-group float-end">
                                                     <button class="btn btn-white border-color  btn-sm dropdown-toggle"
                                                         type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                        <i class="fas fa-calendar-alt"></i> Month to date
+                                                        <svg id="Map" xmlns="http://www.w3.org/2000/svg"
+                                                            width="19.5" height="17.5" viewBox="0 0 19.5 17.5">
+                                                            <g id="Group_14" data-name="Group 14">
+                                                                <path id="Union"
+                                                                    d="M13.75,9a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                                    fill="#102940"></path>
+                                                                <path id="Union-2" data-name="Union"
+                                                                    d="M8,9.75A.75.75,0,0,1,8.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,8,9.75Z"
+                                                                    fill="#102940"></path>
+                                                                <path id="Union-3" data-name="Union"
+                                                                    d="M3.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                                    fill="#102940"></path>
+                                                                <path id="Union-4" data-name="Union"
+                                                                    d="M13,12.75a.75.75,0,0,1,.75-.75h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,13,12.75Z"
+                                                                    fill="#102940"></path>
+                                                                <path id="Union-5" data-name="Union"
+                                                                    d="M8.75,12a.75.75,0,0,0,0,1.5h2a.75.75,0,0,0,0-1.5Z"
+                                                                    fill="#102940"></path>
+                                                                <g id="Group_1" data-name="Group 1">
+                                                                    <g id="Union-6" data-name="Union" fill="none">
+                                                                        <path
+                                                                            d="M3,9.75A.75.75,0,0,1,3.75,9h2a.75.75,0,0,1,0,1.5h-2A.75.75,0,0,1,3,9.75Z"
+                                                                            stroke="none"></path>
+                                                                        <path
+                                                                            d="M 3.75 9 L 5.75 9 C 6.164210319519043 9 6.5 9.335789680480957 6.5 9.75 C 6.5 10.16421031951904 6.164210319519043 10.5 5.75 10.5 L 3.75 10.5 C 3.335790157318115 10.5 3 10.16421031951904 3 9.75 C 3 9.335789680480957 3.335790157318115 9 3.75 9 Z"
+                                                                            stroke="none" fill="#102940"></path>
+                                                                    </g>
+                                                                    <g id="Union-7" data-name="Union" fill="none">
+                                                                        <path
+                                                                            d="M4.75,0A.75.75,0,0,1,5.5.75V1H14V.75a.75.75,0,0,1,1.5,0V1h1.25A2.75,2.75,0,0,1,19.5,3.75v11a2.75,2.75,0,0,1-2.75,2.75h-14A2.75,2.75,0,0,1,0,14.75v-11A2.75,2.75,0,0,1,2.75,1H4V.75A.75.75,0,0,1,4.75,0ZM14,2.5v.25a.75.75,0,0,0,1.5,0V2.5h1.25A1.25,1.25,0,0,1,18,3.75v2a.25.25,0,0,1-.25.25h-16a.25.25,0,0,1-.25-.25v-2A1.25,1.25,0,0,1,2.75,2.5H4v.25a.75.75,0,0,0,1.5,0V2.5ZM1.5,7.482a1.765,1.765,0,0,0,.25.018h16A1.765,1.765,0,0,0,18,7.482V14.75A1.25,1.25,0,0,1,16.75,16h-14A1.25,1.25,0,0,1,1.5,14.75Z"
+                                                                            stroke="none"></path>
+                                                                        <path
+                                                                            d="M 4.75 0 C 5.164210319519043 0 5.5 0.3357906341552734 5.5 0.75 L 5.5 1 L 14 1 L 14 0.75 C 14 0.3357906341552734 14.33579063415527 0 14.75 0 C 15.16420936584473 0 15.5 0.3357906341552734 15.5 0.75 L 15.5 1 L 16.75 1 C 18.26877975463867 1 19.5 2.231220245361328 19.5 3.75 L 19.5 14.75 C 19.5 16.26877975463867 18.26877975463867 17.5 16.75 17.5 L 2.75 17.5 C 1.231220245361328 17.5 0 16.26877975463867 0 14.75 L 0 3.75 C 0 2.231220245361328 1.231220245361328 1 2.75 1 L 4 1 L 4 0.75 C 4 0.3357906341552734 4.335789680480957 0 4.75 0 Z M 4.75 3.5 C 4.335789680480957 3.5 4 3.164210319519043 4 2.75 L 4 2.5 L 2.75 2.5 C 2.059640884399414 2.5 1.5 3.059639930725098 1.5 3.75 L 1.5 5.75 C 1.5 5.888070106506348 1.611930847167969 6 1.75 6 L 17.75 6 C 17.88806915283203 6 18 5.888070106506348 18 5.75 L 18 3.75 C 18 3.059639930725098 17.44034957885742 2.5 16.75 2.5 L 15.5 2.5 L 15.5 2.75 C 15.5 3.164210319519043 15.16420936584473 3.5 14.75 3.5 C 14.33579063415527 3.5 14 3.164210319519043 14 2.75 L 14 2.5 L 5.5 2.5 L 5.5 2.75 C 5.5 3.164210319519043 5.164210319519043 3.5 4.75 3.5 Z M 17.75 7.5 L 1.75 7.5 C 1.665119171142578 7.5 1.581649780273438 7.493960380554199 1.5 7.482279777526855 L 1.5 14.75 C 1.5 15.4403600692749 2.059640884399414 16 2.75 16 L 16.75 16 C 17.44034957885742 16 18 15.4403600692749 18 14.75 L 18 7.482279777526855 C 17.91835021972656 7.493960380554199 17.83488082885742 7.5 17.75 7.5 Z"
+                                                                            stroke="none" fill="#102940"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </svg> Month to date
                                                     </button>
                                                     <ul class="dropdown-menu">
                                                         <li><a class="dropdown-item" href="#">Action</a></li>
