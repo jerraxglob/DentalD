@@ -1061,6 +1061,7 @@
                                 </div>
                             </div>
                         </div>
+                
                         <!-- Tabs content -->
                         <div class="tab-pane fade" id="ex-with-icons-tabs-2" role="tabpanel"
                             aria-labelledby="ex-with-icons-tab-2">

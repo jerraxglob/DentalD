@@ -9,8 +9,8 @@ class DentalController extends Controller
 
     public function dashboard()
     {
-
-        return view('frontend.dashboard');
+        $data = User::all();
+        return view('frontend.dashboard', compact('data'));
     }
     public function statistics()
     {
