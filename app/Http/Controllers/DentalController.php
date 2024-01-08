@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DentalController extends Controller
@@ -9,8 +10,8 @@ class DentalController extends Controller
 
     public function dashboard()
     {
-        $data = User::all();
-        return view('frontend.dashboard', compact('data'));
+
+        return view('frontend.dashboard');
     }
     public function statistics()
     {
