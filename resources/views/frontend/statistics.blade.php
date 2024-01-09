@@ -35,7 +35,7 @@
                 <span class="">Period</span>
                 <div class=" btn-group">
                     <button
-                        class="btn btn-white p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
+                        class="btn btn-white px-1 p-0  d-flex justify-content-start border btn-custom border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
                             viewBox="0 0 19.5 17.5" class="float-start">
@@ -82,7 +82,7 @@
                 </div>
                 <span> Vs </span>
                 <div class="btn-group">
-                    <button class="btn btn-white btn-custom border border-dark btn-sm dropdown-toggle"
+                    <button class="btn btn-white p-1 btn-custom border border-dark btn-sm dropdown-toggle"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         <svg id="Map" xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.5"
                             viewBox="0 0 19.5 17.5" class="float-start">
