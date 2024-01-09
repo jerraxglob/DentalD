@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Clinics.partials.main')
 @section('content')
     <div class="container bg-white rounded-3  mt-5">
         <form action="">

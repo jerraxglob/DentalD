@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Dentists.partials.main')
 @section('content')
     <div class="container py-5 px-4">
         <div class="row  d-flex align-items-center">

@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Clinics.partials.main')
 
 @section('content')
     <div class="container py-5 pl-3 pl-md-5">

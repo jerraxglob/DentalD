@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Clinics.partials.main')
 
 @section('content')
     <div class="modal fade" id="addnewpayment" tabindex="-1" aria-labelledby="addnewpaymentLabel" aria-hidden="true">

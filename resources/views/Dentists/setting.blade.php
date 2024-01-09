@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Dentists.partials.main')
 
 @section('content')
     <div class="mt-5 container-fluid">
