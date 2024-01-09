@@ -73,72 +73,71 @@
                             <hr>
                             <div class="row d-flex align-items-center justify-content-center">
                                 <div class="col-12 col-md-6 col-lg-6">
-                                    <div class="d-flex justify-content-center mb-3 mt-2">
-                                        <form action="" method="">
-                                            <h5>General information.</h5>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <label class="clinic_name" for="form3Example1">Clinic name</label>
-                                                    <input type="text" id="clinic_name" name="clinic_name"
-                                                        placeholder="Name" class="form-control" />
-                                                </div>
-                                                <div class="col">
-                                                    <label class="phone" for="form3Example2">Phone</label>
-                                                    <input type="text" id="phone" name="phone"
-                                                        placeholder="phone" class="form-control" />
+                                    <form action="" method="">
+                                        <h5>General information.</h5>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="form3Example1">Clinic name</label>
+                                                <input type="text" id="clinic_name" name="clinic_name" placeholder="Name"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="phone" for="form3Example2">Phone</label>
+                                                <input type="text" id="phone" name="phone" placeholder="phone"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="form3Example1">Email</label>
+                                                <input type="email" id="Email" name="Email" placeholder="email"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col lang_mar">
+                                                <label class="lang" for="lang">Language</label>
+                                                <select
+                                                    class="multipleSelect2 js-example-basic-multiple  form-select p-5 px-6"
+                                                    name="lang[]" multiple="true" style="width: 218px;">
+                                                    <option value="urdu">Urdu</option>
+                                                    <option value="eng">English</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="clinic_name" for="address">Address</label>
+                                                <input type="text" id="address" name="address"
+                                                    placeholder="Address" class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="State" for="State">State</label>
+                                                <input type="text" id="State" name="State" placeholder="State"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-2">
+                                            <div class="col">
+                                                <label class="npa" for="npa">NPA</label>
+                                                <input type="text" id="npa" name="npa" placeholder="NPA"
+                                                    class="form-control" />
+                                            </div>
+                                            <div class="col">
+                                                <label class="city" for="city">City</label>
+                                                <input type="text" id="city" name="city" placeholder="City"
+                                                    class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="row mb-4 mt-5 text-center">
+                                            <div class="col">
+                                                <div class="d-grid ">
+                                                    <button class="btn btn-info text-white" type="button">Update
+                                                        information</button>
                                                 </div>
                                             </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <label class="clinic_name" for="form3Example1">Email</label>
-                                                    <input type="email" id="Email" name="Email"
-                                                        placeholder="email" class="form-control" />
-                                                </div>
-                                                <div class="col lang_mar">
-                                                    <label class="lang" for="lang">Language</label>
-                                                    <select
-                                                        class="multipleSelect2 js-example-basic-multiple  form-select p-5 px-6"
-                                                        name="lang[]" multiple="true" style="width: 218px;">
-                                                        <option value="urdu">Urdu</option>
-                                                        <option value="eng">English</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <label class="clinic_name" for="address">Address</label>
-                                                    <input type="text" id="address" name="address"
-                                                        placeholder="Address" class="form-control" />
-                                                </div>
-                                                <div class="col">
-                                                    <label class="State" for="State">State</label>
-                                                    <input type="text" id="State" name="State"
-                                                        placeholder="State" class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-2">
-                                                <div class="col">
-                                                    <label class="npa" for="npa">NPA</label>
-                                                    <input type="text" id="npa" name="npa"
-                                                        placeholder="NPA" class="form-control" />
-                                                </div>
-                                                <div class="col">
-                                                    <label class="city" for="city">City</label>
-                                                    <input type="text" id="city" name="city"
-                                                        placeholder="City" class="form-control" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-4 mt-5 text-center">
-                                                <div class="col">
-                                                    <div class="d-grid ">
-                                                        <button class="btn btn-info text-white" type="button">Update
-                                                            information</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
+                                        </div>
+
                                 </div>
-                                <div class="col-12 col-md-6 col-lg-6 mx-3">
+                                <div class="col-12 col-md-6 col-lg-6 ">
                                     <div class="mb-3">
                                         <h5 class="form-label" for="textAreaExample">Description</h5>
                                         <textarea class="form-control" id="textAreaExample1" rows="8">
