@@ -197,7 +197,7 @@
                                 </div>
                                 <div class="col-12 col-md-2 col-lg-2">
                                     <div class="mb-3">
-                                        <label class="clinic_points " for="clinic_points ">Private 
+                                        <label class="clinic_points " for="clinic_points ">Private
                                             points
                                         </label>
                                         <span class=" wd100 form-control  form-control-sm  text-center">
@@ -1347,7 +1347,7 @@
                             <div class="row ">
                                 <div
                                     class="col-lg-12 col-md-12 col-sm-12  bg-white d-flex justify-content-between align-items-center">
-                                    <h4 class="text-dark text-nowrap mt-3 p-0">Fournisseurs.</h4>
+                                    <h4 class="text-dark text-nowrap mt-3 ">Fournisseurs.</h4>
                                     <a href="#" class="btn btn-sm text-white btn-info mt-3"
                                         data-bs-toggle="modal" data-bs-target="#addnewsupplier">
                                         Add supplier
@@ -2217,19 +2217,29 @@
                                                     <div class="col-12 col-md-6 mid-msg">
                                                         <div class="mb-3 mt-2">
                                                             <div class="row gx-2">
-                                                                <div class="col-12">
-                                                                    <strong>Shortcode</strong>
-                                                                    <p>{name}</p>
-                                                                    <p>{clinic_name}</p>
-                                                                    <p>{appointment_date}</p>
-                                                                    <p>{appointment_time}</p>
+                                                                <div class=" col-12 col-md-6 col-lg-6">
+                                                                    <b>Shortcode</b>
+                                                                    <br>
+                                                                    <small>{name}</small>
+                                                                    <br>
+                                                                    <small>{clinic_name}</small>
+                                                                    <br>
+                                                                    <small>{appointment_date}</small>
+                                                                    <br>
+                                                                    <small>{appointment_time}</small>
                                                                 </div>
-                                                                <div class="col-12">
-                                                                    <strong>Description</strong>
-                                                                    <p>Patient name</p>
-                                                                    <p>Clinic name</p>
-                                                                    <p>Appointment date</p>
-                                                                    <p>Appointment time</p>
+                                                                <div class="col-12 col-md-6 col-lg-6">
+                                                                    <b>Description</b>
+                                                                    <br>
+                                                                    <small>Patient name</small>
+                                                                    <br>
+                                                                    <small>Clinic name</small>
+                                                                    <br>
+                                                                    <small>Appointment
+                                                                        date</small>
+                                                                    <br>
+                                                                    <small>Appointment
+                                                                        time</small>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2250,7 +2260,7 @@
                                         </div>
 
                                         <div class="row mx-auto pb-4 ">
-                                            <div class="d-grid gap-2 col-12">
+                                            <div class="d-grid  col-6 mx-auto ">
                                                 <button class="btn btn-info text-white " type="button">Update</button>
                                             </div>
                                         </div>
