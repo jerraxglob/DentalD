@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Clinics.partials.main')
 @section('content')
     <div class=" bg-color">
         <div class="container-fluid responsive">
