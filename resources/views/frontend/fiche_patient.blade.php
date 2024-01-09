@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 mt-3 col-sm-12 text-center">
                                     <h6 class="text-dark">Prochain(s) rendez-vous.</h6>
-                                    <span class="fs-6 custom-color d-flex text-dark p-1">
+                                    <span class="fs-6 custom-color d-flex text-dark p-1 rounded-3">
                                         25/08/23 | 14:30 - 15:30 | Reason of consultation
                                     </span>
                                 </div>

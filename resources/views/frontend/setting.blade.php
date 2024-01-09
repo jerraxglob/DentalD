@@ -197,7 +197,7 @@
                                 </div>
                                 <div class="col-12 col-md-2 col-lg-2">
                                     <div class="mb-3">
-                                        <label class="clinic_points " for="clinic_points ">Private patient
+                                        <label class="clinic_points " for="clinic_points ">Private 
                                             points
                                         </label>
                                         <span class=" wd100 form-control  form-control-sm  text-center">
