@@ -1,4 +1,4 @@
-@extends('frontend.partials.main')
+@extends('Dentists.partials.main')
 @section('content')
     <div class="container mt-3">
         <div class="row  mt-3 bg-white p-3 rounded-3 align-items-center">

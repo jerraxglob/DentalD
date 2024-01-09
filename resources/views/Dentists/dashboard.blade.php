@@ -1,4 +1,4 @@
-@extends('Clinics.partials.main')
+@extends('Dentists.partials.main')
 @section('content')
     <div class=" bg-color">
         <div class="container-fluid responsive">
